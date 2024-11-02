@@ -1,0 +1,39 @@
+USE_BASE_SCENE
+LANGUAGE: US
+
+OVERLAY
+OverlayId: 14
+CameraId: 0
+ViewportId: 0
+Position: 160, 224, 8
+Size: 144, 64
+Image: Title_14.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 15
+CameraId: 0
+ViewportId: 0
+Position: 160, 224, 9
+Size: 144, 64
+Image: Title_15.png
+Shader: PSX/FieldMap_Abr_2
+
+OVERLAY
+OverlayId: 16
+CameraId: 0
+ViewportId: 0
+Position: 192, 224, 8
+Size: 80, 64
+Image: Title_16.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 17
+CameraId: 0
+ViewportId: 0
+Position: 192, 224, 10
+Size: 80, 64
+Image: Title_17.png
+Shader: PSX/FieldMap_Abr_2
+

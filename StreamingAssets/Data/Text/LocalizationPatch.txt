@@ -1,0 +1,476 @@
+KEY,English(US)
+Symbol,US
+Ability,Здібності
+AbilityCaption,ЗДІБНОСТІ
+AbilityHelp,Використання активних здібностей\nСпорядження пасивних здібностей.
+AbilityRequired,Потребує здібності:
+AccessoryCaption,АКСЕСУАР
+Active,Активно
+ActiveTimeEvent,АКТИВНІ ПОДІЇ
+AllTarget,Всі
+AndroidTVBasicControlTutorial0,"[STRT=310,13][IMME][IMME][FEED=10][YSUB=2][ICON=27]\n[YSUB=5][CENT=0][C8B040]Базове керування : Контролер\n\n[C8C8C8][XTAB=10]Підтв./Говорити [XTAB=80]:[FEED=2][JCBT=CROSS] [XTAB=150]Пауза [FEED=39][XTAB=230]:[FEED=2][JCBT=START] , [ICON=639] + [ICON=640]\n[XTAB=10]Скасувати/Ривок [FEED=2][XTAB=80]:[FEED=2][JCBT=CIRCLE] [XTAB=150]Карти/Мугл [XTAB=230]:[FEED=2][JCBT=SQUARE]\n[XTAB=10]Меню  [FEED=34][XTAB=80]:[FEED=2][JCBT=TRIANGLE] [XTAB=150]Обертати камеру [FEED=2][XTAB=230]:[FEED=2][JCBT=L1] ,[FEED=2][JCBT=R1]\n[XTAB=10]Вгору [FEED=51][XTAB=80]:[FEED=2][JCBT=UP] [XTAB=150]Зафіксувати камеру [FEED=14][XTAB=230]:[FEED=2][JCBT=L2]\n[XTAB=10]Ліворуч  [FEED=41][XTAB=80]:[FEED=2][JCBT=LEFT] [XTAB=150]Перспектива [FEED=10][XTAB=230]:[FEED=2][JCBT=R2]\n[XTAB=10]Праворуч  [FEED=34][XTAB=80]:[FEED=2][JCBT=RIGHT] [XTAB=150]Втекти з поля бою  [XTAB=230]:[FEED=2][JCBT=L1] +[FEED=2][JCBT=R1]\n[XTAB=10]Вниз  [FEED=33][XTAB=80]:[FEED=2][JCBT=DOWN] [XTAB=150]Авто-бій [FEED=9][XTAB=230]:[FEED=2][ICON=640] + [ICON=641] \n[XTAB=150]Увімкнути допомогу [FEED=9][XTAB=230]:[FEED=2][JCBT=SELECT]\n[CENT=0]Ви можете змінити керування у \n[CENT=0]Меню>Налаштування>Керування\n[ENDN]"
+AndroidTVControlPressStart,"[CENTER=0]Натисніть [JCBT=START], [ICON=639] + [ICON=640] для виходу."
+AP,AP
+ArmorCaption,БРОНЯ
+Arrange,Порядок
+ArrangeCaption,ПОРЯДОК
+ArrangeHelp,Порядок предметів.[ENDN]
+Atb,ATB
+ATBCaption,ATB
+AtbHelpMobile,"Натисніть щоб встановити режим ATB.\nВиберіть Активно, щоб битися в режимі реального часу."
+AtbHelpPC,"Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб встановити режим ATB.\nВиберіть Активно, щоб битися в режимі реального часу."
+ATEForced,ate_forced_text01_us_uk_jp_fr_gr
+AteHudIcon,button_ate_us_uk_jp_fr_gr
+AtePressButton,icon_ate_us_uk_jp
+ATESelective,ate_selective_text01_us_uk_jp_fr_gr
+ATEText1,ate_selective_text00_01_us_uk
+ATEText2,ate_selective_text00_02_us_uk
+AttackCaption,АТАКА
+AttackStats,Атака
+Auto,Авто
+AutoBattleCamera,Авто
+AutoHelp,Порядок предметів\n[A85038][HSHD]Автоматично[383838][HSHD].[ENDN]
+BadStatusCaption,ПОГАНИЙ СТАН
+BattleCamera,Камера в бою
+BattleCameraHelpMobile,"Натисніть щоб змінити налаштування камери в бою.\nВиберіть Авто, щоб переглянути битву з різних ракурсів."
+BattleCameraHelpPC,"Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб змінити налаштування\nкамери в бою. Виберіть Авто, щоб \nпереглянути битву з різних ракурсів."
+BattleResult03,Отримано Гіл!
+BattleResult04,Гіл
+BattleResultHelp,Натисніть [CBTN=CROSS]  щоб підтвердити.
+BattleResultInfoEXPAP,Отримано ДОСВ та AP!
+BattleResultInfoGilItem,Отримано предмет(ів) та Гіл
+BattleResultLearn,Вивчено
+BattleResultLevelUp,text_levelup_us_uk_jp_gr_it
+BattleSpeed,Швидкість бою
+BattleSpeedHelpMobile,Натисніть на кнопку та перетягніть щоб встановити швидкість бою.
+BattleSpeedHelpPC,Натисніть [DBTN=LEFT] [DBTN=RIGHT] щоб встановити\nшвидкість бою.
+BattleTargetHelpAll,Усі
+BattleTargetHelpAllNPC,Усі (вороги)
+BattleTargetHelpAllPC,Усі (загін)
+BattleTargetHelpIndividual,Один
+BattleTargetHelpIndividualNPC,Один (ворог)
+BattleTargetHelpIndividualPC,Один (загін)
+BattleTargetHelpMultiM,S/[A85038]M[383838]
+BattleTargetHelpMultiNPCM,S/[A85038]M[383838] (вороги)
+BattleTargetHelpMultiNPCS,[A85038]S[383838]/M (вороги)
+BattleTargetHelpMultiPCM,S/[A85038]M[383838] (загін)
+BattleTargetHelpMultiPCS,[A85038]S[383838]/M (загін)
+BattleTargetHelpMultiS,[A85038]S[383838]/M
+BattleTargetHelpRand,Випадково
+BattleTargetHelpRandNPC,Випадково (ворог)
+BattleTargetHelpRandPC,Випадково (загін)
+BattleTargetHelpSelf,На себе
+BattleTargetHelpWhole,На всіх
+BoosterCaption,БУСТЕРИ ГРИ
+BoosterConfigWarning,*Цю функцію неможливо вимкнути після активації.
+BoosterGil,Максимум Гіл
+BoosterGilHelp,Дає персонажу максимальну\nкількість Гіл.
+BoosterLv,Макс. рівень та магічні камені
+BoosterLvHelp,Встановлює рівень персонажа та\nкількість магічних каменів на максимум.
+BoosterMaster,Майстерні навички
+BoosterMasterHelp,Навички активуються автоматично\nпри спорядженні зброї та предметів.
+BoosterWarningaaaa,\n[CENT][D06050]*Цю функцію неможливо вимкнути після активації. \n[CENT]Ви також не зможете отримувати досягнення.[C8C8C8]
+BoosterWarningCommonChoice,"\n\n[CHOO][MOVE=140,0]Так\n[MOVE=140,0]Ні[ENDN]"
+BoosterWarningGilMax,"[STRT=300,7][PCHC=2,1][IMME][CENT]Кількість Гіл буде встановлено на максимум.\n[CENT]Продовжити?"
+BoosterWarningLvMax,"[STRT=300,8][PCHC=2,1][IMME][CENT]Рівень персонажа та\n[CENT]кількість магічних каменів буде\n[CENT]встановлено на максимум. Продовжити?"
+BoosterWarningMaster,"[STRT=300,8][PCHC=2,1][IMME][CENT]Навички будуть активуватися автоматично\n[CENT]при спорядженні зброї та предметів.\n[CENT] Продовжити?"
+BoosterWarningNotaaaa,\n\n[CENT][D06050]*Цю функцію неможливо вимкнути після активації.[C8C8C8]
+BumperDesp,Обертання камери
+Buy,Купити
+BuyHelp,Що б ви хотіли купити?
+BuyQtyHelp,Скільки?
+BuyShopHelp,Купити предмети\nта зброю.[ENDN]
+Cancel,Скасувати
+CancelChocoHelp,Скасувати\nпоточний Чокограф.[ENDN]
+CancelDesp,Скасувати/Ривок
+CancelDiscardHelp,Скасувати.
+Card,Карти
+CardCaption,КАРТА
+CardGet, Карта
+CardHelp,Переглянути карти.
+CardInfoCaption,КАРТА
+CardStock,В торбі :
+CardType,Тип :
+CharacterProfile0,Раса: Хвостата людина\nСтать: Чоловіча\nВік: 16\nДомінуюча рука: Права
+CharacterProfile1,Раса: Чорний маг\nСтать: Чоловіча\nВік: На вигляд 9 років\nДомінуюча рука: Права
+CharacterProfile2,Раса: Людина\nСтать: Жіноча\nВік: 16\nДомінуюча рука: Права
+CharacterProfile3,Раса: Людина\nСтать: Чоловіча\nВік: 33\nДомінуюча рука: Права
+CharacterProfile4,Раса: Бурмеційка\nСтать: Жіноча\nВік: 21\nДомінуюча рука: Ліва
+CharacterProfile5,Раса: Плем'я Ку\nСтать: Невідомо\nВік: Між 70 та 90\nДомінуюча рука: Обидві
+CharacterProfile6,Раса: Рогата людина\nСтать: Жіноча\nВік: 6\nДомінуюча рука: Права
+CharacterProfile7,Раса: Людина\nСтать: Чоловіча\nВік: 26\nДомінуюча рука: Права
+CheckCaption,ПЕРЕВІРКА
+Chocobo,ЧОКОБО
+ChocoboAblilityCaption,ЗДИБНІСТЬ ЧОКОБО
+Chocograph,Чокограф
+ChocoGraphCaption,ЧОКОГРАФ
+CircleControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Скасувати.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]Скасувати/Змінити режим руху.\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Вийти з транспорту.
+Classic,Класичний
+CloudConnectionError,"[STRT=250,1][IMME]Connection error.[TIME=-1]"
+CloudConnectionTimeout,"[STRT=250,1][IMME]З'єднання розірвано.[TIME=-1]"
+CloudData,Хмарне сховище
+CloudDataCorrupt,"[STRT=250,1][IMME]Дані у хмарі пошкоджено.[TIME=-1]"
+CloudDataUnknownError,"[STRT=250,1][IMME]Внутрішня помилка.[TIME=-1]"
+CloudFileNotFound,"[STRT=250,1][IMME]У хмарі немає збережених даних.[TIME=-1]"
+CloudSave,Хмарне сховище
+Collector,[ICON=180] Колекціонера[FEED=1][YADD=1]
+Combat,Битва
+CommandCaption,КОМАНДИ
+Config,Налаштування
+ConfigCaption,НАЛАШТУВАННЯ
+ConfigHelp,Переглянути налаштування гри.
+Confirm,Підтвердити
+ConfirmDesp,Налашт./Говорити/Поглянути
+ConfirmDiscardHelp,Викинути карту.
+ConnectingDesc,З'єднання з сервером...
+ConnectingHelpInfo,З'єднання...
+Controller,Керування
+ControllerHelpMobile,Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб змінити\nналаштування контролера.\nОберіть користувацьке та натисніть [CBTN=CROSS]\nщоб змінити конфігурацію кнопок.
+ControllerHelpPC,Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб змінити\nналаштування контролера.\nОберіть користувацьке та натисніть [CBTN=CROSS]\nщоб змінити конфігурацію кнопок.
+ControlPressBackspace,[CENTER=0]Натисніть [KCBT=START] для виходу.
+ControlPressStart,[CENTER=0]Натисніть [DBTN=START] для виходу.
+CopyrightSprite,title_copyright_us_uk_jp
+CorruptFile,Дані пошкоджено.
+CorruptSaveData,"[STRT=160,1][IMME]Дані пошкоджено.[TIME=-1]"
+Critical,Критичний
+CrossControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Підтвердити.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]Перевірити/Говорити/Підтвердити.\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Входити в будівлі/Їхати на транспорті/Їхати\n[XTAB=80]вперед.
+CurrentGil,Поточні Гіл
+Cursor,Курсор
+CursorHelpMobile,"Натисніть щоб встановити режим курсору.\nВиберіть Пам'ятати, щоб курсор з'являвся\nтам, де ви його залишили."
+CursorHelpPC,"Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб встановити режим курсору.\nВиберіть Пам'ятати, щоб курсор з'являвся\nтам, де ви його залишили."
+Custom,Користувацьке
+Death,Смерть
+Deck,Колода
+DefenseCaption,ЗАХИСТ
+DefenseStats,Захист
+DeleteCard,Викинути
+DiscardConfirm,[CENT]Ви бажаєте\n[CENT]викинути цю карту?
+Download,Завантажити
+DownloadCaption,ЗАВАНТАЖИТИ
+DownloadOverwrite,Усі локальні збережені дані буде перезаписано.\nПродовжити та перезаписати?
+Draw,Нічия
+EmptyCharNumber,Персонаж {0}
+EmptyFile,Порожній блок.
+EmptyInput,*Введіть ім'я персонажа
+EnemyBtlCaption,ВОРОГ
+Equip,Спорядж.
+EquipAbility,Спорядити
+EquipAbilityForever,\n[A85038][HSHD]Цей персонаж не може використовувати це.[383838][HSHD][ENDN]
+EquipAbilityHelp,Використати магічні камені\nдля спорядження пасивних здібностей.[ENDN]
+EquipAbilityHelpNow,\n[A85038][HSHD]Цей персонаж не може використовувати це\nза нинішніх умов.[383838][HSHD]\n[CBTN=SQUARE][FEED=2](Меню спорядження)[ENDN]
+EquipAbilityHelpNowMobile,\n[A85038][HSHD]Цей персонаж не може використовувати це\nза нинішніх умов.[383838][HSHD]\nНатисніть на Меню здібностей щоб переключитися на Меню спорядження[ENDN]
+EquipAbilityPlayer,\n[CBTN=SQUARE][FEED=2](Меню спорядження)
+EquipAbilityPlayerMobile,\nНатисніть на Меню здібностей щоб переключитися на Меню спорядження
+EquipDetailHelp,Змінити спорядження.\n[CBTN=SQUARE][FEED=2](Меню здібностей)[ENDN]
+EquipDetailHelpForMobile,Змінити спорядження.\nНатисніть на Меню спорядження щоб переключитися на Меню здібностей
+EquipHelp,Змінити спорядження персонажа.
+EquipmentCaption,СПОРЯДЖЕННЯ
+Equipped,Споряджено:
+Evade,Ухилення
+EXP,ДОСВ
+FailedConnectDesc,Помилка підключення до Хмари.
+Fast,Швидко
+FieldMessage,Повідомлення в бою
+FieldMessageHelpMobile,Натисніть на кнопку та перетягніть щоб обрати швидкість повідомлень в бою.
+FieldMessageHelpPC,Натисніть [DBTN=LEFT] [DBTN=RIGHT] щоб обрати\nшвидкість повідомлень в бою.
+FileCaption,ФАЙЛ
+FileNo,ФАЙЛ{0}
+FixedBattleCamera,Фіксовано
+Fund,Кошти:
+GoodStatusCaption,ХОРОШИЙ СТАН
+Guard,Захист
+HeadCaption,ГОЛОВА
+Help,? Допомога
+HelpCaption,caption_help_us_uk_jp
+HelpCaptionText,ДОПОМОГА
+HelpDesp,[DBTN=SELECT]  Допом.
+HereIcon,Позначка ТУТ
+HereIconHelpMobile,"Натисніть щоб увімкнути/вимкнути позначку ТУТ.\nЯкщо вибрати ВИМКНЕНО, ви все ще зможете увімкнути \nїї на мапі світу\nнатиснувши [MOBI=279]"
+HereIconHelpPC,"Натисніть [DBTN=LEFT] [DBTN=RIGHT] щоб увімкнути/вимкнути\nпозначку ТУТ. Якщо вибрати ВИМКНЕНО, ви все ще зможете\nувімкнути її на мапі світу\nнатиснувши [DBTN=SELECT]."
+HintCaption,ПІДКАЗКА
+HPAndMPCaption,ОЗ та ОМ
+HPCaption,ОЗ
+HpIcon,text_hp_us_uk_jp_fr_gr_it
+HPMaxCaption,МАКС. ОЗ
+InfoCaption,ІНФО
+Information,Інфо.
+Initial,На початку
+Inventory,Інвентар:
+Item,Предмети
+ItemCaption,ПРЕДМЕТ
+ItemHelp,Використання та сортування предметів.\nПереглянути важливі предмети\nотримані у грі.
+ItemOverflow,Ви не можете нести більше 99 одиниць\nодного предмету. Зайві предмети будуть викинуті.
+ItemRequired,Необхідні предмети:
+ItemShop,Крамниця
+Joystick,Контролер
+Keyboard,Клавіатура
+KeyItem,Ключові
+KeyItemHelp,Переглянути важливі предмети.[ENDN]
+L1ControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Втеча (утримувати [CBTN=L1] та\n[XTAB=80][CBTN=R1] одночасно).\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]N/A\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Обертати мапу за годинниковою стрілкою.
+L2ControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]N/A\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]N/A\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Увімкнути/вимкнути обертання камери.
+LatestSave,Останнє збереження 
+LearnedCaption,ВИВЧЕНО
+Level,РІВ.
+Load,Завантажити
+LoadSlotHelp,Завантаження з\nТеки збереження {0}.[ENDN]
+Loc.Found,Знайдено місць:
+LocalData,Ігрові дані
+LocalDecryptFailed,"[STRT=160,1][IMME]Не вдалося розшифрувати.[TIME=-1]"
+LocalLoadFailed,"[STRT=160,1][IMME]Не вдалося завантажити.[TIME=-1]"
+LocalSaveFailed,"[STRT=160,1][IMME]Не вдалося зберегти.[TIME=-1]"
+LocationCaption,МІСЦЕЗНАХОДЖЕННЯ
+Lose,Програш
+LvDialogIcon,[ICON=180]
+LvIcon,text_lv_us_uk_jp_gr_it
+Magic,Магія
+MagicDef,Магічний захист
+MagicEva,Магічне ухилення
+Manual,Вручну
+ManualHelp,Порядок предметів\n[A85038][HSHD]вручну[383838][HSHD].[ENDN]
+MaxCharacters,Максимум 8 символів\nСмайли недоступні.
+MaxCharacters2,\n\nНатисніть клавішу Tab щоб використати\nім'я за замовчуванням
+Memory,Пам'ятати
+Menu,Меню
+Miss,Промах
+MixQtyHelp,Скільки?
+MobileBasicControlTutorial0,"[STRT=260,8][IMME][FEED=20][YSUB=2][ICON=27]\n[YSUB=1][CENT=0][C8B040]Базове керування : Йти\n\n[C8C8C8][FEED=15]Проведіть пальцем по екрану, щоб йти за допомогою віртуального аналогу,\n[FEED=15]або торкніться маршруту, щоб примусити свого персонажа\n[FEED=15]автоматично йти до обраного місця.[ENDN]"
+MobileBasicControlTutorial1,"[STRT=260,8][IMME][FEED=20][YSUB=2][ICON=27]\n[YSUB=1][FEED=55][C8B040]Базове керування : Вибір варіантів дій\n\n[C8C8C8][FEED=30]Проведіть пальцем вгору та вниз по області за межами\n[FEED=30]діалогового вікна для керування курсором.\n[FEED=30]Натисніть [ICON=260] щоб підтвердити або [ICON=261] щоб скасувати.\n[FEED=30] Також ви можете безпосередньо натиснути на варіант вибору.[ENDN]"
+MobileCloudInfoPart1,"[C8C8C8]Резервне копіювання збережених даних у хмару дозволяє поділитися ними\nз іншими пристроями, які використовують той самий обліковий запис для гри.\n\n[68C0D8]Вивантажити[C8C8C8]\nУсі збережені дані буде вивантажено до Хмари.\nВаші поточні дані збереження будуть перезаписані."
+MobileCloudInfoPart2,\n\n[78C840]Завантажити[C8C8C8]\nБуде завантажено усі збережені у Хмарі дані.\nВаші поточні дані збереження будуть перезаписані.
+MobileControlPressStart,[CENTER=0]Натисніть [ICON=638] для виходу.
+MobileNoticeConnectDesc,\n\n*Оновлення збережених даних у Хмарі може зайняти кілька хвилин.
+Mognet,МОГМЕРЕЖА
+Movement,Рух
+MovementHelpMobile,"Натисніть щоб обрати режим пересування персонажа.\nАбо посуньте віртуальний аналог на меншу відстань, щоб йти пішки,\nабо більше, щоб бігти."
+MovementHelpPC,Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб обрати режим пересування  \nперсонажа. Утримуйте [CBTN=CIRCLE] щоб щоб обрати режим пересування за замовчуванням\nна мапі світу.
+MPCaption,ОМ
+MpIcon,text_mp_us_uk_jp_fr_gr_it
+MPMaxCaption,МАКС. ОМ
+Name,English
+NameCaption,ІМ'Я
+NameSprite,name_header_us_uk_jp_gr
+NavigateDialog,"[IMME][PCHC=2,1]Перейти до {0}?\n[CHOO][MOVE=20,0]Так\n[MOVE=20,0]Ні[ENDN]"
+NewCaption,НОВЕ
+NextLevel,До наст.[FEED=1][YADD=1][ICON=180]
+No,Ні
+No1Caption,№1
+No2Caption,№2
+No3Caption,№3
+No4Caption,№4
+No5Caption,№5
+No6Caption,№6
+NoEquipHelp,Нічого не вдягнено.[ENDN]
+NoItemGet,Предметів не отримано.
+Normal,Нормальне
+NormalCaption,НОРМАЛЬНЕ
+NoSaveData,"[STRT=160,1][IMME]Немає збереження FF9.[TIME=-1]"
+NoSaveHelp,Немає збережених даних.[ENDN]
+Notice,СПОВІЩЕННЯ
+NoticeCaption,СПОВІЩЕННЯ
+NumCaption,КІЛЬКІСТЬ
+Off,Вимк.
+OffEquipment,Зняти
+OffEquipmentHelp,Зняти спорядження.\n[A85038][HSHD]Ви не можете зняти зброю.[383838][HSHD]\n[CBTN=SQUARE][FEED=2](Меню здібностей)[ENDN]
+OffEquipmentHelpForMobile,Зняти спорядження.\n[A85038][HSHD]Ви не можете зняти зброю.[383838][HSHD]\nНатисніть на Меню спорядження щоб переключитися на Меню здібностей[ENDN]
+OK,OK
+On,Увімк.
+Optimize,Оптимізув.
+OptimizeHelp,Автоматично вдягнути найкращі предмети\nдоступні у вашому інвентарі для\nмаксимальної ефективності персонажа.\n[CBTN=SQUARE][FEED=2](Меню здібностей)[ENDN]
+OptimizeHelpForMobile,Автоматично вдягнути найкращі предмети\nдоступні у вашому інвентарі для\nмаксимальної ефективності персонажа.\nНатисніть на Меню спорядження щоб переключитися на Меню здібностей[ENDN]
+Order,Порядок
+OrderHelp,Змінити порядок загону.\nВстановити позицію в бою.
+OrderTargetHelp,"Виберіть персонажа двічі, щоб обрати\n[A85038]передній або задній ряд[383838] в бою.\nВиберіть двох різних персонажів\n[A85038]щоб поміняти їх місцями[383838].[ENDN]"
+Party,Формування загону
+PartyCaption,ЗАГІН
+PartyHelp1Desp,Обрати 1 члена.
+PartyHelp2Desp,Обрати 2 членів.
+PartyHelp3Desp,Обрати 3 членів.
+PartyHelp4Desp,Обрати 4 членів.
+PartyMoveCharHelp,До якого слоту?
+PartySelectCharHelp,Перемістити з цього слоту?
+PartyStatusTextPoison,text_poison_us_uk_jp_fr
+PartyStatusTextStone,text_stone_us_uk_jp
+Pause,pause_us_uk_jp_fr_gr
+PCBasicControlTutorial0,"[STRT=310,13][IMME][IMME][FEED=10][YSUB=2][ICON=27]\n[YSUB=5][CENT=0][C8B040]Базове керування : Контролер\n\n[C8C8C8][XTAB=10]Підтв./Говорити [XTAB=80]:[FEED=2][JCBT=CROSS] [XTAB=150]Пауза [FEED=39][XTAB=230]:[FEED=2][JCBT=START]\n[XTAB=10]Скасувати/Ривок [FEED=2][XTAB=80]:[FEED=2][JCBT=CIRCLE] [XTAB=150]Карти/Мугл [XTAB=230]:[FEED=2][JCBT=SQUARE]\n[XTAB=10]Меню  [FEED=34][XTAB=80]:[FEED=2][JCBT=TRIANGLE] [XTAB=150]Обертати камеру [FEED=2][XTAB=230]:[FEED=2][JCBT=L1] ,[FEED=2][JCBT=R1]\n[XTAB=10]Вгору [FEED=51][XTAB=80]:[FEED=2][JCBT=UP] [XTAB=150]Зафіксувати камеру [FEED=14][XTAB=230]:[FEED=2][JCBT=L2]\n[XTAB=10]Ліворуч  [FEED=41][XTAB=80]:[FEED=2][JCBT=LEFT] [XTAB=150]Перспектива [FEED=10][XTAB=230]:[FEED=2][JCBT=R2]\n[XTAB=10]Праворуч  [FEED=34][XTAB=80]:[FEED=2][JCBT=RIGHT] [XTAB=150]Втекти з поля бою  [XTAB=230]:[FEED=2][JCBT=L1] +[FEED=2][JCBT=R1]\n[XTAB=10]Вниз  [FEED=33][XTAB=80]:[FEED=2][JCBT=DOWN] [XTAB=150]Авто-бій [FEED=9][XTAB=230]:[FEED=2][JCBT=R2] \n[XTAB=150]Увімкнути допомогу [FEED=9][XTAB=230]:[FEED=2][JCBT=SELECT]\n[CENT=0]Ви можете змінити керування у \n[CENT=0]Меню>Налаштування>Керування\n[ENDN]"
+PCBasicControlTutorial1,"[STRT=310,13][IMME][IMME][FEED=10][YSUB=2][ICON=27]\n[YSUB=5][CENT=0][C8B040]Базове керування : Клавіатура\n\n[C8C8C8][XTAB=10]Підтв./Говорити [XTAB=80]:[FEED=2][KCBT=CIRCLE] ,[FEED=2][ICON=630] [XTAB=150]Пауза [FEED=39][XTAB=230]:[FEED=2][KCBT=START]\n[XTAB=10]Скасувати/Ривок [FEED=2][XTAB=80]:[FEED=2][KCBT=CROSS] ,[FEED=2][ICON=631] [XTAB=150]Карти/Мугл [XTAB=230]:[FEED=2][KCBT=SQUARE]\n[XTAB=10]Меню  [FEED=34][XTAB=80]:[FEED=2][KCBT=TRIANGLE] [XTAB=150]Обертати камеру [FEED=2][XTAB=230]:[FEED=2][KCBT=L1] ,[FEED=2][KCBT=R1]\n[XTAB=10]Вгору [FEED=51][XTAB=80]:[FEED=2][KCBT=UP] ,[FEED=2][ICON=632] [XTAB=150]Зафіксувати камеру [FEED=14][XTAB=230]:[FEED=2][KCBT=L2]\n[XTAB=10]Ліворуч  [FEED=41][XTAB=80]:[FEED=2][KCBT=LEFT] ,[FEED=2][ICON=633] [XTAB=150]Перспектива [FEED=10][XTAB=230]:[FEED=2][KCBT=R2]\n[XTAB=10]Праворуч  [FEED=34][XTAB=80]:[FEED=2][KCBT=RIGHT] ,[FEED=2][ICON=634] [XTAB=150]Втекти з поля бою  [XTAB=230]:[FEED=2][KCBT=L1] +[FEED=2][KCBT=R1]\n[XTAB=10]Вниз  [FEED=33][XTAB=80]:[FEED=2][KCBT=DOWN] ,[FEED=2][ICON=635] [XTAB=150]Авто-бій [FEED=9][XTAB=230]:[FEED=2][KCBT=R2] \n[XTAB=150]Увімкнути допомогу [FEED=9][XTAB=230]:[FEED=2][KCBT=SELECT]\n[CENT=0]Ви можете змінити керування у \n[CENT=0]Меню>Налаштування>Керування\n[ENDN]"
+PCBasicControlTutorial2,"[STRT=250,9][IMME][FEED=20][YSUB=2][ICON=27]\n[YSUB=5][CENT=0][C8B040]Базове керування : Миша\n[C8C8C8][YADD=3][XTAB=65]Лівий клік [XTAB=135]: Підтвердити\n[YADD=3][XTAB=65]Правий клік [FEED=30][XTAB=135]: Скасувати\n\n[CENT=0]* Ви також можете керувати персонажами за допомогою\n[CENT=0]Лівого-кліку на пункті призначення, примушуючи його\n[CENT=0]автоматично йти до обраного місця.\n[ENDN]"
+PCCloudInfoPart1,"[C8C8C8]Резервне копіювання збережених даних у хмару дозволяє поділитися ними\nз іншими пристроями, які використовують той самий обліковий запис для гри.\n\n[68C0D8]Вивантажити[C8C8C8]\nУсі збережені дані буде вивантажено до Хмари.\nВаші поточні дані збереження будуть перезаписані."
+PCCloudInfoPart2,\n\n[78C840]Завантажити[C8C8C8]\nБуде завантажено усі збережені у Хмарі дані.\nВаші поточні дані збереження будуть перезаписані.
+PCNoticeConnectDesc,\n*Збережені дані буде автоматично оновлено до Хмари\nпісля виходу з гри.
+Perspective,Перспектива
+PlayerBtlCaption,ГРАВЕЦЬ
+PlayerCaption,ГРАВЕЦЬ
+Price,Ціна:
+PriceCaption,ЦІНА
+QuadMistConfirmSelection,"[STRT=102,3][PCHC=2,1][IMME][CENT]Підтвердити вибір?\n[CHOO][FEED=38]Так\n[FEED=38]Ні[ENDN]"
+QuadMistDiscardConfirm,"[STRT=84,3][PCHC=2,1][CENT][IMME]Викинути?\n[CHOO]          Так\n          Ні[ENDN]"
+QuadMistDiscardNotice,"[STRT=150,2][IMME][CENT]У вас більше 100 карт.\n[CENT]Оберіть яку карту викинути.[ENDN]"
+QuadMistEndCardGame,"[STRT=130,3][PCHC=2,1][IMME][CENT]Кінець карткової гри?\n[CHOO][FEED=56]Так\n[FEED=56]Ні[ENDN]"
+QuadMistLost,Втрачено [CARD]
+QuadMistReceived,Отримано [CARD]
+QuadMistRematch,"[STRT=150,3][PCHC=2,1][IMME][CENT]Зіграти матч-реванш?\n[CHOO][FEED=63]Так\n[FEED=63]Ні[ENDN]"
+QuadMistSelectDraw,Нічия:
+QuadMistSelectLose,Програш:
+QuadMistSelectStock,ЗАПАС:
+QuadMistSelectType,ТИП:
+QuadMistSelectWin,Виграш:
+QuadMistStock,В торбі:[NUMBER]
+QuadMistTournamentDraw,"[STRT=144,2][PCHC=2,1]Гра закінчилася внічию.\nПочинається наступна гра.[ENDN]"
+QuadMistTutorial1,"[STRT=160,5][IMME][YSUB=2][ICON=27][FEED=18]\n[YSUB=5][CENT=0][C8B040]Правила гри Тетра Майстер\n\n[YSUB=5][CENT=0][C8C8C8]Оберіть 5 карт для гри.[ENDN]"
+QuadMistTutorial2,"[STRT=300,12][IMME][YSUB=2][ICON=27][FEED=18]\n[YSUB=5][CENT=0][C8B040]Правила гри Тетра Майстер\n\n[YSUB=5][CENT=0][C8C8C8]Бій починається!\n[YSUB=5][CENT=0]Покладіть карту біля однієї з карт суперника.\n[YSUB=5][CENT=0]Якщо стрілки на вашій картці спрямовані проти карти \n[YSUB=5][CENT=0]вашого суперника, у вас є можливість її захопити.\n[YSUB=5][FEED=92][ICON=769][ENDN]"
+QuadMistTutorial3,"[STRT=230,11][IMME][YSUB=2][ICON=27][FEED=18]\n[YSUB=5][CENT=0][C8B040]Правила гри Тетра Майстер\n\n[YSUB=5][CENT=0][C8C8C8]Гра закінчується, як тільки всі карти\n[YSUB=5][CENT=0]знаходяться у грі. Гравець, який захоплює\n[YSUB=5][CENT=0]більше карт стає переможцем.\n[YSUB=5][FEED=58][ICON=770][ENDN]"
+QuadMistYouDontHave5Cards,"[STRT=124,2][IMME]Ви не маєте 5-ти карт.\nКінець карткової гри.[ENDN]"
+Quantity,Кількість:
+QuantityCaption,КІЛЬКІСТЬ
+QuitGame,Вийти з гри
+QuitGameHelpMobile,Press [CBTN=CIRCLE] to exit the current game\nand quit the game application.
+QuitGameHelpPC,Натисніть [CBTN=CROSS] щоб вийти з поточної гри\nта закрити програму.
+QuitMessage,Вийти з гри?
+QuitMessageRed,*Незбережені дані будуть втрачені.
+QuitTheGame,Вийти з гри та повернутись до головного екрану?
+R1ControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Втеча (утримувати [CBTN=L1] та\n[XTAB=80][CBTN=R1] одночасно).\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]N/A\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Обертати мапу проти годинникової стрілки.
+R2ControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Авто-бій.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]N/A\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Змінити перспективу.
+ReceivedGil,Отримано Гіл
+Run,Бігти
+Save,Зберегти
+SaveHelpBlock,Обрати блок.
+SaveHelpCheck,Перевірка...
+SaveHelpLoad,Завантаження...
+SaveHelpSave,Збереження...
+SaveHelpSlot,Обрати Теки збереження.
+SaveOverwrite,Попередній файл.\nПерезаписати?
+SaveOverwriteCancelHelp,Скасовує збереження.[ENDN]
+SaveOverwriteOkHelp,Переписує дані та\nзберігає до Теки збереження.[ENDN]
+SaveSlotHelp,Зберігає до\nТеки збереження {0}.[ENDN]
+SaveSuccess,Дані збережено.
+Select,Обрати
+SelectCard1Help,Натисніть [CBTN=CROSS] щоб викинути одну карту.[ENDN]
+SelectCard2MoreHelp,Натисніть [CBTN=L1] [CBTN=R1] щоб гортати карти.\nНатисніть [CBTN=CROSS] щоб викинути одну карту.[ENDN]
+SelectChocoHelp,Вибрати з\nнаявного Чокографа.[ENDN]
+SelectControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Увімкнути допомогу.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]Позначка ТУТ.\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Переключити навігаційну мапу.
+SelectDataHelpInfo,Виберіть дані для завантаження.
+SelectedCaption,ОБРАНО
+SelectSyncHelpInfo,Виберіть для синхронізації з Хмарним сховищем.
+Sell,Продати
+SellHelp,Що б ви хотіли продати?
+SellQtyHelp,Скільки?
+SellShopHelp,Продати предмети\nз інвентаря.[ENDN]
+ShowBasicTutorial,Посібник з Базового керування
+ShowBasicTutorialHelpMobile,Натисніть щоб відобразити Посібник з Базового керування.
+ShowBasicTutorialHelpPC,Натисніть [CBTN=CROSS] щоб відобразити Посібник з Базового керування.
+ShowBattleTutorial,Бойовий посібник
+ShowBattleTutorialHelpMobile,Натисніть щоб відобразити Бойовий посібник.
+ShowBattleTutorialHelpPC,Натисніть [CBTN=CROSS] щоб відобразити Бойовий посібник.
+SkipBattleCamera,Пропустити інтро бою
+SkipBattleCameraHelpMobile,"Натисніть щоб встановити режим початку бою.\nВиберіть УВІМК., Щоб почати бій без інтро."
+SkipBattleCameraHelpPC,"Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб встановити режим\nпочатку бою. Виберіть УВІМК., Щоб почати\nбій без інтро."
+SkipMovieDialog,"[STRT=110,4][PCHC=2,1][IMME][FEED=5]Ви хочете пропустити\n[FEED=5]цю кат-сцену?\n[CHOO][FEED=14]Так\n[FEED=14]Ні[ENDN]"
+SlotCaption,СЛОТ
+SlotNo,слот {0}
+Slow,Повіль.
+Sound,Звук
+SoundEffect,Звукові ефекти
+SoundEffectHelpMobile,Натисніть щоб увімкнути/вимкнути звукові ефекти.
+SoundEffectHelpPC,Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб\nувімкнути/вимкнути звукові ефекти.
+SoundHelpMobile,Натисніть щоб увімкнути/вимкнути фонову музику.
+SoundHelpPC,Натисніть [DBTN=LEFT][DBTN=RIGHT] щоб\nувімкнути/вимкнути фонову музику.
+SpecialDesp,Карти/Мугл
+Speed,Швидкість
+Spirit,Дух
+SquareControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Очистити всі вікна.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]Кинути виклик гравцю в карти.\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Покликати мугла/Рухати транспорт назад.
+Status,Стан
+StatusDetailHelp,[FEED=4]Стан[FEED=18]\n[YADD=4][ICON=154] [YSUB=4][FEED=6]Скам'яніння\n[YADD=4][ICON=153] [YSUB=4][FEED=6]Отруєння\n[YADD=4][ICON=152] [YSUB=4][FEED=6]Вірус\n[YADD=4][ICON=151] [YSUB=4][FEED=6]Мовчання\n[YADD=4][ICON=150] [YSUB=4][FEED=6]Темрява\n[YADD=4][ICON=149] [YSUB=4][FEED=6]Занепокоєння\n[YADD=4][ICON=148] [YSUB=4][FEED=6]Зомбі[YADD=2][ENDN]
+StatusHelp,Переглянути параметри персонажа\nта вивчені здібності.
+Stock,В торбі:
+Strength,Сила
+SuccessDownloadDesc,Завантаження завершене.
+SuccessUploadDesc,Вивантаження завершене.
+SynthesisShop,Синтез
+SynthHelp,Що б ви хотіли синтезувати?
+TapToResume,"Натисніть, щоб продовжити"
+TargetCaption,TARGET
+TargetHelp,Обрати персонажа.[ENDN]
+TargetHelpMobile,Обрати персонажа.[ENDN]
+TheEndSprite,theend_us_uk_jp
+TimeAndGilCaption,ЧАС та ГІЛ
+TitleBack,title_back_01
+TitleCloud,title_menu_cloud
+TitleContinue,title_menu_continue
+TitleInfo,title_info_00
+TitleLanguageHeaderSprite,title_language_header_01
+TitleLoadGame,title_menu_loadgame
+TitleMenuSqen,title_menu_sqen_01
+TitleMovieGallery,title_movie_01
+TitleNewGame,title_menu_newgame
+ToggleHelp,Увімкнути допомогу
+ToTitle,Головне меню
+ToTitleHelpMobile,Натисніть щоб вийти з поточної гри\nта повернутись до Головного меню.
+ToTitleHelpPC,Натисніть [CBTN=CROSS] щоб вийти з поточної гри\nта повернутись до Головного меню.
+Touch,Дотик
+TouchToConfirm,Натисніть щоб підтвердити.
+Trance,Транс
+TranceCaption,ТРАНС
+TrashCaption,МОТЛОХ
+TriangleControlHelp,[A85038][HSHD]Бій:[XTAB=80][383838][HSHD]Зміна на іншого готового персонажа.\n[A85038][HSHD]Мапа місцевості:[XTAB=80][383838][HSHD]Відкрити Головне меню.\n[A85038][HSHD]Мапа світу:[XTAB=80][383838][HSHD]Відкрити Головне меню/Рухатися всередині\n[XTAB=80]транспортного засобу.
+TriggerDesp,Зафіксувати камеру
+TutorialATBIcon,tutorial_help_01_us_uk_jp_fr_gr_it
+TutorialBottomParagraph,"Щоб отримати докладні пояснення, натисніть кнопку знака питання у Головному меню."
+TutorialLeftParagraphMobile,"Ви можете віддавати команди  кожному персонажу, натискаючи на них, коли їхню шкалу ATB заповнено."
+TutorialLeftParagraphPC,"Ви можете віддавати команди  кожному персонажу, натискаючи на них, коли їхню шкалу ATB заповнено."
+TutorialRightParagraphMobile,"Коли кілька персонажів готові до виконання дій, ви можете переключитися між ними. Натиснувши на на персонажа чи ворога також можна змінити ціль для поточної дії."
+TutorialRightParagraphPC,"Коли кілька персонажів готові до виконання дій, ви можете переключитися між ними. Натиснувши на на персонажа чи ворога також можна змінити ціль для поточної дії."
+TutorialTapOnCharacterIconMobile,tutorial_help_02_us
+TutorialTapOnCharacterIconPC,tutorial_help_pc_02_us_uk
+Upload,Вивантажити
+UploadCaption,ВИВАНТАЖИТИ
+UploadOverwrite,Усі збережені дані у Хмарі буде перезаписано.\nПродовжити та перезаписати?
+Use,Використати
+UseAbility,Використ.
+UseAbilityHelp,Використати активні здібності.\n[ENDN]
+UseAbilityHelpForever,[A85038][HSHD]Цей персонаж не може використовувати це.[383838][HSHD]\n[CBTN=SQUARE][FEED=2](Меню спорядження)[ENDN]
+UseAbilityHelpForeverMobile,[A85038][HSHD]Цей персонаж не може використовувати це.[383838][HSHD]\nНатисніть на Меню здібностей щоб переключитися на Меню спорядження[ENDN]
+UseAbilityHelpStatus,Не може бути використано якщо ви під дією\n[YADD=2][ICON=154][YSUB=2][FEED=1][A85038][HSHD]Скам'яніння[383838][HSHD] або [YADD=2][ICON=151][YSUB=2][FEED=1][A85038][HSHD]Мовчання[383838][HSHD].\n[CBTN=SQUARE][FEED=2](Меню спорядження)[ENDN]
+UseAbilityHelpStatusMobile,Не може бути використано якщо ви під дією\n[YADD=2][ICON=154][YSUB=2][FEED=1][A85038][HSHD]Скам'яніння[383838][HSHD] або [YADD=2][ICON=151][YSUB=2][FEED=1][A85038][HSHD]Мовчання[383838][HSHD].\nНатисніть на Меню здібностей щоб переключитися на Меню спорядження[ENDN]
+UseAbilityNoMagic,[A85038][HSHD]Не можна використовувати у цій місцевості.[383838][HSHD]\n[CBTN=SQUARE][FEED=2](Меню спорядження)[ENDN]
+UseAbilityNoMagicMobile,[A85038][HSHD]Не можна використовувати у цій місцевості.[383838][HSHD]\nНатисніть на Меню здібностей щоб переключитися на Меню спорядження[ENDN]
+UseChocoboItem,[CENT=0][IMME]Квєєє!
+UseHelp,Використати предмети.[ENDN]
+Vibration,Вібрація
+VibrationHelpPC,Натисніть [DBTN=LEFT] [DBTN=RIGHT] щоб увімкнути/вимкнути\nфункцію вібрації.
+Wait,Чекати
+Walk,Йти
+WarningAccessData,"Зчитування даних, зачекайте будь ласка..."
+WarningCaption,СПОВІЩЕННЯ
+WarningDownloadData,Завантаження...
+WarningSaveData,"Запис даних, зачекайте будь ласка..."
+WarningUploadData,Вивантаження...
+WeaponCaption,ЗБРОЯ
+WeaponShop,Зброя
+Win,Перемога
+WindowColor,Колір вікна
+WindowColorHelpMobile,Натисніть щоб обрати колір вікна.
+WindowColorHelpPC,Натисніть [DBTN=LEFT] [DBTN=RIGHT] щоб обрати колір вікна.
+WristCaption,БРАСЛЕТ
+Yes,Так
+YourGameProgressMayLost,*Незбережені дані будуть втрачені.
+ReadingDirection,Left_To_Right
+NameShort,UKR
+GilSymbol,%[YSUB=1.3][sub]Г
+SoundVolume,Sound Volume
+MusicVolume,Music Volume
+MovieVolume,Movie Volume
+VoiceVolume,Voice Volume
+ATBModeNormal,ATB: Normal
+ATBModeFast,ATB: Fast
+ATBModeTurnBased,ATB: Turn-Based
+ATBModeDynamic,ATB: Dynamic
+AutoText,Auto Text
+FailedMixMessage,The combination failed!
+ElementWeak,Weak to [FFCC00]%[FFFFFF]
+ElementResist,Resistant to [FFCC00]%[FFFFFF]
+ElementImmune,Immune to [FFCC00]%[FFFFFF]
+ElementAbsorb,Absorb [FFCC00]%[FFFFFF]
+StatusImmune,Immune: [FFCC00]%[FFFFFF]
+StatusAuto,Auto: [FFCC00]%[FFFFFF]
+StatusResist,Resist: [FFCC00]%[FFFFFF]
+AttackList,[b]Abilities[/b]

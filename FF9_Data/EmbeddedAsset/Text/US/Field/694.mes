@@ -1,0 +1,741 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=185,3]{DialogPosition}Майстер фантом
+“Я - привид давно померлого
+ карткового майстра{Speed 2}...{Speed -1}”[ENDN][STRT=135,5]{DialogPosition}{PreChoose 2,1}{Instantly}Майстер фантом
+“Ти викликаєш мене
+ на гру у карти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=88,3]{DialogPosition}Майстер фантом
+“Добре{Speed 2}...{Speed -1}
+ Давай зіграємо!”[ENDN][STRT=88,3]{DialogPosition}Майстер фантом
+“Ти втечеш, так?
+ Нічого страшного.”[ENDN][STRT=156,3]{DialogPosition}Майстер фантом
+“Кинь мені виклик ще раз,
+ коли будеш готовий{Speed 2}...{Speed -1}”[ENDN][STRT=164,3]{DialogPosition}Захисний фантом
+“Я - привид найвідомішого
+ карткового майстра.”[ENDN][STRT=148,4]{DialogPosition}{PreChoose 2,1}{Instantly}Захисний фантом
+“Ти кидаєш мені виклик?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=157,2]{DialogPosition}Захисний фантом
+“Ти не зможеш мене легко перемогти.”[ENDN][STRT=137,3]{DialogPosition}Захисний фантом
+“{Speed 2}...{Speed -1}Розсудливість - краща
+ частина доблесті.”[ENDN][STRT=157,3]{DialogPosition}Захисний фантом
+“Тобі треба підготуватися, перш
+ ніж кидати мені виклик.”[ENDN][STRT=142,3]{DialogPosition}Сильний фантом
+“Я - привид воїна,
+ майстра карт.”[ENDN][STRT=201,4]{DialogPosition}{PreChoose 2,1}{Instantly}Сильний фантом
+“Можеш кинути мені виклик, якщо хочеш.”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=115,3]{DialogPosition}Сильний фантом
+“Я з тобою розберуся!
+ Почнемо!”[ENDN][STRT=167,2]{DialogPosition}Сильний фантом
+“Я прийму тебе в будь-який час.”[ENDN][STRT=176,3]{DialogPosition}Сильний фантом
+“У тебе недостатньо карт.
+ Приходь, коли буде більше.”[ENDN][STRT=143,3]{DialogPosition}Рідкісний Фантом
+“Я - привид Імператриці
+ Карткових Майстрів{Speed 2}...{Speed -1}”[ENDN][STRT=207,4]{DialogPosition}{PreChoose 2,1}{Instantly}Рідкісний Фантом
+“Ти викликаєш мене на гру?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=120,3]{DialogPosition}Рідкісний Фантом
+“Дуже добре.
+ Давай зіграємо у гру.”[ENDN][STRT=155,2]{DialogPosition}Рідкісний Фантом
+“Приходь і кинь мені виклик знову.”[ENDN][STRT=171,3]{DialogPosition}Рідкісний Фантом
+“Ми не можемо грати, тому що
+ у тебе недостатньо карт{Speed 2}...{Speed -1}”[ENDN][STRT=208,3]{DialogPosition}Темний фантом
+“Я - ПРИВИД КАРТКОВОГО МАЙСТРА,
+ ЯКИЙ КЕРУЄ ТЕМРЯВОЮ{Speed 2}...{Speed -1}”[ENDN][STRT=160,4]{DialogPosition}{PreChoose 2,1}{Instantly}Темний фантом
+“ТИ КИДАЄШ МЕНІ ВИКЛИК?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=121,2]{DialogPosition}Темний фантом
+“ЦЕ ТВІЙ КІНЕЦЬ{Speed 2}...{Speed -1}”[ENDN][STRT=190,2]{DialogPosition}Темний фантом
+“ТИ ПРИЙНЯВ МУДРЕ РІШЕННЯ{Speed 2}...{Speed -1}”[ENDN][STRT=200,2]{DialogPosition}Темний фантом
+“У ТЕБЕ НЕДОСТАТНЬО КАРТ{Speed 2}...{Speed -1}”[ENDN][STRT=15,1]{UpperLeftForce}{Center 15}!!![ENDN][STRT=137,3]{PreChoose 2,1}{Instantly}Повернутися на Невразливий?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=130,2]{Zidane}
+“{Speed 2}...{Speed -1}Що це за місце?”[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=102,2]{Widths 0,102,16,-1}{Vivi}
+“У чому справа, {Zidane}е?”[ENDN][STRT=187,2]{Zidane}
+“Хтось щойно назвав моє ім'я?”[ENDN][STRT=32,2]{Widths 0,0,18,-1}{Dagger}
+“Ні.”[ENDN][STRT=96,2]{Zidane}
+“Це дивно{Speed 2}...{Speed -1}”[ENDN][STRT=204,2]{Fraya}
+“Може, у тебе просто слухові галюцинації.”[ENDN][STRT=102,2]{Zidane}
+“Я так не думаю.”[ENDN][STRT=99,3]{Zidane}
+“!!!?
+ Ви це чули?!”[ENDN][STRT=107,2]{Steiner}
+“{Speed 2}...{Speed -1}Я нічого не чую.”[ENDN][STRT=118,1]{Widths 0,118,16,-1}{Center 118,16}{Speed 2}...{Speed -1}{Zidane}е, ти мене чуєш?[ENDN][STRT=68,2]{Widths 0,0,16,-1}{Zidane}
+“Гарланд!?”[ENDN][STRT=158,1]{Center 158}{Speed 2}...{Speed -1}Я звертаюся тільки до тебе.[ENDN][STRT=115,3]{Zidane}
+“Гарланде,
+ що це за місце?”[ENDN][STRT=177,1]{Center 177}{Cyan}Меморія{White}{Speed 2}...{Speed -1} Це місце спогадів.[ENDN][STRT=83,2]{Zidane}
+“Спогадів{Speed 2}...{Speed -1}?”[ENDN][STRT=189,2]{Center 189}Так, ваші спогади породили 
+{Center 67}це місце{Speed 2}...{Speed -1}[ENDN][STRT=129,2]{Center 129}Тут ти станеш свідком
+{Center 92}усієї правди.[ENDN][STRT=113,2]{Center 113}У тебе немає вибору.
+{Center 56}А тепер йди{Speed 2}...{Speed -1}[ENDN][STRT=177,2]{Zidane}
+“Про що ти таке говориш!?”[ENDN][STRT=58,2]{Widths 0,0,16,-1}{Zidane}
+“Трясця{Speed 2}...{Speed -1}!”[ENDN][STRT=127,2]{Widths 0,127,16,-1}{Eiko}
+“{Speed 2}...{Speed -1}{Zidane}е, що відбувається?”[ENDN][STRT=189,2]{Zidane}
+“Ви всі чули, що я говорив, так?”[ENDN][STRT=274,2]{Zidane}
+“{Speed 2}...{Speed -1}Схоже, я був єдиним, хто його чув.”[ENDN][STRT=177,2]{Zidane}
+“Я щойно розмовляв з Гарландом.”[ENDN][STRT=169,3]{Zidane}
+“Він сказав мені, що це місце
+ створили наші спогади.”[ENDN][STRT=150,3]{Zidane}
+“Я не знаю, про що він
+ в біса говорить{Speed 2}...{Speed -1}”[ENDN][STRT=241,2]{Zidane}
+“Думаю, треба просто рухатися далі.”[ENDN][STRT=226,2]{Dagger}
+“Що тут робить замок Олександрія?”[ENDN][STRT=140,2]{Eiko}
+“Хіба це не{Speed 2}...{Speed -1}Олександрія?”[ENDN][STRT=15,1]{NoFocus}{Center 15}!!!{Time -1}[ENDN][STRT=175,3]{Quina}
+“Що!? Про що ти говориш!?
+ Я нічого не бачу!”[ENDN][STRT=205,2]{Zidane}
+“Звичайно, ти нічого не бачиш.”[ENDN][STRT=201,3]{Zidane}
+“Тебе тоді не було з нами, тож
+ цього немає у твоїй пам'яті.”[ENDN][STRT=193,4]{Center 117}Намагаючись кинути мені виклик,
+{Center 193}Куджа намагався заволодіти Олександром{Speed 2}...{Speed -1}
+{Center 149}Випадок, що стався 10 років тому,
+{Center 120}став початком усього{Speed 2}...{Speed -1}[ENDN][STRT=68,2]{Widths 0,0,16,-1}{Zidane}
+“Буря{Speed 2}...{Speed -1}”[ENDN][STRT=167,2]{LowerRightForce}{Zidane}
+“Агов! Що ти робиш!?”[ENDN][STRT=161,3]{LowerRightForce}{Zidane}
+“Тобі не варто нікуди йти.
+ Буде буря.”[ENDN][STRT=191,3]{LowerRightForce}{Zidane}
+“Обережно!
+ Тебе змиє!”[ENDN][STRT=138,3]{LowerRightForce}{Widths 0,138,18,-1}{Zidane}
+“{Dagger}! Я щойно побачив маленьку дівчинку
+ на кораблі, і...”[ENDN][STRT=44,2]{LowerRightForce}{Widths 0,0,16,-1}{Zidane}
+“Га!?”[ENDN][STRT=189,2]{LowerRightForce}{Zidane}
+“{Speed 2}...{Speed -1}Напевно, це була моя уява.”[ENDN][STRT=208,3]{LowerRightForce}{Zidane}
+“Так, напевно. Те, що я щойно бачив
+ точно не з моїх спогадів.”[ENDN][STRT=228,2]{LowerRightForce}{Dagger}
+{White}(Що відбувається?  Це був мій спогад.){White}[ENDN][STRT=146,2]{LowerRightForce}{Widths 0,146,16,-1}{Dagger}
+{White}(Чому {Zidane} зміг це побачити?){White}[ENDN][STRT=18,2]{LowerRightForce}{Widths 0,0,18,-1,0,18,16,-1}{Dagger}
+“{Zidane}е.”[ENDN][STRT=108,2]{UpperRightForce}{Zidane}
+“Так, у чому справа?”[ENDN][STRT=181,2]{LowerRightForce}{Dagger}
+“{Speed 2}...{Speed -1}Ти нічого не вигадав.”[ENDN][STRT=206,3]{UpperRightForce}{Zidane}
+“Зачекай, ти теж це бачила{Speed 2}...{Speed -1}!?
+ Це означає, що тією дівчинкою була ти.”[ENDN][STRT=175,3]{UpperRightForce}{Zidane}
+“Але{Speed 2}...{Speed -1} чому я зміг побачити
+ щось з твоєї пам'яті?”[ENDN][STRT=94,2]{LowerRightForce}{Dagger}
+“Я не знаю{Speed 2}...{Speed -1}”[ENDN][STRT=109,3]{Zidane}
+“Гей, Гарланде!
+ Що відбувається!?”[ENDN][STRT=168,2]{Zidane}
+“Гарланде, ти мене чуєш?!”[ENDN][STRT=213,4]{Center 165}Найбільше я боявся ейдолонів
+{Center 87}Гайї{Speed 2}...{Speed -1}
+{Center 208}Однак я вирішив розібратися з ними,
+{Center 213}поки вони не стали великою проблемою.[ENDN][STRT=129,2]{Zidane}
+“Що це за штука{Speed 2}...{Speed -1}?”[ENDN][STRT=201,3]{Dagger}
+“Це око{Speed 2}...{Speed -1} Це те саме око, яке я бачила
+ в ніч шторму на морі.”[ENDN][STRT=234,3]{Center 16,16}{Speed 2}...{Speed -1}{Zidane}е.
+{Center 234}Те, що ти щойно побачив, було твоїм спогадом,
+{Center 98}не спогадом Гарнет.[ENDN][STRT=177,3]{Zidane}
+“Що!? Я не пам'ятаю, щоб коли-небудь
+ потрапляв у шторм на морі.”[ENDN][STRT=173,2]{Center 156}Ти так і не зрозумів{Speed 2}...{Speed -1}
+{Center 173}Незабаром ти дізнаєшся про це{Speed 2}...{Speed -1}[ENDN][STRT=227,3]{Zidane}
+“Що ти маєш на увазі? Чи можуть чужі
+ спогади стати частиною моїх власних?”[ENDN][STRT=72,2]{Zidane}
+“Гарланде!!!”[ENDN][STRT=199,2]{Center 164}Як тільки ти приймеш усе, 
+{Center 199}відповідь з'явиться перед тобою.[ENDN][STRT=207,4]{Center 193}Величезна сила була призвана до
+{Center 179}Гайї в епоху війни{Speed 2}...{Speed -1}
+{Center 207}Однак гайяни виявилися не готовими до того,
+{Center 175}щоб приборкати таку велику силу{Speed 2}...{Speed -1}[ENDN][STRT=221,3]{Center 174}Вони злякалися і розбили 
+{Center 141}коштовність на 4 частини{Speed 2}...{Speed -1}
+{Center 221}і молилися, щоб більше ніколи її не побачити.[ENDN][STRT=95,2]{Zidane}
+“Що це таке{Speed 2}...{Speed -1}?”[ENDN][STRT=196,3]{Zidane}
+“Зіткнення двох місяців{Speed 2}...{Speed -1}?
+ Ні. Вони більше схожі на планети.”[ENDN][STRT=111,3]{Zidane}
+“Чому це виглядає
+ так знайомо{Speed 2}...{Speed -1}?”[ENDN][STRT=172,2]{Center 172}Це зображення поглинання
+{Center 120}Гайї Террою.[ENDN][STRT=129,3]{Zidane}
+“О, так.
+ Я бачив це у Оілверті.”[ENDN][STRT=258,4]{Center 250}П'ять тисяч років тому Терра, яка була вже 
+{Center 207}старою планетою, прагнула поглинути Гайю. 
+{Center 258}Щоб вижити, Террі потрібно було злитися з 
+{Center 62}молодшою планетою.[ENDN][STRT=115,2]{Center 113}Однак на Гайї вже
+{Center 115}існувало життя.[ENDN][STRT=148,1]{Center 148}І так, історія почалася{Speed 2}...{Speed -1}[ENDN][STRT=215,4]{Center 210}Життя на Террі добігало кінця{Speed 2}...{Speed -1}
+{Center 213}У нас не було іншого вибору,
+{Center 215}окрім як продовжити злиття, яке
+{Center 156}трагічно знищило рідні цивілізації Терри.[ENDN][STRT=139,2]{Center 102}Терра була надто старою,
+{Center 139}щоб усе асимілювати.[ENDN][STRT=161,3]{Center 161}Отже, я створив Дерево Життя
+{Center 161}щоб спрямувати потік душ
+{Center 85}назад до Терри.[ENDN][STRT=171,3]{Offset 0,-200,0}{UpperRightForce}{Quina}
+“Ого! Ми в океані!
+ Скрізь риба! Ням-ням!”[ENDN][STRT=140,2]{Zidane}
+“{Speed 2}...{Speed -1}Що це ти робиш?”[ENDN][STRT=157,3]{Offset 0,-200,0}{UpperRightForce}{Widths 0,157,16,-1}{Quina}
+“Поплив за рибою. 
+{Zidane}е, ти теж допомагай ловити рибу.”[ENDN][STRT=132,3]{Offset 0,-200,0}{UpperRightForce}{Quina}
+“Ай{Speed 2}...{Speed -1} Що це?
+ Важко дихати.”[ENDN][STRT=111,3]{Offset 0,-200,0}{UpperRightForce}{Quina}
+“ААААА!
+ НЕ МОЖУ ДИХАТИ!!!”[ENDN][STRT=148,3]{Zidane}
+“Це тому, що ти думаєш,
+ що ми в океані.”[ENDN][STRT=119,2]{Zidane}
+“Я можу нормально дихати.”[ENDN][STRT=120,2]{Offset 0,-200,0}{UpperRightForce}{Quina}
+“{Speed 2}...{Speed -1}Ми не в океані?”[ENDN][STRT=125,3]{Quina}
+“Твоя правда!
+ Тепер я дихаю нормально!”[ENDN][STRT=81,3]{Quina}
+“Риба вся зникла.
+ Мені сумно{Speed 2}...{Speed -1}”[ENDN][STRT=143,3]{UpperRightForce}{Zidane}
+“Отже, колись Гайя була просто
+ одним великим океаном{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{LowerRightForce}{Eiko}
+“Звідки ти знаєш?”[ENDN][STRT=98,2]{UpperRightForce}{Zidane}
+“{Speed 2}...{Speed -1}Я не знаю.”[ENDN][STRT=109,3]{UpperRightForce}{Zidane}
+“З якоїсь причини це
+ є в моїй пам'яті.”[ENDN][STRT=179,3]{UpperRightForce}{Zidane}
+“Я тоді ще навіть не народився.
+ Це не має жодного сенсу{Speed 2}...{Speed -1}”[ENDN][STRT=201,3]{UpperRightForce}{Zidane}
+“І я народився на Террі, а не на Гайї,
+ тож як це може бути у моїй пам'яті{Speed 2}...{Speed -1}?”[ENDN][STRT=218,3]{UpperRightForce}{Vivi}
+“{Speed 2}...{Speed -1}У моїй пам'яті це теж є.
+ Гайя була вкрита водою.”[ENDN][STRT=115,3]{LowerRightForce}{Fraya}
+“У мене теж є схоже
+ відчуття.”[ENDN][STRT=232,3]{UpperRightForce}{Zidane}
+{White}({Speed 2}...{Speed -1}Можливо, це означає, що все існування
+ можна простежити до єдиного джерела.){White}[ENDN][STRT=125,2]{UpperRightForce}{Zidane}
+{White}(Я не розумію{Speed 2}...{Speed -1}){White}[ENDN][STRT=140,3]{Zidane}
+“Боже{Speed 2}...{Speed -1}
+ Це одна велика вогняна куля.”[ENDN][STRT=134,2]{Steiner}
+“Чи може це бути місяць{Speed 2}...{Speed -1}?”[ENDN][STRT=136,1]{Center 136}Це народження Гайї.[ENDN][STRT=95,2]{Zidane}
+“Це Гайя{Speed 2}...{Speed -1}?”[ENDN][STRT=137,1]{Center 137}Понад 5 000 років тому{Speed 2}...{Speed -1}[ENDN][STRT=163,2]{Zidane}
+“А що за цими сходами?”[ENDN][STRT=98,1]{Center 98}Самі побачите.[ENDN][STRT=237,6]{Center 237}У цей час Терра досягла піку свого
+{Center 215}процвітання. Люди вірили, що їхнє майбутнє
+{Center 231}забезпечене. Зрештою, саме ця гординя 
+{Center 194}призвела до загибелі Терри. Отже,
+{Center 181}мене було створено, щоб розібратися
+{Center 66}з нашою бідою{Speed 2}...{Speed -1}[ENDN][STRT=48,1]{LowerLeftForce}ОГО![ENDN][STRT=113,2]{LowerLeftForce}{Zidane}
+“Нічого{Speed 2}...{Speed -1}”[ENDN][STRT=194,2]{LowerLeftForce}{Zidane}
+“Це все? І більше нічого?”[ENDN][STRT=77,1]{Center 77}Це космос.[ENDN][STRT=87,2]{Center 87}Ваша подорож
+{Center 53}не закінчена.[ENDN][STRT=67,2]{LowerLeftForce}{Widths 0,0,16,-1}{Zidane}
+“Космос{Speed 2}...{Speed -1}?”[ENDN][STRT=181,2]{Center 181}Не бійтеся. Зробіть крок вперед, 
+{Center 173}і ви станете ближче до істини.[ENDN][STRT=170,2]{LowerLeftForce}{Zidane}
+“Тобі легко говорити.”[ENDN][STRT=34,1]{Widths 0,34,16,-1}{Center 34,16}Вперед, {Zidane}е{Speed 2}...{Speed -1}[ENDN][STRT=241,2]{Center 239}Ви вступили в новий вимір. Більше немає
+{Center 241}світів. Немає більше космосу{Speed 2}...{Speed -1}[ENDN][STRT=239,2]{Center 239}Слідуй за своїми спогадами, своїми оригінальними
+{Center 102} спогадами, і йди вперед{Speed 2}...{Speed -1}[ENDN][STRT=176,3]{Zidane}
+“Гарланде,
+ чим насправді є наші спогади?”[ENDN][STRT=36,1]{Speed 2}.........{Speed -1}[ENDN][STRT=225,4]{Zidane}
+“Чому я можу пам'ятати досвід
+ інших людей і події, які відбулися
+ до мого народження?”[ENDN][STRT=158,2]{Zidane}
+“Гарланде, будь ласка! Скажи мені!”[ENDN][STRT=200,3]{Center 184}{Speed 2}...{Speed -1}Не варто обмежувати пам'ять лише
+{Center 200}досвідом однієї людини від народження.
+{Center 139}Це лише поверхня.[ENDN][STRT=174,3]{Center 174}Кожне життя, що з'являється на 
+{Center 163}світ, природне чи штучне,
+{Center 105}потребує батьків.[ENDN][STRT=225,1]{Center 225}І ці батьки також повинні мати батьків.[ENDN][STRT=201,1]{Center 201}Життя пов'язане, одне з іншим{Speed 2}...{Speed -1}[ENDN][STRT=178,2]{Center 178}Якщо простежити корінь усього живого,
+{Center 140}то виявиться, що воно має одне джерело.[ENDN][STRT=191,1]Те саме можна сказати і про спогади.[ENDN][STRT=218,2]{Center 187}Все живе - це інтелект, який
+{Center 218}зберігає пам'ять поза досвідом.[ENDN][STRT=227,1]{Center 227}Пам'ять не є ізольованою всередині людини.[ENDN][STRT=216,2]{Center 216}Це накопичення спогадів багатьох поколінь,
+{Center 196}які продовжують розвиватися.[ENDN][STRT=202,3]{Center 180}Те, що ви переживаєте зараз,
+{Center 171}по суті, стає частиною пам'яті
+{Center 202}всіх і усього.[ENDN][STRT=219,2]{Center 219}Можна сказати, що пам'ять та еволюція
+{Center 91}йдуть пліч-о-пліч.[ENDN][STRT=211,2]{Center 211}Але більшість форм життя не розуміють
+{Center 169}справжньої природи спогадів{Speed 2}...{Speed -1}[ENDN][STRT=200,2]{Center 200}{Speed 2}...{Speed -1}що пояснює, чому більшість спогадів
+{Center 108}ніколи не перетинаються.[ENDN][STRT=172,3]{Zidane}
+“{Speed 2}...{Speed -1}Отже, що я знайду,
+ простеживши наше коріння?”[ENDN][STRT=226,2]{Center 226}{Speed 2}...{Speed -1}Присутність, яка панує над усім життям
+{Center 163}і спогадами. {Cyan}Кристал{White}{Speed 2}...{Speed -1}[ENDN][STRT=67,2]{Widths 0,0,16,-1}{Zidane}
+“{Cyan}Кристал{White}{Speed 2}...{Speed -1}”[ENDN][STRT=145,1]{Center 145}Тепер ти сам по собі.[ENDN][STRT=118,1]{Widths 0,118,16,-1}{Center 118,16}{Zidane}е{Speed 3}...{Speed -1}подбай про Куджу.[ENDN][STRT=151,1]{Center 151}{Speed 3}...і захисти {Cyan}кристал{White}.[ENDN][STRT=60,1]{Center 60}{Speed 2}Прощавай...{Speed -1}[ENDN][STRT=93,2]{Zidane}
+“Гарланде, зажди!”[ENDN][STRT=72,2]{Zidane}
+“Гарланде!!!”[ENDN][STRT=197,3]{Center 181}Навіть якщо я був створений, щоб
+{Center 197}служити лише одній меті, я не шкодую
+{Center 139}що народився на цей світ.[ENDN][STRT=175,3]{Zidane}
+“Це той кристал, про який
+ говорив Гарланд{Speed 2}...{Speed -1}?”[ENDN][STRT=128,3]{Zidane}
+“{Speed 2}...{Speed -1}Настав час нам
+ дізнатися правду.”[ENDN][STRT=44,2]{UpperLeftForce}{Widths 0,0,16,-1}{Zidane}
+“Куджа!”[ENDN][STRT=130,2]{LowerRightForce}Куджа
+“Добре, що ви прийшли.”[ENDN][STRT=243,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Я здивований, що ви перемогли 4 Хаоси,
+ які я створив з пам'яті кристала.”[ENDN][STRT=134,2]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Але{Speed 2}...{Speed -1} ви запізнилися.”[ENDN][STRT=110,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Поглянь уважно.
+ Хіба не гарно?”[ENDN][STRT=163,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Це оригінальний кристал{Speed 2}...{Speed -1}
+ Звідси все і почалося{Speed 2}...{Speed -1}”[ENDN][STRT=178,2]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Місце народження всього сущого{Speed 2}...{Speed -1}”[ENDN][STRT=146,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Як тільки я знищу його,
+ все зникне.”[ENDN][STRT=154,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Гайя, Терра, всесвіт,
+ усе{Speed 2}...{Speed -1}”[ENDN][STRT=235,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Ваші життя і спогади, звісно, теж.
+ ХА-ХА-ХА-ХА-ХА-ХА-ХА-ХА!”[ENDN][STRT=70,2]{Widths 0,0,16,-1}{Zidane}
+“Замовкни!!!”[ENDN][STRT=159,3]{Zidane}
+“Єдине, що
+ зникне - це ти!”[ENDN][STRT=164,2]{Zidane}
+“Я зараз приберу тебе!”[ENDN][STRT=148,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Гмм. Ти справді думаєш,
+ що можеш перемогти мене?”[ENDN][STRT=228,5]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Навіть якщо ви це зробите, Гайя вже
+ приречена. Її асиміляція Террою почалася,
+ і Дерево Життя спровокує катастрофічне
+ знищення Гайї.”[ENDN][STRT=228,2]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Для тебе і твоїх друзів все скінчено.”[ENDN][STRT=143,2]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Бачиш. Я переможу в будь-якому випадку.”[ENDN][STRT=219,4]{Zidane}
+“Це не має значення! Навіть якщо Гайя буде
+ асимільована, планета залишиться, і ми почнемо
+ все спочатку, щоб побудувати новий дім.”[ENDN][STRT=228,3]{Zidane}
+“Куджа, ти просто боягуз!
+ Якщо ти хочеш померти, не втягуй у це нас!”[ENDN][STRT=205,3]{LowerRightForce}{Offset 0,-200,0}Куджа
+“Чому світ повинен існувати без
+ мене? Це було б несправедливо.”[ENDN][STRT=184,3]{LowerRightForce}{Offset 0,-200,0}{Widths 0,184,16,-1}Куджа
+“Якщо я помру, ми всі помремо!
+ {Zidane}е, ти будеш моєю першою жертвою.”[ENDN][STRT=226,2]{UpperLeftForce}{Offset 0,-300,0}Куджа
+“Не можу повірити, що ти переміг Личину Смерті{Speed 2}...{Speed -1}”[ENDN][STRT=124,3]{UpperLeftForce}{Offset 0,-300,0}Куджа
+“Що ж{Speed 2}...{Speed -1}
+ мій час майже вийшов.”[ENDN][STRT=142,2]{UpperLeftForce}{Offset 0,-300,0}Куджа
+“Час усім померти!”[ENDN][STRT=46,1]{UpperLeftForce}{Offset 50,250,0}Угх{Speed 2}...{Speed -1}[ENDN][STRT=107,3]{LowerRightForce}{Offset 50,250,0}{Zidane}
+“Що трапилося з
+ кристалом{Speed 2}...{Speed -1}?”[ENDN][STRT=103,2]{Zidane}
+“{Speed 2}...{Speed -1}Що це за місце?”[ENDN][STRT=208,2]{Center 208}Ти стоїш перед останнім виміром,
+{Center 201}а я - темрява вічності{Speed 2}...{Speed -1}[ENDN][STRT=115,2]{Zidane}
+“Х-Хто ти такий?!”[ENDN][STRT=108,2]{Center 108}Все живе від народження
+{Center 60}несе у собі смерть.[ENDN][STRT=116,2]{Center 96}Життя боїться смерті,
+{Center 116}але живе лише для того, щоб померти.[ENDN][STRT=123,1]{Center 123}Все починається з тривоги.[ENDN][STRT=127,1]{Center 127}Тривога стає страхом.[ENDN][STRT=142,3]{Center 126}Страх призводить до гніву{Speed 2}...{Speed -1}
+{Center 124}гнів веде до ненависті{Speed 2}...{Speed -1}
+{Center 142}ненависть призводить до страждань{Speed 2}...{Speed -1}[ENDN][STRT=152,2]{Center 152}Єдині ліки від цього страху
+{Center 113}це повне знищення.[ENDN][STRT=194,4]{Center 190}Куджа став жертвою власного страху.
+{Center 184}Він дійшов висновку, що може
+{Center 194}врятуватися, лише знищивши першооснову
+{Center 127}всього сущого - кристал.[ENDN][STRT=134,3]{Zidane}
+“Про що ти, в біса,
+ говориш?”[ENDN][STRT=186,2]{Zidane}
+“Навіщо ти мені все це розповідаєш?”[ENDN][STRT=32,1] {Speed 2}......{Speed -1} [ENDN][STRT=182,1]{Center 182}{Speed 2}...{Speed -1}Тепер теорія не викликає сумнівів.[ENDN][STRT=134,2]{Center 134}Вчинок Куджи доводить це.
+{Center 133}Все живе для того, щоб померти.[ENDN][STRT=210,2]{Center 210}Нарешті життя розкрило цю істину.
+{Center 180}Настав час покінчити з цим світом.[ENDN][STRT=190,2]{Zidane}
+“Щ-що ти маєш на увазі!?”[ENDN][STRT=143,1]{Center 143}Я існую заради однієї мети{Speed 2}...{Speed -1}[ENDN][STRT=174,4]{Center 167}Повернути все назад до
+{Center 174}нульового світу, {Wait 15}де немає
+{Center 121}життя і немає кристала, який
+{Center 66}би давав життя.[ENDN][STRT=208,3]{Center 119}У світі, де немає нічого,
+{Center 114}страху не існує.
+{Center 208}Це світ, якого прагне все живе.[ENDN][STRT=212,2]{Zidane}
+“За кого ти себе маєш, чорт забирай!?”[ENDN][STRT=175,4]{Zidane}
+“Ти нічого не закінчиш!
+ Ніколи, поки у нас є
+ воля до життя!”[ENDN][STRT=106,1]{Center 106}Дурне створіння{Speed 2}...{Speed -1}[ENDN][STRT=216,1]{Center 216}Твої страхи вже обманули тебе.[ENDN][STRT=207,2]{Center 207}Одного дня ти вибереш знищення
+{Center 161}замість існування, як це зробив Куджа.[ENDN][STRT=197,2]{Center 172}Коли він намагався знищити 
+{Center 197}кристал, сенс його життя закінчився.[ENDN][STRT=119,3]{Center 70}А тепер іди{Speed 2}...{Speed -1}{Wait 15}
+{Center 119} Увійди до нульового світу,
+{Center 91}якого ти бажаєш.[ENDN][STRT=33,2]{Widths 0,0,16,-1}{Zidane}
+“Ні!”[ENDN][STRT=136,3]{Zidane}
+“Ми знищимо тебе і доведемо,
+ що ти помиляєшся!”[ENDN][STRT=194,4]{Zidane}
+“І завдяки нашим спогадам майбутні
+ покоління побачать, що ми можемо
+ подолати будь-який страх!”[ENDN][STRT=148,2]{Offset 0,200,0}{Zidane}
+“{Speed 2}...{Speed -1}Ми не можемо здатися зараз.”[ENDN][STRT=176,2]{Offset 0,200,0}{Zidane}
+“{Speed 2}...{Speed -1}Ми повинні боротися разом.”[ENDN][STRT=154,4]{Offset 0,200,0}{Zidane}
+“Навіть якщо ми програємо, це не має
+ значення{Speed 2}...{Speed -1} Наші спогади
+ житимуть в інших.”[ENDN][STRT=182,3]{Offset 0,200,0}{Zidane}
+“Отже, навіть якщо ми народжені,
+ щоб померти, я не боюся.”[ENDN][STRT=94,2]{Zidane}
+“Я буду жити!”[ENDN][STRT=179,4]{Zidane}
+“Ми зайшли надто далеко, щоб програти.
+ Якщо ми об'єднаємо наші сили,
+ я знаю, ми зможемо перемогти.”[ENDN][STRT=135,2]{UpperLeftForce}{Eiko}
+“Пообіцяй мені, що ти переможеш!”[ENDN][STRT=130,3]{UpperLeftForce}{Offset 0,100,0}{Steiner}
+“Хоч я і недостойний,
+ прийми мої сили.”[ENDN][STRT=147,3]{UpperLeftForce}{Offset 0,-100,0}{Vivi}
+“Мені шкода, що я не зміг
+ нічого зробити. Щасти тобі.”[ENDN][STRT=200,2]{UpperLeftForce}{Offset 0,100,0}{Fraya}
+“Я залишаю все у твоїх руках.”[ENDN][STRT=198,3]{UpperRightForce}{Offset 0,100,0}{Quina}
+“Повертайся, коли вб'єш поганця.
+ Я готую велику вечерю для всіх.”[ENDN][STRT=114,2]{UpperRightForce}{Offset 0,100,0}{Amarant}
+“{Speed 2}...{Speed -1}Не зіпсуй все.”[ENDN][STRT=170,2]{UpperLeftForce}{Dagger}
+“Будь ласка, прийми мої сили{Speed 2}...{Speed -1}”[ENDN][STRT=117,3]{Zidane}
+“Ми зайшли надто далеко, щоб
+ зараз зазнати поразки.”[ENDN][STRT=158,3]{Zidane}
+“Давайте просто покінчимо з цим
+ і підемо додому{Speed 2}...{Speed -1} усі ми.”[ENDN][STRT=152,2]{Eiko}
+“Ми тебе не боїмося!”[ENDN][STRT=98,2]{Eiko}
+“Ну ж бо, хлопці!”[ENDN][STRT=156,3]{Steiner}
+“З нашою спільною силою
+ ніщо нас не зупинить!”[ENDN][STRT=122,2]{Steiner}
+“Вперед до перемоги!”[ENDN][STRT=149,3]{Vivi}
+“Колись ми всі зупинимося,
+ колись, але не сьогодні!”[ENDN][STRT=99,2]{Vivi}
+“Ходімо, хлопці!”[ENDN][STRT=117,3]{Fraya}
+“У тебе немає
+ шансів проти нас!”[ENDN][STRT=107,2]{Fraya}
+“Ми переможемо!”[ENDN][STRT=105,2]{UpperRightForce}{Zidane}
+“З тобою усе гаразд?”[ENDN][STRT=177,3]{UpperLeftForce}{Dagger}
+“Так{Speed 2}...{Speed -1}
+ але подивіться, що відбувається.”[ENDN][STRT=176,4]{UpperRightForce}{Zidane}
+“Отже, те що сказав Куджа, було правдою{Speed 2}...{Speed -1}
+ Дерево Життя починає свою бурхливу 
+ реакцію.”[ENDN][STRT=137,2]{UpperLeftForce}{Dagger}
+“Що буде далі?”[ENDN][STRT=137,3]{UpperRightForce}{Zidane}
+“Я не знаю, але це виглядає
+ не дуже добре{Speed 2}...{Speed -1}”[ENDN][STRT=156,3]{UpperRightForce}Беатрікс
+“{Speed 2}...{Speed -1}Я сумніваюся, що хтось міг
+ пережити той вибух{Speed 2}...{Speed -1}”[ENDN][STRT=40,1]{UpperRightForce}Нііі{Speed 2}...{Speed -1}[ENDN][STRT=54,1]{UpperLeftForce}Капітан{Speed 2}...{Speed -1}[ENDN][STRT=136,2]{UpperLeftForce}Мікото
+“{Speed 2}...{Speed -1}Вони все ще живі.”[ENDN][STRT=104,3]{UpperRightForce}Беатрікс
+“Що!?{Wait 5}
+ Де вони?”[ENDN][STRT=92,2]{UpperLeftForce}Мікото
+“{Speed 2}...{Speed -1}Он там.”[ENDN][STRT=223,2]{UpperRightForce}Беатрікс
+“Хільда Гарде напевно, ближче{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperLeftForce}Беатрікс
+“Ти.  Високий.”[ENDN][STRT=191,3]{UpperRightForce}Хааген, Лицар Плутона VIII
+“Сер!
+ Хааген, Лицар Плутона VIII, мем!”[ENDN][STRT=214,3]{UpperLeftForce}Беатрікс
+“Я не питала твого імені.
+ Негайно зв'яжіться з Хільда Гарде.”[ENDN][STRT=135,2]{UpperRightForce}Хааген, Лицар Плутона VIII
+“Так, сер, мем, сер!”[ENDN][STRT=112,2]Регент Сід
+“Будь ласка, залишайтеся живими{Speed 2}...{Speed -1}”[ENDN][STRT=176,4]Ерін
+“Сір!
+ Ми отримуємо повідомлення
+ з Червоної Троянди!”[ENDN][STRT=169,2]Регент Сід
+“Виведіть його на головну лінію!”[ENDN][STRT=117,1]Це Червона троянда.[ENDN][STRT=163,3]Регент Сід
+“Ти не Генерал Беатрікс.
+ Хто ти?”[ENDN][STRT=118,2]Мікото
+“Мене звати Мікото.”[ENDN][STRT=169,3]Мікото
+“Всі живі.
+ Ви дуже близько до них.”[ENDN][STRT=171,2]Регент Сід
+“Що!!!? Звідки ти знаєш?”[ENDN][STRT=103,2]Мікото
+“Я чую його{Speed 2}...{Speed -1}”[ENDN][STRT=60,2]Регент Сід
+“Кого?”[ENDN][STRT=176,2]Регент Сід
+“Приготуйтеся до негайної посадки!”[ENDN][STRT=163,2]{Zidane}
+“Це Хільда Гарде 3{Speed 2}...{Speed -1}”[ENDN][STRT=203,2]{Zidane}
+“Схоже, що Сід прийшов нас врятувати.”[ENDN][STRT=36,2]{Widths 0,0,16,-1}{Zidane}
+“Сід!”[ENDN][STRT=193,2]Регент Сід
+“Дякувати небесам, ви всі у безпеці!”[ENDN][STRT=151,3]Регент Сід
+“Швидше!
+ У нас мало часу!”[ENDN][STRT=80,1]{Widths 0,80,16,-1}{Speed 2}...{Speed -1}Прощавай, {Zidane}е{Speed 2}...{Speed -1}[ENDN][STRT=83,2]{Zidane}
+“А, чорт забирай{Speed 2}...{Speed -1}”[ENDN][STRT=94,2]{Dagger}
+“Що трапилося?”[ENDN][STRT=180,3]{Zidane}
+“{Speed 2}...{Speed -1}Чому б тобі не піти вперед?
+ Я наздожену вас пізніше.”[ENDN][STRT=118,3]{Zidane}
+“Мені треба подбати
+ про дещо{Speed 2}...{Speed -1}”[ENDN][STRT=63,2]{Widths 0,0,18,-1}{Dagger}
+“Що{Speed 2}...{Speed -1}!?”[ENDN][STRT=109,2]{Zidane}
+“{Speed 2}...{Speed -1}Він все ще живий.”[ENDN][STRT=91,2]{Dagger}
+“Він не може бути{Speed 2}...{Speed -1}”[ENDN][STRT=146,2]{Widths 0,146,16,-1}{Steiner}
+“{Zidane}е!  Що ти робиш!?”[ENDN][STRT=113,2]{Widths 0,113,19,18,-1}{Zidane}
+“{Steiner}е{Speed 2}...{Speed -1} Подбай про {Dagger}.”[ENDN][STRT=187,3]{Steiner}
+“Що!?
+ Щ-що ти маєш на увазі?”[ENDN][STRT=132,3]{Zidane}
+“{Speed 2}...{Speed -1}Куджа все ще живий.
+ Я не можу просто залишити його.”[ENDN][STRT=239,3]{Steiner}
+“Це безглуздо. Те, що ви двоє
+ з однієї планети, не означає...”[ENDN][STRT=160,2]{Zidane}
+“Ні, причина не в цьому.”[ENDN][STRT=72,2]{Offset 0,-100,0}{Widths 0,72,16,-1}{Eiko}
+“Ходімо, {Zidane}е!”[ENDN][STRT=152,2]{Offset 0,-100,0}{Eiko}
+“Навіщо ти це робиш?”[ENDN][STRT=73,2]{Zidane}
+“Тому що{Speed 2}...{Speed -1}”[ENDN][STRT=195,3]{Zidane}
+“Тому що я, можливо, зробив
+ би те ж саме на його місці.”[ENDN][STRT=210,4]{Zidane}
+“Я, напевно, бився б проти вас,
+ хлопці, і посіяв би хаос у Гайї,
+ як і він{Speed 2}...{Speed -1}”[ENDN][STRT=153,2]{Zidane}
+“Я знаю, це звучить божевільно{Speed 2}...{Speed -1}”[ENDN][STRT=184,3]{Zidane}
+“{Speed 2}...{Speed -1}але в глибині душі я знаю,
+ я мушу це зробити.”[ENDN][STRT=106,2]{Widths 0,106,16,-1}{Quina}
+“Ти не божевільний, {Zidane}е.”[ENDN][STRT=209,3]{Quina}
+“Але йти допомагати Куджі - погана ідея.
+ Це надто небезпечно.”[ENDN][STRT=231,3]{Zidane}
+“{Speed 2}...{Speed -1}Я не можу його покинути.
+ Я не зможу з цим жити.”[ENDN][STRT=66,2]{Widths 0,0,16,-1}{Zidane}
+“Я йду.”[ENDN][STRT=175,2]{Steiner}
+“Ти робиш велику помилку!”[ENDN][STRT=213,3]{Zidane}
+“Можливо{Speed 2}...{Speed -1}Але нам усім у житті іноді
+ доводиться приймати важливі рішення.”[ENDN][STRT=99,3]{Zidane}
+“Для мене,
+ зараз саме той час.”[ENDN][STRT=194,4]{Widths 0,194,17,-1}{Zidane}
+“Я маю змиритися з цим, так само, як це
+ зробив {Vivi}, коли зіткнувся зі своїми
+ страхами, щоб дізнатися більше про себе.”[ENDN][STRT=139,3]{Zidane}
+“Це було важливе рішення
+ для {Vivi}.”[ENDN][STRT=216,3]{Vivi}
+“Я не впевнений щодо цього{Speed 2}...{Speed -1}
+ Я не думаю, що це було великою проблемою.”[ENDN][STRT=214,3]{Zidane}
+“Це ти так думаєш, але якби не ти, 
+ я, можливо не робив би цього.”[ENDN][STRT=176,3]{Zidane}
+“Ти, безумовно, навчив мене ставитися
+ до життя серйозніше.”[ENDN][STRT=242,3]{Fraya}
+“Ну, ти, очевидно, не збираєшся
+ передумати, тож я йду з тобою.”[ENDN][STRT=240,4]{Steiner}
+“Принцип лицарства вимагає, допомагати
+ товаришу у скрутну хвилину. Я також
+ буду супроводжувати тебе!”[ENDN][STRT=126,2]{Zidane}
+“Ого, заждіть хвилинку.”[ENDN][STRT=234,3]{Zidane}
+“Як я вже казав, це мій момент, тож не 
+ втручайтеся. У вас, хлопці, колись буде свій.”[ENDN][STRT=188,4]{Zidane}
+“Крім того, у вас, хлопці, є важливіші 
+ справи, про які варто турбуватися,
+ наприклад, Бурмеція та Олександрія.”[ENDN][STRT=159,3]{Fraya}
+“Чому ти не можеш бути чесним
+ хоча б раз у житті?”[ENDN][STRT=123,2]{NoFocus}{Zidane}
+“Вибачте, але я не можу...”{Time -1}[ENDN][STRT=162,3]{LowerLeftForce}{Amarant}
+“‘Я не можу просто піти.
+ Це суперечить моїй природі.’”[ENDN][STRT=148,2]{Amarant}
+“Ти справжній простак.”[ENDN][STRT=177,3]{Amarant}
+“Забудьте, хлопці.
+ Цього дурня не зупинити.”[ENDN][STRT=202,3]Регент Сід
+“Що ви досі тут робите?!
+ Піднімайтеся на борт, негайно!”[ENDN][STRT=173,3]{Amarant}
+“Ну ж бо. Давайте просто залишимо
+ його і заберемося звідси.”[ENDN][STRT=181,2]{Zidane}
+“{Speed 2}...{Speed -1}Цей хлопець ніколи не зміниться.”[ENDN][STRT=217,3]{Zidane}
+“Гаразд, ви чули його!
+ Забирайтеся звідси, поки не пізно!”[ENDN][STRT=162,3]{Eiko}
+“{Zidane}е, я кохаю тебе!
+ Краще повертайся!!!”[ENDN][STRT=103,3]{Widths 0,103,16,-1}{Quina}
+“{Zidane}е, я маю з'їсти більше
+ різноманітної їжі.”[ENDN][STRT=246,3]{Quina}
+“Я все ще голодний!!! Ти повинен повернутися,
+ показати мені більше місць, більше їжі!”[ENDN][STRT=215,3]{Fraya}
+“Я досі не можу повірити, що ти це робиш.
+ Ти змінився, {Zidane}е.”[ENDN][STRT=118,2]{Fraya}
+“До нової зустрічі.”[ENDN][STRT=165,3]{Widths 0,159,16,-1}{Vivi}
+“{Zidane}е, ти дав мені ще один важливий
+ урок у житті. Дякую{Speed 2}...{Speed -1}”[ENDN][STRT=26,2]{Widths 0,0,18,-1,0,26,16,-1}{Dagger}
+“{Zidane}е{Speed 2}...{Speed -1}”[ENDN][STRT=143,2]{Steiner}
+“Принцесо{Speed 2}...{Speed -1} Нам треба йти.”[ENDN][STRT=38,2]{Widths 0,0,18,-1}{Dagger}
+“{Speed 2}......{Speed -1}”[ENDN][STRT=93,3]{Widths 0,55,18,-1}{Zidane}
+“{Dagger}... {Wait 3}Тобто,
+ Ваша Високосте.”[ENDN][STRT=174,3]{Zidane}
+“Викрадення закінчено.
+ Я не можу вести тебе далі.”[ENDN][STRT=193,2]{Zidane}
+“{Speed 2}...{Speed -1}Вибач, що був таким егоїстом.”[ENDN][STRT=148,3]{Dagger}
+“Ні{Speed 2}...{Speed -1}
+ Ти не егоїст.”[ENDN][STRT=184,2]{Dagger}
+“{Speed 2}...{Speed -1}Ти так багато зробив для нас.”[ENDN][STRT=187,3]{Dagger}
+“Якби не ти, я мабуть прожила
+ б безглузде життя.”[ENDN][STRT=174,4]{Dagger}
+“З тобою я змогла побачити
+ світ{Wait 3} і познайомитися
+ з багатьма людьми.”[ENDN][STRT=187,4]{Dagger}
+“Ми зіткнулися з багатьма труднощами{Speed 2}...{Speed -1}{Wait 10}
+ Але{Speed 2}...{Speed -1}Здається, я нарешті зрозуміла,
+ що важливо.”[ENDN][STRT=208,3]{Dagger}
+“Мені дуже пощастило, що я тебе зустріла.
+ Я ніколи не забуду нашу спільну подорож.”[ENDN][STRT=83,2]{Widths 0,83,16,-1}{Dagger}
+“Дякую тобі, {Zidane}е.”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=135,3]{Dagger}
+“Пообіцяй мені одне{Speed 2}...{Speed -1}{Wait 30}
+ Будь ласка, повертайся.”[ENDN][STRT=148,3]{Zidane}
+“Куджа! Ти мене чуєш?
+ Я йду за тобою!”[ENDN][STRT=139,2]У тебе ще є час{Speed 2}...{Speed -1}
+Забудь про мене і йди.[ENDN][STRT=151,3]{Zidane}
+“Просто замовкни,
+ і залишайся на місці!”[ENDN][STRT=143,1]{Center 143}{Speed 2}...{Speed -1}Я не розумію тебе.[ENDN][STRT=116,3]{Zidane}
+“Гаразд,
+ так нічого не вийде.”[ENDN][STRT=51,1]{UpperRightForce}{Offset 30,280,0}Т{Speed 2}...{Speed -1}Тьху{Speed 2}...{Speed -1}[ENDN][STRT=18,1]{UpperRightForce}{Offset 30,280,0}{Speed 2}...{Speed -1}?[ENDN][STRT=75,3]{UpperRightForce}{Zidane}
+“Фух{Speed 2}...{Speed -1}
+ Ще живий{Speed 2}...{Speed -1}”[ENDN][STRT=188,2]{Zidane}
+“Гадаю, це було досить божевільно.”[ENDN][STRT=139,2]{LowerLeftForce}{Offset 0,250,0}{Zidane}
+“Агов! З тобою усе гаразд?”[ENDN][STRT=32,2]{UpperLeftForce}{Offset 200,300,0}{Widths 0,32,16,-1}Куджа
+“{Zidane}е{Speed 2}...{Speed -1}?”[ENDN][STRT=163,3]{LowerLeftForce}{Offset 100,400,0}Куджа
+“Що ти тут робиш?
+ Я думав, що сказав тобі йти{Speed 2}...{Speed -1}”[ENDN][STRT=188,3]{LowerRightForce}{Offset -120,200,0}{Zidane}
+“Хіба ти не зробив би те саме для мене,
+ якби знав, що я помираю?”[ENDN][STRT=89,1]{UpperRightForce}{Offset 0,150,0}{Speed 2}......{Speed -1}Не зважай.[ENDN][STRT=24,1]{UpperRightForce}{Offset 200,450,0}{Speed 2}......{Speed -1}[ENDN][STRT=225,2]{UpperRightForce}{Offset 150,270,0}Куджа
+“Твоїм товаришам вдалося врятуватися?”[ENDN][STRT=141,3]{UpperRightForce}{Zidane}
+“Так{Speed 2}...{Speed -1} Я знав, що ти маєш до
+ цього відношення.”[ENDN][STRT=145,2]{UpperRightForce}{Offset 150,270,0}Куджа
+“{Speed 2}...{Speed -1}Я радий, що у них вийшло.”[ENDN][STRT=143,3]{UpperRightForce}{Offset 0,150,0}{Zidane}
+“Так, що ж{Speed 2}...{Speed -1} тепер наша
+ черга йти.”[ENDN][STRT=146,3]{UpperRightForce}{Offset 150,270,0}Куджа
+“{Speed 2}...{Speed -1}Я не заслуговую на життя
+ після всього, що я зробив.”[ENDN][STRT=152,2]{UpperRightForce}{Offset 150,270,0}Куджа
+“Я не потрібен цьому світові.”[ENDN][STRT=119,2]{UpperRightForce}{Offset 0,150,0}{Zidane}
+“Ніхто не є непотрібним{Speed 2}...{Speed -1}”[ENDN][STRT=204,2]{UpperRightForce}{Offset 0,150,0}{Zidane}
+“Ти допоміг нам втекти, пам'ятаєш?”[ENDN][STRT=205,3]{UpperRightForce}{Offset 150,270,0}Куджа
+“Після того, як ви мене перемогли, нічого
+ не лишилося{Speed 2}...{Speed -1} більше нічого втрачати.”[ENDN][STRT=138,3]{UpperRightForce}{Offset 150,270,0}Куджа
+“Тоді я нарешті зрозумів,
+ що означає жити{Speed 2}...{Speed -1}”[ENDN][STRT=138,2]{UpperRightForce}{Offset 150,270,0}Куджа
+“Мабуть, занадто пізно.”[ENDN][STRT=132,3]{UpperRightForce}{Offset 100,100,0}{Zidane}
+“Агов! Не вмирай у мене
+ на руках, гаразд?!”[ENDN][STRT=21,1]{Offset 0,150,0}{Center 21}!!!?[ENDN][STRT=21,1]{Offset 100,200,0}{Center 21}!!!?[ENDN][STRT=85,5]{PreChoose 4,3}{Widths 3,144,-1}{Instantly}{f2}Оберіть варіант.
+{Choice}Зберегти
+{Tab}Намет
+{Tab}Обрати членів загону
+{Tab}Скасувати{Time -1}[ENDN][STRT=85,6]{PreChoose 5,4}{Widths 3,144,-1}{Instantly}{f2}Оберіть варіант.
+{Choice}Зберегти
+{Tab}Намет
+{Tab}Обрати членів загону
+{Tab}Телепорт
+{Tab}Скасувати{Time -1}[ENDN][STRT=167,3]{PreChoose 2,1}{Instantly}{f2}Повернутися до {Cyan}Меморія/Вхід{White}?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=36,3]{PreChoose 2,1}{Widths 1,39,-1}{Instantly}{f2}Зберегти?
+{Choice}Так
+{Tab}Ні{Time -1}[ENDN][STRT=153,4]{PreChoose 2,1}{Widths 0,112,64,0,-1}{Instantly}{f2}Бажаєте використати намет?
+(Залишилося наметів = {Variable 0})
+{Choice}Так
+{Tab}Ні{Time -1}[ENDN][STRT=141,3]{Instantly}
+У вас немає наметів
+[ENDN][STRT=253,3]{PreChoose 2,1}{Instantly}{f2}Ви хочете змінити членів свого загону?
+{Choice}Так
+{Tab}Ні{Time -1}[ENDN][STRT=183,3]Таємничий голос
+“Хто посмів потривожити мій сон?
+ Негайно йдіть, або помрете.”[ENDN][STRT=0,2]{PreChoose 2,0}{Widths 1,53,-1,2,84,-1}{Instantly}{Choice}Піти
+{Tab}Не йти[ENDN][STRT=103,2]Таємничий голос
+“Готуйтеся до смерті!”[ENDN][STRT=198,4]Аїд
+“Я хвалю вас за те, що ви перемогли мене.
+ Я винагороджу вас за ваш вражаючий 
+ подвиг.”[ENDN][STRT=243,4]{Widths 0,143,14,0,-1}Аїд
+“Принесіть 2 {Item 0}{Yellow} {White} сюди, і я синтезую їх
+ для вас. Кінцевий продукт - це те,
+ що можу створити тільки я.”[ENDN][STRT=174,2]Аїд
+“Ви принесли речі?”[ENDN][STRT=142,2]Аїд
+“Добре, що ви повернулися.”[ENDN][STRT=190,3]{Zidane}
+“Га{Speed 2}...{Speed -1}?
+ Тут щось написано.”[ENDN][STRT=252,13]{Instantly}
+ {Cyan}Брату Гілу{White} 
+
+{Center 230} Брате, я знайшов меч, як ти й казав.
+{Center 117} Але їх було два. 
+{Center 237} Один з них мав дурнувату назву: {Yellow}Щось там II{White}.  
+{Center 202} Це була потьмяніла, стара річ з кричущими прикрасами,
+{Center 252} щось таке, що тобі, напевно, сподобається.
+{Center 142} тож я зупинився на {Yellow}Ескалібрухті{White}.
+{Center 226} Я повернуся після того, як знайду {Yellow}Олов'яну броню{White}. 
+
+{Center 105}                {Cyan}Енкідо{White} 
+[ENDN][STRT=117,3]{DialogPosition}{Instantly}
+ Отримано {Yellow}Екскалібур 
+[ENDN]

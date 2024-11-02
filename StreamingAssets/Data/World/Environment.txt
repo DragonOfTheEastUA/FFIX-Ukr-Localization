@@ -1,0 +1,8 @@
+# Resize or reposition continent titles here
+# Rect has format (x, y, width, height)
+# where (x, y) is the central position of the title on the screen
+
+Title MistContinent US [Rect=(0, 144, 1024, 128)]
+Title OuterContinent US [Rect=(0, 144, 1024, 128)]
+Title ForgottenContinent US [Rect=(0, 144, 1024, 128)]
+Title LostContinent US [Rect=(0, 144, 1024, 128)]

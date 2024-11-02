@@ -1,0 +1,21 @@
+USE_BASE_SCENE
+LANGUAGE: US
+
+OVERLAY
+OverlayId: 11
+CameraId: 0
+ViewportId: 0
+Position: 160, 128, 8
+Size: 192, 64
+Image: Title_11.png
+Shader: PSX/FieldMap_Abr_2
+
+OVERLAY
+OverlayId: 12
+CameraId: 0
+ViewportId: 0
+Position: 144, 128, 9
+Size: 224, 64
+Image: Title_12.png
+Shader: PSX/FieldMap_Abr_1
+

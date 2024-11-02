@@ -1,0 +1,468 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=138,5]{PreChoose 2,1}{Instantly}{Zidane}
+“Чи варто мені повернутися
+ в машинне відділення{Speed 2}...{Speed -1}?”
+{Choice}Повернутися
+{Tab}Не повертатися[ENDN][STRT=186,3]{Zidane}
+“Облиш,
+ я ж не навмисно.”[ENDN][STRT=102,2]{Dagger}
+“Прошу, досить.”{Time -1}[ENDN][STRT=140,3]{Zidane}
+“Знову цей королівський
+ тон у твоєму голосі.”[ENDN][STRT=116,2]{Widths 0,116,17,-1}{Zidane}
+“{Speed 2}...{Speed -1}{Vivi}, з тобою все гаразд?”[ENDN][STRT=81,2]{Vivi}
+“Це{Speed 2}...{Speed -1} страшно.”[ENDN][STRT=141,2]{Zidane}
+“Не любиш висоту?”[ENDN][STRT=157,3]{Vivi}
+“Відчуття, ніби мене
+ засмоктує у небо{Speed 2}...{Speed -1}”[ENDN][STRT=18,2]{UpperLeftForce}{Widths 0,0,18,-1,0,18,16,-1}{Signal 0}{Dagger}
+“{Zidane}е.”{Signal 1}[ENDN][STRT=128,3]{UpperLeftForce}{Dagger}
+“Ти впевнений, що зможеш
+ доставити мене до Ліндблюма?”[ENDN][STRT=75,3]{Zidane}
+“Так, крихітко!
+ Довірся мені.”[ENDN][STRT=108,2]{UpperLeftForce}{Widths 0,108,17,-1}{Dagger}
+“Ходімо всередину, {Vivi}.”[ENDN][STRT=70,3]{Widths 0,0,18,-1,0,15,16,-1}{Dagger}
+“Я вірю тобі,
+ {Zidane}е.”[ENDN][STRT=166,3]{Zidane}
+“У мене таке відчуття, що вона
+ мені ще не зовсім довіряє{Speed 2}...{Speed -1}”[ENDN][STRT=192,3]{Zidane}
+“Може, вона винагородить мене поцілунком
+ чи двома, якщо я добре постараюся.”[ENDN][STRT=96,2]{Zidane}
+{White}(Ого, вже!?){Time 30}[ENDN][STRT=31,2]{Widths 0,0,18,-1,0,31,16,-1}{Dagger}
+“{Zidane}е{Speed 2}...{Speed -1}!”[ENDN][STRT=110,3]{Zidane}
+“Що таке?
+ Щось трапилося?”[ENDN][STRT=48,2]{Widths 0,0,18,-1,0,48,17,-1}{Dagger}
+“Це {Vivi}{Speed 2}...{Speed -1}”[ENDN][STRT=20,2]{Widths 0,0,16,-1,0,20,17,-1}{Zidane}
+“{Vivi}?”[ENDN][STRT=116,3]{Zidane}
+“Незабаром ми пролітатимемо
+ над Злим Лісом{Speed 2}...{Speed -1}”[ENDN][STRT=163,3]{Zidane}
+“Чи вдалося босу та іншим
+ врятуватися{Speed 2}...{Speed -1}?”[ENDN][STRT=204,3]{Zidane}
+“Я впевнений, що бос сказав би мені,
+ що це не моя справа!”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=130,2]{Zidane}
+“Який старий двигун{Speed 2}...{Speed -1}”[ENDN][STRT=149,3]{Zidane}
+“Ліндблюм це єдине місце, де
+ продаються двигуни на Імлі.”[ENDN][STRT=205,3]{Zidane}
+“Вони, мабуть, використовують двигун,
+ який купили багато років тому.”[ENDN][STRT=251,5]{Zidane}
+“У тому-то й річ{Speed 2}...{Speed -1}
+ Олександрія не є технологічно розвиненою,
+ але те,що ми бачили у Селищі Далі,
+ було настільки...{Speed 2}...{Speed -1}”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=40,1]{UpperLeftForce}{NoFocus}Е-Ем{Speed 2}...{Speed -1}{Time -1}[ENDN][STRT=40,1]{UpperLeftForce}{NoFocus}Е-Ем{Speed 2}...{Speed -1}{Time -1}[ENDN][STRT=45,1]{UpperLeftForce}{NoFocus}Агов{Speed 2}...{Speed -1}?{Time -1}[ENDN][STRT=17,1]{Speed 2}...{Speed -1}![ENDN][STRT=142,3]{LowerLeftForce}{Offset 0,64,0}{Zidane}
+“Ого, вони живі, і
+ вони рухаються!”[ENDN][STRT=189,3]{LowerLeftForce}{Offset 0,64,0}{Zidane}
+“Тобто маги, побудовані у селищі,
+ доставляють нових?”[ENDN][STRT=47,2]{Widths 0,0,18,-1,0,47,17,-1}{Dagger}
+“О, {Vivi}{Speed 2}...{Speed -1}”[ENDN][STRT=5,1]{UpperLeftForce}{Widths 0,5,17,-1}{Vivi}![ENDN][STRT=15,1]{UpperLeftForce}{Widths 0,15,17,-1}{Vivi}!!![ENDN][STRT=129,3]{Offset 0,64,0}{Zidane}
+“Ти зміг поговорити
+ з кимось із них?”[ENDN][STRT=26,1]{Offset 0,16,0}Ні{Speed 2}...{Speed -1}[ENDN][STRT=54,1]{Offset 0,16,0}Це як{Speed 2}...{Speed -1}[ENDN][STRT=113,1]{Offset 0,16,0}{Speed 2}...{Speed -1}вони навіть не{Speed 2}...{Speed -1}[ENDN][STRT=95,1]{Offset 0,16,0}{Speed 2}...{Speed -1}бачать мене взагалі{Speed 2}...{Speed -1}[ENDN][STRT=47,1]{Offset 0,16,0}Я намагався{Speed 2}...{Speed -1}[ENDN][STRT=112,1]{Offset 0,16,0}{Speed 2}...{Speed -1}знову й знову{Speed 2}...{Speed -1}[ENDN][STRT=42,1]{Offset 0,16,0}{Speed 2}...{Speed -1}але{Speed 2}...{Speed -1}[ENDN][STRT=176,1]{Offset 0,16,0}{Speed 2}...{Speed -1}вони навіть не обертаються.[ENDN][STRT=4,1]{Offset 0,64,0}{Widths 0,4,17,-1}{Vivi}.[ENDN][STRT=125,3]{Offset 0,64,0}{Zidane}
+“Мені треба ненадовго
+ піднятися нагору.”[ENDN][STRT=177,3]{UpperLeftForce}{Zidane}
+“Я маю розвернути корабель
+ до того, як він досягне замку.”[ENDN][STRT=102,3]{UpperLeftForce}{Widths 0,102,17,-1}{Zidane}
+“Приглянь за {Vivi},
+ добре?”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=82,3]{Dagger}
+“Хто стоїть за
+ всім цим{Speed 2}...{Speed -1}?”[ENDN][STRT=24,1]{UpperRightForce}{Offset 0,96,0}{Speed 2}......{Speed -1}[ENDN][STRT=208,3]{UpperRightForce}{Offset 0,96,0}{Zidane}
+“Виглядає як скриня зі скарбами,
+ але насправді це частина корабля.”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=244,4]{Offset 224,96,64}{Steiner}
+“Як це могло статися{Speed 2}...{Speed -1}?
+ Що мені робити{Speed 2}...{Speed -1}?
+ Я не очікував, що все піде так погано{Speed 2}...{Speed -1}”[ENDN][STRT=204,4]{Offset 224,96,64}{Steiner}
+“Не можу повірити, що корабель
+ відлетів без принцеси! Що я скажу
+ королеві Бране{Speed 2}...{Speed -1}?”[ENDN][STRT=186,3]{Zidane}
+“Що ти в біса робиш?
+ Ти ледь не полетів без нас!”[ENDN][STRT=111,3]{Steiner}
+“Це тому, що{Speed 2}...{Speed -1}
+ команда цього корабля{Speed 2}...{Speed -1}”[ENDN][STRT=5,1]{Offset 224,96,64}{Center 5}![ENDN][STRT=143,3]{Steiner}
+“Що, ти{Speed 2}...{Speed -1}!
+ Де принцеса!?”[ENDN][STRT=120,2]{Zidane}
+“У машинному відділенні.”[ENDN][STRT=123,2]{Steiner}
+“Вона на кораблі!?”[ENDN][STRT=209,3]{Steiner}
+“Тепер все гаразд.
+ Корабель повертається до замку.”[ENDN][STRT=208,5]{Steiner}
+“Тебе повісять за викрадення
+ члена королівської сім'ї!
+ Насолоджуйся свободою,
+ поки можеш.”[ENDN][STRT=146,2]{Steiner}
+“Де принцеса!?”[ENDN][STRT=116,3]{Steiner}
+“Я не підпущу тебе
+ до принцеси!”[ENDN][STRT=112,3]{Zidane}
+“Він ніби навіть
+ не бачить мене{Speed 2}...{Speed -1}”[ENDN][STRT=157,4]{Steiner}
+“Нарешті!
+ Королева Бране напевно
+ буде задоволена.”[ENDN][STRT=204,4]{Steiner}
+“Однак{Speed 2}...{Speed -1}без допомоги злодія
+ принцеса залишилася
+ б на землі.”[ENDN][STRT=239,4]{Steiner}
+“Я клопотатиму про довічне
+ ув'язнення від його імені.
+ Так, це було б шляхетно!”[ENDN][STRT=182,4]{Steiner}
+“Але це тому, що екіпаж не
+ слухав! Я мушу перевірити
+ їхню репутацію.”[ENDN][STRT=150,3]{Steiner}
+“О, так.
+ Це мій обов'язок як лицаря!”[ENDN][STRT=79,1]Щ-Що за...{Time 30}[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}{Time -1}[ENDN][STRT=35,1]Т-Т-Т[ENDN][STRT=190,3]{Offset -100,0,0}{UpperLeftForce}{Signal 0}{Zidane}
+“Що трапилося?
+ Щось застрягло в горлі?”{Signal 1}[ENDN][STRT=112,1]Т-Ти нахабний дурень![ENDN][STRT=121,1]Розверни корабель![ENDN][STRT=62,1]Грааа!!![ENDN][STRT=184,2]{Steiner}
+“Я тобі за це голову відірву!”[ENDN][STRT=94,3]{UpperRightForce}{Zidane}
+“Здається, ми
+ їх засмутили.”[ENDN][STRT=156,3]{Steiner}
+“Але до цього моменту вони
+ ні на що не реагували{Speed 2}...{Speed -1}”[ENDN][STRT=128,3]{Steiner}
+“Ти той, хто
+ заварив цю кашу!”[ENDN][STRT=80,2]{Steiner}
+“Прошу вибачення!”[ENDN][STRT=148,4]{Steiner}
+“Будь ласка, зачекайте, поки
+ я візьму цього дурня під варту
+ і розверну корабель.”[ENDN][STRT=106,1]{NoFocus}Щ-Що трапилося?!{Time 30}[ENDN][STRT=116,1]Треба сховатися в укриття![ENDN][STRT=109,1]{Widths 0,109,17,-1}{NoFocus}Майстре {Vivi}! Принцесо!{Time 40}[ENDN][STRT=143,3]{Dagger}
+“Чорний Вальс прямує
+ до корабля!”[ENDN][STRT=111,2]{UpperLeftForce}{Steiner}
+“Він все ще живий{Speed 2}...{Speed -1}?”[ENDN][STRT=170,3]{UpperLeftForce}{Zidane}
+“Який дивний спосіб привітати
+ один з власних кораблів.”[ENDN][STRT=119,3]{UpperLeftForce}{Vivi}
+“У мене погане передчуття
+ з цього приводу{Speed 2}...{Speed -1}!”[ENDN][STRT=31,1]Ні{Speed 2}...{Speed -1}![ENDN][STRT=5,1]{UpperRightForce}{Widths 0,5,17,-1}{Vivi}![ENDN][STRT=87,1]{UpperRightForce}{Offset -64,96,0}З тобою все гаразд?[ENDN][STRT=177,3]Отже, №. 2 був переможений
+ малою дитиною! Ти ніщо проти
+ моєї сили![ENDN][STRT=158,4]Чорний Вальс №. 3
+“Квахахаха!
+ Принцесо, залишайтеся там,
+ поки я знищу цю дитину!”[ENDN][STRT=148,2]Чорний Вальс №. 3
+“Ви його захищаєте?”[ENDN][STRT=198,4]Чорний Вальс №. 3
+“{Speed 2}...{Speed -1}Нісенітниця.
+ Ви нічим не відрізняєтеся від бездумних
+ ляльок! Що ви можете зробити?”[ENDN][STRT=212,3]Чорний Вальс №. 3
+“Геть з дороги!
+ Ви наважитеся битися з Чорним Вальсом?”[ENDN][STRT=117,3]Чорний Вальс №. 3
+“Я сказав,
+ геть з дороги!”[ENDN][STRT=81,1]Що це таке{Speed 2}...{Speed -1}?[ENDN][STRT=123,1]Ви всі стоїте на моєму шляху![ENDN][STRT=111,2]{Steiner}
+“Яка жорстокість!”[ENDN][STRT=56,1]{Speed 2}...{Speed -1}Ааааа!{Time 30}[ENDN][STRT=109,3]{Widths 0,54,17,-1}{Steiner}
+“Майстре {Vivi},
+ Я допоможу вам!”{Time 25}[ENDN][STRT=98,2]{UpperRightForce}{Zidane}
+“Гей, хлопці!”{Time 30}[ENDN][STRT=5,1]{Offset 0,96,0}{UpperLeftForce}{Widths 0,5,18,-1}{Dagger}![ENDN][STRT=40,1]{Offset 0,128,0}Т-Так?[ENDN][STRT=118,4]{UpperLeftForce}{Zidane}
+“Ми подбаємо про
+ Чорного Вальса.
+ Ти веди корабель.”[ENDN][STRT=188,4]{UpperLeftForce}{Zidane}
+“Далі буде ще небезпечніше.
+ Ще не пізно повернути
+ назад.”[ENDN][STRT=196,4]{UpperLeftForce}{Zidane}
+“Ти можеш повернутися до замку або
+ пройти через Південну браму у Ліндблюм.
+ Вибір за тобою!”[ENDN][STRT=178,3]{UpperLeftForce}{Zidane}
+“Я буду з тобою в будь-якому випадку!
+ Але постарайся не розбити корабель!”[ENDN][STRT=15,1]{Center 15}Я{Speed 2}...{Speed -1}[ENDN][STRT=86,2]{Widths 0,86,16,-1}{Dagger}
+“Будь обережним, {Zidane}е!”{Time 60}[ENDN][STRT=61,1]Зі мною все буде гаразд!{Time 20}[ENDN][STRT=184,4]{Vivi}
+“Навіщо{Speed 2}...{Speed -1}?
+ Навіщо ти це зробив?!
+ Хіба вони не були твоїми друзями!?”[ENDN][STRT=169,3]Чорний Вальс №. 3
+“Дурень. Хіба я схожий на якогось
+ покірного солдата-чорного мага?”[ENDN][STRT=194,3]{Steiner}
+“Навіть якщо вони не були твоїми союзниками,
+ те, що ти зробив, було ганебно!”[ENDN][STRT=215,4]Чорний Вальс №. 3
+“Квахахаха!
+ Не хвилюйся за них: навіть зараз
+ їх виробляється набагато більше!”[ENDN][STRT=94,2]{Zidane}
+“Що ти таке?”[ENDN][STRT=163,4]Чорний Вальс №. 3
+“А, охоронці принцеси
+ зібралися разом!
+ Як зручно!”[ENDN][STRT=77,2]{LowerLeft}{Zidane}
+“Відповідай!”[ENDN][STRT=229,4]Чорний Вальс №. 3
+“Вам не буде користі, якщо я відповім,
+ адже ви всі помрете!
+ Квахахаха!”[ENDN][STRT=129,3]Чорний Вальс №. 3
+“Я знищу кожного, хто стане
+ на моєму шляху!”[ENDN][STRT=98,3]Чорний Вальс №. 3
+“Ти{Speed 2}...{Speed -1}
+ Ти, мерзотник{Speed 2}...{Speed -1}!”[ENDN][STRT=117,2]Чорний Вальс №. 3
+“Я існую лише для того, щоб вбивати!”[ENDN][STRT=168,4]{UpperRightForce}{Steiner}
+“Зі скількома Чорними Вальсами
+ ми ще повинні битися!?
+ Це стає смішним!”[ENDN][STRT=175,2]{LowerLeft}{Zidane}
+“Я думаю, що це був останній.”[ENDN][STRT=114,3]{Steiner}
+“Звідки ти знаєш!?
+ Ти що{Speed 2}...{Speed -1}!?”[ENDN][STRT=201,3]{Zidane}
+“Він сказав ‘Вальс’, так?  Тобі не здається,
+ що №. 3 мав би бути останнім?”[ENDN][STRT=6,1]{Center 6}?{Time 30}[ENDN][STRT=133,3]{Zidane}{White}
+(Я можу побачити Південну браму{Speed 2}...{Speed -1}
+ Вона піде на це!)[ENDN][STRT=112,2]{UpperRightForce}{Offset 0,-256,0}Зорн
+“Ти це бачив?”{Time -1}[ENDN][STRT=100,2]{UpperLeftForce}{Offset 0,-256,0}Торн
+“Це я бачив!”[ENDN][STRT=168,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Наші вдосконалені чорні маги!”{Time -1}[ENDN][STRT=186,2]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Наші чорні маги вдосконалені!”[ENDN][STRT=88,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Усі переможені!”[ENDN][STRT=110,3]{Offset 0,-256,0}{UpperLeftForce}{Widths 0,110,19,-1}Торн
+“Зрадив нас, {Steiner}!
+ Це він у всьому винен!”[ENDN][STRT=39,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Га?”[ENDN][STRT=206,3]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Корабель стає хитким!
+ Не відпускай штурвал!”[ENDN][STRT=134,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“№. 3 повертається!”[ENDN][STRT=69,3]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Це правда!?
+ Ура!”[ENDN][STRT=153,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Але щось тут не так{Speed 2}...{Speed -1}”[ENDN][STRT=91,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Він зламався!!!”[ENDN][STRT=221,2]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Ми зробили його магію надто потужною!”[ENDN][STRT=192,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Зараз ми нічого не можемо зробити!”[ENDN][STRT=106,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Ми відправляємося!”{Time -1}[ENDN][STRT=106,2]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Відправляємося ми!”[ENDN][STRT=71,2]{Offset 0,-256,0}{UpperRightForce}Зорн
+“Тікаймо!”{Time -1}[ENDN][STRT=71,2]{Offset 0,-256,0}{UpperLeftForce}Торн
+“Тікаймо!”[ENDN][STRT=126,5]{DialogPosition}Чорний Вальс №. 3
+“Я існую лише для того, щоб вбивати!
+ Я існую лише для того, щоб вбивати!
+ Я існую лише для того, щоб вбивати!
+ Я існую лише для того, щоб вбивати{Speed 2}...{Speed -1}!”[ENDN][STRT=147,2]{Zidane}
+“Ти бачиш Південну браму?”[ENDN][STRT=25,1]{UpperLeftForce}Так![ENDN][STRT=182,3]{UpperRightForce}{Zidane}
+“Південна брама це величезна брама, побудована
+ виключно для повітряних кораблів, але{Speed 2}...{Speed -1}”[ENDN][STRT=189,4]{UpperRightForce}{Zidane}
+“{Speed 2}...{Speed -1}маневрувати у них може
+ бути непросто. Хочеш, щоб це
+ зробив я, {Dagger}?”[ENDN][STRT=86,3]{UpperLeftForce}{Dagger}
+“Я хочу зробити це
+ сама{Speed 2}...{Speed -1}”[ENDN][STRT=49,1]{UpperRightForce}Гаразд{Speed 2}...{Speed -1}[ENDN][STRT=193,3]{Zidane}
+“У нас немає дозволу на прохід.
+ Вони можуть закрити браму перед нами.”[ENDN][STRT=209,4]{UpperRightForce}{Zidane}
+“Але все має бути гаразд.
+ Коли я приходив тут на театральному
+ кораблі, охорона була дуже слабкою.”[ENDN][STRT=72,3]{UpperRightForce}{Widths 0,62,18,-1}{Zidane}
+“Все буде добре,
+ Капітане {Dagger}!”[ENDN][STRT=39,1]{UpperLeftForce}Прийнято![ENDN][STRT=123,3]{UpperRightForce}{Zidane}
+“{Speed 2}...{Speed -1}Він старий, але
+ двигун потужний.”[ENDN][STRT=131,2]{UpperRightForce}{Steiner}
+“Ми повинні повернутися!!!”[ENDN][STRT=171,3]{UpperRightForce}{Steiner}
+“Принцесо!
+ Будь ласка, розверніть корабель!”[ENDN][STRT=162,4]{UpperRightForce}{Steiner}
+“Чорний Вальс прямує
+ прямо до нас на повітряному
+ кораблі!”[ENDN][STRT=142,2]{UpperRightForce}{Steiner}
+“Він може у нас врізатися!”[ENDN][STRT=168,3]{UpperRightForce}{Zidane}
+“{Dagger}, Іржавий має рацію!
+ Він прямує прямо на нас!”[ENDN][STRT=202,2]{UpperLeftForce}{Zidane}
+“Давай!  Проходь через Південну браму!”[ENDN][STRT=185,3]{UpperRightForce}{Steiner}
+“Не будь смішним!
+ Що, якщо брама зачиниться перед нами!?”[ENDN][STRT=218,3]{UpperLeftForce}{Zidane}
+“Ми ніяк не зможемо випередити його
+ на цьому вантажному кораблі!”[ENDN][STRT=89,3]{UpperRightForce}{Steiner}
+“Але брама{Speed 2}...{Speed -1}
+ Закривається!”[ENDN][STRT=170,4]{UpperLeftForce}{Zidane}
+“Ми прослизнемо до того, як брама
+ зачиниться, і перекриємо йому шлях!
+ Це наш єдиний шанс!”[ENDN][STRT=190,3]{UpperLeftForce}{Zidane}
+“Іржавий! Увімкни потужність 
+ на максимум ось цим важелем!”[ENDN][STRT=100,3]{UpperLeftForce}{Widths 0,100,18,-1}{Zidane}
+“{Dagger}, тримай курс,
+ незважаючи ні на що!”[ENDN][STRT=33,1]Добре![ENDN][STRT=141,2]{UpperLeftForce}{Zidane}
+“Я знаю, що у нас все вийде!”[ENDN][STRT=126,3]{UpperLeftForce}{Offset 0,64,0}{Zidane}
+“Думаю, ми трохи
+ перестаралися.”[ENDN][STRT=83,3]{UpperLeftForce}{Zidane}
+“Чому ви мовчите,
+ народ?”[ENDN][STRT=119,3]{UpperLeftForce}{Zidane}
+“Ми зробили це!
+ Давайте, веселіше!”[ENDN][STRT=107,3]{UpperRightForce}{Dagger}
+“Південна брама була
+ сильно пошкоджена{Speed 2}...{Speed -1}”[ENDN][STRT=92,3]{UpperRightForce}{Dagger}
+“Це була моя провина,
+ чи не так{Speed 2}...{Speed -1}?”[ENDN][STRT=156,3]{UpperLeftForce}{Zidane}
+“Не хвилюйся!
+ Вони швидко все полагодять.”[ENDN][STRT=68,2]{Widths 0,0,19,-1}{Steiner}
+“Ти ідіот!”[ENDN][STRT=189,4]{UpperRightForce}{Steiner}
+“Вантажний корабель розбився,
+ ми втратили весь вантаж,
+ а Південну браму знищено!”[ENDN][STRT=177,3]{UpperRightForce}{Steiner}
+“Не можу повірити, що я зіграв
+ свою роль у цьому фіаско!”[ENDN][STRT=4,1]{Widths 0,4,19,-1}{Steiner}е.[ENDN][STRT=81,1]Так, принцесо![ENDN][STRT=203,3]{UpperLeftForce}{Dagger}
+“Я не хотіла тебе в це втягувати{Speed 2}...{Speed -1}
+ Але ти врятував нас.”[ENDN][STRT=66,1]{UpperLeftForce}Дякую.[ENDN][STRT=103,3]{UpperRightForce}{Steiner}
+“Які добрі слова!
+ Я не гідний!”[ENDN][STRT=131,3]{UpperRightForce}{Steiner}
+“Що ж, тепер
+ я вирішив!”[ENDN][STRT=184,3]{UpperRightForce}{Steiner}
+“Я присягаюся захищати вас, принцесо,
+ поки ми не повернемося до замку!”[ENDN][STRT=174,4]{UpperLeftForce}{Widths 0,174,18,-1}{Zidane}
+“Що ти про це думаєш, {Dagger}?
+ Він піде за тобою на
+ край світу.”[ENDN][STRT=76,2]{UpperLeftForce}{Widths 0,76,16,-1}{Dagger}
+“Усе гаразд, {Zidane}е.”[ENDN][STRT=134,3]{UpperLeftForce}{Dagger}
+“Гей, я бачу головну
+ браму Ліндблюма!”[ENDN][STRT=141,3]{UpperRightForce}{Steiner}
+“Це Замок Ліндблюм!?
+ Яке величезне{Speed 2}...{Speed -1}!”[ENDN][STRT=131,3]{UpperLeftForce}{Dagger}
+“Місто Ліндблюм знаходиться
+ всередині замку.”[ENDN][STRT=160,4]{LowerLeftForce}{Widths 0,100,18,-1}{Zidane}
+(Гадаю, як тільки ми з {Dagger}
+ дістанемося до Ліндблюма, наші
+ шляхи розійдуться{Speed 2}...{Speed -1})[ENDN][STRT=182,3]{LowerLeftForce}{Zidane}
+(Саме тоді, коли ми почали
+ зближуватися{Speed 2}...{Speed -1})[ENDN][STRT=39,1]Розумію{Speed 2}...{Speed -1}[ENDN][STRT=30,2]{Widths 0,0,17,-1,0,30,16,-1}{Vivi}
+“{Speed 2}...{Speed -1}{Zidane}е.”[ENDN][STRT=121,3]{Vivi}
+“Ці{Speed 2}...{Speed -1} чорні маги
+ та я{Speed 2}...{Speed -1}”[ENDN][STRT=132,2]{Vivi}
+“Хіба ми{Speed 2}...{Speed -1} однакові{Speed 2}...{Speed -1}?”[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}[ENDN][STRT=114,3]{UpperRightForce}{Widths 0,58,17,-1}{Steiner}
+“Я не розумію,
+ Майстре {Vivi}.”[ENDN][STRT=153,3]{UpperRightForce}{Steiner}
+“Здавалося б, у чому
+ проблема{Speed 2}...{Speed -1}?”[ENDN][STRT=84,1]{Speed 2}...{Speed -1}Я не знаю.[ENDN][STRT=163,3]{UpperRightForce}{Widths 0,149,17,-1}{Steiner}
+“Майстре {Vivi}, чому ці маги мають
+ бути такими ж, як ти?”[ENDN][STRT=152,3]{UpperRightForce}{Steiner}
+“І чому це має значення,
+ якщо це так{Speed 2}...{Speed -1}?”[ENDN][STRT=91,2]{UpperLeftForce}{Zidane}
+“Іржавчик правий!”[ENDN][STRT=6,1]{UpperRightForce}{NoFocus}{Center 6}?{Time 30}[ENDN][STRT=179,3]{UpperRightForce}{Zidane}
+“Ти - особистість,
+ що б не сталося, {Vivi}!”[ENDN][STRT=47,1]В-Вірно![ENDN][STRT=113,3]{UpperLeftForce}{Widths 0,52,17,-1}{Zidane}
+“Ходімо на
+ палубу, {Vivi}!”[ENDN][STRT=27,1]{NoFocus}{Center 27}Чому?{Time 30}[ENDN][STRT=182,3]{UpperLeftForce}{Zidane}
+“Ти маєш побачити Ліндблюм
+ згори! Це найкраще видовище!”[ENDN][STRT=141,3]{UpperLeftForce}{Zidane}
+“Дивіться, Соколина Брама
+ прямо перед нами!”[ENDN]

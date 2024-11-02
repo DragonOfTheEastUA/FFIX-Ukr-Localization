@@ -1,0 +1,820 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}До Конде Піті
+{Tab}Це щось особливе
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Це лист від Штільцкіна!
+ Давай прочитаємо його разом! Купо!”[ENDN][STRT=243,13]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Я починаю знайомитися з географією
+Зовнішнього континенту. Мій наступний
+пункт призначення - Конде Піті.
+
+Вони обмінюються між собою особливим
+привітанням перед тим, як зайти в селище...
+Як там воно звучало?
+
+Здається “Лалі-хо!”
+[ENDN][STRT=166,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Насправді це ‘Лалі-Купо!’
+ Купо! Штільцкін такий кумедний!”[ENDN][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1,0,60,6,1,-1}{Text 0,0}
+“Дякую за доставку пошти від
+ {Text 0,1}! Купо!”[ENDN][STRT=250,11]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Ми не отримували пошту, бо зламалася
+машина у Центрі МогМережі.
+
+Цікаво, як ми можемо це виправити? Купо?
+
+Думаєш, є якийсь особливий предмет
+щоб полагодити машину?
+[ENDN][STRT=175,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Особливий предмет? Може, це{Speed 2}...{Speed -1}”[ENDN][STRT=152,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Думаю, я близький до розгадки
+ таємниці МогМережі!”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=72,1]{PreChooseMask 16,15}{Widths 1,104,-1,2,128,-1,3,132,-1,4,116,-1,5,103,-1,6,80,-1}{Instantly}Обрати подію
+{Choice}Життя в бігах
+{Tab}Інша мова
+{Tab}Гість, а не загарбник
+{Tab}Ніс гурмана
+{Tab}Повсякденне життя
+{Tab}Життєвий цикл
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Dummy
+{Tab}Скасувати[ENDN][STRT=85,1]{Instantly}{Center 85}Життя в бігах[ENDN][STRT=108,1]{Instantly}{Center 108}Інша мова[ENDN][STRT=111,1]{Instantly}{Center 111}Гість, а не загарбник[ENDN][STRT=94,1]{Instantly}{Center 94}Ніс гурмана[ENDN][STRT=80,1]{Instantly}{Center 80}Повсякденне життя[ENDN][STRT=56,1]{Instantly}{Center 56}Життєвий цикл[ENDN][STRT=64,1]Зачинено.[ENDN][STRT=209,4]{PreChoose 2,1}{Instantly}Чорний маг №. {Variable 0}
+“О, хочеш зіграти у карти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=161,2]Чорний маг №. {Variable 0}
+“Щоб зіграти, тобі потрібно 5 карт.”[ENDN][STRT=148,3]{Widths 0,90,64,0,-1}Чорний маг №. {Variable 0}
+“{Speed 2}...{Speed -1}Мені зараз не хочеться
+ грати у карти.”[ENDN][STRT=152,5]{PreChoose 2,1}{Widths 0,90,64,0,-1}{Instantly}Чорний маг №. {Variable 0}
+“Я знаю, як грати у карти.
+ Хочеш зіграти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=161,2]Чорний маг №. {Variable 0}
+“Щоб зіграти, тобі потрібно 5 карт.”[ENDN][STRT=151,3]{Widths 0,90,64,0,-1}Чорний маг №. {Variable 0}
+“Вибач, мені зараз не
+ хочеться грати{Speed 2}...{Speed -1}”[ENDN][STRT=217,4]{PreChoose 2,1}{Instantly}Чорний маг №. {Variable 0}
+“Бажаєш зіграти у карткову гру?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=106,3]{Widths 0,90,64,0,-1}Чорний маг №. {Variable 0}
+“Для гри потрібні
+ щонайменше 5 карт.”[ENDN][STRT=201,3]Чорний маг №. {Variable 0}
+“Мені дуже шкода.
+ Я зараз не в настрої грати.”[ENDN][STRT=22,1]Моя провина[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 30}[ENDN][STRT=5,1]{Center 5}![ENDN][STRT=5,1]{LowerRightForce}{Center 5}!{Time 30}[ENDN][STRT=6,1]{UpperRightForce}{Center 6}?[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=233,3]{Zidane}
+“Гадаю, вони живуть 'так глибоко в лісі,
+ що там навіть сови не водяться'.”[ENDN][STRT=119,4]{DialogPosition}  
+    Ця дорога веде    
+     в глухий кут.    
+    [ENDN][STRT=172,4]{DialogPosition}  
+  ←Там, де є сови
+    Там, де немає сов→  
+  [ENDN][STRT=156,4]{DialogPosition}  
+  ←Там, де немає сов
+    Там, де є сови→  
+  [ENDN][STRT=80,1]{UpperRightForce}Що трапилося?[ENDN][STRT=24,1]Ааа!{Time 30}[ENDN][STRT=79,1]{UpperLeftForce}{NoFocus}Л-{Wait 30}Л-{Wait 30}Люди{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=86,1]{LowerLeftForce}Люди! Тікаймо!!!{Time 50}[ENDN][STRT=50,1]{UpperRightForce}З-Заждіть{Speed 2}...{Speed -1}[ENDN][STRT=119,2]{UpperRightForce}{Vivi}
+“Ти їх бачив!?”[ENDN][STRT=53,1]Т-{Wait 3}Так{Speed 2}...{Speed -1}[ENDN][STRT=157,3]{Vivi}
+“Вони розмовляли!
+ Є й ІНШІ такі, як я!”[ENDN][STRT=202,3]{Dagger}
+“Навіщо комусь будувати селище
+ посеред вмираючого лісу{Speed 2}...{Speed -1}?”[ENDN][STRT=62,1]Гадки не маю{Speed 2}...{Speed -1}[ENDN][STRT=54,1]{Widths 0,54,17,-1}Де {Vivi}?[ENDN][STRT=116,3]{Flash}{Zidane}
+“Він пішов у той бік{Speed 2}...{Speed -1}
+ але я{Speed 2}...{Speed -1}{Wait 5} Гей!”[ENDN][STRT=180,4]{Quina}
+“Селище!
+ У селищах завжди є смачна їжа.
+ Піду пошукаю!”[ENDN][STRT=85,3]{Zidane}
+“Боже,
+ люди{Speed 2}...{Speed -1}”[ENDN][STRT=145,3]{Zidane}
+“Занадто небезпечно
+ виходити самому{Speed 2}...{Speed -1}”[ENDN][STRT=122,3]{Zidane}
+“Я не можу піти без
+ {Vivi}{Speed 2}...{Speed -1}”[ENDN][STRT=111,2]Чорний маг №. 239
+“Ласкаво просимо{Speed 2}...{Speed -1} Га?”[ENDN][STRT=111,3]Чорний маг №. 239
+“Е-{Wait 3}Ем{Speed 2}...{Speed -1}
+ Ч-{Wait 3}Чим я можу вам допомогти?”[ENDN][STRT=224,3]Чорний маг №. 78
+“Це має бути магазин зброї.
+ А що таке взагалі зброя?”[ENDN][STRT=121,1]Тут люди!{Time 30}[ENDN][STRT=5,1]{Widths 0,5,17,-1}{Vivi}!{Time 30}[ENDN][STRT=119,2]{LowerLeftForce}{Dagger}
+“Що відбувається{Speed 2}...{Speed -1}?”[ENDN][STRT=11,1]{LowerLeftForce}{Center 11}!?[ENDN][STRT=30,1]{LowerLeftForce}{Center 30}{Speed 2}......{Speed -1}?{Time 60}[ENDN][STRT=48,2]{Widths 0,0,16,-1,0,48,17,-1}{Zidane}
+“Гей, {Vivi}!”[ENDN][STRT=131,2]{Zidane}
+“Що це з ним{Speed 2}...{Speed -1}?”[ENDN][STRT=190,3]Чорний маг №. 44
+“Останнім часом я набираю вагу{Speed 2}...{Speed -1}
+ Цікаво, чи я не переїдаю?”[ENDN][STRT=208,4]{Offset 0,50,0}Чорний маг №. 189
+“Відколи ми потрапили до цього
+ селища, кожен з нас набув певних
+ особистісних рис.”[ENDN][STRT=209,4]{Offset 0,50,0}Чорний маг №. 189
+“Пан 44, наприклад, став більшим.
+ Інші також починають виглядати і
+ поводитися по-іншому.”[ENDN][STRT=194,3]{Offset 0,50,0}Чорний маг №. 189
+“Пан 288 сказав нам, що це називається
+ індивідуальність.  Він дуже розумний.”[ENDN][STRT=199,3]{Offset 0,50,0}Чорний маг №. 189
+“Але я думаю, що пан 44 набирає 
+ вагу бо любить поїсти!”[ENDN][STRT=120,2]{Quina}
+“Чому ти втік?”[ENDN][STRT=113,3]{Quina}
+“Я нічого не зробив{Speed 2}...{Speed -1}
+ Що ти ховаєш?”[ENDN][STRT=36,1]Ооо!!![ENDN][STRT=116,3]{Quina}
+“Цей аромат{Speed 2}...{Speed -1}
+ Дуже смачний аромат!”[ENDN][STRT=132,3]{UpperLeftForce}{Offset -100,-200,0}{Quina}
+“А-ха!
+ Я знаю, що ти ховаєш їжу!”[ENDN][STRT=111,2]Чорний маг №. 111
+“Забирайся геть!”[ENDN][STRT=108,2]Чорний маг №. 33
+“Це яйце наше!”[ENDN][STRT=174,4]{UpperLeftForce}{Offset -100,-200,0}{Quina}
+“Це яйце чокобо!
+ Яйця чокобо супер-смачні!
+ Давайте розділимо і з'їмо його!”[ENDN][STRT=145,2]Чорний маг №. 111
+“Ми не будемо його їсти!”[ENDN][STRT=182,3]Чорний маг №. 33
+“Мама чокобо залишила його для нас
+ перед тим, як припинила рухатися!”[ENDN][STRT=175,3]Чорний маг №. 111
+“Саме так!
+ Ми виростимо його для неї!”[ENDN][STRT=76,2]{UpperLeftForce}{Offset -100,-200,0}{Quina}
+“Ви божевільні.”[ENDN][STRT=121,3]{UpperLeftForce}{Offset -100,-200,0}{Quina}
+“Ви ніколи раніше не
+ вирощували тварин.”[ENDN][STRT=104,3]Чорний маг №. 33
+“Замовкни!
+ Ми можемо це зробити!”[ENDN][STRT=174,3]{UpperLeftForce}{Offset -100,-200,0}{Quina}
+“Я вам не вірю.
+ Ви з'їсте яйце у мене за спиною!”{Time 45}[ENDN][STRT=45,1]У жодному разі!{Time 30}[ENDN][STRT=203,3]Чорний маг №. 111
+“Він/вона з вами?
+ Можете забрати його кудись?”[ENDN][STRT=172,3]{Widths 0,126,16,-1}{Quina}
+“{Zidane}е!  Ти теж хочеш їсти?
+ Яйця чокобо дуже смачні.”[ENDN][STRT=113,3]Чорний маг №. 33
+“Ми ніколи не
+ віддамо його тобі!”[ENDN][STRT=157,3]Чорний маг №. 33
+“Цікаво, коли воно вилупиться?
+ Я постійно тримаю його в теплі.”[ENDN][STRT=179,2]Чорний маг №. 111
+“Я вже думаю, як його назвати{Speed 2}...{Speed -1}”[ENDN][STRT=197,3]{UpperRightForce}Чорний маг №. 55
+“Ми побудували цю халупу для
+ нашого малюка чокобо.”[ENDN][STRT=176,2]{UpperRightForce}Чорний маг №. 55
+“Досить мило, чи не так?”[ENDN][STRT=249,2]Чорний маг №. 192
+“Ласкаво просимо до Майстерні синтезу Чорного кота!”[ENDN][STRT=81,3]{Dagger}
+“Ем{Speed 2}...{Speed -1}
+ Перепрошую{Speed 2}...{Speed -1}”[ENDN][STRT=124,2]Чорний маг №. 32
+“Що ви тут робите?”[ENDN][STRT=118,2]Чорний маг №. 192
+“Це наше селище!”[ENDN][STRT=104,2]Чорний маг №. 32
+“Так!”[ENDN][STRT=170,3]Чорний маг №. 192
+“Ви змусили малого
+ привести вас сюди, так?”[ENDN][STRT=156,3]Чорний маг №. 192
+“Ви, люди, тільки і думаєте
+ про те, як нас використати!”[ENDN][STRT=111,2]{Widths 0,111,17,-1}{Dagger}
+“Ви маєте на увазі {Vivi}?”[ENDN][STRT=234,4]{Dagger}
+“Це неправда! Просто я була здивована,
+ коли побачила інших чорних магів, окрім
+ {Vivi}, які вміють розмовляти, тож{Speed 2}...{Speed -1}”[ENDN][STRT=230,3]{Dagger}
+“Крім того, я тут щоб зупинити людину,
+ яка відправляє вас воювати!”[ENDN][STRT=170,2]Чорний маг №. 32
+“Т-{Wait 3}Ти кажеш правду?”{Time 30}[ENDN][STRT=111,2]Чорний маг №. 192
+“Брехня!”[ENDN][STRT=120,3]Чорний маг №. 192
+“Всі люди брехуни!
+ Ти брешеш!”[ENDN][STRT=87,2]{Dagger}
+“Але це правда!”[ENDN][STRT=154,4]{Dagger}
+“Я не можу просто сидіти і
+ дивитися, коли відбуваються
+ такі жахливі речі!”[ENDN][STRT=47,2]{Widths 0,0,18,-1,0,47,16,-1}{Dagger}
+“О, {Zidane}е{Speed 2}...{Speed -1}”[ENDN][STRT=81,2]{Widths 0,81,18,-1}{Zidane}
+“Привіт, {Dagger}?”[ENDN][STRT=102,3]{Dagger}
+“Я розповідала їм
+ навіщо ми тут.”[ENDN][STRT=114,2]{Zidane}
+“А навіщо ми тут?”[ENDN][STRT=19,2]{Widths 0,0,18,-1,0,19,16,-1}{Dagger}
+“{Zidane}е!”[ENDN][STRT=128,3]{Zidane}
+“Це просто жарт!
+ Боже, не злися.”[ENDN][STRT=157,3]{Dagger}
+“Хіба ти не бачиш, я намагаюся
+ щоб вони зрозуміли?”[ENDN][STRT=104,3]Чорний маг №. 32
+“Що таке 'жарт'?
+ Це страшно?”[ENDN][STRT=122,3]{Widths 0,53,18,-1}{Zidane}
+“Це щось кумедне!
+ Точно, {Dagger}?”[ENDN][STRT=144,2]Чорний маг №. 192
+“А ви, здається, не такі вже й погані.”[ENDN][STRT=161,3]Чорний маг №. 32
+“Тому що ви тут, щоб боротися
+ з поганими хлопцями!”[ENDN][STRT=85,2]{Zidane}
+“Саме так!”[ENDN][STRT=122,3]{Dagger}
+“Ти неймовірний,{Wait 3}
+ Ти знаєш це?”[ENDN][STRT=97,2]{Widths 0,97,17,-1}{Dagger}
+“Гей, {Wait 3}де {Vivi}?”[ENDN][STRT=104,3]{Zidane}
+“Я не знаю куди
+ він пішов{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{Dagger}
+“Це мене непокоїть{Speed 2}...{Speed -1}”[ENDN][STRT=153,2]{Dagger}
+“Я піду його шукати!”[ENDN][STRT=62,2]{Widths 0,0,16,-1,0,62,18,-1}{Zidane}
+“Г-Гей,{Wait 3} {Dagger}!”[ENDN][STRT=79,2]{Zidane}
+“Тільки не знову{Speed 2}...{Speed -1}”[ENDN][STRT=149,3]{Zidane}
+“Га?
+ Я чую, як хтось розмовляє{Speed 2}...{Speed -1}”[ENDN][STRT=152,2]{UpperLeftForce}{Offset -100,0,400}Нещодавно я чув, як пан 163
+ казав 'як завжди'{Speed 2}...{Speed -1}[ENDN][STRT=107,2]{UpperRightForce}{Offset -150,0,-500}Що він мав на увазі?
+Що таке 'як завжди'?[ENDN][STRT=191,2]{UpperLeftForce}{Offset -100,0,400}Я не знаю.
+Це має бути щось дуже особливе.[ENDN][STRT=214,2]{UpperRightForce}{Offset -150,0,-500}Розумію{Speed 2}...{Speed -1}
+Керувати магазином - важка робота, чи не так?[ENDN][STRT=228,2]{UpperRightForce}{Offset -150,0,-500}Чому пан 192 називає свою майстерню синтезу
+'Чорний кіт'?  Його кіт не чорний.[ENDN][STRT=226,3]{UpperLeftForce}{Offset -100,0,400}Пан 32 хотів назвати її 'Майстерня синтезу
+ Чорного мага і кота', але пан 192 вирішив, що
+ назва занадто довга.[ENDN][STRT=193,4]{UpperRightForce}{Offset -150,0,-500}О, тепер я зрозумів!
+'Майстерня синтезу Чорного кота' набагато
+ легше вимовити і запам'ятати!
+ Ого, а пан 192 дійсно розумний![ENDN][STRT=200,3]Чорний маг №. 163
+“Як написано в книзі, яку я взяв
+ минулого тижня{Speed 2}...{Speed -1}”[ENDN][STRT=192,4]Чорний маг №. 163
+“{Speed 2}...{Speed -1}клієнт каже: 'Дайте мені
+ як завжди', коли хоче купити
+ щось особливе.”[ENDN][STRT=208,4]Чорний маг №. 163
+“Що мені робити, якщо клієнт
+ попросить 'як завжди'{Speed 2}...{Speed -1}?
+ Бути продавцем дуже важко!”[ENDN][STRT=117,3]Чорний маг №. 163
+“Що таке люди{Speed 2}...{Speed -1}?
+ Я забув{Speed 2}...{Speed -1}”[ENDN][STRT=156,2]Чорний маг №. 163
+“Це якась їжа?”[ENDN][STRT=30,1]{UpperRightForce}Га!?[ENDN][STRT=111,2]{UpperRightForce}Чорний маг №. 163
+“Л-{Wait 3}людина?”[ENDN][STRT=111,2]{UpperRightForce}Чорний маг №. 163
+“Ем{Speed 2}...{Speed -1}”[ENDN][STRT=140,2]{UpperRightForce}Чорний маг №. 163
+“Я забув, що казати{Speed 2}...{Speed -1}”[ENDN][STRT=169,4]{UpperRightForce}Чорний маг №. 163
+“Гадаю, власники магазинів кажуть
+ 'Ласкаво просимо', коли покупець
+ підходить до прилавка.”[ENDN][STRT=179,5]{UpperRightForce}{PreChooseMask 3,2}{Instantly}Чорний маг №. 163
+“Гм, ласкаво просимо! Чим я можу вам допомогти?”
+{Choice}Купити/Продати
+{Tab}Дайте мені, як завжди
+{Tab}Нічого[ENDN][STRT=111,3]{UpperRightForce}Чорний маг №. 163
+“Я-як завжди?
+ Ем{Speed 2}...{Speed -1}”[ENDN][STRT=128,2]{UpperRightForce}Чорний маг №. 163
+“Куди я його поклав{Speed 2}...{Speed -1}?”[ENDN][STRT=166,3]Чорний маг №. 288
+“Це він прийшов сюди з тією
+ групою людей?”[ENDN][STRT=148,4]Чорний маг №. 288
+“З ним все гаразд.
+ Подивіться в його очі.
+ Він все розуміє, як і ми.”[ENDN][STRT=172,3]{Offset 0,100,0}{LowerRightForce}{Vivi}
+“Д-{Wait 3}Дякую{Speed 2}...{Speed -1} Ем{Speed 2}...{Speed -1}
+ Що ви всі тут робите?”[ENDN][STRT=191,3]Чорний маг №. 288
+“Ми разом втекли з Олександрії
+ та вантажних кораблів.”[ENDN][STRT=69,2]{Offset 0,100,0}{LowerRightForce}{Widths 0,0,17,-1}{Vivi}
+“Так далеко!?”[ENDN][STRT=240,4]Чорний маг №. 288
+“Саме так. Ми хотіли жити у світі,
+ де немає людей. Щоб знайти його,
+ ми повинні були перетнути океан.”[ENDN][STRT=53,2]{Widths 0,0,17,-1}{Vivi}
+“Розумію{Speed 2}...{Speed -1}”[ENDN][STRT=132,2]{Vivi}
+“Тож{Speed 2}...{Speed -1} Ем, а це що таке?”[ENDN][STRT=119,3]Чорний маг №. 56
+“Це{Speed 2}... ем...{Speed -1}
+ Як там воно називається{Speed 2}...{Speed -1}?”[ENDN][STRT=111,2]Чорний маг №. 288
+“Це цвинтар.”[ENDN][STRT=104,3]Чорний маг №. 56
+“Точно.
+ Цвинтар.”[ENDN][STRT=96,2]{Vivi}
+“Цвинтар{Speed 2}...{Speed -1}?”[ENDN][STRT=150,3]{Vivi}
+“То{Speed 2}...{Speed -1}
+ Під землею...”[ENDN][STRT=149,3]Чорний маг №. 288
+“Так, наші друзі
+ поховані тут{Speed 2}...{Speed -1}”[ENDN][STRT=71,2]{Widths 0,0,17,-1}{Vivi}
+“Але{Speed 2}... {Speed -1}чому?”[ENDN][STRT=112,2]{UpperRightForce}Чорний маг №. 288
+“Це тому, що{Speed 2}...{Speed -1}”{Time 40}[ENDN][STRT=157,3]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Я{Speed 2}...{Speed -1}Я прийшов сюди з паном 36.{Wait 3}
+ Ми втекли разом.”[ENDN][STRT=184,4]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Нам потрібно було багато чому навчитися.
+ Спочатку було дуже страшно, але ми
+ допомагали один одному.”[ENDN][STRT=221,4]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Одного дня пан 36 перестав рухатися.
+ Він просто зупинився{Speed 2}...{Speed -1} Не рухався і нічого
+ не говорив.”[ENDN][STRT=201,4]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Мій друг, який багато чого знає,
+ сказав мені, що це і є 'смерть'.
+ І нам довелося його поховати.”[ENDN][STRT=226,3]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Пан 36 зараз похований під землею.
+ Але я не розумію, чому.”[ENDN][STRT=222,4]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Одного дня він знову повернеться,
+ чи не так? Коли це станеться, я
+ відмию його у ставку.”[ENDN][STRT=184,2]{Vivi}
+“П-{Wait 3}Про що це він{Speed 2}...{Speed -1}?”[ENDN][STRT=104,3]{Vivi}
+“Це була хвороба?
+ Чи він був поранений?”[ENDN][STRT=92,2]{Vivi}
+“Скажи мені!{Wait 3}  Чому?”[ENDN][STRT=24,1]{UpperRightForce}{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{LowerLeftForce}{Speed 2}......{Speed -1}[ENDN][STRT=204,3]{UpperLeftForce}Чорний маг №. 56
+“Цікаво, як там внизу?
+ Тепло чи холодно?”[ENDN][STRT=231,4]{UpperRightForce}Чорний маг №. 288
+“Багато наших друзів перестали рухатися
+ останнім часом. Ті, що були народжені
+ раніше зупинилися першими{Speed 2}...{Speed -1}”[ENDN][STRT=114,3]{UpperRightForce}Чорний маг №. 288
+“Можливо, тривалість нашого життя
+ обмежена{Speed 2}...{Speed -1}”[ENDN][STRT=113,3]{LowerRightForce}{Zidane}
+“Гей, як так вийшло, що ви, 
+ хлопці вмієте розмовляти?”[ENDN][STRT=191,3]{UpperLeftForce}Чорний маг №. 288
+“Ми усвідомили це одного дня,
+ кожен за різних обставин.”[ENDN][STRT=137,2]{LowerRightForce}{Zidane}
+“Усвідомили? Як?”[ENDN][STRT=180,2]{UpperLeftForce}Чорний маг №. 288
+“Ти пам'ятаєш, як народився?”[ENDN][STRT=95,2]{LowerRightForce}{Zidane}
+“Ні, не дуже”[ENDN][STRT=151,3]{UpperLeftForce}Чорний маг №. 288
+“Зі мною було те ж саме.
+ Одного разу я прийшов до тями і зрозумів{Speed 2}...{Speed -1}”[ENDN][STRT=178,3]{UpperLeftForce}Чорний маг №. 288
+“{Speed 2}...{Speed -1}а поруч зі мною
+ лежало людське тіло.”[ENDN][STRT=191,2]{UpperLeftForce}Чорний маг №. 288
+“Тіло було залите кров'ю.”[ENDN][STRT=164,3]{UpperLeftForce}Чорний маг №. 288
+“Це мене налякало{Speed 2}...{Speed -1}
+ Я не розумів, що це означає.”[ENDN][STRT=214,4]{UpperLeftForce}Чорний маг №. 288
+“Я біг так швидко, як тільки міг.
+ Коли я озирнувся, я був далеко
+ від лінії фронту.”[ENDN][STRT=218,3]{UpperLeftForce}Чорний маг №. 288
+“Таких як я було багато,
+ і ми вирішили втекти разом.”[ENDN][STRT=194,4]{UpperLeftForce}Чорний маг №. 288
+“Ми почули про це селище, коли
+ деякий час поневірялися по окрузі.
+ Так я тут і опинився.”[ENDN][STRT=53,2]{LowerRightForce}{Widths 0,0,16,-1}{Zidane}
+“Розумію{Speed 2}...{Speed -1}”[ENDN][STRT=210,3]{UpperLeftForce}Чорний маг №. 288
+“Будь ласка, піклуйтеся про нього.
+ Ми будемо чекати на його історії.”[ENDN][STRT=181,4]{LowerCenter}
+    “Прогулянка лісом”    
+          Чорний маг №. 234    
+        [ENDN][STRT=181,4]{LowerCenter}
+    “Наше селище”    
+          Чорний маг №. 123    
+        [ENDN][STRT=162,3]Чорний маг №. 234
+“Ц-це готель, але ми ще
+ не готові вас заселити.”[ENDN][STRT=197,4]{PreChoose 2,1}{Instantly}Чорний маг №. 234
+“В-ви залишитеся на ніч?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=193,4]Чорний маг №. 123
+“Ця штука грає 'музику'.
+ Чи правда, що музика робить людей
+ щасливими і змушує їх танцювати?”[ENDN][STRT=111,3]Чорний маг №. 123
+“Розкажи мені,
+ що таке 'музика'?”[ENDN][STRT=175,2]Чорний маг №. 234
+“П-почувайтеся як вдома.”[ENDN][STRT=111,2]Чорний маг №. 234
+“Б-{Wait 3}бувайте.”[ENDN][STRT=165,2]Чорний маг №. 234
+“Будь ласка, приходьте до нас знову.”[ENDN][STRT=91,3]{Widths 0,25,17,-1}{Zidane}
+“{Speed 2}...{Speed -1}{Vivi}?
+ Що трапилося?”[ENDN][STRT=25,1]Га?[ENDN][STRT=111,3]{Widths 0,40,16,-1}{Vivi}
+“О, {Zidane}{Speed 2}...{Speed -1}
+ Нічого{Speed 2}...{Speed -1}{Wait 3} Нічого особливого.”[ENDN][STRT=157,4]{Zidane}
+“Сталося щось погане?
+ Всі чорні маги здаються
+ досить милими.”[ENDN][STRT=125,2]{NoFocus}{Vivi}
+“Нічого не сталося{Speed 2}...{Speed -1}”{Time 30}[ENDN][STRT=99,2]{UpperRightForce}{Quina}
+“Грр{Speed 2}...{Speed -1} Я голодний!”[ENDN][STRT=112,3]{Quina}
+“Люди у цьому селищі
+ їдять жахливу їжу.”[ENDN][STRT=84,3]{Widths 0,32,17,-1}{Dagger}
+“О, {Vivi}.
+ ти повернувся.”[ENDN][STRT=103,3]{Dagger}
+“Де ти був?
+ Ти виглядаєш дуже{Speed 2}...{Speed -1}”[ENDN][STRT=121,3]{UpperRightForce}{Zidane}
+“Ти втомився, так,
+ {Vivi}?”[ENDN][STRT=67,2]{Widths 0,0,17,-1}{Vivi}
+“Т-Так{Speed 2}...{Speed -1}”[ENDN][STRT=215,4]{UpperLeftForce}{Offset 0,-20,0}{Dagger}
+“Я тебе розумію. Ми
+ ходимо тут цілий день.
+ Треба вже відпочити.”[ENDN][STRT=108,3]{UpperLeftForce}{Offset 0,-20,0}{Quina}
+“Я піду до лісу
+ і пошукаю їжу.”[ENDN][STRT=114,4]{PreChoose 2,1}{Widths 0,114,16,-1}{Instantly}{Dagger}
+“А як щодо тебе, {Zidane}е?”
+{Choice}Відпочити
+{Tab}Не зараз[ENDN][STRT=109,2]{UpperRightForce}{Zidane}
+“Я ще не втомився.”[ENDN][STRT=150,2]{UpperRightForce}{Zidane}
+“Так, на сьогодні все.”[ENDN][STRT=132,4]{PreChoose 2,1}{Instantly}{Dagger}
+“Бажаєте відпочити?”
+{Choice}Відпочити
+{Tab}Не зараз[ENDN][STRT=114,3]Чорний маг №. 123
+“Ваш маленький друг
+ чекає всередині.”[ENDN][STRT=106,3]{UpperRightForce}{Offset 0,-30,0}{Widths 0,106,17,-1}{Dagger}
+“{Zidane}е{Speed 2}...{Speed -1}
+ {Vivi} просто пішов.”[ENDN][STRT=162,3]{UpperLeftForce}{Offset 0,50,180}{Zidane}
+“Можливо, він дає нам трохи
+ часу побути наодинці.”[ENDN][STRT=64,1]{UpperRightForce}{Offset 0,-30,0}Я серйозно![ENDN][STRT=174,2]{UpperLeftForce}{Offset 0,50,180}{Zidane}
+“{Speed 2}...{Speed -1}Я б не дуже хвилювався.”[ENDN][STRT=44,2]{UpperRightForce}{Offset 0,-30,0}{Widths 0,0,18,-1}{Dagger}
+“Але{Speed 2}...{Speed -1}”[ENDN][STRT=154,3]{UpperLeftForce}{Offset 0,50,180}{Zidane}
+“Він намагається
+ розібратися в собі.”[ENDN][STRT=89,1]{Position 90,140}{Flash}Подумай про це{Speed 2}...{Speed -1}[ENDN][STRT=143,2]{Position 90,140}{Widths 0,143,17,-1}{Flash}{Vivi} ніколи раніше не зустрічав
+ таких чорних магів, як він.[ENDN][STRT=118,3]{Position 120,30}{Flash}Але {Wait 3}що, якщо вони будуть
+ поводитися з ним грубо,{Wait 5}
+ або казатимуть неприємні речі?[ENDN][STRT=170,3]{Position 70,140}{Flash}Невже ти думаєш, що жителі цього
+ селища зібралися тут для того, щоб
+ робити щось подібне?[ENDN][STRT=24,1]{Position 130,30}{Flash}{Speed 2}......{Speed -1}[ENDN][STRT=175,2]{Position 90,130}{Flash}Можливо{Speed 2}...{Speed -1} Просто можливо,{Wait 5}
+він знайде те, що шукає.[ENDN][STRT=71,1]{Position 120,30}{Flash}{Speed 2}...{Speed -1}Знайде що?[ENDN][STRT=117,1]{Position 90,140}{Flash}Місце, яке можна назвати домом.[ENDN][STRT=46,1]{Position 120,30}{Flash}Домом{Speed 2}...{Speed -1}?[ENDN][STRT=156,2]{Position 90,140}{Flash}Так{Speed 2}...{Speed -1}{Wait 5}
+Місце, де він має бути{Speed 2}...{Speed -1}[ENDN][STRT=121,2]{Position 140,30}{Flash}{Speed -1}Гей, {Zidane}е{Speed 2}...{Speed -1}
+Коли ти сказав дім{Speed 2}...{Speed -1}[ENDN][STRT=105,2]{Position 150,150}{Flash}Що таке?{Wait 15}
+Не можеш заснути?[ENDN][STRT=174,2]{Position 120,150}{Flash}Як щодо казки на ніч?
+Давай подивимося{Speed 2}...{Speed -1} Колись давним-давно{Speed 2}...{Speed -1}[ENDN][STRT=113,2]{Position 140,30}{UpperRightForce}{Offset -200,200,0}{Flash}Знову ти мене
+ дражниш{Speed 2}...{Speed -1}[ENDN][STRT=156,2]{Position 120,150}{LowerLeftForce}{Offset -300,300,0}{Flash}Колись давним-давно{Speed 2}...{Speed -1}
+{Speed 2}...{Speed -1}жив собі хлопець.{NewPage}Жив собі хлопець, який не знав,
+ звідки він прийшов{Speed 2}...{Speed -1}[ENDN][STRT=18,1]{Position 130,30}{UpperRightForce}{Offset -200,200,0}{Widths 0,18,16,-1}{Flash}{Speed 2}...{Speed -1}{Zidane}?[ENDN][STRT=152,3]{Position 90,160}{Flash}Цей хлопець з дитинства
+ мріяв знайти місце свого
+ народження.[ENDN][STRT=221,2]{Position 90,160}{Flash}Місце, де він народився. Місце, про яке він
+ згадував лише уві сні{Speed 2}...{Speed -1}[ENDN][STRT=39,1]{Position 190,20}{Flash}Чому{Speed 2}...{Speed -1}?[ENDN][STRT=218,3]{Position 80,160}{Flash}Можливо, він хотів дізнатися
+ більше про себе. Про своїх батьків,
+ про дім, де він народився.{Speed 2}...{Speed -1}[ENDN][STRT=179,3]{Position 90,150}{Flash}Одного дня хлопець покинув дім
+свого прийомного батька і відправився
+на пошуки відповідей.[ENDN][STRT=172,2]{Position 90,160}{Flash}Його єдиною зачіпкою було блакитне світло.
+яке він бачив уві сні{Speed 2}...{Speed -1}[ENDN][STRT=68,1]{Position 190,20}{Flash}Блакитне світло?[ENDN][STRT=161,3]{Position 80,150}{Flash}Так.{Wait 3}  Він подумав, що це може бути
+ пам'яттю про місце, де він народився.
+ Можливо, океан{Speed 2}...{Speed -1}?[ENDN][STRT=77,1]{Position 130,30}{Flash}{Speed -1}Він знайшов його?[ENDN][STRT=223,2]{Position 70,150}{Flash}{Speed -1}Гей, {Wait 3}ти забігаєш наперед.
+Багато чого сталося на цьому шляху.[ENDN][STRT=161,2]{Position 80,140}{Flash}{Speed -1}Гаразд, ми можемо перейти до кінця{Speed 2}...{Speed -1}{Wait 5}
+Ні, {Wait 3}він так і не знайшов його.[ENDN][STRT=192,2]{Position 80,140}{Flash}{Speed -1}Та і як він міг?{Wait 5}
+Його єдиною підказкою було кольорове світло.[ENDN][STRT=162,2]{Position 80,140}{Flash}{Speed -1}Тож він повернувся до будинку
+свого прийомного батька{Speed 2}...{Speed -1}{Wait 3}[ENDN][STRT=174,2]{Position 70,120}{Flash}{Speed -1}Як ти думаєш, що зробив його батько,
+ коли він повернувся додому?[ENDN][STRT=122,1]{Position 120,30}{Flash}{Speed -1}{Speed 2}...{Speed -1}Привітав його вдома?[ENDN][STRT=191,3]{Position 80,140}{Flash}{Speed -1}У жодному разі!{NewPage}Батько підняв кулак і побив
+ сина, якого так важко виховував{Speed 2}...{Speed -1}[ENDN][STRT=49,1]{UpperRight}{NoFocus}<Бац!>{Time 30}[ENDN][STRT=43,1]{Offset 50,100,0}{LowerLeft}{NoFocus}<Тиць!>{Time 30}[ENDN][STRT=56,1]{Offset -100,-200,0}{UpperLeftForce}{NoFocus}<Бабах!>{Time 30}[ENDN][STRT=42,1]{Offset 50,100,0}{LowerRight}{NoFocus}<Бам!>{Time 30}[ENDN][STRT=27,1]{Position 120,30}{Flash}{Speed -1}Чому?[ENDN][STRT=80,1]{Position 110,160}{Flash}{Speed -1}Я не знаю{Speed 2}...{Speed -1}[ENDN][STRT=162,2]{Position 120,160}{Flash}{Speed -1}Але знаєш, що здивувало
+ його ще більше?[ENDN][STRT=177,2]{Position 120,160}{Flash}{Speed -1}Батько посміхався,
+ побивши сина!{NewPage}Ти можеш у це повірити?
+Він щойно побив свого сина.{NewPage}{Wait 3}Але ось що подумав хлопець,
+ коли побачив, що батько посміхається{Speed 2}...{Speed -1}[ENDN][STRT=158,2]{Position 100,100}{Flash}{Speed -1}Це мій дім.
+Це місце, яке я можу назвати домом.[ENDN][STRT=222,3]{Position 60,100}{Flash}{Speed -1}Хлопець все ще шукає місце свого
+ народження. Але дім у нього вже є.
+Мабуть{Speed 2}...{Speed -1}[ENDN][STRT=211,2]{Position 80,150}{Flash}{Speed -1}{Speed 2}...{Speed -1}так само і {Vivi}.
+Він шукає місце, яке можна назвати домом.[ENDN][STRT=109,2]{Position 100,20}{Widths 0,85,17,-1}{Flash}{Speed -1}Цікаво, чи залишиться
+ {Vivi} у цьому селищі?[ENDN][STRT=139,2]{Position 80,150}{Flash}{Speed -1}Хто зна{Speed 2}...{Speed -1}
+Це йому вирішувати.[ENDN][STRT=179,2]{UpperLeftForce}Чорний маг №. 288
+“Вітаю. Радий тебе знову бачити.”[ENDN][STRT=184,3]{UpperRightForce}{Vivi}
+“Ем{Speed 2}...{Speed -1}
+ Я хотів тебе дещо запитати.”[ENDN][STRT=111,2]{UpperLeftForce}Чорний маг №. 288
+“Що таке?”[ENDN][STRT=225,3]{UpperRightForce}{Vivi}
+“Мені було цікаво, скільки людей
+ {Speed 2}... {Speed -1}припинило{Speed 2}... {Speed -1}рухатись.”[ENDN][STRT=213,2]{UpperLeftForce}Чорний маг №. 288
+“Ти дуже люб'язний, що використовуєш наші слова.”[ENDN][STRT=169,3]{UpperLeftForce}Чорний маг №. 288
+“Але ти вже знаєш,
+ що означає жити{Speed 2}... {Speed -1}{Wait 5}і що померти.”[ENDN][STRT=212,3]{UpperLeftForce}Чорний маг №. 288
+“Ти питаєш про наших друзів,
+ які 'померли', а не 'зупинилися'.”[ENDN][STRT=40,2]{UpperRightForce}{Widths 0,0,17,-1}{Vivi}
+“Ем{Speed 2}...{Speed -1}”[ENDN][STRT=174,3]{UpperLeftForce}Чорний маг №. 288
+“Семеро наших друзів нещодавно
+ перестали функціонувати{Speed 2}...{Speed -1}”[ENDN][STRT=125,3]{UpperLeftForce}Чорний маг №. 288
+“Я думаю, що тривалість нашого життя
+ обмежена{Speed 2}...{Speed -1}”[ENDN][STRT=200,3]{UpperLeftForce}Чорний маг №. 288
+“Я підозрював це відтоді,
+ як зупинився перший.”[ENDN][STRT=186,4]{UpperLeftForce}Чорний маг №. 288
+“Це трохи різниться, але більшість
+ з нас перестають рухатися через
+ рік після виробництва.”[ENDN][STRT=40,2]{UpperRightForce}{Widths 0,0,17,-1}{Vivi}
+“Ні{Speed 2}...{Speed -1}”[ENDN][STRT=225,3]{UpperLeftForce}Чорний маг №. 288
+“Я нікому про це не розповідав.
+ Якби я це зробив, вони б відчули те саме, що й я.”[ENDN][STRT=114,2]{UpperRightForce}{Vivi}
+“Що ти відчуваєш?”[ENDN][STRT=186,4]{UpperLeftForce}Чорний маг №. 288
+“Я не знаю{Speed 2}...{Speed -1} Страх?
+ Я не хочу зупинятися. Мабуть,
+ я хочу втекти від усього цього.”[ENDN][STRT=160,3]{UpperLeftForce}Чорний маг №. 288
+“Але життя у селищі з усіма
+ наповнює мене радістю.”[ENDN][STRT=176,3]{UpperLeftForce}Чорний маг №. 288
+“Радість життя поруч з ними набагато
+ переважує страх смерті.”[ENDN][STRT=194,4]{UpperLeftForce}Чорний маг №. 288
+“Хіба у тебе не так само?
+ Подорожі з друзями надають
+ твоєму життю сенс.”[ENDN][STRT=29,2]{UpperRightForce}{Widths 0,0,17,-1}{Vivi}
+“Я{Speed 2}...{Speed -1}”[ENDN][STRT=54,2]{Widths 0,0,18,-1}{Dagger}
+“Справді?”[ENDN][STRT=143,3]Чорний маг №. 144
+“Так, думаю, це те,
+ що ви шукаєте.”[ENDN][STRT=62,1]Дякую![ENDN][STRT=81,2]{Widths 0,81,18,-1}{Zidane}
+“Привіт, {Dagger}?”[ENDN][STRT=203,4]{Dagger}
+“{Zidane}е!
+ Хтось бачив срібного дракона на
+ північному заході цього континенту.”[ENDN][STRT=243,4]{Dagger}
+“Люди {Cyan}Конде Піті{White} кажуть, що є місце,
+ що називається {Cyan}Святилище{White}, але
+ вхід туди заборонений{Speed 2}...{Speed -1}”[ENDN][STRT=235,3]Чорний маг №. 144
+“Здається, цей ‘Куджа’ говорив щось про таємницю,
+ приховану на цьому континенті.”[ENDN][STRT=148,2]{Zidane}
+“Ви чули, як він це казав?”[ENDN][STRT=202,3]Чорний маг №. 144
+“Так. Щось про джерело
+ Імли{Speed 2}...{Speed -1}”[ENDN][STRT=234,3]{Dagger}
+“Можливо, ми зможемо дізнатися більше, якщо
+ вирушимо туди. І, можливо, врятуємо мою матір{Speed 2}...{Speed -1}”[ENDN][STRT=54,2]{Widths 0,0,16,-1}{Zidane}
+“Точно{Speed 2}...{Speed -1}”[ENDN][STRT=65,3]{Widths 0,0,18,-1,0,65,17,-1}{Dagger}
+“О, а де
+ {Vivi}?”[ENDN][STRT=180,2]{Widths 0,180,17,-1}{Dagger}
+“Якщо {Vivi} скаже, що він залишається{Speed 2}...{Speed -1}”[ENDN][STRT=82,2]{Vivi}
+“Зачекайте на мене!”[ENDN][STRT=6,1]{Widths 0,6,17,-1}{Vivi}?[ENDN][STRT=193,4]{Vivi}
+“Всі у селищі просили мене
+ подивитися зовнішній світ
+ і розповісти їм про нього.”[ENDN][STRT=53,2]{Widths 0,0,18,-1}{Dagger}
+“Розумію{Speed 2}...{Speed -1}”[ENDN][STRT=240,3]{Zidane}
+“О, Боже! Я думав, що ми з {Dagger}
+ проведемо трохи часу разом.”[ENDN][STRT=94,2]{Quina}
+“Що ти сказав?”[ENDN][STRT=155,3]{Quina}
+“Ви не можете залишити мене тут.
+ Я вмираю з голоду.”[ENDN][STRT=182,2]{Zidane}
+“О, так, я забув про тебе{Speed 2}...{Speed -1}”[ENDN][STRT=127,2]{Dagger}
+“Ходімо, всі разом!”[ENDN][STRT=191,3]{Dagger}
+“До Конде Піті!  І до
+ {Cyan}Святилища{White} що лежить попереду!”[ENDN][STRT=166,3]Чорний маг №. 24
+“Я не люблю сонце, бо від
+ нього мені стає спекотно.”[ENDN][STRT=182,3]Чорний маг №. 24
+“Але світло гарне, чи не так?
+ Особливо крізь листя.”[ENDN][STRT=172,2]{Vivi}
+“{Speed 2}...{Speed -1}Схоже, тут нікого немає.”[ENDN][STRT=122,2]{Zidane}
+“Куди вони поділися?”[ENDN][STRT=158,2]{Vivi}
+“Піду подивлюся навколо.”[ENDN][STRT=130,2]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Де всі?!”[ENDN][STRT=249,4]Чорний маг №. 288
+“Вони пішли з Куджею{Speed 2}...{Speed -1}
+ Ще двоє хлопців залишилися.
+ Вони, мабуть, у хатинці чокобо{Speed 2}...{Speed -1}”[ENDN][STRT=157,3]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Чому?!
+ Чому вони пішли з ним!?”[ENDN][STRT=203,4]Чорний маг №. 288
+“Вони дізналися про тривалість нашого життя{Speed 2}...{Speed -1}
+ Про те, що ми живемо лише обмежений час.
+”[ENDN][STRT=223,3]Чорний маг №. 288
+“Куджа сказав, що знає, як збільшити тривалість
+ нашого життя, і всі пішли за ним{Speed 2}...{Speed -1}”[ENDN][STRT=99,3]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Він бреше!
+ Готовий посперечатися, що він бреше.”[ENDN][STRT=221,3]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Подивіться, що він з нами зробив. Він використовував
+ нас, поводився з нами, як з маріонетками.”[ENDN][STRT=177,3]Чорний маг №. 288
+“{Speed 2}...{Speed -1}Мабуть ми лише маріонетки,
+ створені щоб служити людям.”[ENDN][STRT=165,2]{Zidane}
+“Ну ж бо. Це нісенітниця.”[ENDN][STRT=134,2]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“{Speed 2}...{Speed -1}Куди вони пішли?”[ENDN][STRT=132,3]Чорний маг №. 288
+“{Speed 2}...{Speed -1}Я не можу тобі цього сказати.
+ Я не можу їх зрадити.”[ENDN][STRT=204,2]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Тоді чому ти не пішов з ними?”[ENDN][STRT=189,3]{LowerLeftForce}{Offset 0,20,0}{Vivi}
+“Ти сказав, що двоє інших хлопців
+ в хатинці чокобо, так?”[ENDN][STRT=19,2]{Widths 0,0,16,-1,0,19,17,-1}{Zidane}
+“{Vivi}!”[ENDN][STRT=147,2]{Vivi}
+“Агов. Тут є хтось?”[ENDN][STRT=26,2]{Widths 0,0,16,-1,0,26,17,-1}{Zidane}
+“{Vivi}{Speed 2}...{Speed -1}”[ENDN][STRT=149,2]{Vivi}
+“Будь ласка! Відчиніть двері!”[ENDN][STRT=64,1]Квееее!!![ENDN][STRT=63,1]Він народився!!![ENDN][STRT=25,1]О{Speed 2}...{Speed -1}[ENDN][STRT=42,2]{Widths 0,0,17,-1}{Vivi}
+“Заждіть!”[ENDN][STRT=48,1]{Offset 0,-80,0}Нарешті{Speed 2}...{Speed -1}[ENDN][STRT=54,1]{Offset 0,-80,0}Урра!!![ENDN][STRT=143,2]{Offset 0,-80,0}Чорний маг №. 111
+“Я досі не можу у це повірити{Speed 2}...{Speed -1}”[ENDN][STRT=104,2]{Offset 0,-80,0}Чорний маг №. 33
+“Так{Speed 2}...{Speed -1}”[ENDN][STRT=116,3]{Vivi}
+“Я не розумію.
+ Чому ви тут?”[ENDN][STRT=119,3]{Offset 0,-80,0}Чорний маг №. 33
+“Ми тут, щоб доглядати
+ за чокобо.”[ENDN][STRT=246,4]{Offset 0,-80,0}Чорний маг №. 111
+“Спочатку ми хотіли піти з усіма, але хтось
+ повинен був залишитися, щоб наглядати
+ за яйцем чокобо, тож ми залишилися.”[ENDN][STRT=185,3]{Offset 0,-80,0}Чорний маг №. 33
+“Ми тримали яйце в теплі, накриваючи
+ його великою кількістю сіна.”[ENDN][STRT=136,3]{Offset 0,-80,0}Чорний маг №. 111
+“Не можу дочекатися, щоб
+ показати його усім.”[ENDN][STRT=172,2]{Offset 0,-80,0}Чорний маг №. 33
+“Вони будуть дуже щасливі.”[ENDN][STRT=197,2]{Offset 0,-80,0}Чорний маг №. 111
+“Треба дати йому ім'я.”[ENDN][STRT=180,3]{Offset 0,-80,0}Чорний маг №. 33
+“Гей{Speed 2}...{Speed -1} Що зі мною відбувається?
+ Я почуваюся дивно{Speed 2}...{Speed -1}”[ENDN][STRT=111,2]{Offset 0,-80,0}Чорний маг №. 111
+“Я т-теж{Speed 2}...{Speed -1}”[ENDN][STRT=229,3]{Offset 0,-90,0}{Vivi}
+“{Speed 2}...{Speed -1}Ви залишилися, бо хвилювалися
+ за яйце чокобо.”[ENDN][STRT=111,2]{Offset 0,-90,0}Чорний маг №. 288
+“{Speed 2}...{Speed -1}Я не знаю.”[ENDN][STRT=205,3]{Offset 0,-90,0}Чорний маг №. 288
+“Я хотів піти за Куджею
+ бо дуже боявся смерті.”[ENDN][STRT=210,3]{Offset 0,-90,0}Чорний маг №. 288
+“Але я не зміг{Speed 2}...{Speed -1} Я відчував, що
+ залишаю щось важливе позаду.”[ENDN][STRT=165,2]{Offset 0,-90,0}{Flash}{Vivi}
+“Я хочу тебе дещо запитати.”[ENDN][STRT=111,2]{Offset 0,-90,0}Чорний маг №. 288
+“Що таке?”[ENDN][STRT=111,3]{Offset 0,-90,0}{Flash}{Vivi}
+“Я теж скоро
+ зупинюся?”[ENDN][STRT=111,2]{Offset 0,-90,0}Чорний маг №. 288
+“Я не знаю{Speed 2}...{Speed -1}”[ENDN][STRT=143,4]{Offset 0,-90,0}Чорний маг №. 288
+“Куджа сказав, що прототип
+ побудований до нас.
+ прослужить довше.”[ENDN][STRT=102,3]{Offset 0,-90,0}{Vivi}
+“Але{Speed 2}...{Speed -1} Зрештою, я все одно
+ зупинюся.”[ENDN][STRT=139,3]{Offset 0,-90,0}{Vivi}
+“{Speed 2}...{Speed -1}Я був дуже розгублений,
+ коли помер мій дідусь.”[ENDN][STRT=187,3]{Offset 0,-90,0}{Widths 0,179,17,-1}{Vivi}
+“Він казав мені: '{Vivi}, не треба сумувати'.
+ Тож я сказав собі, що не повинен сумувати.”[ENDN][STRT=237,4]{Offset 0,-90,0}{Vivi}
+“Тому я знову розгубився,
+ коли почув, що тут всі
+ зупиняються.”[ENDN][STRT=142,3]{Offset 0,-90,0}{Vivi}
+“Я не знав, що робити
+ або що відчувати{Speed 2}...{Speed -1}”[ENDN][STRT=164,4]{Offset 0,-90,0}{Widths 0,132,18,-1}{Vivi}
+“Але коли я побачив, як {Dagger} плаче,
+ коли померла її мама, я більше не
+ був розгублений.”[ENDN][STRT=78,2]{Offset 0,-90,0}{Vivi}
+“Мені було сумно{Speed 2}...{Speed -1}”[ENDN][STRT=185,3]{Offset 0,-90,0}{Vivi}
+“Якби я був просто маріонеткою,
+ я б ніколи не відчув цього.”[ENDN][STRT=111,4]{Offset 0,-90,0}{Vivi}
+“Пане 288{Speed 2}...{Speed -1}{Wait 5}
+ ми не маріонетки.{Wait 5}
+ Я знаю, що ні.”[ENDN][STRT=68,1]{UpperRightForce}{Offset 0,-90,0}{Speed 2}...{Speed -1}Я ненавиджу його.[ENDN][STRT=175,4]{Offset 0,-90,0}{Vivi}
+“Я ненавиджу Куджу!!!{Wait 10}
+ Він перетворює всіх на маріонеток,
+ щоб вони вбивали людей!!!”[ENDN][STRT=223,3]{Offset 0,-90,0}{Vivi}
+“Якби не він, я знаю, що
+ колись усі зрозуміли б це.”[ENDN][STRT=91,2]{Offset 0,-90,0}{Vivi}
+“Це нечесно{Speed 2}...{Speed -1}”[ENDN][STRT=190,3]{Offset 0,-90,0}Чорний маг №. 288
+“{Speed 2}...{Speed -1}Таємний палац Куджі знаходиться на
+ східному боці цього континенту.”[ENDN][STRT=187,3]{Offset 0,-90,0}Чорний маг №. 288
+“Він похований під сипучими пісками.
+ Вам знадобиться корабель, щоб дістатися туди.”[ENDN][STRT=65,2]{Offset 0,-90,0}{Widths 0,0,17,-1}{Vivi}
+“Дякую{Speed 2}...{Speed -1}”[ENDN][STRT=160,3]{Offset 0,-90,0}Чорний маг №. 288
+“Сподіваюся, колись ми зможемо
+ стати такими ж сильними, як ти{Speed 2}...{Speed -1}”[ENDN][STRT=155,1]{Widths 0,155,17,-1}(У {Vivi} так багато всього на думці{Speed 2}...{Speed -1})[ENDN][STRT=197,1](На відміну від мене, він б'ється так завзято{Speed 2}...{Speed -1})[ENDN][STRT=152,2]({Speed 2}...{Speed -1}Я думала, що змінюся після
+ того, як зустріла {Zidane}а.)[ENDN][STRT=187,2]({Speed 2}...{Speed -1} Коли я зійшла на престол,
+ я знала, що мушу змінитися.)[ENDN][STRT=158,2](Але нічого не змінилося{Speed 2}...{Speed -1}!
+ Я така безпорадна{Speed 2}...{Speed -1})[ENDN][STRT=49,2]{Widths 0,0,22,-1}{Eiko}
+“Ого{Speed 2}...{Speed -1}”[ENDN][STRT=157,2]{Widths 0,157,18,-1}{Eiko}
+“{Dagger}, ти теж чула?”[ENDN][STRT=169,3]{Eiko}
+“Цей плакса пройшов довгий 
+ шлях, ти так не думаєш?”[ENDN][STRT=20,2]{Widths 0,0,22,-1,0,20,18,-1}{Eiko}
+“{Dagger}?”[ENDN][STRT=105,2]{Eiko}
+“З тобою усе гаразд?”[ENDN][STRT=197,4]{Widths 0,174,17,-1}{Eiko}
+“{Speed 2}...{Speed -1}Не хвилюйся надто сильно.
+ У {Vivi} свій спосіб вирішення
+ проблем, а у тебе - свій.”[ENDN][STRT=190,4]{Eiko}
+“Ну ж бо, не падай духом!
+ Ми поб'ємо Куджу, і до тебе
+ повернеться твій голос.”[ENDN][STRT=18,2]{Widths 0,0,22,-1,0,18,16,-1}{Eiko}
+“{Zidane}е.”[ENDN][STRT=125,2]{Zidane}
+“Щось не так?”[ENDN][STRT=100,3]{Zidane}
+“Гаразд.
+ Ходімо.”[ENDN][STRT=184,3]{Vivi}
+“Пан 288 сказав, що палац Куджі
+ похований під сипучими пісками, так?”[ENDN][STRT=254,3]{Zidane}
+“Так. Щоб дістатися туди, ми попливемо
+ на кораблі до східної частини континенту.”[ENDN][STRT=111,2]Чорний маг №. 111
+“Погляньте на нього{Speed 2}...{Speed -1}”[ENDN][STRT=104,2]Чорний маг №. 33
+“Він такий милий.”[ENDN][STRT=160,2]Чорний маг №. 24
+“Я радий повернутися, але{Speed 2}...{Speed -1}”[ENDN][STRT=172,3]Чорний маг №. 24
+“Сонце виглядає для мене
+ якось інакше{Speed 2}...{Speed -1}”[ENDN][STRT=111,2]Чорний маг №. 239
+“{Speed 2}...{Speed -1}Ласкаво просимо.”[ENDN][STRT=244,4]Чорний маг №. 78
+“Я ніколи не знав, що зброєю можна
+ поранити людей. Адже у нас є магія. 
+ Навіщо нам зброя?”[ENDN][STRT=241,4]Чорний маг №. 55
+“Ви думаєте, що коли зброя зникне,
+ всі стануть щасливими? Чи означає
+ це, що магія нам теж не знадобиться?”[ENDN][STRT=111,2]Чорний маг №. 192
+“{Speed 2}...{Speed -1}Ласкаво просимо.”[ENDN][STRT=111,5]{UpperRightForce}{PreChooseMask 3,2}{Widths 2,116,-1}{Instantly}Чорний маг №. 163
+“{Speed 2}...{Speed -1}Ласкаво просимо.”
+{Choice}Купити/Продати
+{Tab}Дайте мені, як завжди.
+{Tab}Скасувати[ENDN][STRT=212,3]{UpperRightForce}Чорний маг №. 55
+“Цікаво, як довго ми зможемо доглядати
+ за цією хатинкою чокобо?{Speed 2}...{Speed -1}”[ENDN][STRT=242,4]Чорний маг №. 44
+“Вони{Speed 2}...{Speed -1} Вони змусили мене пілотувати повітряний корабель{Speed 2}...{Speed -1}
+ Я почувався жахливо{Speed 2}...{Speed -1} Це нагадало мені
+ як вони везли мене на вантажному кораблі{Speed 2}...{Speed -1}”[ENDN][STRT=230,5]{Speed 64}    
+    Дар чарівної музики для Вас...    
+            
+                від Музичного дому
+                  [ENDN][STRT=153,4]{PreChoose 2,1}{Instantly}Чорний маг №. 234
+“О{Speed 2}...{Speed -1} Ти залишишся?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=229,3]Чорний маг №. 123
+“Цікаво, чому я відчуваю потребу слухати музику,
+ якщо все одно колись зупинюсь{Speed 2}...{Speed -1}”[ENDN][STRT=240,4]{LowerLeftForce}Чорний маг №. 56
+“Страх смерті змусив мене втекти з
+ цього селища, але врешті-решт я зрозумів.
+ що це моє улюблене місце{Speed 2}...{Speed -1}”[ENDN][STRT=261,2]Чорний маг №. 288
+“Ми всі спантеличені тим, що сталося{Speed 2}...{Speed -1}”[ENDN][STRT=164,3]Чорний маг №. 288
+“Але життя триває, навіть коли ми
+ намагаємося знайти у ньому сенс.”[ENDN]

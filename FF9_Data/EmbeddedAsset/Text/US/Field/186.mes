@@ -1,0 +1,509 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=6,1]{Center 6}?[ENDN][STRT=11,1]{Center 11}!?{Time 40}[ENDN][STRT=149,1]Отримано Блакитний Нарцис.[ENDN][STRT=203,4]{PreChoose 2,1}{Instantly}Бланк
+“Ви знаєте, куди прямуєте?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=191,4]{PreChoose 2,1}{Instantly}Ерін
+“У вас є новий пункт призначення?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=133,3]{Zidane}
+“Боже{Speed 2}...{Speed -1} Сподіваюся, ця штука
+ зможе доставити нас туди.”[ENDN][STRT=152,1]Йоу, чому так довго?[ENDN][STRT=6,1]{Center 6}?[ENDN][STRT=168,2]{LowerRightForce}{Zidane}
+“Бланк! Ти теж йдеш?”[ENDN][STRT=135,2]{UpperLeftForce}Бланк
+“Так, мене попросили.”[ENDN][STRT=66,2]{LowerRightForce}{Widths 0,0,16,-1}{Zidane}
+“Хто?”[ENDN][STRT=132,3]{UpperLeftForce}Бланк
+“Бос, звісно.
+ Але це була не його ідея.”[ENDN][STRT=115,1]Вона була моя <ква>.[ENDN][STRT=246,3]{LowerRightForce}Регент Сід
+“Нам потрібна хоча б одна людина, яка доглядатиме
+ за кораблем, коли ми прибудемо до місця призначення.”[ENDN][STRT=172,3]{UpperLeftForce}Бланк
+“До того ж, я все ще у вас в боргу,
+ тому я зголосився.”[ENDN][STRT=176,2]{LowerRightForce}{Zidane}
+“{Speed 2}...{Speed -1}Ти нам нічого не винен.”[ENDN][STRT=142,2]{LowerRightForce}Регент Сід
+“Гаразд, якорі підняті!”[ENDN][STRT=163,3]{LowerRightForce}{Widths 0,113,21,-1}{Zidane}
+“Гей. {Quina} любить жаб,
+ тож тобі краще бути обережним.”[ENDN][STRT=219,3]{LowerRightForce}Регент Сід
+“Я не хвилююся. Коли я був оглопом,
+ у мене було більше ворогів. <Ква!>”[ENDN][STRT=236,3]{LowerRightForce}Регент Сід
+“До речі, якщо ти коли-небудь захочеш
+ змінити членів загону, звернися до мене.”[ENDN][STRT=120,3]{UpperLeftForce}Бланк
+“Гаразд, куди
+ ми прямуємо?”[ENDN][STRT=220,3]{LowerRightForce}{Zidane}
+“Ми збираємось у {Cyan}Селище чорних магів{White}
+ на Зовнішньому континенті.”[ENDN][STRT=192,3]{UpperLeftForce}Бланк
+“Гаразд. Натисніть {Select}{Mobile 281} щоразу, коли коли
+ захочете перевірити своє місцезнаходження!”[ENDN][STRT=214,4]{LowerRightForce}{PreChoose 2,1}{Instantly}Регент Сід
+“Ви хочете змінити свій загін?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=101,1]Нарешті я знайшов вас![ENDN][STRT=155,3]{LowerRightForce}{Zidane}
+“{Quina}!
+ Що ти тут робиш?”[ENDN][STRT=210,3]{UpperRightForce}{Widths 0,152,16,-1}{Quina}
+“Куди ти пропав, {Zidane}е?  Я подорожував
+ скрізь, шукаючи тебе!”[ENDN][STRT=190,3]{UpperLeftForce}Бланк
+“Хто це?  Твоя нова дівчина?
+ Хе-хе-хе.”[ENDN][STRT=242,3]{UpperRightForce}{Quina}
+“Я так втомився. Після Мадейн Сарі, я піднімався у гори,
+ перетинав океани, бився з чудовиськами{Speed 2}...{Speed -1}”[ENDN][STRT=158,3]{LowerRightForce}{Zidane}
+“Ого. Ти здійснив
+ пекельну подорож.”[ENDN][STRT=185,2]{LowerRightForce}{Zidane}
+“Отже, Бланк, ти теж йдеш?”[ENDN][STRT=198,3]{Amarant}
+“Я не чекаю з нетерпінням зустрічі
+ з цим хворим нарцисом знову.”[ENDN][STRT=165,3]{Steiner}
+“Можливо, ця поїздка піде
+ на користь принцесі{Speed 2}...{Speed -1}”[ENDN][STRT=174,3]{Widths 0,153,22,-1}{Steiner}
+“Спочатку принцеса, тепер {Eiko}{Speed 2}...{Speed -1}
+ Куджа дорого за це заплатить!”[ENDN][STRT=187,3]{Eiko}
+“Ми повертаємося до мого дому
+ на Зовнішній континент, так?”[ENDN][STRT=198,3]{Eiko}
+“Ненавиджу цього хлопця, Куджу! 
+ Давайте всі разом дамо йому добрячого прочухана!”[ENDN][STRT=158,3]{Quina}
+“Чому б нам не порибалити?
+ Там плаває багато смачної риби.”[ENDN][STRT=142,3]{Quina}
+“У нас є човен, але ми не їмо
+ рибу. Мені сумно{Speed 2}...{Speed -1}”[ENDN][STRT=132,3]{Vivi}
+“Не хвилюйся за мене.
+ Зі мною все гаразд{Speed 2}...{Speed -1}”[ENDN][STRT=139,3]{Widths 0,139,22,-1}{Vivi}
+“Чому Куджа змушує {Eiko}
+ і всіх інших страждати!?”[ENDN][STRT=208,4]{Fraya}
+“Подорожувати кораблем незручно,
+ але нічого не поробиш. Ми повинні
+ знайти його за будь-яку ціну.”[ENDN][STRT=150,2]{Widths 0,150,22,-1}{Fraya}
+“Чому Куджа викрав {Eiko}{Speed 2}...{Speed -1}?”[ENDN][STRT=151,3]Бланк
+“Він попрямував до якоїсь
+ дивної на вигляд споруди.”[ENDN][STRT=214,2]{Fraya}
+“Чи є щось за межами цього{Speed 2}...{Speed -1}?”[ENDN][STRT=171,3]{Widths 0,110,22,-1}{Zidane}
+“Що, в біса, задумав Куджа{Speed 2}...{Speed -1}?
+ Чому він забрав {Eiko}?”[ENDN][STRT=260,3]{LowerLeftForce}Регент Сід
+“Його мотиви незрозумілі <ква>{Speed 2}...{Speed -1}
+ Ця дівчина теж може призивати ейдолонів <ква>?”[ENDN][STRT=45,2]{Widths 0,0,16,-1}{Zidane}
+“Так.”[ENDN][STRT=225,3]{Widths 0,188,18,-1}{Zidane}
+“Ось воно! Ймовірно, він полює на неї
+ з тієї ж причини, що і на {Dagger}!”[ENDN][STRT=221,3]{Zidane}
+“Не хвилюйся, {Dagger}{Speed 2}...{Speed -1}
+ Ми не дозволимо йому зробити те, що він хоче.”[ENDN][STRT=111,3]{Zidane}
+“Куджа має багато за що
+ відповісти.”[ENDN][STRT=178,3]{UpperRightForce}{Offset 0,-80,30}{Eiko}
+“Щ-Щ-Щ-Що трапилося!?
+ Що трапилося з твоїм волоссям!?”[ENDN][STRT=134,3]{Steiner}
+“П-П-Принцесо!!!
+ Що ви накоїли!?”[ENDN][STRT=175,4]{UpperRightForce}{Offset 0,-80,30}{Widths 0,175,16,-1}{Eiko}
+“Я зрозуміла.
+ {Zidane} розбив тобі серце, чи не так?!
+ Як він посмів...”[ENDN][STRT=109,2]{Steiner}
+“Ц-Ц-Це правда!?”[ENDN][STRT=158,3]{Zidane}
+“Гей, зачекай.
+ Не поспішай з висновками!”[ENDN][STRT=67,2]{UpperRightForce}{Widths 0,0,18,-1,0,67,16,22,-1}{Dagger}
+“{Zidane} правий, {Eiko}.”[ENDN][STRT=121,3]{UpperRightForce}{Offset 0,-80,30}{Eiko}
+“{Dagger}!
+ Ти знову можеш розмовляти?”[ENDN][STRT=183,3]{UpperRightForce}{Dagger}
+“Так{Speed 2}...{Speed -1}
+ Вибачте, що змусила вас хвилюватися.”[ENDN][STRT=151,3]{UpperRightForce}{Offset 0,-80,30}{Eiko}
+“Усе гаразд, але твоє волосся{Speed 2}...{Speed -1}
+ Воно було таким красивим.”[ENDN][STRT=165,2]{UpperRightForce}{Dagger}
+“Коротке волосся мені не пасує?”[ENDN][STRT=100,3]{UpperRightForce}{Offset 0,-80,30}{Eiko}
+“О, ні.
+ Виглядаєш чудово!”[ENDN][STRT=65,2]{UpperRightForce}{Widths 0,0,18,-1,0,65,22,-1}{Dagger}
+“Дякую, {Eiko}.”[ENDN][STRT=122,3]{Zidane}
+“Однак святкувати
+ ще зарано{Speed 2}...{Speed -1}”[ENDN][STRT=194,2]{Zidane}
+“Ерін! Ти знаєш наш пункт призначення.”[ENDN][STRT=152,3]{UpperLeftForce}Ерін
+“Так, {Cyan}Замок Іпсена{White} на
+ Забутому континенті!”[ENDN][STRT=204,4]{Zidane}
+“Саме так. Ми вирушимо туди, щоб з'ясувати
+ як потрапити на Терру через
+ ‘Мерехтливий острів’.”[ENDN][STRT=226,3]{UpperRightForce}{Dagger}
+“Я впевнена, що ми дізнаємося більше про те,
+ що відбувається, коли прибудемо на Терру.”[ENDN][STRT=181,4]{Zidane}
+“Так{Speed 2}...{Speed -1}
+ І, сподіваюся, ми дізнаємося про те,
+ чого хоче досягти Куджа{Speed 2}...{Speed -1}”[ENDN][STRT=262,5]{UpperLeftForce}Ерін
+“Місцезнаходження {Cyan}Замку Іпсена{White} було 
+ позначено на мапі на основі інформації
+ від леді Хільда. Будь ласка, перевірте, натиснувши {Select}{Mobile 281}
+ після того, як ми відправимося!”[ENDN][STRT=243,4]{UpperLeftForce}Ерін
+“Ви також можете натиснути {Cross+}{Mobile 305} на яскравих точках
+ на мапі, і корабель відвезе вас
+ туди автоматично.”[ENDN][STRT=242,4]{UpperLeftForce}Ерін
+“Ви можете переглянути, як маневрувати кораблем
+ автоматично натиснувши {Triangle+}{Mobile 279} коли відкрито
+ велику мапу!”[ENDN][STRT=63,1]{UpperLeftForce}Перепрошую![ENDN][STRT=206,3]{UpperRightForce}Член екіпажу
+“Будь ласка, дайте мені знати, якщо ви хочете
+ поміняти членів свого загону!”[ENDN][STRT=186,3]{UpperRightForce}Член екіпажу
+“Я буду допомагати вам усіма можливими
+ способами під час вашої подорожі.”[ENDN][STRT=219,3]{Zidane}
+“Не обов'язково бути таким формальним.
+ Просто розслабся і насолоджуйся польотом.”[ENDN][STRT=45,1]Купопо.[ENDN][STRT=238,3]{Eiko}
+“Мог{Speed 2}...{Speed -1} Де б ти не була,
+ ми з тобою завжди бачитимемо одне небо{Speed 2}...{Speed -1}”[ENDN][STRT=117,3]{Eiko}
+“Цікаво, чи Терра така
+ ж велика, як Гайя{Speed 2}...{Speed -1}”[ENDN][STRT=132,3]{Eiko}
+“Бідолашний корабель, змушений зайти 
+ у такий маленький порт{Speed 2}...{Speed -1}”[ENDN][STRT=181,4]{Steiner}
+“Після завершення відновлення, чи буде
+ Олександрія переповнена повітряними
+ кораблями, як Ліндблюм{Speed 2}...{Speed -1}?”[ENDN][STRT=236,4]{Dagger}
+“Я мушу рухатися далі.
+ У нас ще все життя попереду.
+ Я не можу бути в депресії вічно{Speed 2}...{Speed -1}”[ENDN][STRT=175,2]{Dagger}
+“Цікаво, на що схожа Терра{Speed 2}...{Speed -1}”[ENDN][STRT=213,3]{Dagger}
+“То що ж нам робити?  Ми збираємося
+ проходити кожну ділянку по черзі?”[ENDN][STRT=232,3]{Zidane}
+“‘Один за всіх і всі за одного’{Speed 2}...{Speed -1} Ми збираємося підкорити
+ всі 4 локації одночасно.”[ENDN][STRT=149,3]{UpperRightForce}{Offset 0,-80,50}{Eiko}
+“Ми не підемо разом
+ як завжди?”[ENDN][STRT=205,3]{Zidane}
+“Ні. Я висаджу нас по двоє 
+ на кожній ділянці.”[ENDN][STRT=77,3]{UpperRightForce}{Offset 0,-80,50}{Widths 0,77,18,-1}{Eiko}
+“Розумію{Speed 2}...{Speed -1} Гей, 
+ Я піду з {Dagger}!”[ENDN][STRT=93,2]{Zidane}
+“Що? Чому{Speed 2}...{Speed -1}?”[ENDN][STRT=230,3]{UpperRightForce}{Offset 0,-80,50}{Eiko}
+“Це називається ‘дами вперед’, {Zidane}е!
+ І нам, дівчатам, є про що поговорити!”[ENDN][STRT=143,3]{Widths 0,143,18,-1}{Zidane}
+“Угу.
+ Ти не проти, {Dagger}?”[ENDN][STRT=157,3]{Dagger}
+“Звісно, але{Speed 2}...{Speed -1}
+ Звідки ми почнемо?”[ENDN][STRT=193,3]{Zidane}
+“Ну{Speed 2}...{Speed -1}
+ Найближчим місцем буде{Speed 2}...{Speed -1}”[ENDN][STRT=203,3]{UpperRightForce}Член екіпажу
+“Одне з місць, про яке ви згадали.
+ знаходиться на південь від нас!”[ENDN][STRT=175,2]{Zidane}
+“О, ти нас слухав?”[ENDN][STRT=224,3]{UpperRightForce}Член екіпажу
+“Я вже давно працюю моряком!
+ Я впевнений у своєму відчутті напрямку.”[ENDN][STRT=228,5]{UpperRightForce}Член екіпажу
+“‘Моя сила захищена під водою,
+ оточена землею’. Це місце
+ має бути пов'язане з водою;
+ чому б не вирушити спочатку туди?”[ENDN][STRT=133,3]{Zidane}
+“Гаразд{Speed 2}...{Speed -1}
+ Дякую за допомогу.”[ENDN][STRT=185,3]{UpperRightForce}Член екіпажу
+“Будь ласка, не соромтеся звертатися до
+ мене якщо забудете пункт призначення!”[ENDN][STRT=264,3]{UpperRightForce}Член екіпажу
+“І, будь ласка, не забудьте належним чином
+ підготуватися, поки ми будемо на борту!”[ENDN][STRT=232,3]{Zidane}
+“Розслабся, друже. Ти починаєш
+ говорити, як одна моя знайома.”[ENDN][STRT=79,3]{Zidane}
+“Гаразд, Ерін!
+ Вперед!”[ENDN][STRT=156,2]Ерін
+“Так, сер! Вирушаємо!”[ENDN][STRT=176,5]{PreChoose 2,1}{Instantly}Член екіпажу
+“Ви бажаєте змінити членів
+ свого загону?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=74,2]Член екіпажу
+“Щасти вам!”[ENDN][STRT=157,3]Член екіпажу
+“Будь ласка, відпочиньте,
+ поки ви у Ліндблюмі.”[ENDN][STRT=208,3]{UpperRightForce}Член екіпажу
+“С-судячи з нашого поточного курсу,
+ наш наступний п-пункт призначення{Speed 2}...{Speed -1}”[ENDN][STRT=77,2]{UpperRightForce}{Zidane}
+“Гей, розслабся.”[ENDN][STRT=181,3]{UpperRightForce}Член екіпажу
+“В-вибачте. Я не дуже добре вмію
+ пояснювати{Speed 2}...{Speed -1}”[ENDN][STRT=93,5]{PreChooseMask 3,0}{Widths 1,179,-1,2,200,-1,3,193,-1}{Instantly}{Zidane}
+“Нічого страшного{Speed 2}...{Speed -1}”
+{Choice}Який наш наступний пункт призначення?
+{Tab}Я хочу змінити членів загону
+{Tab}Я поясню все по порядку[ENDN][STRT=156,2]{UpperRightForce}{Zidane}
+“Гаразд, слухайте уважно{Speed 2}...{Speed -1}”[ENDN][STRT=231,5]{UpperRightForce}Член екіпажу
+“Наш наступний пункт призначення знаходиться
+ на південь від Замку Іпсена. Підказка,
+ ‘Моя сила захищена під водою, оточена
+ землею’”[ENDN][STRT=224,5]{UpperRightForce}Член екіпажу
+“Наш наступний пункт призначення знаходиться в
+ горах на північний схід від Есто Газа. ‘Моя
+ сила захищена високо на вершині вогняної гори’
+ ось яка підказка!”[ENDN][STRT=256,5]{UpperRightForce}Член екіпажу
+“Наш наступний пункт призначення знаходиться
+ на південний схід від Оілверту на Забутому
+ континенті. Підказка така, ‘Моя сила захищена
+ за торнадо’.”[ENDN][STRT=257,5]{UpperRightForce}Член екіпажу
+“Наш наступний пункт призначення знаходиться на
+ південний захід від Пустельного палацу, на рівнині
+ Трікуай. Підказка така, ‘Моя сила захищена під
+ тремтячою землею’.”[ENDN][STRT=147,3]{UpperRightForce}{Zidane}
+“{Speed 2}...{Speed -1}Це все.
+ Тепер тобі усе зрозуміло?”[ENDN][STRT=98,3]{UpperRightForce}Член екіпажу
+“Так, сер!
+ Я дуже вдячний!”[ENDN][STRT=143,1]{UpperLeftForce}Ми зараз перегріємося![ENDN][STRT=123,2]{Zidane}
+“Ще трохи ближче!”[ENDN][STRT=212,3]{LowerLeftForce}{Fraya}
+“{Zidane}е! Перегрів вб'є двигун,
+ якщо ми підійдемо ближче!”[ENDN][STRT=250,3]{Offset 30,0,120}{LowerRightForce}{Zidane}
+“Гаразд{Speed 2}...{Speed -1} Коли ми наблизимося до вулкану,
+ ви двоє прямуйте до входу у святилище.”[ENDN][STRT=112,3]{Amarant}
+“{Speed 2}...{Speed -1}Чому я маю
+ йти з нею?”[ENDN][STRT=144,3]{Offset 30,0,120}{LowerRightForce}{Widths 0,144,22,-1}{Zidane}
+“О, вибач.
+ Хочеш піти з {Eiko}?”[ENDN][STRT=74,2]{Offset 30,0,120}{LowerRightForce}{Zidane}
+“Щасти вам!”[ENDN][STRT=191,3]{Offset 30,0,120}{LowerRightForce}{Zidane}
+“Гаразд, наш наступний пункт призначення{Speed 2}...{Speed -1}
+ ‘захищений за торнадо’.”[ENDN][STRT=132,3]{Offset 30,0,120}{LowerLeftForce}{Widths 0,132,19,21,-1}{Zidane}
+“Об'єднати в пару {Steiner}а і {Quina} здається
+ поганою ідеєю{Speed 2}...{Speed -1}”[ENDN][STRT=148,3]{Offset 30,0,120}{LowerLeftForce}{Widths 0,148,17,-1}{Zidane}
+“Думаю, я попрошу {Vivi} доглянути
+ за {Steiner}ом.”[ENDN][STRT=120,3]{Quina}
+“Моторний відсік схожий на
+ кухонну плиту, чи не так?”[ENDN][STRT=165,2]Член екіпажу
+“Двигун працює нормально!”[ENDN][STRT=234,5]{Fraya}
+“Цікаво, чи була б Бурмеція більш процвітаючою,
+ маючи технологію повітряних кораблів, таку ж,
+ як у Ліндблюма. Чи це спричинило б більше
+ розбрату?”[ENDN][STRT=227,3]{Vivi}
+“Я люблю вітряки!
+ Ненавиджу висоту, але вітряки - це чудово.”[ENDN][STRT=172,2]{Vivi}
+“О-{Wait 3}Ого, який сильний вітер{Speed 2}...{Speed -1}”[ENDN][STRT=174,3]{Zidane}
+“Це святилище вітру, тому воно
+ захищене від сильних поривів{Speed 2}...{Speed -1}”[ENDN][STRT=207,2]{Zidane}
+“Будьте обережні, щоб вас не здуло!”[ENDN][STRT=160,3]{Widths 0,143,17,-1}{Steiner}
+“Не хвилюйтеся!
+ Майстре {Vivi}, просто йдіть за мною.”[ENDN][STRT=68,2]{Widths 0,0,17,-1}{Vivi}
+“Г-{Wait 3}Гаразд{Speed 2}...{Speed -1}”[ENDN][STRT=151,3]{UpperRightForce}{Steiner}
+“Бачите?
+ Нема чого боятися!”[ENDN][STRT=54,2]{Widths 0,0,17,-1}{Vivi}
+“Справді?”[ENDN][STRT=62,2]{UpperRightForce}{Widths 0,0,19,-1,0,62,17,-1}{Steiner}
+“Майстре {Vivi}!”[ENDN][STRT=168,3]{Zidane}
+“Ти в порядку, тому
+ що на тобі броня.”[ENDN][STRT=186,2]{Widths 0,186,17,-1}{Steiner}
+“Давайте рухатися вперед, Майстре {Vivi}!”[ENDN][STRT=168,2]{Zidane}
+“З ними все буде гаразд{Speed 2}...{Speed -1}?”[ENDN][STRT=201,3]{Zidane}
+“Але зі мною {Quina}.
+ Мені слід більше хвилюватися про себе.”[ENDN][STRT=198,3]{Zidane}
+“‘Моя сила захищена під
+ тремтячою землею’, так{Speed 2}...{Speed -1}?”[ENDN][STRT=208,3]{Offset 80,-80,0}{Zidane}
+“Що ж, Тепер, коли ми зібрали всіх,
+ можемо вирушати до {Cyan}Мерехтливого острову{White}{Speed 2}...{Speed -1}”[ENDN][STRT=172,3]{Offset 80,-80,0}{Zidane}
+“Привіт, {Amarant}е.
+ Я не знав, що ти тут.”[ENDN][STRT=187,3]{Amarant}
+“Тож ми вирушаємо до {Cyan}Мерехтливого острову{White},
+ а потім до Терри?”[ENDN][STRT=159,3]{Offset 80,-80,0}{Zidane}
+“Так. Це неподалік від Есто Газа.
+ Це не займе багато часу.”[ENDN][STRT=183,3]{Amarant}
+“Скажи мені дещо{Speed 2}...{Speed -1}
+ Що спонукає тебе до цього?”[ENDN][STRT=134,5]{Offset 80,-80,0}{PreChoose 3,2}{Widths 1,131,18,-1,2,187,-1}{Instantly}{Zidane}
+“Що мене спонукає{Speed 2}...{Speed -1}?”
+{Choice}Я роблю все заради {Dagger}
+{Tab}Хочу дізнатися, чого хоче Куджа
+{Tab}Я не знаю[ENDN][STRT=235,3]{Offset 80,-80,0}{Zidane}
+“Я роблю все заради {Dagger}!
+ Навіщо б я це робив, якби не вона?”[ENDN][STRT=185,3]{Amarant}
+“{Speed 2}...{Speed -1}Занадто соромно
+ відповісти на питання серйозно?”[ENDN][STRT=101,3]{Offset 80,-80,0}{Zidane}
+“Але я СЕРЙОЗНО!
+ Це правда, чоловіче.”[ENDN][STRT=187,3]{Offset 80,-80,0}{Zidane}
+“У чому справа?
+ Чому раптом так серйозно?”[ENDN][STRT=153,2]{Amarant}
+“Я не розумію тебе{Speed 2}...{Speed -1}”[ENDN][STRT=185,3]{Offset 80,-80,0}{Zidane}
+“Немає нічого цікавого в тому,
+ щоб одразу все зрозуміти!”[ENDN][STRT=133,3]{Offset 80,-80,0}{Zidane}
+“Я хочу з'ясувати, що
+ задумав Куджа.”[ENDN][STRT=153,3]{Offset 80,-80,0}{Zidane}
+“Я також хочу дізнатися більше
+ про планету Терру{Speed 2}...{Speed -1}”[ENDN][STRT=178,3]{Amarant}
+“Не можеш встояти перед спокусою
+ зробити крок у незвіданий світ, так{Speed 2}...{Speed -1}?”[ENDN][STRT=179,3]{Offset 80,-80,0}{Zidane}
+“Ти що, думаєш, я їду туди, щоб
+ просто задовольнити свою цікавість?”[ENDN][STRT=79,2]{Amarant}
+“Чи я помиляюся?”[ENDN][STRT=151,2]{Offset 80,-80,0}{Zidane}
+“Ні, гадаю, ти маєш рацію.”[ENDN][STRT=123,2]{Offset 80,-80,0}{Zidane}
+“Я справді не знаю.”[ENDN][STRT=212,3]{Amarant}
+“Ти навіть не знаєш, чому ти
+ робиш те, що робиш?”[ENDN][STRT=240,3]{Offset 80,-80,0}{Zidane}
+“Я цього не казав.  Можливо, я роблю це тому,
+ що не знаю, що мене спонукає.”[ENDN][STRT=242,3]{Offset 80,-80,0}{Zidane}
+“Розуміти щось цікаво, але те,
+ що вже зрозуміло набридає.”[ENDN][STRT=254,3]{Offset 80,-80,0}{Zidane}
+“Я впевнений, що ми щось зрозуміємо, коли
+ дістанемося до {Cyan}Мерехтливого острову{White} і вирушимо на Терру.”[ENDN][STRT=185,3]{Amarant}
+“Я починаю розуміти, чому
+ він переміг, а я програв{Speed 2}...{Speed -1}”[ENDN][STRT=207,2]{Amarant}
+“Я програв його способу мислення{Speed 2}...{Speed -1}”[ENDN][STRT=235,3]{Amarant}
+“Гмм. Обійти весь світ, щоб
+ знайти інший{Speed 2}...{Speed -1} Це нісенітниця.”[ENDN][STRT=44,1]{LowerLeftForce}{Offset 0,-100,0}{Widths 0,44,16,-1}Пане {Zidane}![ENDN][STRT=111,3]Ерін
+“Ми відлітаємо?
+ Я піду готуватися!”[ENDN][STRT=64,1]{DialogPosition}{Instantly}It’s locked.[ENDN][STRT=184,3]Член екіпажу
+“Пане {Zidane}!
+ У мене аномальні показники!”[ENDN][STRT=132,3]Ерін
+“Таке відчуття, що корабель
+ засмоктує!”[ENDN][STRT=219,3]{Steiner}
+“{Zidane}е!
+ Продовжувати може бути небезпечно!”[ENDN][STRT=124,3]{Eiko}
+“Ми що, збираємося вдертися туди
+ на повітряному кораблі?!”[ENDN][STRT=148,3]{Zidane}
+“Все, що ми знаємо, це те, що це
+ вхід{Speed 2}...{Speed -1}”[ENDN][STRT=188,3]{Dagger}
+“Я чула, як жителі Есто Газа
+ називають це ‘Дорогою духу’{Speed 2}...{Speed -1}”[ENDN][STRT=221,2]{Zidane}
+“Шлях, який веде душі на Терру{Speed 2}...{Speed -1}”[ENDN][STRT=189,3]{Dagger}
+“Може, це телепортаційна брама,
+ як та, що була у схованці Куджі{Speed 2}...{Speed -1}”[ENDN][STRT=191,3]{Widths 0,141,16,-1}Ерін
+“Пане {Zidane}! Нас зараз
+ засмокче! Що мені робити!?”[ENDN][STRT=199,3]{Eiko}
+“Що тепер, {Zidane}е?
+ У нас може не бути можливості повернутися назад!”[ENDN][STRT=95,4]{PreChoose 2,1}{Widths 1,143,-1,2,155,-1}{Instantly}{Zidane}
+“Що ж, гаразд{Speed 2}...{Speed -1}”
+{Choice}Продовжуємо рухатися вперед!
+{Tab}Давайте поки що відступимо![ENDN][STRT=175,3]{Zidane}
+“Продовжуємо рухатися вперед!
+ Виходимо на палубу!”[ENDN][STRT=119,2]{Eiko}
+“Що ти маєш на увазі?”[ENDN][STRT=139,3]{Widths 0,139,18,-1}{Zidane}
+“Якщо {Dagger} має рацію, ми можемо
+ стрибнути у телепорт!”[ENDN][STRT=114,2]{Dagger}
+“З такої висоти!?”[ENDN][STRT=212,3]{Zidane}
+“З нами все буде добре! Враховуючи все,
+ через що ми пройшли, це дрібниці!”[ENDN][STRT=235,3]{Zidane}
+“Відходимо!
+ Треба зібрати спорядження, перш ніж вирушати.”[ENDN][STRT=53,1]{LowerRightForce}{NoFocus}{Speed 32}Ж-{Wait 3}Жаба{Speed 2}...{Speed -1}{Time 50}[ENDN][STRT=63,1]{NoFocus}{Speed 32}розмовляє{Speed 2}...{Speed -1}{Time 50}[ENDN][STRT=96,1]{NoFocus}{Speed 32}Може, я її з'їм{Speed 2}...{Speed -1}?{Time 50}[ENDN][STRT=229,3]{Widths 0,162,21,-1}{Zidane}
+“Треба перевірити наше спорядження і подивитися, що може
+ використати блакитна магія, якою користується {Quina}{Speed 2}...{Speed -1}”[ENDN][STRT=138,3]{Quina}
+“{Zidane}е!
+ Настав час показати, що у мене є!”[ENDN][STRT=164,2]{Quina}
+“Я вчуся більше, коли їм більше!”[ENDN][STRT=189,3]{Quina}
+“Ми на повітряному кораблі. Мабуть,
+ ми можемо спробувати їжу з усього світу!”[ENDN]

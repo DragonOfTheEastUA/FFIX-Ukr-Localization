@@ -1,0 +1,280 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=19,1]fmv[ENDN][STRT=19,1]fmv[ENDN][STRT=216,2]{Offset 20,-50,0}{LowerRightForce}Мир, це лише тінь смерті, що відчайдушно
+намагається забути своє болісне минуле{Speed 2}...{Speed -1}[ENDN][STRT=216,3]{Offset 20,-50,0}{LowerRightForce}Хоча ми чекаємо щасливих часів.
+Тисячу сліз проливши за безліч років,
+Але горе вчорашнє вже за кілька кроків.[ENDN][STRT=198,2]{LowerRightForce}І хоча місяць ще світить блакитним, 
+До світанку {Wait 3}він стане багряним.[ENDN][STRT=241,4]Куджа
+“Який щасливий день для Олександрії.
+ Сходження Гарнет на трон принесло
+ надію та мир у це Королівство.”[ENDN][STRT=235,3]Куджа
+“Люди радіють, вони вірять, що
+ на них чекає прекрасне майбутнє.”[ENDN][STRT=128,3]Куджа
+“{Speed 2}...{Speed -1}Але святкування
+ ще не закінчилося.”[ENDN][STRT=104,3]Куджа
+“Настав час запалити
+ по-справжньому!”[ENDN][STRT=217,4]Куджа
+“Твоя колишня господиня тут, Бахамуте.
+ Зіграй реквієм по ній  і по всій
+ Олександрії!”[ENDN][STRT=215,3]Куджа
+“Це так красиво{Speed 2}...{Speed -1}
+ Олександр{Speed 2}...{Speed -1} легендарний ейдолон{Speed 2}...{Speed -1}”[ENDN][STRT=236,3]Куджа
+“Отже, ти хочеш захистити замок своїми
+ блискучими крилами{Speed 2}...{Speed -1}?  Як чудово{Speed 2}...{Speed -1}”[ENDN][STRT=241,3]Куджа
+“Твоя сила перевершує навіть силу Бахамута{Speed 2}...{Speed -1}
+ Олександре, я чекав на тебе.”[ENDN][STRT=216,3]Куджа
+“Я викликав для тебе чарівну карету.
+ Впевнений, тобі сподобається.”[ENDN][STRT=145,3]Куджа
+“Невразливий, прийди!
+ Ти мій, Олександре!”[ENDN][STRT=200,3]Куджа
+“!!!?
+ Що трапилося з Невразливим!?”[ENDN][STRT=187,3]Куджа
+“Поневоль Олександра,
+ як ти поневолив Бахамута!”[ENDN][STRT=15,1]{Center 15}!!![ENDN][STRT=140,2]Куджа
+“Чи може це бути{Speed 2}...{Speed -1}Гарланд!?”[ENDN][STRT=171,3]Куджа
+“Не може бути!
+ Навіщо йому приходити на Гайю?!”[ENDN][STRT=231,4]Куджа
+“Якщо це справді Гарланд, то він
+ повинен знати мій план! Але чому
+ він захопив контроль над Невразливим{Speed 2}...{Speed -1}?”[ENDN][STRT=115,3]Куджа
+“!!!?
+ Ні!  Він не може бути{Speed 2}...{Speed -1}”[ENDN][STRT=82,2]Куджа, ти зайшов
+надто далеко.[ENDN][STRT=239,2]Я дарував тобі свободу робити на Гайї все,
+що ти забажаєш, лише з однією метою.[ENDN][STRT=252,2]Тепер, коли ти забув про свою місію, 
+я більше не терпітиму твоїх дій.[ENDN][STRT=255,2]Ти не маєш ані найменшого уявлення, кому 
+кидаєш виклик. Я тобі скоро покажу.[ENDN][STRT=63,1]{Widths 0,63,16,-1}Ти теж, {Zidane}е{Speed 2}...{Speed -1}[ENDN][STRT=157,1]Повернулось більше душ{Speed 2}...{Speed -1}[ENDN][STRT=183,3]У мікроскопічних пропорціях 
+цей процес все ще триває навіть 
+через тисячі років.[ENDN][STRT=193,2]Зрештою, ці душі, що циркулюють,
+більше не належатимуть Гайї.[ENDN][STRT=216,1]Вони ніколи не повинні повертатися назад{Speed 2}...{Speed -1}[ENDN][STRT=167,2]Куджа добре впорався.
+Якби він протримався довше{Speed 2}...{Speed -1}[ENDN][STRT=199,2]Я ніколи не думав, що він вирішить
+закінчити свої дні на Гайї{Speed 2}...{Speed -1}[ENDN][STRT=150,2]Можливо, такою була його доля,
+визначена у далекому минулому.[ENDN][STRT=232,2]Я теж не можу уникнути своєї долі;
+колись я повинен зустрітися з твоєю копією{Speed 2}...{Speed -1}[ENDN][STRT=71,1]Хахаха![ENDN][STRT=108,2]Куджа
+“Це занадто легко!”[ENDN][STRT=145,4]Куджа
+“Невразливий - мій!
+ Тепер я маю силу
+ контролювати всі душі!”[ENDN][STRT=165,3]Куджа
+“Гарланд віддав мені
+ усе без бою.”[ENDN][STRT=152,3]Куджа
+“Старий дурень був надто зайнятий,
+ розбираючись з ним.”[ENDN][STRT=167,2]Куджа
+“Тепер на нього чекає лише смерть.”[ENDN][STRT=167,3]Куджа
+“Бідний Гарланд{Speed 2}...{Speed -1} Його вкусив
+ власний собака{Speed 2}...{Speed -1}”[ENDN][STRT=123,2]Куджа
+“Це не випадковість.”[ENDN][STRT=190,3]Куджа
+“Доля обрала мене стати
+ новим правителем Терри!”[ENDN][STRT=130,3]Куджа
+“Час мені нанести
+ останні штрихи.”[ENDN][STRT=100,2]{UpperLeftForce}Зорн
+“Тут нікого немає!”[ENDN][STRT=141,2]Торн
+“Тут справді нікого немає?”[ENDN][STRT=39,2]{UpperLeftForce}Зорн
+“Так!”[ENDN][STRT=161,2]Торн
+“Впевнений, у цьому ти?”[ENDN][STRT=100,2]{UpperLeftForce}Зорн
+“Достатньо!”[ENDN][STRT=113,2]{UpperLeftForce}Торн
+“Тепер робити нам що?”[ENDN][STRT=214,3]Зорн
+“Ми спитаємо Принцесу Гарнет,
+ чи можемо ми повернутися до замку.”[ENDN][STRT=127,3]{UpperLeftForce}Торн
+“Повернутися до замку?
+ Невже можемо ми!?”[ENDN][STRT=129,2]Зорн
+“Я не дізнаюся, поки...”[ENDN][STRT=15,1]{Instantly}{Center 15}!!![ENDN][STRT=89,2]Зорн
+“Нам треба сховатися!”[ENDN][STRT=156,2]Бланк
+“Схоже, тут нікого немає.”[ENDN][STRT=45,2]Маркус
+“Так.”[ENDN][STRT=199,3]Бланк
+“Думаю, це єдине, що ми можемо
+ зробити для {Zidane}а{Speed 2}...{Speed -1}”[ENDN][STRT=181,3]Бланк
+“...нести нічну варту і
+ зберігати спокій Олександрії.”[ENDN][STRT=131,2]Маркус
+“Так, я теж так думаю.”[ENDN][STRT=132,3]Бланк
+“Яка тиха ніч.
+ Це майже лякає{Speed 2}...{Speed -1}”[ENDN][STRT=177,2]Бланк
+“Гаразд, давай закінчимо обхід.”[ENDN][STRT=55,2]Маркус
+“Гаразд.”[ENDN][STRT=102,2]Зорн
+“Це було близько.”[ENDN][STRT=72,2]{UpperLeftForce}Торн
+“Що тепер?”[ENDN][STRT=155,3]Зорн
+“Ми не можемо залишатися тут доти,
+ доки тут знаходяться ці шкідники!”[ENDN][STRT=161,2]{UpperLeftForce}{Instantly}Зорн
+“Ми повинні залишити Олександрію!”[ENDN][STRT=98,1]{UpperRightForce}{Instantly}Сюди! швидше!{Time 30}[ENDN][STRT=100,1]{UpperLeftForce}{Instantly}Я не хочу помирати!{Time 30}[ENDN][STRT=29,1]Допоможіть!{Time 30}[ENDN][STRT=79,1]Мені так страшно.{Time 30}[ENDN][STRT=115,2]{Steiner}
+“Ось воно, Беатрікс.”[ENDN][STRT=98,3]Беатрікс
+“Я віддам все за
+ Олександрію!”[ENDN][STRT=166,3]{Steiner}
+“Добре сказано!
+ Йдемо до перемоги!”[ENDN][STRT=144,2]{Widths 0,144,19,-1}Беатрікс
+“{Steiner}е, куди це ти?”[ENDN][STRT=121,3]{Steiner}
+“Стережися, Беатрікс!
+ Ворог близько!”[ENDN][STRT=137,3]{Steiner}
+“Ти хочеш битися з нами!?
+ Ти, мерзенна тварюко!”[ENDN][STRT=99,1]{UpperRightForce}{NoFocus}{Instantly}За принцесу!{IncreaseSignal}[ENDN][STRT=101,1]{UpperLeftForce}{NoFocus}{Instantly}За Її Високість!{IncreaseSignal}[ENDN][STRT=103,2]{UpperRightForce}{Steiner}
+“Готуйтеся до смерті!”[ENDN][STRT=155,2]{UpperRightForce}{Steiner}
+“Беатрікс, з тобою все гаразд?”[ENDN][STRT=103,3]{LowerLeftForce}Беатрікс
+“Я в порядку.
+ А ти?”[ENDN][STRT=108,2]{LowerLeftForce}Беатрікс
+“Ти поранений!”[ENDN][STRT=121,2]{UpperRightForce}{Steiner}
+“Це лише подряпина.”[ENDN][STRT=118,1]{UpperRightForce}{Instantly}Настирливі виродки!{Time 20}[ENDN][STRT=167,3]{LowerLeftForce}Беатрікс
+“Це марно!
+ Повернемося до замку!”[ENDN][STRT=245,5]{UpperRightForce}{Steiner}
+“Ні! Я не можу дивитися в очі принцесі,
+ поки ми не знищимо усіх цих потвор.
+ Клянусь честю, я захищатиму принцесу,
+ мешканців Олександрії та{Speed 2}...{Speed -1}”[ENDN][STRT=135,3]{UpperRightForce}{Steiner}
+“Беатрікс!
+ Я{Speed 2}...{Speed -1} Я захищатиму тебе!”[ENDN][STRT=12,1]{LowerLeftForce}{Widths 0,12,19,-1}{Steiner}{Speed 2}...{Speed -1}[ENDN][STRT=60,1]{UpperRightForce}{Instantly}Обережно!{Time 20}[ENDN][STRT=153,2]{UpperRightForce}{Steiner}
+“{Speed 2}...{Speed -1}Це може бути все для нас!”[ENDN][STRT=118,2]{LowerLeftForce}Беатрікс
+“Я ні про що не шкодую!”[ENDN][STRT=199,3]{LowerRightForce}{Steiner}
+“Беатрікс{Speed 2}...{Speed -1}
+ Я маю тобі дещо сказати!”[ENDN][STRT=71,2]{UpperLeftForce}Беатрікс
+“Що таке?”[ENDN][STRT=29,2]{LowerRightForce}{Widths 0,0,19,-1}{Steiner}
+“{Speed 2}Я...{Speed -1}”[ENDN][STRT=177,3]{UpperLeftForce}{Widths 0,143,19,-1}Беатрікс
+“Прибережи свою прощальну промову,
+ {Steiner}е. Ми ще поживемо.”[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN]

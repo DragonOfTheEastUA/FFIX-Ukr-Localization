@@ -1,0 +1,208 @@
+[STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}[ENDN][STRT=6,1]{Center 6}?[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=158,1]Це місце не змінилося{Speed 2}...{Speed -1}[ENDN][STRT=228,3]{Vivi}
+“Це тут я впав{Speed 2}...{Speed -1}
+ Я дивився на щось там внизу.”[ENDN][STRT=132,2]{Vivi}
+“Дідусь допоміг мені{Speed 2}...{Speed -1}”[ENDN][STRT=131,3]{Vivi}
+“Відтоді я не люблю
+ висоту.”[ENDN][STRT=82,1]Ого{Speed 2}...{Speed -1} Пилюка{Speed 2}...{Speed -1}[ENDN][STRT=200,3]{Vivi}
+“Гадаю, це природно.
+ Пройшло багато часу з тих пір, як я пішов.{Speed 2}...{Speed -1}”[ENDN][STRT=214,4]{Vivi}
+“Під кінець дідусь вже нічого
+ не їв{Speed 2}...{Speed -1} Його кухонне
+ приладдя сильно пошкоджене.”[ENDN][STRT=200,2]{Vivi}
+“Так, він сказав щось на кшталт{Speed 2}...{Speed -1}”[ENDN][STRT=144,2]{Widths 0,144,17,-1}{Vivi}!  Я навчився мистецтву насичення,
+ не вживаючи їжу![ENDN][STRT=185,3]{Vivi}
+“{Speed 2}...{Speed -1}Знаєш, {Quina}
+ так схожий на мого дідуся.”[ENDN][STRT=196,3]{Zidane}
+“Гмм? На стіні щось написано.
+ Хтось виміряв тут зріст{Speed 2}...{Speed -1}”[ENDN][STRT=228,3]{Zidane}
+“Подивимось{Speed 2}...{Speed -1} ‘Минуло півроку відтоді, як я всиновив {Vivi}.
+ Все ще замалий, щоб з'їсти’?”[ENDN][STRT=196,3]{Dagger}
+“Гмм?  На стіні щось написано.
+ Хтось виміряв тут зріст{Speed 2}...{Speed -1}”[ENDN][STRT=228,3]{Dagger}
+“Подивимось{Speed 2}...{Speed -1} ’Минуло півроку відтоді, як я всиновив {Vivi}.
+ Все ще замалий, щоб з'їсти’?”[ENDN][STRT=254,4]{Dagger}
+“Годинник зупинився{Speed 2}...{Speed -1}
+ Мабуть, зупинився нещодавно{Speed 2}...{Speed -1} О, він зупинився
+ за тиждень до мого від'їзду з Олександрії.”[ENDN][STRT=193,4]{Zidane}
+“Годинник зупинився{Speed 2}...{Speed -1}
+ Він зупинився{Speed 2}...{Speed -1}приблизно за тиждень до того,
+ як ми викрали {Dagger}.”[ENDN][STRT=155,3]{Zidane}
+“{Vivi}?
+ Що ти тут робиш?”[ENDN][STRT=127,3]{Vivi}
+“{Zidane}е{Speed 2}...{Speed -1}
+ Як ти мене знайшов?”[ENDN][STRT=139,3]{Zidane}
+“Що ти робиш на цьому
+ звалищі?”[ENDN][STRT=118,3]{Vivi}
+“Я{Speed 2}...{Speed -1}
+ Я жив тут раніше.”[ENDN][STRT=174,3]{Zidane}
+“Справді?
+ Ти жив поруч з Трено?”[ENDN][STRT=106,3]{Vivi}
+“Так,
+ разом з дідусем.”[ENDN][STRT=165,3]{Zidane}
+“То як ти став жити 
+ з дідусем?”[ENDN][STRT=33,1]Ну{Speed 2}...{Speed -1}[ENDN][STRT=55,1]{UpperLeftForce}{Speed 2}...{Speed -1}Голодний.[ENDN][STRT=159,3]{UpperLeftForce}“Мабуть, це кінець спробам
+ виловити і з'їсти імлу
+ з неба{Speed 2}...{Speed -1}”[ENDN][STRT=195,3]{UpperLeftForce}Куан
+“Неможливо довести теорію насичення,
+ не вживаючи їжі{Speed 2}...{Speed -1}”[ENDN][STRT=112,3]{UpperLeftForce}Куан
+“Гмм?
+ Я щось зловив.”[ENDN][STRT=114,2]{Zidane}
+“Т-так, це ти був{Speed 2}...{Speed -1}”[ENDN][STRT=169,3]{Vivi}
+“Мій дідусь{Speed 2}...{Speed -1}
+ Він виловив мене з неба.”[ENDN][STRT=104,3]{Vivi}
+“Мабуть, я впав з
+ вантажного корабля{Speed 2}...{Speed -1}”[ENDN][STRT=165,3]{UpperLeftForce}Куан
+“Я не знав, що виловлюю
+ щось з Океану Імли!”[ENDN][STRT=168,2]{UpperLeftForce}Куан
+“Не треба так боятися{Speed 2}...{Speed -1}”[ENDN][STRT=117,3]{UpperLeftForce}Куан
+(Може, я його з'їм, але він
+ ще такий маленький{Speed 2}...{Speed -1})[ENDN][STRT=224,4]{Vivi}
+“Мій дідусь був дуже добрим
+ до мене. Він хвилювався, що
+ я погано росту.”[ENDN][STRT=39,1]Розумію{Speed 2}...{Speed -1}[ENDN][STRT=193,3]{Vivi}
+“Ходімо, {Zidane}е.
+ Немає причин залишатися тут.”[ENDN][STRT=40,1]Точно{Speed 2}...{Speed -1}[ENDN][STRT=111,2]{Quina}
+“Чимось пахне{Speed 2}...{Speed -1}”[ENDN][STRT=190,3]{Zidane}
+“У чому справа, {Quina}?
+ Ти просто з'явився з нізвідки{Speed 2}...{Speed -1}”[ENDN][STRT=167,3]{Quina}
+“Не відчуваєш запаху?
+ Щось чудово пахне{Speed 2}...{Speed -1}”[ENDN][STRT=175,3]{Zidane}
+“Ні, мій ніс не такий чутливий,
+ як твій{Speed 2}...{Speed -1}”[ENDN][STRT=63,1]А-аййя![ENDN][STRT=130,2]{Zidane}
+“Щ-що сталося!?”[ENDN][STRT=87,3]{Widths 0,87,16,-1}{Quina}
+“Ц-це дивовижно, {Zidane}е!
+ Це диво!”[ENDN][STRT=68,1]Це свято!!![ENDN][STRT=105,1]Ц-це неймовірно{Speed 2}...{Speed -1}[ENDN][STRT=156,3]{Quina}
+“Я не знаю, з чого почати!
+ Що мені з'їсти в першу чергу?”[ENDN][STRT=45,1]Хохохо![ENDN][STRT=82,1]<Ням-ням-ням{Speed 2}...{Speed -1}>[ENDN][STRT=87,1]Ц-це так добре![ENDN][STRT=77,1]Дуже смачно!!![ENDN][STRT=61,1]{UpperRightForce}Смакота{Speed 2}...{Speed -1}[ENDN][STRT=55,2]{Widths 0,0,16,-1,0,55,21,-1}{Zidane}
+“Гей, {Quina}{Speed 2}...{Speed -1}”[ENDN][STRT=106,1]{UpperRightForce}Я не можу більше їсти{Speed 2}...{Speed -1}[ENDN][STRT=67,2]{Widths 0,0,16,-1}{Zidane}
+“О, блін{Speed 2}...{Speed -1}”[ENDN][STRT=11,1]{UpperRightForce}{Center 11}!?[ENDN][STRT=109,3]{Quina}
+“Ой, що сталося!?
+ Свято закінчилося{Speed 2}...{Speed -1}”[ENDN][STRT=178,3]{Widths 0,173,21,-1}{Zidane}
+“Про що ти кажеш, {Quina}?
+ Гадаю, у тебе були галюцинації.”[ENDN][STRT=126,3]{Quina}
+“Ц-це неправда!
+ Я бачив на власні очі!”[ENDN][STRT=151,3]{Zidane}
+“Але ти просто бігав
+ навколо{Speed 2}...{Speed -1}”[ENDN][STRT=157,3]{Quina}
+“Гмм!?
+ Я відчуваю якийсь запах!”[ENDN][STRT=48,2]{Widths 0,0,16,-1,0,48,21,-1}{Zidane}
+“Гей, {Quina}!”[ENDN][STRT=40,1]Боже{Speed 2}...{Speed -1}[ENDN][STRT=54,2]{Widths 0,5,21,-1}{Quina}!
+Зупинись![ENDN][STRT=83,1]{UpperLeftForce}{Offset 100,-100,0}Нарешті я тут{Speed 2}...{Speed -1}[ENDN][STRT=178,3]{UpperRightForce}{Offset -40,-80,0}{Quina}
+“Х-хто ти?!
+ Це ти показав мені ілюзію!?”[ENDN][STRT=46,1]{UpperLeftForce}{Offset 100,-100,0}Я Куан{Speed 2}...{Speed -1}[ENDN][STRT=252,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Це ілюзія, тільки якщо бачити ілюзію{Speed 2}...{Speed -1}
+ Ти бачив, бо подорожуєш світом.”[ENDN][STRT=127,2]{UpperRightForce}{Offset -40,-80,0}{Quina}
+“Щ-що ти маєш на увазі!?”[ENDN][STRT=84,1]{UpperRightForce}Це дешевий трюк![ENDN][STRT=134,3]{UpperRightForce}{Offset -40,-80,0}{Quina}
+“Майстре!?
+ Про що ти говориш!?”[ENDN][STRT=201,3]{UpperLeftForce}Куале
+“Він мій колишній вчитель!
+ Він втік і уникав тренувань!”[ENDN][STRT=150,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Я не втікав з тренувань{Speed 2}...{Speed -1}
+ Це ти допустив помилку.”[ENDN][STRT=37,1]{UpperLeftForce}Що!?[ENDN][STRT=139,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Їсти все підряд - це не шлях
+ справжнього гурмана!”[ENDN][STRT=160,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Твій учень вже починає
+ розуміти!”[ENDN][STRT=205,4]{UpperLeftForce}{Offset 100,-100,0}Куан
+“{Quina}, те, що ти бачив, було
+ створено твоєю уявою{Speed 2}...{Speed -1}
+ Ти можеш харчуватися своєю уявою.”[ENDN][STRT=161,3]{UpperRightForce}{Offset -40,-80,0}{Quina}
+“Я-я не знаю{Speed 2}...{Speed -1}
+ Але це смакувало як справжня їжа!”[ENDN][STRT=184,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Все гаразд{Speed 2}...{Speed -1} Ти подорожуєш світом
+ і розвиваєш уяву.”[ENDN][STRT=200,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Люди, які не мають уяви, не відчувають
+ смаку, поки не поїдять!”[ENDN][STRT=33,1]{UpperLeftForce}Ммм!?[ENDN][STRT=198,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Використовуючи фантазію, можна
+ скуштувати всі страви світу!”[ENDN][STRT=244,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Неважливо, якщо хтось інший казатиме, що це не так.
+ Можна харчуватися своєю уявою!”[ENDN][STRT=192,3]{UpperRightForce}{Offset -40,-80,0}{Quina}
+“Як майстер навчився
+ це робити{Speed 2}...{Speed -1}?”[ENDN][STRT=72,1]{UpperLeftForce}{Offset 100,-100,0}Це тому{Speed 2}...{Speed -1}[ENDN][STRT=52,1]Дідусь![ENDN][STRT=123,3]{UpperLeftForce}{Offset 100,-100,0}{Widths 0,73,17,-1}Куан
+“О, {Vivi}!  Ти{Speed 2}...{Speed -1}{Wait 10}
+ зовсім не виріс.”[ENDN][STRT=153,3]{UpperLeftForce}{Offset 100,-100,0}{Widths 0,153,17,-1}Куан
+“Саме завдяки {Vivi} я дізнався
+ про уяву{Speed 2}...{Speed -1}”[ENDN][STRT=240,4]{UpperLeftForce}{Offset 100,-100,0}{Widths 0,184,17,-1}Куан
+“Я вчив {Vivi}, який нічого не знав про
+ навколишній світ. Моя уява дуже
+ розвилася, коли я його навчав!”[ENDN][STRT=73,2]{Vivi}
+“Дідусю{Speed 2}...{Speed -1}”[ENDN][STRT=144,3]{UpperLeftForce}{Offset 100,-100,0}{Widths 0,112,17,-1}Куан
+“Їсти те саме, що й жити{Speed 2}...{Speed -1}
+ {Vivi}, ти розумієш?”[ENDN][STRT=210,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Не тільки бачити.
+ Думати і говорити не менш важливо.”[ENDN][STRT=194,4]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Життя закінчується, коли ти помираєш.
+ Але уява, якою ти ділишся з іншими,
+ живе вічно.”[ENDN][STRT=177,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Мій дух вже слабшає.
+ Тут закінчується моя уява{Speed 2}...{Speed -1}”[ENDN][STRT=217,3]{Vivi}
+“Ні{Speed 2}...{Speed -1}
+ Ти знову йдеш, дідусю?”[ENDN][STRT=226,3]{UpperLeftForce}{Offset 100,-100,0}Куан
+“Не варто сумувати{Speed 2}...{Speed -1} {Vivi},
+ поки ти можеш уявити, я буду поруч з тобою.”[ENDN][STRT=78,3]{UpperLeftForce}{Offset 100,-100,0}{Widths 0,78,21,-1}Куан
+“{Quina} та Куале{Speed 2}...{Speed -1}
+ Щасти{Speed 2}...{Speed -1}”[ENDN][STRT=63,1]{UpperLeftForce}М-МАЙСТРЕ![ENDN][STRT=152,3]{Zidane}
+“А ви з ким це, хлопці,
+ розмовляєте{Speed 2}...{Speed -1}?”[ENDN][STRT=32,1]Що?[ENDN][STRT=175,3]{UpperLeftForce}Куале
+“{Quina}{Speed 2}...{Speed -1}
+ Я почну все з самого початку{Speed 2}...{Speed -1}”[ENDN][STRT=65,2]{UpperRightForce}{Offset -40,-80,0}{Widths 0,0,21,-1}{Quina}
+“Майстре{Speed 2}...{Speed -1}”[ENDN][STRT=167,2]{Zidane}
+“З ким ви розмовляли{Speed 2}...{Speed -1}?”[ENDN][STRT=89,2]{UpperRightForce}{Offset -40,-80,0}{Widths 0,89,16,-1}{Quina}
+“Ти не бачив, {Zidane}е?”[ENDN][STRT=196,3]{Zidane}
+“Бачив що? Я бачив, як ви, хлопці,
+ розмовляли з порожнім місцем.”[ENDN][STRT=185,3]{UpperRightForce}{Offset -40,-80,0}{Widths 0,185,16,-1}{Quina}
+“Розумію{Speed 2}...{Speed -1}
+ У тебе попереду ще довгий шлях, {Zidane}е.”[ENDN][STRT=214,3]{Vivi}
+“Не зважай, {Zidane}е.
+ Я розповім про це іншим разом.”[ENDN][STRT=186,3]{Vivi}
+“Ходімо! Ще стільки всього
+ треба зрозуміти!”[ENDN][STRT=53,1]Т-так{Speed 2}...{Speed -1}[ENDN][STRT=201,4]{Widths 0,87,14,0,-1}{Zidane}
+“Гмм?
+ Щось є під тим місцем, 
+ де раніше був {Item 0}{Speed 2}...{Speed -1}”[ENDN][STRT=168,2]{DialogPosition}{Widths 0,79,14,0,-1,0,168,14,1,-1}{Speed 2}...{Speed -1}Чи {Item 0} та
+ {Item 1} щойно заблищали в моїх руках?[ENDN][STRT=108,3]{Zidane}
+“Гмм?
+ Я щось бачу{Speed 2}...{Speed -1}”[ENDN][STRT=226,4]{UpperLeftForce}{Offset 0,50,0}{Zidane}
+“На дні уступу, в океані,
+ щось є{Speed 2}...{Speed -1}
+ Схоже на піну{Speed 2}...{Speed -1}”[ENDN][STRT=226,4]{UpperLeftForce}{Offset 0,50,0}{Dagger}
+“На дні уступу, в океані,
+ щось є{Speed 2}...{Speed -1}
+ Схоже на піну{Speed 2}...{Speed -1}”[ENDN][STRT=231,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Може, я зможу дістатися туди на чокобо{Speed 2}...{Speed -1}”
+{Choice}Використати {Item 0}
+{Tab}У мене зараз немає часу[ENDN]

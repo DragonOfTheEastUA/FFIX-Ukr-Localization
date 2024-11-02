@@ -1,0 +1,138 @@
+[STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 30}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=96,2]{Position 5,50}{Flash}{Speed 8}Що я взагалі
+ роблю{Speed 2}...{Speed -1}?[ENDN][STRT=127,2]{Position 5,50}{Flash}{Speed 8}Я допомагаю злодіям
+у скоєнні злочину{Speed 2}...{Speed -1}[ENDN][STRT=97,2]{Position 5,50}{Flash}{Speed 8}Ні{Speed 2}... {Speed 8}
+Я маю бути терплячим.[ENDN][STRT=174,3]{Position 5,50}{Flash}{Speed 8}Захистити принцесу.
+ Супроводити її назад до замку.
+ Зосередитися на своїх обов'язках{Speed 2}...{Speed -1}[ENDN][STRT=132,3]{Position 5,50}{Flash}{Speed 8}Довіритися королеві.
+ Вона ніколи не вчинила
+ б подібного злодіяння.[ENDN][STRT=169,1]{Position 5,50}{Flash}{Speed 8}На це має бути вагома причина.[ENDN][STRT=131,1]{Position 5,50}{Flash}Немає власних думок?[ENDN][STRT=56,1]{Position 5,50}{Flash}{Speed 8}Нісенітниця.[ENDN][STRT=185,2]{Position 5,50}{Flash}{Speed 8}Як я, скромний лицар,
+ можу зрозуміти думки королеви?[ENDN][STRT=151,2]{Position 5,50}{Flash}{Speed 8}Мені не потрібно турбуватися
+ про марення злочинця.[ENDN][STRT=163,2]{Position 5,50}{Flash}{Speed 8}Просто думай про те,
+ щоб відвести принцесу додому.[ENDN][STRT=105,2]{Position 5,50}{Flash}{Speed 8}Я, мабуть, ніколи його
+ більше не побачу{Speed 2}...{Speed -1}[ENDN][STRT=167,3]{Position 5,20}{Flash}{Speed 8}Він був винуватцем{Speed 2}...
+{Speed 8}Він втягнув принцесу і мене
+у свої інтриги.{Time 60}[ENDN][STRT=137,3]{Position 112,95}{Widths 0,105,16,-1}{Flash}{Speed 8}Це була твоя провина, {Zidane}е.
+{Wait 3}Якби ти не поводився зі мною
+як з дитиною{Speed 2}...[ENDN][STRT=180,3]{Position 112,95}{Flash}{Speed 2}...{Speed 8}Я б не полювала за Суперм'якістю,
+ щоб врятувати одного з
+ твоїх друзів.[ENDN][STRT=122,1]{Position 112,95}{Flash}{Speed 8}Навіщо я це роблю{Speed 2}...{Speed 8}?[ENDN][STRT=143,2]{Position 112,95}{Flash}{Speed 8}Тому що Бланк врятував мене?
+{Wait 3}Так, він врятував мене.[ENDN][STRT=114,3]{Position 112,95}{Flash}{Speed 8}Він врятував мені життя.{Speed 2}...{Speed 8}
+Найменше, що я можу зробити - це
+віддячити за послугу{Speed 2}...{Speed -1}[ENDN][STRT=144,2]{Position 112,95}{Flash}{Speed 8}Але я ніколи не думала
+ про такі речі раніше{Speed 2}...{Speed -1}[ENDN][STRT=223,3]Тот
+“Дві фрази часто зустрічаються у
+ документах, яким понад 500 років{Speed 2}...{Speed -1}”[ENDN][STRT=149,3]Тот
+“Одне з них - ‘коштовність’.
+ Інше -‘плем'я призивачів’.”[ENDN][STRT=219,3]Тот
+“Але 500 років тому ці фрази
+ чомусь перестали згадувати{Speed 2}...{Speed -1}”[ENDN][STRT=244,4]Тот
+“Археолог Фредерік Аш припустив, що
+ ця ‘коштовність’ відноситься до кулону,
+ що був переданий у спадок правителю Олександрії.”[ENDN][STRT=199,4]Тот
+“Але кулон{Speed 2}...{Speed -1}
+ Він занадто малий, щоб мати відношення
+ до тієї самої ‘коштовності’.”[ENDN][STRT=203,4]Тот
+“Дослідження показують, що
+ існує зв'язок між ‘ейдолонами’
+ та магічними ‘каменями’{Speed 2}...{Speed -1}”[ENDN][STRT=81,2]Гарнет
+“Доктор Тот!”[ENDN][STRT=88,2]Тот
+“А, принцесо!”[ENDN][STRT=212,2]Гарнет
+“Ви знову читали великі книги?”[ENDN][STRT=171,3]Тот
+“Ха ха ха{Speed 2}...{Speed -1} Я вже прочитав
+ кожну книгу в цій бібліотеці.”[ENDN][STRT=135,4]Тот
+“Але мені краще думається.
+ коли мене оточують старі
+ книги.”[ENDN][STRT=113,3]Гарнет
+“Справді?
+ Я не люблю книги.”[ENDN][STRT=215,3]Тот
+“Ви - людина з гідністю.
+ Вкрай важливо, щоб ви старанно вчилися.”[ENDN][STRT=161,4]{UpperLeftForce}Гарнет
+“Знаю, знаю{Speed 2}...{Speed -1}
+ Але мене дуже захопила
+ та книга, яку ви мені дали.”[ENDN][STRT=114,3]{UpperLeftForce}Гарнет
+“Як вона називалася?
+ Це була{Speed 2}...{Speed -1}”[ENDN][STRT=197,3]Тот
+“Це була ‘Я хочу бути твоєю канаркою’,
+ за авторством Лорда Ейвона?”[ENDN][STRT=140,4]Гарнет
+“О так, це вона!
+ Отже, все ж є книга, 
+ яка мені подобається.”[ENDN][STRT=49,1]{NoFocus}Боже, боже{Speed 2}...{Speed -1}{Time 35}[ENDN][STRT=150,2]{UpperLeftForce}Гарнет
+“Що це, Доктор Тот?”[ENDN][STRT=157,3]{UpperRightForce}Тот
+“Це глобус Гайї.
+ Це модель нашої планети.”[ENDN][STRT=163,4]{UpperLeftForce}Гарнет
+“Глобус Гайї?
+ Ніколи не знала, що наш
+ замок має форму кулі.”[ENDN][STRT=154,3]Тот
+“Ха ха ха{Speed 2}...{Speed -1} Ми живемо
+ на поверхні, принцесо.”[ENDN][STRT=6,1]{UpperLeftForce}{Center 6}?[ENDN][STRT=174,4]{Flash}Тот
+“Ах, так, зірки!
+ Саме вони надихнули на створення теорій,
+ про зв'язок каміння з ейдолонами.”[ENDN][STRT=89,2]{LowerLeftForce}Тот
+“Ось чому{Speed 2}...{Speed -1}”[ENDN][STRT=128,4]{LowerLeftForce}Тот
+“Ох!
+ Вибачте, я знову
+ поринув у роздуми.”[ENDN][STRT=68,2]Гарнет
+“Усе гаразд.”[ENDN][STRT=103,3]Гарнет
+“Де моя кімната
+ на цьому глобусі?”[ENDN][STRT=181,3]{LowerLeftForce}Тот
+“О, ваша кімната надто мала,
+ щоб помітити її на цьому глобусі{Speed 2}...{Speed -1}”[ENDN][STRT=143,2]Гарнет
+“А як щодо замку?”[ENDN][STRT=104,2]{LowerLeftForce}Тот
+“Це я можу зробити{Speed 2}...{Speed -1}”{Time 30}[ENDN][STRT=165,2]Гарнет
+“О, і замок дядька Сіда?”{Time 60}[ENDN][STRT=128,3]{Dagger}
+“Скільки часу минуло?
+ Вісім років?”[ENDN][STRT=129,2]{UpperLeftForce}Тот
+“Швидко час минає.”[ENDN][STRT=141,4]{UpperLeftForce}Тот
+“Але я не змінився.
+ Я продовжую збирати
+ і досліджувати ці речі.”[ENDN][STRT=183,2]{Dagger}
+“Де ви знайшли цей глобус?”[ENDN][STRT=182,4]{UpperLeftForce}Тот
+“Це антикваріат. Він зламаний,
+ як бачите, але я використовую
+ його як оглядовий майданчик.”[ENDN][STRT=155,4]{UpperLeftForce}Тот
+“Іронія долі, чи не так?
+ Дивитися на небо
+ зсередини глобуса.”[ENDN][STRT=76,2]{Dagger}
+“Це точно{Speed 2}...{Speed -1}”[ENDN][STRT=173,3]{UpperLeftForce}Тот
+“Принцесо, я не хочу втручатися
+ у ваші справи, але{Speed 2}...{Speed -1}”[ENDN][STRT=109,3]{UpperLeftForce}Тот
+“Я на вашому боці,
+ зараз і назавжди.”[ENDN][STRT=156,3]{UpperLeftForce}Тот
+“Будь ласка, скажіть мені, якщо
+ я можу чимось допомогти.”[ENDN][STRT=88,2]{Dagger}
+“Доктор Тот{Speed 2}...{Speed -1}”[ENDN]

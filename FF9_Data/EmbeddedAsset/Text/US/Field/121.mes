@@ -1,0 +1,214 @@
+[STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=138,3]{Zidane}
+“Ви впораєтеся
+ самі?”[ENDN][STRT=177,3]{Dagger}
+“Це ти запропонував
+ щоб ми розділилися.”[ENDN][STRT=132,3]{LowerLeftForce}{Offset 0,80,0}{Eiko}
+“Що? Ти не довіряєш
+ мені і {Dagger}?”[ENDN][STRT=114,3]{Zidane}
+“Не те, щоб я вам
+ не довіряв{Speed 2}...{Speed -1}”[ENDN][STRT=153,3]{LowerLeftForce}{Offset 0,80,0}{Widths 0,86,18,-1}{Eiko}
+“Гмф! Ти просто хотів бути
+ у парі з {Dagger}!”[ENDN][STRT=245,3]{Dagger}
+“Тобі краще йти.
+ Нам потрібно подбати про всі точки одночасно.”[ENDN][STRT=94,2]{Zidane}
+“Ти маєш рацію{Speed 2}...{Speed -1}”[ENDN][STRT=188,3]{Dagger}
+“Куди ти збираєшся далі, 
+ і кого ти збираєшся висадити?”[ENDN][STRT=239,4]{Widths 0,170,20,-1}{Zidane}
+“‘Моя сила захищена високо на вершині
+ вогняної гори.’ Думаю, я попрошу, щоб про це
+ місце подбали {Fraya} та {Amarant}.”[ENDN][STRT=157,3]{LowerLeftForce}{Offset 0,80,0}{Eiko}
+“Гаразд, а тепер ідіть!
+ Не змушуйте нас, жінок, чекати!”[ENDN][STRT=205,2]{Zidane}
+“Я скоро повернуся за вами, хлопці!”[ENDN][STRT=210,3]{LowerLeftForce}{Offset 0,80,0}{Eiko}
+“Що ж, тепер, коли чоловіки пішли, ми можемо
+ вести будь-які дівочі розмови!”[ENDN][STRT=77,2]{Dagger}
+“{Speed 2}...{Speed -1}Дівочі розмови?”[ENDN][STRT=111,2]{Offset 0,100,-80}{LowerLeftForce}{Zidane}
+“Ходімо{Speed 2}...{Speed -1}”[ENDN][STRT=128,3]{Quina}
+“А, {Zidane}е.
+ Ти хочеш піти зі мною!”[ENDN][STRT=159,3]{Offset 0,100,-80}{LowerLeftForce}{Zidane}
+“Що ж{Speed 2}...{Speed -1} Я ніби застряг 
+ з залишками{Speed 2}...{Speed -1}”[ENDN][STRT=140,3]{Quina}
+“Тобі не треба нічого пояснювати!
+ Я такий щасливий.”[ENDN][STRT=25,1]{Offset 0,100,-80}{LowerLeftForce}Га?[ENDN][STRT=114,3]{Quina}
+“У моєму племені є стара
+ приказка{Speed 2}...{Speed -1}”[ENDN][STRT=115,2]{Quina}
+“‘Залишки найсолодші!’”[ENDN][STRT=149,3]{Offset 0,100,-80}{LowerLeftForce}{Zidane}
+“{Speed 2}...{Speed -1}Будемо сподіватися, що знайдемо
+ щось хороше у цій печері.”[ENDN][STRT=182,2]{Quina}
+“Напевно, там повно смачної їжі!”[ENDN][STRT=99,3]{Quina}
+“Тут нікого немає{Speed 2}...{Speed -1}
+ Порожньо.”[ENDN][STRT=53,2]{Widths 0,0,16,-1}{Zidane}
+“Так{Speed 2}...{Speed -1}”[ENDN][STRT=25,1]Га?[ENDN][STRT=84,2]{Quina}
+“Що не так?”[ENDN][STRT=177,2]{Zidane}
+“Земля щойно здригнулася{Speed 2}...{Speed -1}?”[ENDN][STRT=106,3]{Zidane}
+“Нам треба стрибнути
+ у потрібний момент.”[ENDN][STRT=184,2]{Quina}
+“Наступного разу ми не помилимося!”[ENDN][STRT=96,2]{Zidane}
+“Ще раз!”[ENDN][STRT=133,2]{Eiko}
+“Це місце порожнє{Speed 2}...{Speed -1}”[ENDN][STRT=99,2]{LowerRightForce}{Dagger}
+“Тут надто тихо{Speed 2}...{Speed -1}”[ENDN][STRT=156,3]{Eiko}
+“Вони, мабуть, злякалися
+ нас і втекли!”[ENDN][STRT=77,2]{LowerRightForce}{Dagger}
+“Сподіваюся, що так{Speed 2}...{Speed -1}”[ENDN][STRT=45,1]Аааргх![ENDN][STRT=223,3]{Eiko}
+“Я ненавиджу, коли ти так нервуєш!
+ Тому я завжди переживаю за тебе!”[ENDN][STRT=193,2]{LowerRightForce}{Dagger}
+“Щ-{Wait 3}Що ти маєш на увазі?”[ENDN][STRT=186,3]{Eiko}
+“О, нічого. Просто у мене багато
+ чого на думці{Speed 2}...{Speed -1}”[ENDN][STRT=54,1]{Instantly}Обережно!{Time 30}[ENDN][STRT=43,1]Айаа![ENDN][STRT=88,3]{UpperRightForce}{Quina}
+“Ми майже розплющилися,
+ як млинець!”[ENDN][STRT=169,3]{Zidane}
+“Сподіваюся, їх буде не так
+ вже й багато.”[ENDN][STRT=107,3]{Zidane}
+“{Dagger}{Speed 2}...{Speed -1}
+ Будь ласка, будь обережна{Speed 2}...{Speed -1}”[ENDN][STRT=73,1]{UpperRightForce}Щ-Що за...[ENDN][STRT=82,3]{LowerLeftForce}{Dagger}
+“Це пастка!
+ Обережно!{Speed 2}...{Speed -1}”[ENDN][STRT=32,1]{UpperRightForce}Аааа![ENDN][STRT=73,2]{LowerLeftForce}{Widths 0,73,22,-1}{Dagger}
+“Ходімо, {Eiko}!”[ENDN][STRT=136,3]{Quina}
+“Ага!
+ Тут можна встановити дзеркало.”[ENDN][STRT=149,3]{Widths 0,105,16,-1}{Quina}
+“{Zidane}е, що ти робиш?
+ Ми запізнимося, якщо ти не поквапишся.”[ENDN][STRT=83,2]{Widths 0,83,16,-1}{Quina}
+“{Zidane}е, встанови дзеркало.”[ENDN][STRT=196,2]{Zidane}
+“Я встановлю дзеркало ось тут{Speed 2}...{Speed -1}”[ENDN][STRT=153,1]Я чекав на тебе{Speed 2}...{Speed -1}[ENDN][STRT=197,3]{UpperRightForce}{Offset 0,-40,0}{Fraya}
+“Це було занадто просто{Speed 2}...{Speed -1} Це, мабуть, 
+ розчарувало тебе.”[ENDN][STRT=195,2]{UpperRightForce}{Offset 0,-40,0}{Fraya}
+“Тепер я встановлю дзеркало тут{Speed 2}...{Speed -1}”[ENDN][STRT=90,2]{UpperLeftForce}{Widths 0,90,20,-1}{Amarant}
+“{Fraya}, назад!”[ENDN][STRT=202,3]{UpperLeftForce}{Offset 40,-100,0}Вартовий Вогню
+“Все так, як і сказав Куджа{Speed 2}...{Speed -1}
+ Він сказав, що мені слід очікувати непроханих гостей.”[ENDN][STRT=196,2]{Zidane}
+“Тобою командує Куджа?!”[ENDN][STRT=136,3]{Quina}
+“Він нехороша людина!
+ Чому ти працюєш на нього?”[ENDN][STRT=229,2]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“Ні{Speed 2}...{Speed -1} Ми - вартові Терри{Speed 2}...{Speed -1}”[ENDN][STRT=140,2]{Zidane}
+“Вартові Терри{Speed 2}...{Speed -1}?”[ENDN][STRT=226,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Так, ми - вартові Терри.
+ Наповнені силою самої Терри{Speed 2}...{Speed -1}”[ENDN][STRT=101,2]{UpperRightForce}{Offset 0,-40,0}{Fraya}
+“Що таке Терра?”[ENDN][STRT=170,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Ми стали охоронцями не для того,
+ щоб спілкуватися зі смертними{Speed 2}...{Speed -1}”[ENDN][STRT=185,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Ми отримуємо задоволення від того,
+ що закінчуємо ваші нікчемні життя{Speed 2}...{Speed -1}”[ENDN][STRT=229,2]{UpperLeftForce}{Amarant}
+“Просто щоб довести, наскільки ви сильні{Speed 2}...{Speed -1}”[ENDN][STRT=197,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Отже, ти розумієш.
+ Але чи допоможуть вам ці знання?”[ENDN][STRT=57,2]{UpperLeftForce}{Widths 0,0,23,-1}{Amarant}
+“Дурниці.”[ENDN][STRT=60,2]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Що?”[ENDN][STRT=169,3]{UpperLeftForce}{Amarant}
+“Сваритися з незнайомцями
+ у такому місці, як це{Speed 2}...{Speed -1}”[ENDN][STRT=194,3]{UpperLeftForce}{Amarant}
+“Я знав когось схожого.
+ Він був невдахою{Speed 2}...{Speed -1}”[ENDN][STRT=219,4]{UpperLeftForce}{Amarant}
+“Він відмовлявся шукати вигідні способи
+ використання своєї сили. Замість цього
+ він шукав людей для бійки{Speed 2}...{Speed -1}”[ENDN][STRT=26,2]{UpperLeftForce}{Offset 0,-40,0}{Widths 0,0,20,-1,0,26,23,-1}{Fraya}
+“{Amarant}{Speed 2}...{Speed -1}”[ENDN][STRT=180,2]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Про{Speed 2}...{Speed -1} що ти говориш?”[ENDN][STRT=183,2]{UpperLeftForce}{Offset 0,-40,0}{Fraya}
+“Ми покажемо вам, що він має на увазі!”[ENDN][STRT=134,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
+“Цікаво{Speed 2}...{Speed -1}
+ але ви про це пошкодуєте!”[ENDN][STRT=53,1]{NoFocus}{Speed 32}Грааа!!!{Time 30}[ENDN][STRT=40,1]{NoFocus}{Speed 32}Аааа!!!{Time 30}[ENDN][STRT=106,3]{Offset 0,-500,0}{UpperLeftForce}Вартовий Вітру
+“Вже закінчили?
+ Такі слабаки.”[ENDN][STRT=51,2]{Widths 0,0,19,-1}{Steiner}
+“Ти{Speed 2}...{Speed -1}!”[ENDN][STRT=191,3]{Vivi}
+“Він занадто швидкий!
+ Я не можу поцілити у нього своєю магією.”[ENDN][STRT=148,3]{Vivi}
+“Ми не можемо впоратися
+ з ним лише удвох{Speed 2}...{Speed -1}”[ENDN][STRT=217,3]{Steiner}
+“Майстре {Vivi}!
+ Справжній чоловік ніколи не відступає!”[ENDN][STRT=44,2]{Widths 0,0,17,-1}{Vivi}
+“Але{Speed 2}...{Speed -1}”[ENDN][STRT=160,3]{Steiner}
+“Ми можемо перемогти цього монстра,
+ якщо будемо працювати разом!”[ENDN][STRT=129,3]{Offset 0,-500,0}{UpperLeftForce}Вартовий Вітру
+“Отже? Хто з вас
+ помре першим?”[ENDN][STRT=124,3]{Steiner}
+“Мовчати!
+ Я тебе переможу!”[ENDN][STRT=37,1]Що!?[ENDN][STRT=153,3]{Widths 0,102,17,-1}{Steiner}
+“{Speed 2}...{Speed -1}Майстре {Vivi}, я спробую
+ його затримати.”[ENDN][STRT=180,3]{Steiner}
+“Ви атакуйте його своєю магією 
+ поки я буду утримувати його!”[ENDN][STRT=114,3]{Vivi}
+“Але{Speed 2}...{Speed -1} що, якщо я не
+ влучу у ціль{Speed 2}...{Speed -1}?”[ENDN][STRT=85,2]{Widths 0,85,17,-1}{Steiner}
+“Я довіряю тобі, {Vivi}.”[ENDN][STRT=58,2]{Widths 0,0,17,-1}{Vivi}
+“{Speed 2}...{Speed -1}{Wait 15}Гаразд.”[ENDN][STRT=99,1]{NoFocus}{Speed 32}AAAAAAAAАРГХ!!!{Time 25}[ENDN][STRT=217,2]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“Куджа сказав нам, що буде вісім щурів{Speed 2}...{Speed -1}”[ENDN][STRT=192,3]{UpperLeftForce}{Zidane}
+“Вибач, нас тут тільки двоє.
+ Ви приготували бенкет?”[ENDN][STRT=118,3]{UpperRightForce}{Quina}
+“Не хвилюйся!
+ Ми все з'їмо.”[ENDN][STRT=211,3]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“А, то ви намагаєтеся зайняти
+ всі 4 святині одночасно{Speed 2}...{Speed -1} Як марно.”[ENDN][STRT=131,2]{UpperLeftForce}{Zidane}
+“Це ми ще побачимо!”[ENDN][STRT=212,2]{UpperRightForce}{Quina}
+“Треба спробувати поїсти, перш ніж здаватися!”[ENDN][STRT=170,3]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“Що ви, нижчі форми життя,
+ будете робити на Террі?”[ENDN][STRT=204,2]{UpperLeftForce}{Zidane}
+“Ми не дізнаємося, поки не потрапимо туди!”[ENDN][STRT=246,3]{UpperRightForce}{Quina}
+“Треба їсти, щоб дізнатися, що смакує!
+ Це мій урок з подорожей світом.”[ENDN][STRT=245,3]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“Добре{Speed 2}...{Speed -1}
+ Я покажу вам справжнє значення страху!”[ENDN][STRT=63,2]{UpperLeftForce}{Widths 0,0,16,-1}{Zidane}
+“Все готово!”[ENDN][STRT=170,2]{UpperRightForce}{Quina}
+“Цікаво, чи всі цілі?”[ENDN][STRT=172,3]{UpperLeftForce}{Zidane}
+“Так, я впевнений, що вони
+ вже чекають на нас.”[ENDN][STRT=163,3]{UpperRightForce}{Quina}
+“Вірно!
+ Повертаємося до повітряного корабля.”[ENDN][STRT=120,2]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“Свіже повітря Нарешті!”[ENDN][STRT=228,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“{Zidane} неймовірний{Speed 2}...{Speed -1} Просити
+ нас, дівчат, битися з таким монстром{Speed 2}...{Speed -1}”[ENDN][STRT=76,1]{UpperLeftForce}Боже мій!!![ENDN][STRT=102,2]{Widths 0,102,22,-1}{Dagger}
+“У чому справа, {Eiko}?”[ENDN][STRT=150,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“О, я зовсім забула!
+ І ми теж самі!”[ENDN][STRT=92,2]{Dagger}
+“Щ-Що таке?”[ENDN][STRT=114,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“Я маю до тебе
+ питання!”[ENDN][STRT=191,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“Я так довго чекала нагоди,
+ щоб спитати тебе про це!”[ENDN][STRT=155,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“Дай мені чесну відповідь,
+ гаразд?”[ENDN][STRT=188,3]{UpperLeftForce}{Dagger}
+“Ну, ти маєш поставити запитання,
+ перш ніж я зможу відповісти{Speed 2}...{Speed -1}”[ENDN][STRT=110,2]{LowerLeftForce}{Offset -10,60,0}{Widths 0,110,16,-1}{Eiko}
+“{Speed 2}...{Speed -1}Ти кохаєш{Speed 2}...{Speed -1}{Wait 10}{Zidane}а?”[ENDN][STRT=60,3]{UpperLeftForce}{Widths 0,0,18,-1}{Dagger}
+“Щ-{Wait 5}Що?
+ Чому{Speed 2}...{Speed -1}?”[ENDN][STRT=142,3]{LowerLeftForce}{Offset -10,60,0}{Eiko}
+“Ти мусиш мені відповісти!
+ Ти кохаєш його чи ні?”[ENDN][STRT=14,1]SE[ENDN][STRT=123,3]{UpperLeftForce}{Widths 0,58,16,-1}{Eiko}
+“Гей, це повітряний корабель!
+ {Zidane} повернувся!”[ENDN][STRT=177,2]{UpperLeftForce}{Widths 0,177,18,-1}{Eiko}
+“Ти щось сказала, {Dagger}?”[ENDN][STRT=73,2]{UpperLeftForce}{Widths 0,73,22,-1}{Dagger}
+“Ходімо, {Eiko}!”[ENDN][STRT=98,3]{UpperLeftForce}{Eiko}
+“Г-Гей, зажди!
+ Це нечесно!”[ENDN][STRT=0,1]{Time -1}[ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN]

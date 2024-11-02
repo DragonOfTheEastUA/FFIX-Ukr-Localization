@@ -1,0 +1,782 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}З'явився Чемпіон зі стрибків!
+{Tab}Чутки про принцесу Гарнет
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=208,5]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,193,6,1,-1}{Instantly}{Text 0,0}
+“Купо! Я щойно отримав листа від
+ {Text 0,1}! Хочеш прочитати його зі мною?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=133,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,2,137,-1}{Instantly}{Text 0,0}
+“Купо! Ти впевнений?”
+{Choice}Гаразд, я прочитаю
+{Tab}Я не хочу його читати[ENDN][STRT=163,10]{Widths 0,55,6,1,6,0,-1,0,123,64,7,-1,0,93,6,0,64,7,-1,0,110,64,6,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 2}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Сьогодні була дитина, яка стрибнула
+{Variable 7} разів поспіль!
+Це було дивовижно! Купо!
+Як він це зробив?
+Чи може {Text 0,0} стрибнути {Variable 7} разів?
+Мій кращий рекорд {Variable 6}!
+[ENDN][STRT=200,4]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Це справді дивовижно! Купо!
+ Я чув, що якщо багато стрибати,
+ то станеться щось чудове!”[ENDN][STRT=208,3]{UpperRight}{Widths 0,0,6,0,-1,0,154,6,1,-1}{Text 0,0}
+“Купо! Я щойно отримав листа від
+ {Text 0,1}! Давай прочитаємо його разом!”[ENDN][STRT=236,12]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 2}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Купо! Що відбувається у Олександрії!?
+Солдати скрізь!
+
+До мене дійшли чутки, що Принцеса Гарнет
+повернулася до Олександрії!
+
+Принцеса Гарнет покинула замок, але
+здається, вона все ще вірить у королеву Бране!
+[ENDN][STRT=218,12]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 2}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Купо! Що відбувається у Олександрії!?
+Солдати скрізь!
+
+До мене дійшли чутки, що Принцеса Гарнет
+повернулася до Олександрії!
+
+Гадаю, принцеса Гарнет покинула замок.
+бо запідозрила королеву Бране!
+[ENDN][STRT=192,5]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Про що могли думати принцеса
+ Гарнет і королева Бране? Купо!
+ Я не розумію хід думок членів
+ королівської сім'ї{Speed 2}...{Speed -1}”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=122,2]Тот
+“Сюди, принцесо.”[ENDN][STRT=76,2]{Widths 0,76,19,-1}{Dagger}
+“{Steiner}, Беатрікс{Speed 2}...{Speed -1}”[ENDN][STRT=150,3]{Dagger}
+“Як жахливо, що її життя мало
+ закінчитися саме так.”[ENDN][STRT=129,3]{Dagger}
+“Я все ще не можу повірити в те.
+ що сталося{Speed 2}...{Speed -1}”[ENDN][STRT=133,2]{LowerRightForce}Беатрікс
+“Принцесо, це була моя{Speed 2}...{Speed -1}”{IncreaseSignal}[ENDN][STRT=127,2]{LowerLeftForce}{Steiner}
+“Ні! Це була моя провина!”{IncreaseSignal}[ENDN][STRT=156,2]{Dagger}
+“Дякую тобі, вам обом{Speed 2}...{Speed -1}”[ENDN][STRT=165,3]{Dagger}
+“Тепер я повинна нести тягар одноосібного
+ правління Олександрією.”[ENDN][STRT=179,3]{Dagger}
+“Ви обидва, будь ласка, допоможіть
+ мені у цей скрутний для мене час?”[ENDN][STRT=56,1]{LowerRightForce}{Offset 100,0,0}Звісно!{IncreaseSignal}[ENDN][STRT=81,1]{LowerLeftForce}{Offset -110,0,0}Так, принцесо!{IncreaseSignal}[ENDN][STRT=75,2]{Dagger}
+“Дякую.”[ENDN][STRT=190,3]Тот
+“Принцесо, ось вінок з улюблених
+ троянд вашої матері.”[ENDN][STRT=190,3]Тот
+“Городяни надіслали його як
+ підношення на могилу королеви.”[ENDN][STRT=212,3]Тот
+“Щоправда, королева Бране поводилася
+ досить нестабільно перед своєю смертю{Speed 2}...{Speed -1}”[ENDN][STRT=203,3]Тот
+“{Speed 2}...{Speed -1}але люди все ще дуже
+ люблять її, як бачите.”[ENDN][STRT=65,2]{Widths 0,0,18,-1}{Dagger}
+“Мамо{Speed 2}...{Speed -1}”[ENDN][STRT=181,2]{Dagger}
+“Я стану великою королевою!”[ENDN][STRT=244,2]{UpperLeftForce}Тот
+“Принцесо, ми прибули до замку.”[ENDN][STRT=164,3]Беатрікс
+“Вона вже недовго буде
+ принцесою, Доктор Тот.”[ENDN][STRT=119,2]{UpperLeftForce}Тот
+“Ха ха ха{Speed 2}...{Speed -1} Дійсно.”[ENDN][STRT=222,3]{UpperLeftForce}Тот
+“Після коронації мені доведеться 
+ називати вас ‘Королева Гарнет’.”[ENDN][STRT=188,3]{UpperLeftForce}Тот
+“Я мушу готуватися до коронації
+ нашої нової королеви.”[ENDN][STRT=151,3]{UpperLeftForce}{Widths 0,151,19,-1}Тот
+“Генерале Беатрікс, Майстре {Steiner},
+ ви їй допоможете?”[ENDN][STRT=207,2]{UpperLeftForce}Тот
+“Принцесо, будь ласка, дивіться під ноги.”[ENDN][STRT=88,2]{Dagger}
+“Доктор Тот{Speed 2}...{Speed -1}”[ENDN][STRT=74,2]{UpperLeftForce}Тот
+“Принцесо{Speed 2}...{Speed -1}”[ENDN][STRT=178,2]{UpperLeftForce}Тот
+“Я знаю, як це може бути важко.”[ENDN][STRT=217,3]{UpperLeftForce}Тот
+“Але я буду поруч з вами. Будь ласка,
+ сідайте на трон впевнено.”[ENDN][STRT=205,3]{UpperRightForce}{Steiner}
+“Ще три дні до коронації
+ нової королеви{Speed 2}...{Speed -1}”[ENDN][STRT=81,2]{UpperRightForce}{Steiner}
+“Що за день!”[ENDN][STRT=174,3]{LowerRightForce}{PreChoose 2,1}{Instantly}Ви бажаєте вирушити до міста?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=196,3]{UpperLeftForce}{PreChoose 2,1}{Instantly}Ви бажаєте вирушити до замку?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=206,3]{UpperRightForce}{PreChoose 2,1}{Instantly}Ви бажаєте вирушити до гавані?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=167,3]Солдат Олександрії
+“Дістатися до замку можна
+ верхи на статуї Нептуна.”[ENDN][STRT=177,3]Солдат Олександрії
+“Дістатися до гавані можна
+ верхи на статуї Нептуна.”[ENDN][STRT=6,1]{Widths 0,6,19,-1}{Steiner}е?[ENDN][STRT=95,2]{Steiner}
+“Так, принцесо!”[ENDN][STRT=26,1]Ем{Speed 2}...{Speed -1}[ENDN][STRT=114,3]{Widths 0,114,16,-1}{Dagger}
+“Я хотіла б знайти {Zidane}а
+ і поговорити з ним{Speed 2}...{Speed -1}”[ENDN][STRT=202,3]{Steiner}
+“Принцесо, у вас є
+ важливіші справи!”[ENDN][STRT=130,3]{Steiner}
+“Тепер ви живете у
+ іншому світі!”[ENDN][STRT=143,3]{UpperLeftForce}Тот
+“О-оу.
+ Що тут відбувається?”[ENDN][STRT=132,3]{UpperLeftForce}Тот
+“Принцесо, прийшов час
+ вам переодягнутися.”[ENDN][STRT=108,3]Тот
+“Генерале Беатрікс,
+ ви їй допоможете?”[ENDN][STRT=48,1]{Instantly}Так, сер![ENDN][STRT=165,3]Тот
+“Є дещо, що я повинен
+ віддати вам, принцесо.”[ENDN][STRT=233,3]Тот
+“У тих каменях міститься ваша сила,
+ яку королева Бране силоміць{Speed 2}...{Speed -1}”[ENDN][STRT=172,2]Тот
+“Ну, це все в минулому{Speed 2}...{Speed -1}”[ENDN][STRT=93,2]{UpperLeftForce}Тот
+“я зараз піду.”[ENDN][STRT=75,2]{UpperLeftForce}{Widths 0,75,19,-1}Тот
+“Майстре {Steiner}{Speed 2}...{Speed -1}?”[ENDN][STRT=187,3]{UpperLeftForce}Тот
+“Майстре {Steiner}, ви маєте намір
+ залишитися тут і спостерігати?”[ENDN][STRT=105,2]{Steiner}
+“Н-Ні, Я не{Speed 2}...{Speed -1}”[ENDN][STRT=91,2]{Steiner}
+“П-Перепрошую!”[ENDN][STRT=54,1]Беатрікс{Speed 2}...{Speed -1}[ENDN][STRT=101,3]{Widths 0,101,16,-1}{Dagger}
+“Я хотіла б побачити {Zidane}а{Speed 2}...{Speed -1}
+ Будь ласка.”[ENDN][STRT=174,2]Беатрікс
+“Зараз, можливо, не найкращий час.”[ENDN][STRT=137,2]{Widths 0,137,19,-1}{Dagger}
+“Навіть ти згодна зі {Steiner}ом.”[ENDN][STRT=90,1]Ваша Високосте{Speed 2}...{Speed -1}[ENDN][STRT=119,2]{Dagger}
+“Я знаю{Speed 2}...{Speed -1} Усе гаразд.”[ENDN][STRT=195,3]{Widths 0,142,18,-1,0,195,16,-1}{Eiko}
+“Тепер, коли {Dagger} зійшла з дистанції,
+ це мій шанс завоювати серце {Zidane}а!”[ENDN][STRT=108,3]{Eiko}
+“По-перше, я напишу йому
+ любовного листа.”[ENDN][STRT=176,3]{Eiko}
+“Я зроблю його найромантичнішим
+ листом з усіх коли-небудь написаних!”[ENDN][STRT=198,3]Тот
+“Ставши королевою, Принцеса Гарнет може
+ покласти на себе чималий тягар{Speed 2}...{Speed -1}”[ENDN][STRT=234,3]Тот
+“Але вона повинна продовжувати.
+ Народ Олександрії спостерігає за нею.”[ENDN][STRT=143,2]{LowerRightForce}{Eiko}
+“Він виглядає досить розумним!”[ENDN][STRT=130,3]{LowerRightForce}{Eiko}
+“Гей, ти схожий на
+ книголюба!”[ENDN][STRT=190,3]Тот
+“Ха ха ха{Speed 2}...{Speed -1}
+ Чому у тебе склалося таке враження?”[ENDN][STRT=185,2]{LowerRightForce}{Eiko}
+“Ти справді хочеш, щоб я пояснила?”[ENDN][STRT=105,3]Тот
+“О, так.
+ Мені дуже цікаво.”[ENDN][STRT=145,2]{LowerRightForce}{Eiko}
+“З чого мені почати{Speed 2}...{Speed -1}?”[ENDN][STRT=118,2]{LowerRightForce}{Eiko}
+“По-перше, твоя борода!”[ENDN][STRT=153,2]{LowerRightForce}{Eiko}
+“По-друге, твій ботанський капелюх!”[ENDN][STRT=160,2]{LowerRightForce}{Eiko}
+“По-третє, твої товсті окуляри!”[ENDN][STRT=116,3]{LowerRightForce}{Eiko}
+“Всі ознаки занудного
+ філософа!”[ENDN][STRT=225,2]Тот
+“Ха ха{Speed 2}...{Speed -1} Ти не стримуєшся, чи не так?”[ENDN][STRT=143,2]{LowerRightForce}{Eiko}
+“Гей, ти письменник?”[ENDN][STRT=203,3]Тот
+“Ну, так. Деякий час я заробляв
+ на життя як письменник.”[ENDN][STRT=94,3]{LowerRightForce}{Eiko}
+“Допоможеш мені
+ написати листа?”[ENDN][STRT=64,2]Тот
+“Листа?”[ENDN][STRT=143,3]Тот
+“З радістю, якщо ти вважаєш,
+ що я можу бути корисним.”[ENDN][STRT=143,2]{LowerRightForce}{Eiko}
+“Гаразд. Іди за мною.”[ENDN][STRT=137,2]Тот
+“Ця дівчина має ріг{Speed 2}...{Speed -1}”[ENDN][STRT=66,1]Цей ріг{Speed 2}...{Speed -1}[ENDN][STRT=106,3]{Widths 0,72,16,-1}{Eiko}
+“Куди я йду?
+ {Zidane} у місті!”[ENDN][STRT=198,2]До цього моменту
+ я зовсім забув про це{Speed 2}...{Speed -1}[ENDN][STRT=157,2]Я ніколи не був так здивований
+як того дня.[ENDN][STRT=212,3]Корабель прибило до берега після шторму{Speed 2}...{Speed -1}
+Усередині корабля були жінка і
+маленька дівчинка{Speed 2}...{Speed -1}[ENDN][STRT=182,2]Жінка була мертва,
+але дівчинка ще дихала{Speed 2}...{Speed -1}[ENDN][STRT=153,2]Уявіть моє здивування, коли я
+подивився в обличчя дівчини![ENDN][STRT=104,1]Тому що дівчинка{Speed 2}...{Speed -1}[ENDN][STRT=219,2]{Speed 2}...{Speed -1}виглядала точнісінько як Принцеса Гарнет,
+ яка щойно пішла з життя.[ENDN][STRT=118,1]За одним винятком{Speed 2}...{Speed -1}[ENDN][STRT=89,1]Вона мала ріг![ENDN][STRT=121,1]Людина з рогом{Speed 2}...{Speed -1}[ENDN][STRT=148,1]Звідки вона взялася?[ENDN][STRT=136,2]Король наказав
+відрізати дівчині ріг.[ENDN][STRT=151,1]Дівчинка закричала від болю{Speed 2}...{Speed -1}[ENDN][STRT=226,2]Він та його дружина, королева Бране, вирішили 
+виховати дівчинку як принцесу Гарнет{Speed 2}...{Speed -1}[ENDN][STRT=252,2]Але та дівчина, яка зі мною розмовляла{Speed 2}...{Speed -1} Чи може вона бути
+пов'язана з Принцесою Гарнет{Speed 2}...{Speed -1}?[ENDN][STRT=186,3]Солдат Олександрії
+“Червона троянда не може літати,
+ бо немає Імли.”[ENDN][STRT=122,2]Солдат Олександрії
+“Доступ обмежений.”[ENDN][STRT=110,3]{Eiko}
+“Гей,
+ можеш поквапитися?”[ENDN][STRT=97,2]Тот
+“О, перепрошую.”[ENDN][STRT=172,2]Беатрікс
+“Принцесо, ви виглядаєте чудово.”[ENDN][STRT=69,1]Дякую{Speed 2}...{Speed -1}[ENDN][STRT=88,2]{Dagger}
+“До речі{Speed 2}...{Speed -1}”[ENDN][STRT=146,3]{Dagger}
+“Є дещо, що я повинна
+ сказати тобі, Беатрікс.”[ENDN][STRT=82,1]{UpperRightForce}Так, принцесо?[ENDN][STRT=214,3]{Dagger}
+“Я не моя мати{Speed 2}...{Speed -1}{Wait 5} Тобто,
+ Королева Бране {Wait 5}не моя справжня мати.”[ENDN][STRT=102,1]{UpperRightForce}Принцесо Гарнет{Speed 2}...{Speed -1}[ENDN][STRT=140,3]{UpperRightForce}Беатрікс
+“Доктор Тот вже
+ повідомив нам.”[ENDN][STRT=61,1]{UpperRightForce}{Offset 0,100,0}Однак{Speed 2}...{Speed -1}[ENDN][STRT=191,3]{UpperRightForce}{Offset 0,100,0}Беатрікс
+“Моя вірність вам залишається
+ такою ж, якщо не сильнішою.”[ENDN][STRT=54,1]Беатрікс{Speed 2}...{Speed -1}[ENDN][STRT=69,1]Дякую{Speed 2}...{Speed -1}[ENDN][STRT=70,1]{UpperLeftForce}Готово![ENDN][STRT=162,4]{UpperLeftForce}{Widths 0,91,16,-1}{Eiko}
+“{Zidane} закохається в мене,
+ як тільки прочитає цього
+ листа!”[ENDN][STRT=101,2]{UpperLeftForce}{Eiko}
+“Дякую, містере!”[ENDN][STRT=169,3]{UpperRightForce}Тот
+“Ха ха{Speed 2}...{Speed -1}
+ Із задоволенням, міледі.”[ENDN][STRT=138,3]{UpperLeftForce}{Widths 0,79,22,-1}{Eiko}
+“О, я забула тобі сказати.
+ Мене звати {Eiko}!”[ENDN][STRT=131,2]{UpperRightForce}{Eiko}
+“Я з Мадейн Сарі!”[ENDN][STRT=151,2]{UpperRightForce}{Eiko}
+“Сподіваюся, ми ще побачимося!”[ENDN][STRT=52,1]{UpperRightForce}Бувай![ENDN][STRT=128,2]{UpperRightForce}Тот
+“З Мадейн Сарі{Speed 2}...{Speed -1}?”[ENDN][STRT=138,3]{UpperRightForce}Тот
+“Мадейн Сарі це
+ селище призивачів{Speed 2}...{Speed -1}”[ENDN][STRT=115,3]{UpperRightForce}Тот
+“Але я думав, що це
+ була лише легенда.”[ENDN][STRT=147,2]{UpperRightForce}Тот
+“Що б це могло означати{Speed 2}...{Speed -1}?”[ENDN][STRT=152,2]Тот
+“Що тут відбувається{Speed 2}...{Speed -1}?”[ENDN][STRT=137,3]{Widths 0,93,16,-1}{Eiko}
+“О, я не можу дочекатися, щоб вручити
+ цього листа {Zidane}у!”[ENDN][STRT=160,2]{Eiko}
+“Куди він до речі подівся?”[ENDN][STRT=45,1]{Instantly}Арр!{Time 10}[ENDN][STRT=103,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“АААА!!! ДОПОМОЖІТЬ!!!”[ENDN][STRT=119,2]Баку
+“Гей, з тобою все гаразд?”[ENDN][STRT=147,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“Н-Н-Не можу дихати{Speed 2}...{Speed -1}!!!”[ENDN][STRT=134,3]Баку
+“Вибач! Я не бачив,
+ як ти вистрибнула.”[ENDN][STRT=127,3]Баку
+“Але ти занадто високо.
+ Я не можу тебе спустити!”[ENDN][STRT=80,2]Баку
+“Гвахахаха!”[ENDN][STRT=154,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“Припини сміятися, какашка!”[ENDN][STRT=143,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“О, солоденький. Мій лист{Speed 2}...{Speed -1}”[ENDN][STRT=193,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“Гей, якщо ти не можеш мене зняти{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperLeftForce}{Offset 30,200,0}{Widths 0,155,16,-1}{Eiko}
+“{Speed 2}...{Speed -1}передай цього листа {Zidane}у!”[ENDN][STRT=62,2]{UpperLeftForce}{Offset 30,200,0}{Widths 0,0,22,-1}{Eiko}
+“Гаразд!?”[ENDN][STRT=150,3]Баку
+“To {Zidane}у?  Так,
+ без проблем. Гвахахаха!”[ENDN][STRT=192,2]{UpperLeftForce}{Offset 30,200,0}{Eiko}
+“Що мені тепер робити?”[ENDN][STRT=155,2]{UpperRightForce}Баку
+“Гей, човна тут немає!”[ENDN][STRT=158,2]{UpperLeftForce}{Steiner}
+“Патрулювання замку завершено!”[ENDN][STRT=25,1]{UpperLeftForce}Га?[ENDN][STRT=142,3]{UpperLeftForce}{Steiner}
+“Це ж Баку, ватажок
+ Танталусу!”[ENDN][STRT=154,2]Баку
+“Хто щойно назвав моє ім'я?”[ENDN][STRT=81,2]Баку
+“А, це ти.”[ENDN][STRT=144,2]{UpperRightForce}Лаудо, Лицар Плутона IV
+“Нам його схопити?”[ENDN][STRT=178,3]{UpperLeftForce}{Steiner}
+“Ні, він врятував мені життя.
+ Ви можете йти. Я розберуся з цим.”[ENDN][STRT=48,1]{LowerLeftForce}Так, сер!{Time 20}[ENDN][STRT=48,1]{UpperRightForce}Так, сер!{Time 20}[ENDN][STRT=146,3]Баку
+“Вже не такий
+ бовдур, га?”[ENDN][STRT=59,2]{UpperLeftForce}{Widths 0,0,19,-1}{Steiner}
+“Мовчати!”[ENDN][STRT=166,3]{UpperLeftForce}{Steiner}
+“Тут не місце для злодіїв!
+ Ти маєш негайно піти.”[ENDN][STRT=191,4]Баку
+“То ось воно як, так?
+ Мені нагадати тобі, що один з моїх
+ хлопців врятував твоє королівство?”[ENDN][STRT=200,3]Баку
+“Але я впевнений, що у тебе немає часу,
+ щоб слухати такого нікчему, як я.”[ENDN][STRT=212,4]{UpperLeftForce}{Steiner}
+“Ти кажеш про {Zidane}а?
+ Так, він захистив принцесу і
+ її королівство{Speed 2}...{Speed -1}”[ENDN][STRT=192,3]{UpperLeftForce}{Steiner}
+“Але це не змінює того
+ факту що ви всі злодії!”[ENDN][STRT=140,3]{UpperLeftForce}{Steiner}
+“Я не можу дозволити таким,
+ як ви тинятися замком!”[ENDN][STRT=201,2]Баку
+“Ніякої вдячності, так?”[ENDN][STRT=162,3]Баку
+“Ну, у мене немає причин
+ залишатися тут.”[ENDN][STRT=126,3]{Widths 0,67,16,-1}Баку
+“Гей, ти не знаєш, де
+ може бути {Zidane}?”[ENDN][STRT=162,3]{UpperLeftForce}{Steiner}
+“Він не відвідував замок
+ з тих пір, як ми повернулися.”[ENDN][STRT=227,3]{UpperLeftForce}{Steiner}
+“Можливо, він навчить тебе парі
+ правил хорошого тону!”[ENDN][STRT=137,2]{UpperRightForce}Баку
+“Гаразд, я зрозумів, про що ти!”[ENDN][STRT=135,3]{UpperRightForce}Баку
+“З мене досить твоєї
+ самовпевненості!”[ENDN][STRT=172,2]{UpperRightForce}Баку
+“Гвахахаха! Якраз вчасно!”[ENDN][STRT=120,2]{UpperLeftForce}Баку
+“Забери мене у місто!”[ENDN][STRT=168,3]{UpperRightForce}Беатрікс
+“А, так це був {Steiner}{Speed 2}...{Speed -1}
+ Мені здалося, що я чула, як він кричав.”[ENDN][STRT=35,1]{UpperRightForce}Зітхання{Speed 2}...{Speed -1}[ENDN][STRT=181,3]{UpperRightForce}Беатрікс
+“В Олександрії знову панує мир{Speed 2}...{Speed -1}
+ Але моє серце сповнене смутку.”[ENDN][STRT=53,2]{UpperRightForce}Беатрікс
+“Чому{Speed 2}...{Speed -1}?”[ENDN][STRT=27,1]{UpperRightForce}Гмм?[ENDN][STRT=140,2]{UpperRightForce}{Widths 0,140,19,-1}Беатрікс
+“Мабуть, {Steiner} впустив це.”[ENDN][STRT=64,1]{UpperRightForce}Подивимось{Speed 2}...{Speed -1}[ENDN][STRT=212,5]
+{Center 212}Коли нічне небо носитиме місяць,
+{Center 161}наче кулон, я чекатиму на тебе
+{Center 70}на пристані.
+[ENDN][STRT=146,2]{UpperRightForce}Беатрікс
+“Щ-що це за лист!?”[ENDN][STRT=47,2]{UpperRightForce}{Widths 0,47,19,-1}Беатрікс
+“Чи міг {Steiner}{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRightForce}Беатрікс
+“{Speed 2}...{Speed -1}написати мені любовного листа?”[ENDN][STRT=12,1]{UpperRightForce}{Widths 0,12,19,-1}{Steiner}{Speed 2}...{Speed -1}[ENDN][STRT=36,1]{UpperRightForce}О, боже![ENDN][STRT=141,2]{UpperRightForce}{Eiko}
+“Який величезний будинок!”[ENDN][STRT=139,2]{UpperRightForce}{Eiko}
+“Я маю зазирнути всередину!”[ENDN][STRT=114,1]{UpperLeftForce}{Instantly}Ми готуємо смачну їжу![ENDN][STRT=26,1]{UpperRightForce}{Instantly}Гей![ENDN][STRT=83,1]{UpperRightForce}<Нюх-нюх{Speed 2}...{Speed -1}>[ENDN][STRT=163,2]{UpperRightForce}{Eiko}
+“Щось смачно пахне!”[ENDN][STRT=82,2]{UpperLeftForce}Майстер яєць
+“Ти голодна?”[ENDN][STRT=114,2]{UpperLeftForce}Майстер духовки
+“Ти ДУЖЕ голодна?”[ENDN][STRT=155,2]{UpperLeftForce}Майстер страв
+“Ти НЕСТЕРПНО голодна?”[ENDN][STRT=51,1]{UpperLeftForce}{Instantly}Дуже шкода![ENDN][STRT=115,2]{UpperRightForce}{Offset 0,250,0}{Eiko}
+“Ааааа!  Легго!!!”[ENDN][STRT=31,1]{UpperRightForce}{Offset 0,150,0}{Instantly}Ой!{Time 15}[ENDN][STRT=101,3]{UpperRightForce}{Eiko}
+“Так не можна
+ поводитися з леді!!”[ENDN][STRT=167,3]{UpperLeftForce}{Steiner}
+“Припини кричати, або я кину
+ тебе у підземелля!”[ENDN][STRT=68,2]{UpperRightForce}{Widths 0,0,22,-1}{Eiko}
+“ГАААА!”[ENDN][STRT=112,2]{UpperLeftForce}{Widths 0,112,22,-1}{Zidane}
+“Що трапилося, {Eiko}?”[ENDN][STRT=19,2]{UpperRightForce}{Widths 0,0,22,-1,0,19,16,-1}{Eiko}
+“{Zidane}е!”[ENDN][STRT=122,2]{UpperRightForce}{Eiko}
+“О, це було жахливо!”[ENDN][STRT=179,3]{UpperRightForce}{Eiko}
+“Він назвав мене брехухою,
+ крикухою і негідницею!!!”[ENDN][STRT=85,2]{UpperLeftForce}{Amarant}
+“{Speed 2}...{Speed -1}Він правду каже.”[ENDN][STRT=176,3]{UpperRightForce}{Eiko}
+“Що ти щойно сказав?
+ Хочеш повторити це?”[ENDN][STRT=114,2]{UpperLeftForce}{Amarant}
+“Боже, я ненавиджу дітей{Speed 2}...{Speed -1}”[ENDN][STRT=117,3]{UpperRightForce}{Fraya}
+“Заспокойся трохи.
+ Як тебе звати?”[ENDN][STRT=135,3]{UpperLeftForce}{Widths 0,135,22,-1}{Eiko}
+“Мене?  Я {Eiko}!
+ {Eiko} Зірка Мадейн Сарі!”[ENDN][STRT=167,3]{UpperRightForce}{Fraya}
+“З Мадейн Сарі?
+ Ніколи про нього не чула.”[ENDN][STRT=149,3]{UpperLeftForce}{Eiko}
+“Ти що, нічого не знаєш?
+ Мадейн Сарі це...”[ENDN][STRT=177,3]{UpperRightForce}{Steiner}
+“Мовчати!
+ Що ви всі тут робите?”[ENDN][STRT=147,3]{UpperRightForce}{Steiner}
+“Це королівський замок!
+ Вам тут не місце!”[ENDN][STRT=92,2]{UpperRightForce}{Widths 0,92,19,-1}{Vivi}
+“Доброго дня, містере {Steiner}.”[ENDN][STRT=173,3]{UpperLeftForce}{Steiner}
+“Майстре {Vivi}!
+ Приємно бачити вас знову.”[ENDN][STRT=139,2]{UpperRightForce}{Widths 0,139,18,-1}{Vivi}
+“Ми прийшли сюди, щоб побачити {Dagger}.”[ENDN][STRT=85,3]{UpperLeftForce}{Steiner}
+“Принцесу?
+ Гмм{Speed 2}...{Speed -1}”[ENDN][STRT=154,3]{UpperLeftForce}{Widths 0,143,17,-1}{Steiner}
+“Якщо це бажання Майстра {Vivi},
+ я організую зустріч.”[ENDN][STRT=149,2]{Steiner}
+“Ви всі чекайте тут!”[ENDN][STRT=151,2]{Steiner}
+“Принцесо, ми готові.”[ENDN][STRT=131,3]Гарнет
+“Дякую всім, що
+ прийшли.”[ENDN][STRT=133,2]{UpperLeftForce}{Eiko}
+“Вона виглядає чудово{Speed 2}...{Speed -1}”[ENDN][STRT=117,3]{Vivi}
+“Ого{Speed 2}...{Speed -1}
+ Виглядаєш чудово!”[ENDN][STRT=66,2]{UpperLeftForce}{Widths 0,0,20,-1}{Fraya}
+“Прекрасно!”[ENDN][STRT=153,3]{Fraya}
+“{Zidane}е?
+ Тобі нема чого сказати?”[ENDN][STRT=44,2]{Widths 0,0,16,-1}{Zidane}
+“{Speed 2}...{Speed -1}Ні.”[ENDN][STRT=101,3]{Steiner}
+“Принцесо,
+ нам треба йти.”[ENDN][STRT=22,1]{Widths 0,22,16,-1}{White}({Zidane}{Speed 2}...{Speed -1})[ENDN][STRT=67,2]Гарнет
+“{Speed 2}...{Speed -1}Гаразд.”[ENDN][STRT=36,1]{UpperLeftForce}{Widths 0,36,18,-1}{Dagger}, зачекай![ENDN][STRT=207,3]{LowerLeftForce}{Eiko}
+“{Dagger}!  Ми бачимося
+ востаннє?”[ENDN][STRT=92,3]{UpperRightForce}Гарнет
+“О, ні.
+ Звісно, ні.”[ENDN][STRT=194,3]{UpperRightForce}Гарнет
+“Я більше не зможу мандрувати
+ світом з вами{Speed 2}...{Speed -1}”[ENDN][STRT=136,3]{UpperRightForce}Гарнет
+“{Speed 2}...{Speed -1}але я ніколи не забуду
+ нашу спільну подорож.”[ENDN][STRT=12,1]{LowerLeftForce}{Widths 0,12,18,-1}{Dagger}{Speed 2}...{Speed -1}[ENDN][STRT=128,3]{LowerLeftForce}{Eiko}
+“Я хотіла, щоб ми назавжди
+ залишилися добрими суперницями.”[ENDN][STRT=141,3]{UpperRightForce}{Widths 0,106,22,-1}Гарнет
+“Суперницями? {Eiko}, іноді
+ ти говориш кумедні речі.”[ENDN][STRT=151,3]{UpperRightForce}Гарнет
+“О, є кілька речей які
+ я хотіла тобі віддати.”[ENDN][STRT=162,3]{UpperRightForce}Гарнет
+“Давай обміняємося коштовностями
+ на знак нашої дружби.”[ENDN][STRT=122,2]{UpperRightForce}Гарнет
+“Дві мої коштовності{Speed 2}...{Speed -1}”[ENDN][STRT=122,2]{LowerLeftForce}{Eiko}
+“Дві мої коштовності{Speed 2}...{Speed -1}”[ENDN][STRT=75,2]{UpperRightForce}{Widths 0,75,22,-1}Гарнет
+“До побачення, {Eiko}.”[ENDN][STRT=163,3]{Vivi}
+“{Zidane}е, чому ти нічого
+ їй не сказав?”[ENDN][STRT=94,2]{Zidane}
+“Я не знаю{Speed 2}...{Speed -1}”[ENDN][STRT=61,2]{Widths 0,0,16,-1}{Zidane}
+“Я намагався{Speed 2}...{Speed -1}”[ENDN][STRT=40,2]{Widths 0,0,20,-1}{Fraya}
+“І?”[ENDN][STRT=87,3]{Zidane}
+“Я не зміг нічого
+ сказати!”[ENDN][STRT=124,3]{Zidane}
+“У мене була готова ціла
+ промова для неї.”[ENDN][STRT=154,3]{Zidane}
+“Але це була б брехня!
+ Як я міг збрехати їй!?”[ENDN][STRT=178,2]‘Щасти тобі, {Dagger}!
+ Я буду спостерігати за тобою здалеку.’[ENDN][STRT=148,2]‘Знайди мене, якщо тобі
+ потрібно буде з кимось поговорити.’[ENDN][STRT=164,3]{Zidane}
+“Це просто велика брехня!
+ Це зовсім не те, що я відчуваю!”[ENDN][STRT=174,2]{Zidane}
+“Це не те, що я відчуваю{Speed 2}...{Speed -1} взагалі.”[ENDN][STRT=154,3]{Widths 0,154,18,-1}{Eiko}
+“Отже, в серці {Zidane}а є місце
+ лише для {Dagger}{Speed 2}...{Speed -1}”[ENDN][STRT=127,3]{Eiko}
+“Краще б я не писала
+ того дурного листа.”[ENDN][STRT=109,2]{Widths 0,109,16,-1}{Eiko}
+“{Zidane} виглядав таким сумним...”[ENDN][STRT=117,3]{Eiko}
+“Чи можу я чимось
+ допомогти йому?”[ENDN][STRT=105,3]{Widths 0,105,16,-1}{Eiko}
+“Аааа!
+ {Zidane}е!!! Ненавиджу тебе!!!”[ENDN][STRT=138,2]{Eiko}
+“Ти нечутливий дурень!!!”[ENDN][STRT=200,2]{Eiko}
+“Ти навіть не знаєш, що я відчуваю{Speed 2}...{Speed -1}”[ENDN][STRT=169,4]{Eiko}
+“Мені шкода, що я його покинула,
+ але я дійсно не хочу бачити його
+ сьогодні ввечері.”[ENDN][STRT=132,3]{Eiko}
+“Я маю сховатися до того,
+ як він не з'явився!”[ENDN][STRT=38,1]{UpperLeftForce}Солоденький![ENDN][STRT=111,3]{UpperLeftForce}{Widths 0,86,16,-1}{Eiko}
+“Хтось іде!
+ Чи може це бути {Zidane}!?”[ENDN][STRT=160,2]{UpperRightForce}Маркус
+“Тут нікого немає, братан.”[ENDN][STRT=117,2]{UpperLeftForce}Бланк
+“Мабуть, я рано{Speed 2}...{Speed -1}”[ENDN][STRT=66,2]{UpperRightForce}Маркус
+“{Speed 2}...{Speed -1}Мабуть.”[ENDN][STRT=141,3]{UpperRightForce}Маркус
+“Цікаво, хто написав тобі
+ того любовного листа?”[ENDN][STRT=161,3]{UpperLeftForce}Бланк
+“Ну{Speed 2}...{Speed -1} Прочитай листа.
+ Б'юся об заклад, вона красуня!”[ENDN][STRT=152,3]{UpperRightForce}Маркус
+“Справді? Ти точно,
+ не написав його сам?”[ENDN][STRT=232,3]{UpperRightForce}Маркус
+“Я маю на увазі, що ти зловив лист,
+ який впав з поверху над тобою, чи не так?”[ENDN][STRT=181,3]{UpperLeftForce}Бланк
+“Кажу тобі, вона була надто сором'язлива,
+ щоб вручити мені листа самостійно!”[ENDN][STRT=159,3]{UpperLeftForce}Бланк
+“І якщо ти думаєш, що я не
+ ловелас, ти помиляєшся.”[ENDN][STRT=200,3]{UpperLeftForce}Бланк
+“Дівчат лякають красиві
+ хлопці. Ось чому{Speed 2}...{Speed -1}”{IncreaseSignal}[ENDN][STRT=118,2]{UpperRightForce}Маркус
+“Хтось іде!”{IncreaseSignal}[ENDN][STRT=162,3]{UpperLeftForce}Бланк
+“Маркусе! Не перебивай мене,
+ коли я говорю!”{IncreaseSignal}[ENDN][STRT=102,2]{UpperRightForce}Маркус
+“Ховаймося, братан!”{IncreaseSignal}[ENDN][STRT=94,1]{Instantly}Гаразд, гаразд{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=187,3]{UpperLeftForce}{Steiner}
+“Відтепер я повинен посилити
+ охорону замку!”[ENDN][STRT=164,3]{UpperLeftForce}{Steiner}
+“Від заходу до світанку, в дощ чи в спеку,
+ я повинен патрулювати замок!”[ENDN][STRT=71,1]{UpperRightForce}{Instantly}Праворуч, чисто![ENDN][STRT=66,1]{UpperLeftForce}{Instantly}Ліворуч, чисто![ENDN][STRT=25,1]{UpperLeftForce}{Instantly}Га?[ENDN][STRT=144,2]{UpperLeftForce}{Steiner}
+“Це аркуш паперу{Speed 2}...{Speed -1}”[ENDN][STRT=146,2]{UpperLeftForce}{Steiner}
+“Це схоже на лист.”[ENDN][STRT=64,1]{UpperLeftForce}Подивимось{Speed 2}...{Speed -1}[ENDN][STRT=121,2]{UpperLeftForce}{Steiner}
+“Б-{Wait 3}Б-{Wait 3}Боже мій!”[ENDN][STRT=150,2]{UpperLeftForce}{Steiner}
+“Ц-{Wait 5}Це любовний лист!”[ENDN][STRT=143,2]{UpperLeftForce}{Steiner}
+“Хто і кому його написав?”[ENDN][STRT=125,3]{UpperLeftForce}{Steiner}
+“Гмм{Speed 2}...{Speed -1} немає адреси або
+ адресата{Speed 2}...{Speed -1}”[ENDN][STRT=200,3]{UpperLeftForce}{Steiner}
+“Хтось кинув його сюди, знаючи,
+ що я буду проходити повз?”[ENDN][STRT=161,2]{UpperLeftForce}{Steiner}
+“Хто б це міг бути{Speed 2}...{Speed -1}?”[ENDN][STRT=42,2]{UpperLeftForce}{Widths 0,26,19,-1}Беатрікс
+“{Steiner}{Speed 2}...{Speed -1}”[ENDN][STRT=86,3]{UpperRightForce}{Steiner}
+“Беатрікс{Speed 2}...{Speed -1}
+ Це була ти{Speed 2}...{Speed -1}?”[ENDN][STRT=96,2]{UpperLeftForce}{Eiko}
+{White}<Туп-туп...>[ENDN][STRT=120,2]{UpperLeftForce}{Eiko}
+{White}(В-вони закохані?)[ENDN][STRT=70,2]{UpperRightForce}Маркус
+{White}“(Б-братан...)”[ENDN][STRT=90,2]{UpperLeftForce}Бланк
+{White}“(Тссс! Тихо!)”[ENDN][STRT=12,1]{UpperLeftForce}{Widths 0,12,19,-1}{Steiner}{Speed 2}...{Speed -1}[ENDN][STRT=54,1]{UpperRightForce}Беатрікс{Speed 2}...{Speed -1}[ENDN][STRT=167,2]{UpperLeftForce}{Eiko}
+{White}(Ооо! Що буде далі?)[ENDN][STRT=160,2]{UpperRightForce}Маркус
+{White}“(У м-мене з носа кров тече{Speed 2}...{Speed -1})”[ENDN][STRT=181,2]{UpperLeftForce}Бланк
+{White}“(Тоді запхай туди великий палець!)”[ENDN][STRT=61,1]{UpperLeftForce}{Instantly}АП-ЧХИ![ENDN][STRT=37,1]{UpperLeftForce}Босе!?[ENDN][STRT=199,2]{UpperLeftForce}{Eiko}
+“О, ти повністю зіпсував сцену!”[ENDN][STRT=75,3]{UpperRightForce}{Steiner}
+“ХУТЧІШ,
+ ВИ, ДУРНІ!”[ENDN][STRT=136,2]{UpperRightForce}{Steiner}
+“Це надзвичайна ситуація!”[ENDN][STRT=175,3]{UpperRightForce}{Steiner}
+“Зберіться разом
+ до прибуття принцеси!”[ENDN][STRT=68,2]{UpperRightForce}{Widths 0,0,19,-1}{Steiner}
+“Шикуйсь!!!”[ENDN][STRT=197,3]{UpperLeftForce}Беатрікс
+“Ваша Високосте, як бачите, ми
+ готові діяти в будь-який момент.”[ENDN][STRT=156,2]{UpperLeftForce}Беатрікс
+“Будь ласка, віддайте наказ.”[ENDN][STRT=75,5]{UpperRightForce}{PreChooseMask 4,-1}{Widths 1,123,-1,2,160,-1,3,267,-1,4,242,-1}{Instantly}Ваші накази?
+{Choice}Зібрати інформацію
+{Tab}Захистити мешканців міста
+{Tab}Звернутися до Ліндблюма, щоб запросити підкріплення
+{Tab}Розпочати підготовку до стрільби з гармат[ENDN][STRT=64,6]{UpperRightForce}{PreChooseMask 5,4}{Widths 1,115,-1,2,127,-1,3,109,-1,4,162,-1}{Instantly}Кому наказати?
+{Choice}Веймар та Хааген
+{Tab}Брейрейхт та Лаудо
+{Tab}Блутцен та Кохель
+{Tab}Доджебон та Малленкедхайм
+{Tab}Скасувати[ENDN][STRT=64,5]{UpperRightForce}{PreChooseMask 4,-1}{Widths 1,115,-1,2,127,-1,3,109,-1,4,162,-1}{Instantly}Кому наказати?
+{Choice}Веймар та Хааген
+{Tab}Брейрейхт та Лаудо
+{Tab}Блутцен та Кохель
+{Tab}Доджебон та Малленкедхайм[ENDN][STRT=151,3]Блутцен, Лицар Плутона II
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Кохель, Лицар Плутона III
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Лаудо, Лицар Плутона IV
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Доджебон, Лицар Плутона V
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Брейрейхт, Лицар Плутона VI
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Веймар, Лицар Плутона VII
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=151,3]Хааген, Лицар Плутона VIII
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=165,3]Малленкедхайм, Лицар Плутона IX
+“Ми зробимо все, що в наших силах,
+ Ваша Високосте.”{IncreaseSignal}[ENDN][STRT=179,3]Блутцен, Лицар Плутона II
+“Ми зберемо всю необхідну інформацію,
+ Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=179,3]Кохель, Лицар Плутона III
+“Ми зберемо всю необхідну інформацію,
+ Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=240,3]Веймар, Лицар Плутона VII
+“Ваша Високосте, ми захищатимемо громадян
+ Олександрії ціною власного життя!”{IncreaseSignal}[ENDN][STRT=240,3]Хааген, Лицар Плутона VIII
+“Ваша Високосте, ми захищатимемо громадян
+ Олександрії ціною власного життя!”{IncreaseSignal}[ENDN][STRT=165,3]Лаудо, Лицар Плутона IV
+“Ми зв'яжемося з Ліндблюмом
+ негайно, Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=165,3]Брейрейхт, Лицар Плутона VI
+“Ми зв'яжемося з Ліндблюмом
+ негайно, Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=174,3]Доджебон, Лицар Плутона V
+“Ми пристрелимо цього монстра
+ в одну мить, Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=174,3]Малленкедхайм, Лицар Плутона IX
+“Ми пристрелимо цього монстра
+ в одну мить, Ваша Високосте!”{IncreaseSignal}[ENDN][STRT=202,3]{UpperRightForce}Беатрікс
+“Довіртеся своїм силам, Ваша Високосте.
+ Я знаю, ви досягнете успіху{Speed 2}...{Speed -1}”[ENDN][STRT=159,3]{UpperRightForce}Беатрікс
+“Усе гаразд, Ваша Високосте.
+ Наступного разу у вас вийде краще.”[ENDN][STRT=93,3]{UpperRightForce}Беатрікс
+“Ну все,
+ Ваша Високосте.”[ENDN][STRT=113,3]{UpperRightForce}Беатрікс
+“Ви були неперевершені,
+ Ваша Високосте.”[ENDN][STRT=59,3]{UpperLeftForce}{Widths 0,0,19,-1}{Steiner}
+“Беатрікс,
+ Ходімо!”[ENDN][STRT=125,2]{UpperRightForce}{Dagger}
+“{Speed 2}...{Speed -1}Всі пішли.”[ENDN][STRT=158,2]{UpperRightForce}{Dagger}
+“Я не знаю, що робити{Speed 2}...{Speed -1}”[ENDN][STRT=160,2]{UpperRightForce}{Dagger}
+“Мамо... Мені потрібна твоя допомога.”[ENDN][STRT=32,2]{Widths 0,0,18,-1}{Dagger}
+“{Speed 2}...{Speed -1}?”[ENDN][STRT=92,2]{Dagger}
+“Я чую музику{Speed 2}...{Speed -1}”[ENDN][STRT=161,2]{Dagger}
+“Звідки вона лунає{Speed 2}...{Speed -1}?”[ENDN][STRT=173,2]{Dagger}
+“Це доноситься згори{Speed 2}...{Speed -1}?”[ENDN][STRT=38,1]ААА{Speed 2}...{Speed -1}!{Time 20}[ENDN][STRT=141,3]{UpperRightForce}Регент Сід
+“Фух...
+ Це була справжня подорож...”[ENDN][STRT=147,3]{UpperLeftForce}{Amarant}
+“Ти дрібна комаха.
+ Нас могли вбити.”[ENDN][STRT=175,3]{UpperRightForce}{Widths 0,150,23,-1}{Fraya}
+“{Amarant} має рацію. Було помилкою прилетіти
+ сюди на цьому повітряному кораблі.”[ENDN][STRT=116,3]{UpperRightForce}Регент Сід
+“Ну, ми повинні були
+ якось дістатися сюди.”[ENDN][STRT=208,3]{UpperLeftForce}{Zidane}
+“Ну ж бо, хлопці. Ми дісталися сюди цілими і
+ неушкодженими. Це все, що має значення.”[ENDN][STRT=179,2]{UpperRightForce}Регент Сід
+“<Гвок-гвок!> Саме так!”[ENDN][STRT=210,3]{UpperRightForce}{Vivi}
+“Я більше ніколи не полечу на
+ повітряному кораблі{Speed 2}...{Speed -1} Ніколи, ніколи{Speed 2}...{Speed -1}”[ENDN][STRT=60,2]{UpperLeftForce}{Widths 0,59,17,-1}Регент Сід
+“Вибач, {Vivi}.”[ENDN][STRT=57,1]{UpperLeftForce}{Instantly}Капітане!!![ENDN][STRT=148,2]{UpperRightForce}Хааген, Лицар Плутона VIII
+“Де Її Високість!?”[ENDN][STRT=163,3]{UpperLeftForce}{Zidane}
+“Я не знаю.
+ Ми теж її шукаємо.”[ENDN][STRT=188,2]{UpperRightForce}Хааген, Лицар Плутона VIII
+“Вогонь! Я повинен знайти капітана!”[ENDN][STRT=135,2]{UpperLeftForce}{Widths 0,135,18,-1}{Zidane}
+“Гаразд, давайте знайдемо {Dagger}.”[ENDN][STRT=136,2]{UpperRightForce}{Widths 0,136,22,-1}{Vivi}
+“Ми також повинні знайти {Eiko}.”[ENDN][STRT=171,2]{UpperLeftForce}{Zidane}
+“Вони, мабуть, разом..”[ENDN][STRT=108,3]{Widths 0,108,18,-1}{Zidane}
+“{Dagger}, мабуть,
+ всередині замку.”[ENDN][STRT=54,4]{PreChoose 2,1}{Widths 0,0,16,-1,1,99,-1,2,100,-1}{Instantly}{Zidane}
+“Гммм{Speed 2}...{Speed -1}”
+{Choice}Спробувати зрушити його
+{Tab}Не чіпати[ENDN][STRT=133,2]{Zidane}
+“Га? Не рухається{Speed 2}...{Speed -1}”[ENDN][STRT=178,2]Вчений
+“Справді? На нас напали?”[ENDN][STRT=171,2]Вчений
+“Зрозуміло. Я вже йду.”[ENDN][STRT=212,3]Вчений
+“У місті є вороги?
+ Ну, гадаю, нам краще втекти.”[ENDN][STRT=167,3]Вчений
+“Її Високість вже
+ евакуювалася з замку?”[ENDN][STRT=68,2]{UpperLeft}Майстер духовки
+“Ага!”[ENDN][STRT=70,2]{UpperLeft}Майстер цибулі
+“Ага!”[ENDN][STRT=62,2]{UpperLeft}Майстер яєць
+“Ага!”[ENDN][STRT=63,2]{UpperLeft}Майстер страв
+“Ага!”[ENDN][STRT=130,4]{PreChoose 2,1}{Instantly}Я чую, як хтось розмовляє.
+
+{Choice}Спробувати послухати
+{Tab}Ігнорувати[ENDN][STRT=146,4]{PreChoose 2,1}{Instantly}Кинь мені виклик, якщо наважишся.
+
+{Choice}Кинути виклик
+{Tab}Забути про це[ENDN][STRT=99,1]Ти гідний{Speed 2}...{Speed -1}[ENDN][STRT=114,1]Збережи свою енергію{Speed 2}...{Speed -1}[ENDN][STRT=168,2]{LowerLeftForce}{Widths 0,168,18,-1}{Zidane}
+“Я шукав тебе, {Dagger}.”[ENDN][STRT=5,1]{UpperRightForce}{Widths 0,5,16,-1}{Zidane}е![ENDN][STRT=129,2]{LowerLeftForce}{Zidane}
+“Ти знову можеш говорити!?”[ENDN][STRT=15,1]{UpperRightForce}{Center 15}Я{Speed 2}...{Speed -1}[ENDN][STRT=151,3]{UpperRightForce}{Dagger}
+“Я думала про це з тих пір{Speed 2}...{Speed -1}
+ {Wait 8}катастрофа.”[ENDN][STRT=222,4]{UpperRightForce}{Dagger}
+“Я думала, що повинна стати
+ королевою і повернути мир
+ в Олександрію.”[ENDN][STRT=172,3]{UpperRightForce}{Dagger}
+“Ось чому я повернулася сюди,
+ але{Speed 2}...{Speed -1}”[ENDN][STRT=143,3]{UpperRightForce}{Dagger}
+“Можна я залишуся з вами
+ ще на деякий час?”[ENDN][STRT=96,2]{LowerLeftForce}{Zidane}
+“Можна запитати, чому?”[ENDN][STRT=193,2]{UpperRightForce}{Dagger}
+“Коли моя мати була ще жива{Speed 2}...{Speed -1}”[ENDN][STRT=211,3]{UpperRightForce}{Dagger}
+“Моїм головним завданням було, розмовляти
+ і виглядати як принцеса.”[ENDN][STRT=158,3]{UpperRightForce}{Dagger}
+“Це були єдині речі,
+ про які я думала{Speed 2}...{Speed -1}”[ENDN][STRT=231,3]{UpperRightForce}{Dagger}
+“Це не змінилося, коли померла моя
+ мати і я мала стати королевою{Speed 2}...{Speed -1}”[ENDN][STRT=160,3]{UpperRightForce}{Dagger}
+“Я думала лише про те, щоб виглядати
+ і поводитися як королева.”[ENDN][STRT=225,3]{UpperRightForce}{Dagger}
+“Я не думаю, що народ прийме мене як
+ свою королеву такою, якою я є зараз.”[ENDN][STRT=149,2]{LowerLeftForce}{Zidane}
+“Я не знаю про це.”[ENDN][STRT=162,3]{UpperRightForce}{Dagger}
+“Я не маю права керувати
+ цією країною{Speed 2}...{Speed -1}”[ENDN][STRT=33,1]{LowerLeftForce}Гмм{Speed 2}...{Speed -1}[ENDN][STRT=109,1]{LowerLeftForce}О, мало не забув![ENDN][STRT=127,3]{LowerLeftForce}{Zidane}
+“Беатрікс хотіла, щоб я
+ передав тобі це.”[ENDN][STRT=114,2]{UpperRightForce}{Dagger}
+“Це{Speed 2}...{Speed -1}{Wait 30}гранат?”[ENDN][STRT=94,3]{LowerLeftForce}{Zidane}
+“Саме так{Speed 2}...{Speed -1}
+ Хіба не гарний?”[ENDN][STRT=97,2]{UpperRightForce}{Dagger}
+“Він прекрасний{Speed 2}...{Speed -1}”[ENDN][STRT=187,3]{LowerLeftForce}{Zidane}
+“Але з самого початку цей
+ гранат не був прекрасним.”[ENDN][STRT=119,2]{UpperRightForce}{Dagger}
+“Що ти маєш на увазі?”[ENDN][STRT=155,3]{LowerLeftForce}{Zidane}
+“Колись цей самоцвіт був
+ звичайнісіньким каменем{Speed 2}...{Speed -1}”[ENDN][STRT=151,2]{LowerLeftForce}{Zidane}
+“Камінь загадав бажання{Speed 2}...{Speed -1}”[ENDN][STRT=106,1]{LowerLeftForce}{f4}’{f2}Я хочу сяяти!{f2}’{f4}[ENDN][STRT=206,3]{LowerLeftForce}{Zidane}
+“Камінь мандрував від людини до людини,
+ відповідно до його бажання{Speed 2}...{Speed -1}”[ENDN][STRT=119,3]{LowerLeftForce}{Widths 0,92,18,-1}{Zidane}
+“І тепер, {Wait 5}він сяє 
+ у твоїх руках, {Dagger}.”[ENDN][STRT=216,2]{LowerLeftForce}{Zidane}
+“Якщо ти готова докласти зусиль{Speed 2}...{Speed -1}”[ENDN][STRT=164,2]{Zidane}
+“Колись і ти засяєш!”[ENDN][STRT=200,3]{LowerLeftForce}{Zidane}
+“Настане день, коли ти будеш
+ потрібна Олександрії!”[ENDN][STRT=245,3]{LowerLeftForce}{Zidane}
+“Поспішати нікуди.
+ Головне, щоб було бажання.”[ENDN][STRT=65,2]{UpperRightForce}{Widths 0,0,18,-1}{Dagger}
+“Дякую{Speed 2}...{Speed -1}”[ENDN][STRT=223,4]{UpperRightForce}{Dagger}
+“Я маю вибачитися за те, що
+ використовувала вас як привід
+ для втечі від своїх обов'язків{Speed 2}...{Speed -1}”[ENDN][STRT=193,3]{LowerLeftForce}{Zidane}
+“Важливо, що ти щиро хочеш
+ залишитися з нами{Speed 2}...{Speed -1}”[ENDN][STRT=32,2]{UpperRightForce}{Widths 0,0,18,-1,0,32,16,-1}{Dagger}
+“{Zidane}е{Speed 2}...{Speed -1}?”[ENDN][STRT=197,2]{UpperRightForce}{Dagger}
+“Можу я знову позичити той ніж{Speed 2}...{Speed -1}?”[ENDN][STRT=74,2]{LowerLeftForce}{Zidane}
+“Який саме?”[ENDN][STRT=187,3]{UpperRightForce}{Dagger}
+“Той, який допоміг мені прийняти моє
+ останнє велике рішення{Speed 2}...{Speed -1}”[ENDN][STRT=118,2]{UpperRightForce}{Dagger}
+“Я позичу це!”[ENDN][STRT=12,1]{UpperRightForce}{Widths 0,12,16,-1}{Zidane}е{Speed 2}...{Speed -1}[ENDN][STRT=201,2]{UpperRightForce}{Dagger}
+“Згадай, якою я була{Speed 2}...{Speed -1} для себе.”[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]{LowerRight}debug[ENDN][STRT=34,1]debug[ENDN]

@@ -1,0 +1,645 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}Більше жодних Гострих капелюхів!
+{Tab}Лист 01
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=150,3]{UpperRight}{Widths 0,0,6,0,-1,0,69,6,1,-1}{Text 0,0}
+“Дякую за доставку
+ листа від {Text 0,1}!”[ENDN][STRT=225,11]{Widths 0,55,6,1,6,0,-1,0,134,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Купо! Дивні люди прийшли до міста
+і зруйнували все навколо!
+Що в біса відбувається? Купо!
+Я більше не хочу бачити цих гострих капелюхів!
+
+{Text 0,0} теж треба бути обережним!
+Можливо, вам варто переїхати в інше місце...
+[ENDN][STRT=226,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“У Бурмеції все жахливо! Купо!
+ З нами тут все буде гаразд? Купо?”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}Танталус
+{Tab}У мене погане передчуття
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=136,2]{UpperRight}{Widths 0,0,6,0,-1,0,136,16,-1}{Text 0,0}
+“Тут лист для {Zidane}а!”[ENDN][STRT=217,15]{Widths 0,55,6,1,16,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Zidane}а{White}
+
+
+Я вирішила відкрити невеличкий театр,
+але я не можу знайти акторів...
+
+Чи не знаєш ти хороших акторів,
+які шукають роботу? Як би я хотіла,
+щоб ви були тут!
+
+Але якщо подумати, то ви,
+хлопці з Танталусу, виглядаєте,
+як банда злочинців!
+Просто жартую.
+[ENDN][STRT=193,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Вона шукає акторів?
+ Я хочу стати актором{Speed 2}...{Speed -1}”[ENDN][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1,0,136,6,1,-1}{Text 0,0}
+“Цей лист від {Text 0,1}!
+ Купо! Давай прочитаємо його разом!”[ENDN][STRT=216,12]{Widths 0,55,6,1,6,0,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Після того, як піщана буря вщухла,
+люди піднімаються на Клейру...
+Купо. У мене погане передчуття.
+Що буде далі?!
+
+Невже з Клейрою станеться те саме, що з Бурмецією?
+Чи є хтось, хто може нам допомогти?
+Купо!
+[ENDN][STRT=234,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Це звучить жахливо! Купо!!
+ Я збираюся зібрати речі і поїхати зі Штільцкіном!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}У небезпеці
+{Tab}Лист 01
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1,0,169,6,1,-1}{Text 0,0}
+“Лист від: {Text 0,1}?  Як незвично!
+ Купо! Давай прочитаємо його разом!”[ENDN][STRT=232,13]{Widths 0,55,6,1,6,0,-1,0,181,6,0,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Коли цей лист дійде до {Text 0,0},
+Клейра може бути знищена...
+Штільцкін постійно повторює,
+
+“Я вже проходив через таке раніше.
+ Все буде добре.”
+
+Але що, якщо цього разу все буде не так?
+Купо!!!
+[ENDN][STRT=248,3]{UpperRight}{Widths 0,0,6,0,-1,0,211,6,1,-1}{Text 0,0}
+“Купо! Тож, ось що це був за гучний звук{Speed 2}...{Speed -1}
+ Сподіваюся {Text 0,1} та Штільцкін цілі?”[ENDN][STRT=132,3]Штільцкін
+“Щ-що за{Speed 2}...{Speed -1}?
+ Що це щойно було!?”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=147,3]{Zidane}
+“Не можу повірити, що
+ піщана буря зникла.”[ENDN][STRT=116,2]{Zidane}
+“Що трапилося{Speed 2}...{Speed -1}?”[ENDN][STRT=94,2]{Fraya}
+“Я не знаю{Speed 2}...{Speed -1}”[ENDN][STRT=188,3]{UpperRight}Бурмеційський солдат Гідд
+“Я ніколи не бачив нічого подібного
+ відколи ми тут оселилися.”[ENDN][STRT=140,3]{UpperRight}Бурмеційський солдат Гідд
+“На арфі,
+ є чарівний камінь.”[ENDN][STRT=198,4]{UpperRight}Бурмеційський солдат Гідд
+“З давніх-давен ми використовували
+ силу каменя, щоб контролювати
+ піщану бурю.”[ENDN][STRT=155,3]Король Бурмеції
+“Можливо, хтось намагається
+ захопити Клейру.”[ENDN][STRT=168,3]{UpperRight}Бурмеційський солдат Гідд
+“Боюся, що ви маєте рацію,
+ мілорде.”[ENDN][STRT=157,3]Король Бурмеції
+“Я лише сподіваюся, що наші вороги
+ не піднімуться по стовбуру{Speed 2}...{Speed -1}”[ENDN][STRT=158,2]{UpperLeftForce}{Zidane}
+“Що ти тут робиш?”[ENDN][STRT=171,3]{Fraya}
+“Скажи мені. Як ти думаєш,
+ чому зникла піщана буря?”[ENDN][STRT=86,2]{UpperLeftForce}{Zidane}
+“Я не знаю.”[ENDN][STRT=174,3]{UpperLeftForce}{Zidane}
+“Я був здивований, що
+ вона взагалі була.”[ENDN][STRT=240,4]{Fraya}
+“Ти не знав, що піщана буря була тут
+ тисячу років{Speed 2}...{Speed -1}?  І за весь цей час вона
+ ніколи не зникала, жодного разу.”[ENDN][STRT=201,2]{Fraya}
+“Можливо, за всім цим стоїть Бране.”[ENDN][STRT=38,5]{UpperLeftForce}{PreChoose 3,2}{Widths 0,0,16,-1,1,193,-1,2,258,-1,3,181,18,-1}{Instantly}{Zidane}
+“......”
+{Choice}Без сумніву, за цим стоїть Бране.
+{Tab}А як щодо того хлопця, який був з Бране?
+{Tab}Зараз я думаю лише про {Dagger}.[ENDN][STRT=132,2]{UpperLeftForce}{Zidane}
+“Це має бути Бране.”[ENDN][STRT=207,2]{Fraya}
+“Я думала, що ти відчуваєш те ж саме.”[ENDN][STRT=248,3]{UpperLeftForce}{Zidane}
+“Насправді мене більше турбує, ким був
+ той хлопець з Бране у Бурмеції.”[ENDN][STRT=138,3]{Fraya}
+“Той чоловік{Speed 2}...{Speed -1}
+ Цікаво, хто це був{Speed 2}...{Speed -1}”[ENDN][STRT=169,3]{UpperLeftForce}{Widths 0,169,18,-1}{Zidane}
+“Кого це хвилює? {Dagger} - єдине,
+ що зараз у мене на думці.”[ENDN][STRT=74,2]{Fraya}
+“Ця дівчина{Speed 2}...{Speed -1}”[ENDN][STRT=156,2]{Fraya}
+“Вона донька Бране.”[ENDN][STRT=103,2]{UpperLeftForce}{Zidane}
+“Так. І що з того?”[ENDN][STRT=38,2]{Widths 0,0,20,-1}{Fraya}
+“......”[ENDN][STRT=241,3]{Fraya}
+“{Zidane}е, я збираюся спуститися вниз
+ з'ясувати, чому зникла піщана буря.”[ENDN][STRT=111,3]{UpperLeftForce}{Zidane}
+“Гей, я подумав
+ про те ж саме!”[ENDN][STRT=118,2]{UpperLeftForce}{Zidane}
+“Ходімо разом.”[ENDN][STRT=205,3]{UpperLeftForce}{Widths 0,137,17,21,-1}{Zidane}
+“Я піду пошукаю де {Vivi} та {Quina}.
+ Зустрінемося на вході до міста.”[ENDN][STRT=205,3]{UpperLeftForce}{Zidane}
+“Я піду знайду {Vivi}.
+ Зустрінемося на вході до міста.”[ENDN][STRT=213,2]Шерон, діва квітів
+“Краєвид повністю змінився{Speed 2}...{Speed -1}”[ENDN][STRT=143,3]Шенон, діва води
+“Краєвид, позбавлений піску{Speed 2}...{Speed -1}
+ Це мене непокоїть.”[ENDN][STRT=205,3]Піщаний оракул Сатрія
+“Мені шкода, що це сталося під час вашого
+ перебування у Клейрі{Speed 2}...{Speed -1}”[ENDN][STRT=188,2]Ніна, діва зірок
+“У мене ще залишилися деякі товари{Speed 2}...{Speed -1}”[ENDN][STRT=204,3]Лісовий оракул Кілдія
+“Коли вітри стихнуть, навіть цей
+ вітряк може зупинитися{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]Бурмеційський солдат Дін
+“У мене погане передчуття з цього приводу{Speed 2}...{Speed -1}”[ENDN][STRT=149,3]Бурмеційський солдат Гідд
+“Якщо вони хочуть війни,
+ то вони її отримають!”[ENDN][STRT=279,3]Древесний оракул Вайлан
+“Чи може на нас бути спрямована магічна сила,
+ достатньо потужна, щоб розірвати струни арфи?”[ENDN][STRT=175,3]Небесний оракул Мілан
+“Це справа рук когось,
+ хто має невимовну силу!”[ENDN][STRT=150,2]Бурмеційський солдат Гарі
+“Я знав, що вони прийдуть!”[ENDN][STRT=168,3]Бурмеційська біженка Лорена
+“Цікаво, чому вони не можуть просто
+ перезапустити піщану бурю?”[ENDN][STRT=120,2]Древесний оракул Вайлан
+“Хто щойно пробіг повз{Speed 2}...{Speed -1}?{IncreaseSignal+}”[ENDN][STRT=170,2]Древесний оракул Вайлан
+“Сподіваюся, це стане вам у нагоді{Speed 2}...{Speed -1}”[ENDN][STRT=120,2]Піщаний оракул Сатрія
+“Хто щойно пробіг повз{Speed 2}...{Speed -1}?{IncreaseSignal+}”[ENDN][STRT=176,2]Піщаний оракул Сатрія
+“Сподіваюся, це буде для вас корисним{Speed 2}...{Speed -1}”[ENDN][STRT=121,2]Бурмеційська дитина Джек
+“Що відбувається?”[ENDN][STRT=133,2]Бурмеційська дитина Джек
+“Ось, це тобі!”[ENDN][STRT=121,2]Бурмеційська дитина Адам
+“Що відбувається?”[ENDN][STRT=133,2]Бурмеційська дитина Адам
+“Ось, це тобі!”[ENDN][STRT=203,2]Бурмеційська біженка Лірі
+“Я лише хочу врятувати дітей{Speed 2}...{Speed -1}”[ENDN][STRT=146,2]Бурмеційська біженка Лірі
+“Врятуйте їх за допомогою цього.”[ENDN][STRT=123,2]Шерон, діва квітів
+“Нам кінець!”[ENDN][STRT=123,2]Шерон, діва квітів
+“Будь ласка, візьміть це.”[ENDN][STRT=124,2]Шенон, діва води
+“Нам кінець!”[ENDN][STRT=147,2]Шенон, діва води
+“Сподіваюся, вам це стане в нагоді.”[ENDN][STRT=214,3]Ейлін, діва вітру
+“Зникнення піщаної бурі
+ віщує прихід загарбників.”[ENDN][STRT=195,2]Сонячний оракул Флорін
+“Це може стати кінцем Клейри.”[ENDN][STRT=190,3]Бурмеційський солдат Гідд
+“Цей камінь захищав Клейру
+ з давніх-давен.”[ENDN][STRT=218,3]Бурмеційський солдат Гідд
+“Я дарую його тобі, сподіваючись,
+ що ти навчишся ним користуватися.”[ENDN][STRT=190,2]Бурмеційський солдат Гідд
+“Я боюся, що зараз буде атака.”[ENDN][STRT=133,2]Король Бурмеції
+“Ви не бачили де Пак?”[ENDN][STRT=239,2]Клер, діва місяця
+“Струни{Speed 2}...{Speed -1}порвалися?  Як зловісно!”[ENDN][STRT=153,5]{PreChoose 2,1}{Instantly}Нічний оракул Доннеган
+“Можете відпочити тут.
+ Платити за це не потрібно.”
+{Choice}Дякую!
+{Tab}Ні, дякую![ENDN][STRT=141,3]Бурмеційський солдат Ден
+“Просто скажи, якщо тобі
+ щось потрібно від мене!”[ENDN][STRT=173,2]Бурмеційська дитина Джек
+“Я хвилююся! Я так хвилююся!”[ENDN][STRT=167,2]Бурмеційська дитина Адам
+“Принаймні, тут набагато тихіше{Speed 2}...{Speed -1}”[ENDN][STRT=161,3]Бурмеційська біженка Лірі
+“Що б не трапилося,
+ я маю захистити своїх дітей.”[ENDN][STRT=164,2]{Zidane}
+“Я маю всіх врятувати!”[ENDN][STRT=92,3]{Zidane}
+“Гей, чому
+ так довго?”[ENDN][STRT=212,3]{UpperRightForce}{Vivi}
+“Я не зміг знайти де Пак{Speed 2}...{Speed -1}
+ Цікаво, може він спустився по стовбуру?”[ENDN][STRT=190,3]{UpperRightForce}{Quina}
+“У цьому місті дуже смачний пісок!
+ Це місто дуже апетитне.”[ENDN][STRT=145,2]{Zidane}
+“Гаразд, ходімо.”[ENDN][STRT=229,3]{Fraya}
+“Я підвела Бурмецію{Speed 2}...{Speed -1}
+ але я не підведу Клейру, незважаючи ні на що.”[ENDN][STRT=27,1]{UpperLeftForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=27,1]{UpperLeftForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=174,2]Бурмеційський солдат Ден
+“Як ти посмів з'явитися тут!”[ENDN][STRT=38,1]{UpperLeftForce}Унгах!{Time 20}[ENDN][STRT=32,1]Купо!{Time 20}[ENDN][STRT=123,2]Шерон, діва квітів
+“Будь ласка, врятуйте нас!!!”{IncreaseSignal}[ENDN][STRT=163,2]Шенон, діва води
+“Місто сповнене демонів!”{IncreaseSignal}[ENDN][STRT=175,2]{Zidane}
+“Невже їх справді так багато?”[ENDN][STRT=145,2]Шерон, діва квітів
+“Вони все прибувають і прибувають!”[ENDN][STRT=27,1]{UpperRightForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=26,1]Aaa!{Time 20}[ENDN][STRT=226,2]Солдат Олександрії
+“Нерозумні Клейранці, ваш час настав!”[ENDN][STRT=76,2]{Zidane}
+“Сюди!”[ENDN][STRT=133,2]{Zidane}
+“Я той, хто вам потрібен!”[ENDN][STRT=221,2]{Zidane}
+“Це мабуть основні атакуючі сили{Speed 2}...{Speed -1}”[ENDN][STRT=172,2]{Zidane}
+“Ха! Вони нічого проти мене не можуть зробити!”[ENDN][STRT=157,2]{Zidane}
+“Але місто у біді!”[ENDN][STRT=170,3]{Zidane}
+“Вороги піднімаються нагору!
+ А з вашого боку?”[ENDN][STRT=199,3]Древесний оракул Вайлан
+“Бурмеційці дають відсіч,
+ але демони продовжують наступати{Speed 2}...{Speed -1}”[ENDN][STRT=228,2]Піщаний оракул Сатрія
+“Ми втекли, не в змозі більше чинити опір{Speed 2}...{Speed -1}”[ENDN][STRT=157,2]{Zidane}
+“Будь прокляті ці олександрійці!”[ENDN][STRT=135,2]Древесний оракул Вайлан
+“Що нам робити{Speed 2}...{Speed -1}?”{IncreaseSignal}[ENDN][STRT=135,2]Піщаний оракул Сатрія
+“Що нам робити{Speed 2}...{Speed -1}?”{IncreaseSignal}[ENDN][STRT=115,4]{PreChoose 2,1}{Instantly}{Zidane}
+“У нас немає часу!”
+{Choice}Піднімаймося!
+{Tab}Йдемо праворуч![ENDN][STRT=95,2]{Zidane}
+“Піднімаймося!”[ENDN][STRT=72,2]{Zidane}
+“Тільки не знову!”{Time 30}[ENDN][STRT=256,2]{Zidane}
+“Вони шукають короля і первосвященика!”[ENDN][STRT=147,2]{Zidane}
+“Ходімо праворуч!”[ENDN][STRT=166,3]Бурмеційська біженка Лірі
+“Перепрошую{Speed 2}...{Speed -1}
+ Ви не бачили мого чоловіка?”[ENDN][STRT=126,2]{UpperLeftForce}{Zidane}
+“Ні, не бачив{Speed 2}...{Speed -1}”[ENDN][STRT=81,1]Тато зник![ENDN][STRT=47,1]Ваааа![ENDN][STRT=153,4]{PreChoose 2,1}{Widths 2,181,-1}{Instantly}{Zidane}
+“Тут занадто небезпечно!”
+{Choice}Ходімо ліворуч!
+{Tab}Піднімаємося сходами праворуч![ENDN][STRT=89,2]{Zidane}
+“Ходімо ліворуч!”[ENDN][STRT=132,2]{UpperRightForce}{Zidane}
+“Ви не пройдете повз мене!”[ENDN][STRT=152,3]{Zidane}
+“Треба поспішати, інакше
+ втратимо їх усіх!”[ENDN][STRT=175,2]{Zidane}
+“Піднімаємося сходами праворуч!”[ENDN][STRT=27,1]{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=148,3]{Zidane}
+“Туди не можна!
+ Спробуймо сюди!”[ENDN][STRT=77,2]{Zidane}
+“Вперед!”[ENDN][STRT=156,3]Бурмеційська біженка Лірі
+“Мій чоловік{Speed 2}...{Speed -1}
+ вбитий цими демонами{Speed 2}...{Speed -1}?”[ENDN][STRT=141,3]{Zidane}
+“Ну ж бо!
+ Забираймося звідси!!!”[ENDN][STRT=146,3]Бурмеційська біженка Лірі
+“Ти вбив його,
+ чи не так!?”[ENDN][STRT=54,1]Обережно!{Time 30}[ENDN][STRT=33,1]Ааааа!{Time 20}[ENDN][STRT=143,2]{Zidane}
+“Прокляття!  Виродки!”[ENDN][STRT=164,3]{Zidane}
+“Як, в біса, я можу врятувати
+ цих людей!?”[ENDN][STRT=108,2]Бурмеційська дитина Джек
+“Швидше, скажи нам!”[ENDN][STRT=109,2]Бурмеційська дитина Адам
+“Куди тепер!?”[ENDN][STRT=78,5]{PreChoose 3,2}{Widths 1,97,-1,2,189,-1,3,175,-1}{Instantly}{Zidane}
+“Подивимось{Speed 2}...{Speed -1}”
+{Choice}Вгору по сходах!
+{Tab}Перейдіть через міст праворуч!
+{Tab}Вниз по сходах ліворуч![ENDN][STRT=92,2]{Zidane}
+“Вгору по сходах!”[ENDN][STRT=27,1]{UpperLeftForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=155,3]{Zidane}
+“Я їх затримаю!
+ Ви, хлопці, біжіть вперед!”[ENDN][STRT=146,3]Бурмеційська біженка Лірі
+“Будь ласка, відведіть моїх
+ дітей у безпечне місце{Speed 2}...{Speed -1}”[ENDN][STRT=124,3]Клер, діва місяця
+“Ви врятуєте Клейру,
+ чи не так?”[ENDN][STRT=154,2]Клер, діва місяця
+“Я сповільню їхнє просування!”[ENDN][STRT=151,2]{LowerRightForce}{Zidane}
+“Ти несповна розуму!”[ENDN][STRT=185,2]{LowerRightForce}{Zidane}
+“Зачекай! У тебе ще є шанс!”[ENDN][STRT=45,1]{Instantly}За нього!{Time 20}[ENDN][STRT=66,1]{Instantly}За Клейру!{Time 20}[ENDN][STRT=151,2]{Zidane}
+“Ви безсердечні виродки!”[ENDN][STRT=239,2]{Zidane}
+“Не хвилюйся! Я захищу твоїх дітей!”[ENDN][STRT=114,2]{Zidane}
+“Переходьте міст!”[ENDN][STRT=132,2]{Zidane}
+“Настирливі виродки!”[ENDN][STRT=132,3]{Zidane}
+“Ми не можемо стримувати
+ їх вічно!”[ENDN][STRT=106,2]{Zidane}
+“Вниз по сходах!”[ENDN][STRT=280,2]{Zidane}
+“Нічого не станеться з Клейрою, поки я тут!”[ENDN][STRT=161,3]{Zidane}
+“Це місце надто небезпечне!
+ Забираймося звідси!”[ENDN][STRT=99,1]Тепер ми у безпеці?[ENDN][STRT=105,1]Монстрів більше немає?[ENDN][STRT=47,4]{PreChoose 2,1}{Widths 0,0,16,-1,1,177,-1,2,126,-1}{Instantly}{Zidane}
+“Гмм{Speed 2}...{Speed -1}”
+{Choice}Так, вони не повернуться
+{Tab}Ми ще не у безпеці[ENDN][STRT=176,2]{Zidane}
+“Так, вони не повернуться.”[ENDN][STRT=144,3]{Zidane}
+“Ми ще не у безпеці{Speed 2}...{Speed -1}
+ Тож будьте напоготові!”[ENDN][STRT=32,1]Так!{IncreaseSignal}[ENDN][STRT=42,1]Гаразд!{IncreaseSignal}[ENDN][STRT=19,1]Ні!{IncreaseSignal}[ENDN][STRT=44,1]Вааа!!!{IncreaseSignal}[ENDN][STRT=226,2]{UpperRightForce}Шерон, діва квітів
+“Чи справді ми бачили останнього з них?”[ENDN][STRT=159,2]Шерон, діва квітів
+“Я знала, що це ще не кінець.”[ENDN][STRT=114,3]{Zidane}
+“Га?  Що ви, народ,
+ тут робите?”[ENDN][STRT=124,3]{UpperRightForce}Шенон, діва води
+“Нам дуже подобається
+ це місце.”[ENDN][STRT=205,3]Шерон, діва квітів
+“Навіть якщо ми втратили душу -
+ заспокійливий вид на піщану бурю{Speed 2}...{Speed -1}”[ENDN][STRT=177,2]{Zidane}
+“Так, я теж думаю, що це гарно.”[ENDN][STRT=159,2]{Zidane}
+“Все це місто дуже гарне.”[ENDN][STRT=183,2]{Zidane}
+“І всі тут такі милі.”[ENDN][STRT=196,2]{Zidane}
+“Ось чому я хочу захистити вас!”[ENDN][STRT=203,3]{Zidane}
+“Ну ж бо, ходімо до собору.
+ Там ми зможемо вистояти!”[ENDN][STRT=210,2]{Zidane}
+“Отже, це єдині, хто вижив{Speed 2}...{Speed -1}”[ENDN][STRT=153,2]Шерон, діва квітів
+“Де первосвященик?”[ENDN][STRT=124,2]Шенон, діва води
+“Де король?”[ENDN][STRT=75,1]{UpperLeftForce}Де тато?[ENDN][STRT=34,1]{UpperLeftForce}Вааа![ENDN][STRT=136,3]{Zidane}
+“Сподіваюся, вони всі у безпеці
+ всередині собору{Speed 2}...{Speed -1}”[ENDN][STRT=154,2]{Zidane}
+“Гаразд, усі всередину!”[ENDN][STRT=81,1]Вони повернулися!{Time 20}[ENDN][STRT=41,1]{UpperLeftForce}Йой!{Time 20}[ENDN][STRT=81,2]{Zidane}
+“Туди!”{Time 20}[ENDN][STRT=168,2]{Zidane}
+“Прокляття! Нас оточили!”[ENDN][STRT=27,1]{UpperLeftForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=27,1]{UpperRightForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=27,1]{LowerLeftForce}{Instantly}ВБИТИ!{Time 30}[ENDN][STRT=174,2]{Zidane}
+“Прокляття! Я не можу врятувати їх усіх!”[ENDN][STRT=219,1]Поплічники зла, ви зайшли надто далеко![ENDN][STRT=206,1]Мій спис очистить цю землю від вас![ENDN][STRT=206,3]Незнайомець
+“Ви впадете, як листя на вітрі
+ від удару мого клинка!”[ENDN][STRT=67,2]Незнайомець
+“Тікайте!”[ENDN][STRT=231,2]{Zidane}
+“Не знаю, хто ти, але я твій боржник!”[ENDN][STRT=99,2]{UpperRightForce}{Fraya}
+“Сір Фретлі, Я{Speed 2}...{Speed -1}”[ENDN][STRT=171,2]{UpperRightForce}{Fraya}
+“Я так за вами сумувала{Speed 2}...{Speed -1}”[ENDN][STRT=214,3]{UpperRightForce}{Fraya}
+“Я почала шукати вас одразу після
+ того, як ви покинули Бурмецію.”[ENDN][STRT=127,3]{UpperRightForce}{Fraya}
+“Де ви були
+ всі ці роки{Speed 2}...{Speed -1}?”[ENDN][STRT=173,3]{UpperRightForce}{Fraya}
+“В які куточки світу
+ ви подорожували?”[ENDN][STRT=118,2]{UpperRightForce}{Fraya}
+“Мій любий Фретлі{Speed 2}...{Speed -1}”[ENDN][STRT=214,3]{UpperRightForce}{Fraya}
+“Я піднімалася на найвищі гори тільки для того,
+ щоб почути чутки про ваші перемоги{Speed 2}...{Speed -1}”[ENDN][STRT=210,3]{UpperRightForce}{Fraya}
+“Я обшукала найглибші долини лише для того,
+ щоб знайти ваші сліди.”[ENDN][STRT=139,2]{UpperRightForce}{Fraya}
+“Але я так і не знайшла вас.”[ENDN][STRT=211,2]{UpperRightForce}{Fraya}
+“І врешті-решт я почула щось{Speed 2}...{Speed -1}”[ENDN][STRT=141,2]{UpperRightForce}{Fraya}
+“Щось нестерпне!”[ENDN][STRT=72,2]{UpperLeftForce}{Widths 0,72,20,-1}Фретлі
+“{Fraya}, кажеш?”[ENDN][STRT=143,3]{UpperLeftForce}Фретлі
+“Здається, це наша
+ перша зустріч{Speed 2}...{Speed -1}”[ENDN][STRT=149,2]{UpperRightForce}{Fraya}
+“Що{Speed 2}...{Speed -1}ви щойно сказали?”[ENDN][STRT=190,3]{UpperLeftForce}Фретлі
+“Вибач, але я не можу пригадати,
+ щоб коли-небудь бачив тебе{Speed 2}...{Speed -1}”[ENDN][STRT=80,2]{UpperRightForce}{Fraya}
+“Т-ти жартуєш!”[ENDN][STRT=100,3]{UpperRightForce}{Fraya}
+“Ти не міг
+ забути мене!”[ENDN][STRT=91,3]{UpperRightForce}{Widths 0,56,20,-1,0,91,20,-1}{Fraya}
+“Це я, {Fraya}!
+ {Fraya} з Бурмеції!!”[ENDN][STRT=83,2]{UpperLeftForce}Фретлі
+“Мені шкода{Speed 2}...{Speed -1}”[ENDN][STRT=40,2]{UpperRightForce}{Widths 0,0,20,-1}{Fraya}
+“Ні{Speed 2}...{Speed -1}”[ENDN][STRT=120,2]{UpperRightForce}{Zidane}
+“Гей, зачекай хвилинку!”[ENDN][STRT=135,2]{UpperRightForce}{Zidane}
+“Ти ж це не серйозно!”[ENDN][STRT=128,2]{UpperRightForce}{Widths 0,128,20,-1}{Zidane}
+“Це {Fraya}, твоє втрачене кохання!”[ENDN][STRT=169,2]{UpperRightForce}{Zidane}
+“Як ти міг її забути!?”[ENDN][STRT=136,2]{UpperRightForce}{Zidane}
+“Ну, скажи щось!!!”[ENDN][STRT=115,2]{UpperRightForce}{Widths 0,115,16,-1}{Fraya}
+“Досить, {Zidane}е{Speed 2}...{Speed -1}”[ENDN][STRT=61,2]{UpperLeftForce}{Widths 0,0,16,-1}{Zidane}
+“Що!!!?”[ENDN][STRT=212,3]{UpperLeftForce}{Zidane}
+“Ти шукала цього хлопця
+ роками, і ось він тут!”[ENDN][STRT=93,2]{UpperRightForce}Король Бурмеції
+“Фретлі!”[ENDN][STRT=132,3]{UpperRightForce}Король Бурмеції
+“Ти пам'ятаєш мене,
+ я Король Бурмеції?”[ENDN][STRT=131,2]{UpperRightForce}Фретлі
+“Боюся, що ні.”[ENDN][STRT=187,3]{UpperRightForce}Король Бурмеції
+“Неможливо! Ти що, забув
+ все, що було?”[ENDN][STRT=217,3]{UpperRightForce}Король Бурмеції
+“Тоді дозволь запитати тебе ось що:
+ Що привело тебе назад до Бурмеції?”[ENDN][STRT=282,3]{UpperRightForce}Король Бурмеції
+“Чи не тому, що ти дізнався про кризу
+ тут, у Клейрі, народ якої є нашими братами?”[ENDN][STRT=135,2]{UpperRightForce}Фретлі
+“Власне кажучи{Speed 2}...{Speed -1}”[ENDN][STRT=175,1]Насправді, я скажу вам![ENDN][STRT=32,1]{UpperLeftForce}Пак!{IncreaseSignal}[ENDN][STRT=72,1]{UpperLeftForce}Принце Пак!{IncreaseSignal}[ENDN][STRT=32,1]{UpperLeftForce}Пак!{IncreaseSignal}[ENDN][STRT=62,1]{UpperLeftForce}Лорде Пак!{IncreaseSignal}[ENDN][STRT=157,3]{UpperRightForce}Пак
+“Я знайшов Фретлі під час
+ своїх подорожей світом!”[ENDN][STRT=170,3]{UpperRightForce}Пак
+“І як ви вже здогадалися, він
+ не знав, хто я такий!”[ENDN][STRT=130,2]{UpperRightForce}Пак
+“Або навіть хто він такий!”[ENDN][STRT=223,3]{UpperRightForce}Пак
+“Але коли на Бурмецію напали і він
+ почув, що Клейра у небезпеці{Speed 2}...{Speed -1}”[ENDN][STRT=179,3]{UpperRightForce}Пак
+“Його слабкі спогади про те, як він був
+ лицарем-драконом, покликали його сюди!”[ENDN][STRT=104,2]{UpperRightForce}Фретлі
+“Лицар-дракон{Speed 2}...{Speed -1}”[ENDN][STRT=178,2]{UpperRightForce}Фретлі
+“Так, мене колись так називали{Speed 2}...{Speed -1}”[ENDN][STRT=219,2]{UpperRightForce}Фретлі
+“Але зараз це все, що я можу згадати{Speed 2}...{Speed -1}”[ENDN][STRT=68,2]{UpperRightForce}{Widths 0,0,20,-1}{Fraya}
+“Фретлі{Speed 2}...{Speed -1}”[ENDN][STRT=67,2]{UpperRightForce}Фретлі
+“Я мушу йти.”[ENDN][STRT=181,2]{UpperLeftForce}{Widths 0,181,20,-1}{Zidane}
+“{Fraya}, ти не підеш за ним?”[ENDN][STRT=40,2]{UpperRightForce}{Widths 0,0,20,-1}{Fraya}
+“Ні{Speed 2}...{Speed -1}”[ENDN][STRT=158,3]{UpperRightForce}{Fraya}
+“Я щаслива, просто знати, що
+ Сір Фретлі все ще живий.”[ENDN][STRT=76,2]{UpperRightForce}{Widths 0,76,20,-1}Пак
+“Мені шкода, {Fraya}.”[ENDN][STRT=223,3]{UpperRightForce}Пак
+“Я знав, що ти не готова до зустрічі з ним,
+ але коли Клейра під ударом і все таке{Speed 2}...{Speed -1}”[ENDN][STRT=209,2]{UpperRightForce}{Fraya}
+“Я не потребую такої люб'язності, Високосте.”[ENDN][STRT=112,3]{UpperRightForce}Пак
+“Ем{Speed 2}...{Speed -1}що ж, я маю
+ піти за Фретлі!”[ENDN][STRT=36,1]{UpperRightForce}Побачимось!{Time 20}[ENDN][STRT=170,3]{UpperRightForce}Король Бурмеції
+“Стривай, Пак!
+ Я не бачив тебе цілу вічність!”[ENDN][STRT=98,3]{UpperRightForce}{Vivi}
+“Щ-Що?
+ Це був Пак?”[ENDN][STRT=126,2]{UpperRightForce}{Vivi}
+“То що ж сталося?”[ENDN][STRT=120,3]{UpperRightForce}{Widths 0,120,20,-1}{Vivi}
+“Що з тобою, {Fraya}?
+ Ти плачеш?”[ENDN][STRT=72,2]{UpperRightForce}{Fraya}
+“Ахахаха{Speed 2}...{Speed -1}”[ENDN][STRT=77,2]{UpperRightForce}{Fraya}
+“Яка іронія.”[ENDN][STRT=167,3]{UpperRightForce}{Fraya}
+“Знайти чоловіка, про якого
+ я безкінечно мріяла{Speed 2}...{Speed -1}”[ENDN][STRT=210,3]{UpperRightForce}{Fraya}
+“{Speed 2}...{Speed -1}тільки для того, щоб виявити, що
+ він навіть не пам'ятає мене!”[ENDN][STRT=228,3]{UpperRightForce}{Fraya}
+“Ходімо, {Zidane}е!
+ Ворог не зупинився!”[ENDN][STRT=112,2]{UpperRightForce}{Fraya}
+“Треба перегрупуватися!”[ENDN][STRT=12,1]{UpperLeftForce}{Widths 0,12,20,-1}{Fraya}{Speed 2}...{Speed -1}[ENDN][STRT=47,1]Ой![ENDN][STRT=140,2]Бурмеційський солдат Гідд
+“Ой! Змилуйся!”[ENDN][STRT=154,2]Беатрікс
+“Гм! Жалюгідні гризуни!”[ENDN][STRT=152,3]Беатрікс
+“Ти не розумієш справжньої
+ сили цієї коштовності!”[ENDN][STRT=108,2]Бурмеційський солдат Гідд
+“Наш чарівний камінь!”[ENDN][STRT=166,3]Беатрікс
+“Тепер, коли у мене є ця коштовність,
+ я покінчу з вашим містом!”[ENDN][STRT=28,1]Зачекай!{Time 20}[ENDN][STRT=67,1]Стій, лиходію!{Time 20}[ENDN][STRT=153,2]{Zidane}
+“Я йду не туди!”[ENDN][STRT=139,1]Думаєш, тобі вдасться втекти?{Time 25}[ENDN][STRT=58,1]{UpperRightForce}Втекти?[ENDN][STRT=58,2]{UpperRightForce}Беатрікс
+“Хахаха.”[ENDN][STRT=213,1]{UpperRightForce}Ти ще більший дурень, ніж я собі уявляла{Speed 2}...{Speed -1}[ENDN][STRT=178,3]{UpperRightForce}Беатрікс
+“Ти забув, як сильно
+ я побила вас у Бурмеції?”[ENDN][STRT=184,3]{Fraya}
+“Отже, ти ще більша дурепа,
+ бо не закінчила те, що почала!”[ENDN][STRT=118,2]{Vivi}
+“Ти заплатиш!”[ENDN][STRT=187,3]{Quina}
+“Я не знайшов у цьому місті нічого смачненького,
+ тож ми приготуємо на сніданок тебе!”[ENDN][STRT=168,3]Беатрікс
+“Тоді дозвольте мені знищити
+ вашу манію величі.”[ENDN][STRT=130,1]{UpperLeftForce}{Offset 0,200,0}Вона надто сильна{Speed 2}...{Speed -1}{Time 20}[ENDN][STRT=213,3]{UpperRightForce}Беатрікс
+“Чорні маги, наша робота тут закінчена.
+ Негайно починайте відступ!”[ENDN][STRT=148,2]{Zidane}
+“Гей, вони зникли!”[ENDN][STRT=79,2]{Widths 0,79,20,-1}{Zidane}
+“Що тепер, {Fraya}?”[ENDN][STRT=105,2]{UpperLeftForce}{Fraya}
+“Гарне питання{Speed 2}...{Speed -1}”[ENDN][STRT=145,2]{UpperLeftForce}{Widths 0,145,16,-1}{Fraya}
+“{Zidane}е! Озирнись!”[ENDN][STRT=175,2]{Zidane}
+“Он там! Я піду за ними!”[ENDN][STRT=128,2]{Zidane}
+“Всі за мною!”[ENDN][STRT=87,2]{Widths 0,87,16,-1}{Vivi}
+“{Zidane}! Він зник!”[ENDN][STRT=141,3]{UpperLeftForce}{Fraya}
+“Я дуже сумніваюся, що коли-небудь
+ повернуся сюди{Speed 2}...{Speed -1}”[ENDN][STRT=223,3]{UpperLeftForce}{Fraya}
+“Крім того, це може бути твій останній шанс
+ дізнатися правду про те, хто ти є{Speed 2}...{Speed -1}”[ENDN][STRT=141,3]{UpperLeftForce}{Fraya}
+“Ну ж бо, {Vivi}!
+ Покажи нам свою сміливість!”[ENDN][STRT=133,2]{Widths 0,133,20,-1}{Vivi}
+“О, ні{Speed 2}...{Speed -1} {Fraya} теж зникла!”[ENDN][STRT=114,2]{Quina}
+“Я не люблю висоту{Speed 2}...{Speed -1}”[ENDN][STRT=125,4]{PreChoose 2,1}{Instantly}Бурмеційський солдат Ден
+“Карти!? Прямо зараз?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=171,2]Бурмеційський солдат Ден
+“У тебе недостатньо карт!”[ENDN][STRT=211,4]{PreChoose 2,1}{Instantly}Бурмеційська біженка Лірі
+“Я вмію грати у карти. А ти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=219,2]Бурмеційська біженка Лірі
+“Думаю, тобі потрібно більше карт для гри.”[ENDN][STRT=119,4]{PreChoose 2,1}{Instantly}Бурмеційська дитина Джек
+“Хочеш зіграти у карти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=165,2]Бурмеційська дитина Джек
+“Ти маєш знайти більше карт!”[ENDN][STRT=163,4]{PreChoose 2,1}{Instantly}Бурмеційська дитина Адам
+“Я люблю карти! Хочеш зіграти?”
+{Choice}Так
+{Tab}Ні[ENDN][STRT=162,2]Бурмеційська дитина Адам
+“Для гри тобі потрібно 5 карт!”[ENDN][STRT=194,3]Штільцкін
+“Знаєш, тут так багато пилу!
+ Я не можу цього витримати!”[ENDN][STRT=204,6]{PreChoose 2,1}{Widths 0,44,14,1,14,2,14,3,-1}{Instantly}Штільцкін
+“Як щодо комбінації з трьох предметів
+ {Item 1}, {Item 2}, та {Item 3}
+ за {Yellow}{Variable 0} Гіл{White}?”
+{Choice}Звісно!
+{Tab}Ні, дякую[ENDN][STRT=256,4]{Widths 0,48,14,1,14,2,14,3,-1}{Instantly}Штільцкін
+“Я хотів продати тобі комбінацію з трьох речей
+ {Item 1}, {Item 2}, та {Item 3},
+ але, схоже, вони у тебе вже є.”[ENDN][STRT=246,2]{Instantly}Штільцкін
+“Ой-ой, у тебе недостатньо готівки, хлопче!”[ENDN][STRT=146,3]Штільцкін
+“Завдяки тобі, малий, я можу
+ продовжити свою подорож!”[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN]

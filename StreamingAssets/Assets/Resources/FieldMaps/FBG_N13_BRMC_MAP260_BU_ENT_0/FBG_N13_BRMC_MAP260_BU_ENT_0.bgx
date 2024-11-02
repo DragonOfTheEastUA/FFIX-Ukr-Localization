@@ -1,0 +1,93 @@
+USE_BASE_SCENE
+LANGUAGE: US
+
+OVERLAY
+OverlayId: 2
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 224, 64
+Image: Title_2.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 3
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 9
+Size: 224, 80
+Image: Title_3.png
+Shader: PSX/FieldMap_Abr_2
+
+OVERLAY
+OverlayId: 4
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 208, 64
+Image: Title_4.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 5
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 192, 64
+Image: Title_5.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 6
+CameraId: 0
+ViewportId: 0
+Position: 112, 144, 8
+Size: 160, 64
+Image: Title_6.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 7
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 224, 64
+Image: Title_7.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 8
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 208, 64
+Image: Title_8.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 9
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 208, 64
+Image: Title_9.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 10
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 224, 64
+Image: Title_10.png
+Shader: PSX/FieldMap_Abr_1
+
+OVERLAY
+OverlayId: 11
+CameraId: 0
+ViewportId: 0
+Position: 48, 144, 8
+Size: 224, 64
+Image: Title_11.png
+Shader: PSX/FieldMap_Abr_1
+

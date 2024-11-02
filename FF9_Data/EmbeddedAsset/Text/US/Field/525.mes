@@ -1,0 +1,492 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}До мене завітав Штільцкін!
+{Tab}Дуже нудно, Купо!
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=201,3]{UpperRight}{Widths 0,0,6,0,-1,0,173,6,1,-1}{Text 0,0}
+“Це лист від {Text 0,1}, купокупо!
+ Щиро дякую! Купокупо!”[ENDN][STRT=215,13]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+До мене завітав Штільцкін!
+Купо!
+
+Він сказав, що знайшов місце, 
+яке здалося йому цікавим, і пішов.
+
+Хотів би я, щоб він залишився довше, Купо.
+І куди він взагалі подівся?
+Дай мені знати, коли дізнаєшся! Купо!
+[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Штільцкін!  Штільцкін!  Купокупо!
+ Цікаво, чи зупинявся він у Ліндблюмі!”[ENDN][STRT=188,4]{UpperRight}{Widths 0,0,6,0,-1,0,119,6,1,-1,0,188,6,1,-1}{Text 0,0}
+“Я отримав листа від {Text 0,1}!
+ Я навіть не знаю, хто такий {Text 0,1}.  Купо.
+ Давай прочитаємо його разом!”[ENDN][STRT=206,11]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Мені нудно, купо!
+
+Мені так нудно, що я хочу сховатися!
+
+Спробуйте знайти мене у цій печері!
+
+Підказка: я за стіною...
+[ENDN][STRT=196,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що за безтурботний мугл! Купо!
+ Я втік з Ліндблюма, рятуючи своє життя...”[ENDN][STRT=180,4]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я радий, що Ліндблюм відновився!
+ Мені не подобається Викопне коріння.
+ Можна тебе попросити про послугу, купо?”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}Укриття від дощу
+{Tab}Пропав!  Купо!
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=126,3]{UpperRight}{Widths 0,0,6,0,-1,0,119,6,1,-1,0,126,6,1,-1}{Text 0,0}
+“Я отримав листа від {Text 0,1}а!
+ Ти знаєш {Text 0,1}а, купо?”[ENDN][STRT=195,11]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1}а для {Text 0,0}{White}
+
+
+Я покинув Ліндблюм і попрямував
+на північ. Я пройшов через Імлу та
+Гізмалаук, щоб вперше потрапити
+до Бурмеції.
+
+Як і очікувалося, йде дощ.
+Піду шукати укриття...
+[ENDN][STRT=212,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Він вирушив до Бурмеції?
+ Там може бути небезпечно! Купо!”[ENDN][STRT=90,3]{UpperRight}{Widths 0,0,6,0,-1,0,90,6,1,-1}{Text 0,0}
+“Лист від: {Text 0,1}?
+ Дякую, купо!”[ENDN][STRT=225,11]{Widths 0,55,6,1,6,0,-1,0,158,6,7,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+О, це жахливо!  Купо!
+{Text 0,7}, із замку, зник!
+
+Невже його викрали олександрійські солдати?
+Або його з'їли чорні маги? Купо!
+
+Я так хвилююся!!!
+[ENDN][STRT=200,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Щ-Щ-Що відбувається!? Купо!?”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=121,4]{Position 150,70}{PreChoose 3,0}{Instantly}{Cyan}-{White}Ліфт замку Ліндблюм{Cyan}-{White}
+{Choice}Не їхати
+{Tab}{Cyan}【{White}Середній рівень{Cyan}】{White}
+{Tab}{Cyan}【{White}Базовий рівень{Cyan}】{White}[ENDN][STRT=121,4]{Position 150,70}{PreChoose 3,0}{Instantly}{Cyan}-{White}Ліфт замку Ліндблюм{Cyan}-{White}
+{Choice}Не їхати
+{Tab}{Cyan}【{White}Верхній рівень{Cyan}】{White}
+{Tab}{Cyan}【{White}Базовий рівень{Cyan}】{White}[ENDN][STRT=121,4]{Position 150,70}{PreChoose 3,0}{Instantly}{Cyan}-{White}Ліфт замку Ліндблюм{Cyan}-{White}
+{Choice}Не їхати
+{Tab}{Cyan}【{White}Верхній рівень{Cyan}】{White}
+{Tab}{Cyan}【{White}Середній рівень{Cyan}】{White}[ENDN][STRT=170,1]{NoAnimation}{LowerRight}{Instantly}Замок Ліндблюм  {Cyan}【{White}Верхній рівень{Cyan}】{White}[ENDN][STRT=154,1]{NoAnimation}{LowerRight}{Instantly}Замок Ліндблюм  {Cyan}【{White}Середній рівень{Cyan}】{White}[ENDN][STRT=163,1]{NoAnimation}{LowerRight}{Instantly}Замок Ліндблюм  {Cyan}【{White}Базовий рівень{Cyan}】{White}[ENDN][STRT=142,4]{PreChoose 3,2}{Widths 1,178,-1,2,154,-1}{Instantly}{Center 142}-{Cyan}Вагонетка замку Ліндблюм{White}-
+{Choice}Їхати до {Cyan}【{White}Станції Базового рівня{Cyan}】{White}
+{Tab}Їхати до {Cyan}【{White}Брами Дракона{Cyan}】{White}
+{Tab}Не їхати[ENDN][STRT=142,3]{PreChoose 2,1}{Widths 1,153,-1}{Instantly}{Center 142}-{Cyan}Вагонетка замку Ліндблюм{White}-
+{Choice}Їхати до {Cyan}【{White}Брами Дракона{Cyan}】{White}
+{Tab}Не їхати[ENDN][STRT=142,3]{PreChoose 2,1}{Widths 1,158,-1}{Instantly}{Center 142}-{Cyan}Вагонетка замку Ліндблюм{White}-
+{Choice}Їхати до {Cyan}【{White}Брами Змія{Cyan}】{White}
+{Tab}Не їхати[ENDN][STRT=142,4]{PreChoose 3,2}{Widths 1,178,-1,2,159,-1}{Instantly}{Center 142}-{Cyan}Вагонетка замку Ліндблюм{White}-
+{Choice}Їхати до {Cyan}【{White}Станції Базового рівня{Cyan}】{White}
+{Tab}Їхати до {Cyan}【{White}Брами Змія{Cyan}】{White}
+{Tab}Не їхати[ENDN][STRT=240,5]{PreChoose 4,3}{Instantly}{Center 240}-{Cyan}Замок Ліндблюм Повітряне таксі/Театральний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Індустріального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=240,4]{PreChoose 3,2}{Instantly}{Center 240}-{Cyan}Замок Ліндблюм Повітряне таксі/Театральний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Індустріального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=242,5]{PreChoose 4,3}{Instantly}{Center 242}-{Cyan}Замок Ліндблюм Повітряне таксі/Діловий район{White}-
+{Choice}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Індустріального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=242,4]{PreChoose 3,2}{Instantly}{Center 242}-{Cyan}Замок Ліндблюм Повітряне таксі/Діловий район{White}-
+{Choice}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Індустріального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=247,5]{PreChoose 4,3}{Instantly}{Center 247}-{Cyan}Замок Ліндблюм Повітряне таксі/Індустріальний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=247,4]{PreChoose 3,2}{Instantly}{Center 247}-{Cyan}Замок Ліндблюм Повітряне таксі/Індустріальний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=184,5]{PreChoose 4,3}{Widths 3,188,-1}{Instantly}{Center 184}-{Cyan}Замок Ліндблюм Повітряне таксі/Замок{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Індустріального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=240,4]{PreChooseMask 3,2}{Instantly}{Center 240}-{Cyan}Замок Ліндблюм Повітряне таксі/Театральний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до 【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=242,4]{PreChooseMask 3,2}{Instantly}{Center 242}-{Cyan}Замок Ліндблюм Повітряне таксі/Діловий район{White}-
+{Choice}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до 【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=184,4]{PreChooseMask 3,2}{Instantly}{Center 184}-{Cyan}Замок Ліндблюм Повітряне таксі/Замок{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до 【{White}Театрального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=240,4]{PreChoose 3,2}{Instantly}{Center 240}-{Cyan}Замок Ліндблюм Повітряне таксі/Театральний район{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=242,4]{PreChoose 3,2}{Instantly}{Center 242}-{Cyan}Замок Ліндблюм Повітряне таксі/Діловий район{White}-
+{Choice}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Замку Ліндблюм{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=184,4]{PreChoose 3,2}{Instantly}{Center 184}-{Cyan}Замок Ліндблюм Повітряне таксі/Замок{White}-
+{Choice}Летіти до {Cyan}【{White}Ділового району{Cyan}】{White}
+{Tab}Летіти до {Cyan}【{White}Театрального району{Cyan}】{White}
+{Tab}Не летіти[ENDN][STRT=156,1]{Position 170,190}{NoFocus}Ліндблюм  {Cyan}【{White}Діловий район{Cyan}】{White}{Time -1}[ENDN][STRT=150,1]{Position 170,190}{NoFocus}Ліндблюм {Cyan}【{White}Театральний район{Cyan}】{White}{Time -1}[ENDN][STRT=157,1]{Position 170,190}{NoFocus}Ліндблюм {Cyan}【{White}Індустріальний район{Cyan}】{White}{Time -1}[ENDN][STRT=94,1]{Position 170,190}{NoFocus}Ліндблюм {Cyan}【{White}Замок{Cyan}】{White}{Time -1}[ENDN][STRT=72,1]{PreChooseMask 16,15}{Widths 1,107,-1,2,148,-1}{Instantly}Обрати подію
+{Choice}Третя коштовність
+{Tab}Прибуває флот Бране
+{Tab}ATE-02
+{Tab}ATE-03
+{Tab}ATE-04
+{Tab}ATE-05
+{Tab}ATE-06
+{Tab}ATE-07
+{Tab}ATE-08
+{Tab}ATE-09
+{Tab}ATE-10
+{Tab}ATE-11
+{Tab}ATE-12
+{Tab}ATE-13
+{Tab}ATE-14
+{Tab}Скасувати[ENDN][STRT=88,1]{Instantly}{Center 88}Третя коштовність[ENDN][STRT=128,1]{Instantly}{Center 128}Прибуває флот Бране[ENDN][STRT=177,1]{Position 85,5}{NoFocus}Не потрап до рук ворога!{Time -1}[ENDN][STRT=174,1]{Position 78,5}{NoFocus}Вистрибуй, коли вона відвернеться!{Time -1}[ENDN][STRT=171,3]Чоловік
+“Регент чекає на тебе
+ на Базовому рівні.”[ENDN][STRT=205,3]Чоловік
+“Ворог зайнятий завантаженням припасів.
+ Спускайся на ліфті, швидко!”[ENDN][STRT=217,3]Чоловік
+“Щойно ти піднімешся на ліфт, мої
+ товариші подбають про решту.”[ENDN][STRT=208,3]{Zidane}
+“Тобто, я просто піднімаюся на ліфті
+ на Базовий рівень і мене не спіймають?”[ENDN][STRT=39,1]Так{Speed 2}...[ENDN][STRT=148,3]{Zidane}
+“Простіше простого!
+ Залиште все мені.”[ENDN][STRT=25,1]Га?[ENDN][STRT=114,1]Є тут хто-небудь{Speed 2}...{Speed -1}?[ENDN][STRT=35,1]Хвіст?[ENDN][STRT=42,1]Няв![ENDN][STRT=112,1]О, це лише кіт{Speed 2}...[ENDN][STRT=162,2]{Zidane}
+(Ого, ледь не попався.)[ENDN][STRT=78,2]Чоловік
+“(Ти ідіот!)”[ENDN][STRT=216,2]Чоловік
+“Що б ти не робив, не попадися!”[ENDN][STRT=5,1]{UpperLeftForce}{NoFocus}{Center 5}!{Time -1}[ENDN][STRT=236,3]Чоловік
+“Що трапилося?
+ Регент чекає на Базовому рівні.”[ENDN][STRT=101,3]Чоловік
+“Іди зараз же, або тебе
+ спіймають!”[ENDN][STRT=131,3]{Zidane}
+“Я повинен бігти, поки вона
+ відвернулася.”[ENDN][STRT=145,3]Солдат Олександрії
+“Ми закінчили
+ завантажувати припаси?”[ENDN][STRT=208,3]Солдат Олександрії
+“Цікаво, куди ж так поспішала
+ королева Бране?”[ENDN][STRT=136,3]Солдат Олександрії
+“Цікаво, куди ми
+ вирушимо далі?”[ENDN][STRT=221,3]Солдат Олександрії
+“Я не знаю жодного королівства,
+ яке б становило загрозу для нашої країни{Speed 2}...{Speed -1}”[ENDN][STRT=131,3]Солдат Олександрії
+“Я впевнена, що у королеви
+ Бране є план.”[ENDN][STRT=177,3]Солдат Олександрії
+“Нам нема потреби
+ турбуватися про такі речі.”[ENDN][STRT=118,3]Солдат Олександрії
+“Ну ж бо,
+ нам потрібна твоя допомога.”[ENDN][STRT=236,3]Солдат Олександрії
+“Деякі солдати Ліндблюма
+ зачинилися у кімнаті для гостей.”[ENDN][STRT=141,3]{UpperLeftForce}{Zidane}
+“Цікаво, що збирається
+ робити Бране{Speed 2}...{Speed -1}”[ENDN][STRT=12,1]{UpperLeftForce}{Widths 0,12,16,-1}{Zidane}е{Speed 2}...[ENDN][STRT=158,3]{UpperLeftForce}{Dagger}
+“Чи справді нам треба вирушати
+ на Зовнішній континент{Speed 2}...{Speed -1}?”[ENDN][STRT=164,3]{UpperLeftForce}{Zidane}
+“Гей, що з тобою?
+ Ти ж казала, що хочеш поїхати.”[ENDN][STRT=64,2]{UpperLeftForce}{Widths 0,0,18,-1}{Dagger}
+“Що, коли{Speed 2}...”[ENDN][STRT=169,3]{UpperLeftForce}{Dagger}
+“Що, коли щось трапиться
+ з тобою або {Vivi}{Speed 2}...{Speed -1}?”[ENDN][STRT=114,3]{UpperLeftForce}{Dagger}
+“Я можу не впоратися
+ сама.”[ENDN][STRT=166,2]{Zidane}
+“Ти хвилюєшся за мене?”[ENDN][STRT=114,3]{UpperLeftForce}{Dagger}
+“Що? Ну, я маю на увазі,
+ ем{Speed 2}...{Speed -1}”[ENDN][STRT=157,3]{UpperLeftForce}{Dagger}
+“Принцесі потрібна її елітна
+ гвардія, розумієш{Speed 2}...{Speed -1}?”[ENDN][STRT=204,2]{UpperLeftForce}{Dagger}
+“Без вас, хлопці, я б загрузла!”[ENDN][STRT=185,3]{UpperRightForce}{Zidane}
+“Ти намагаєшся мені лестити,
+ називаючи мене своєю елітною гвардією?”[ENDN][STRT=144,1]Вибач, я пожартував.[ENDN][STRT=135,2]{Zidane}
+“Зі мною ти будеш в порядку.”[ENDN][STRT=171,4]{UpperRightForce}{Widths 0,107,18,-1}{Zidane}
+“А як щодо тебе, {Dagger}?
+ Ми нічого не знаємо про
+ Зовнішній континент.”[ENDN][STRT=133,2]{UpperLeftForce}{Dagger}
+“Я прийняла рішення.”[ENDN][STRT=189,3]{UpperLeftForce}{Dagger}
+“Я не хочу, щоб моя мати
+ більше чинила злодіяння.”[ENDN][STRT=158,3]{UpperRightForce}{Widths 0,158,17,-1}{Zidane}
+“Що ж, гаразд.
+ Я захищу тебе та {Vivi}!”[ENDN][STRT=69,1]{UpperLeftForce}Дякую{Speed 2}...[ENDN][STRT=182,1]{Instantly}{Center 182}<Гвок-гвок!>  Як це дратує![ENDN][STRT=146,3]{Vivi}
+“{Zidane}е!
+ Я такий радий, що ти тут!”[ENDN][STRT=127,2]{UpperLeftForce}{Widths 0,127,17,-1}{Dagger}
+“{Vivi}, де дядько Сід?”[ENDN][STRT=219,4]{Vivi}
+“Ем-м{Speed 2}...{Speed -1}{Wait 10}
+ Він сказав, ‘Гвок-гвок. Зачекай тут’,
+ і кудись пішов{Speed 2}...{Speed -1}”[ENDN][STRT=135,2]{Zidane}
+“Де він може бути{Speed 2}...?”[ENDN][STRT=5,1]{UpperRightForce}{NoFocus}{Center 5}!{Time -1}[ENDN][STRT=113,2]Регент Сід
+“<Гвок!> У мене вийшло!”[ENDN][STRT=194,3]Регент Сід
+“Я зупинив вагончик між цим
+ місцем і Брамою Змія!”[ENDN][STRT=196,3]Регент Сід
+“<Гвок-гвок!> Це покаже їм, що не
+ варто бешкетувати в моєму замку!”[ENDN][STRT=155,2]Регент Сід
+“А тепер йдіть. <Гвок-гвок.>”[ENDN][STRT=203,3]Регент Сід
+“Місце розкопок схоже на лабіринт.
+ Будьте обережні, щоб не заблукати.”[ENDN][STRT=118,3]Регент Сід
+“І{Speed 2}...{Speed -1}
+ Візьміть з собою це!”[ENDN][STRT=96,3]{Vivi}
+“Ходімо, поки вони
+ нас не знайшли!”[ENDN][STRT=175,3]{Dagger}
+“Цікаво, чи моя мати
+ десь у замку?”[ENDN][STRT=204,3]Міністр Артанія
+“Місце розкопок є складним лабіринтом.
+ Будь ласка, будьте обережні.”[ENDN][STRT=167,4]Регент Сід
+“Це буде небезпечна подорож,
+ але я розраховую на всіх вас,
+ щоб перемогти Куджу.”[ENDN][STRT=60,1]{UpperRightForce}Щасти вам![ENDN][STRT=115,3]{Widths 0,54,16,-1}Міністр Артанія
+“Майстре {Zidane},
+ візьміть це з собою.”[ENDN][STRT=71,2]{Widths 0,0,16,-1}{Zidane}
+“Це ганчірка.”[ENDN][STRT=175,3]Регент Сід
+“Ти неймовірний дурень!
+ Це не просто ганчірка! <Гвок!>”[ENDN][STRT=235,2]Регент Сід
+“Це національний скарб Ліндблюма!”[ENDN][STRT=246,3]Регент Сід
+“Вона передавалася у спадок з покоління
+ в покоління, ще з часів першого регента.”[ENDN][STRT=213,3]Регент Сід
+“Ймовірно, вона була зроблена до того,
+ як наш континент вкрила Імла{Speed 2}...{Speed -1}”[ENDN][STRT=170,3]Регент Сід
+“Це стародавня мапа
+ всього світу!”[ENDN][STRT=93,2]{Zidane}
+“Ого. Дякую!”[ENDN][STRT=188,2]{LowerLeftForce}Регент Сід
+“А тепер йдіть, поки вас не знайшли!”[ENDN][STRT=194,3]{LowerLeftForce}Регент Сід
+“{Zidane}е, {Vivi}.
+ Будь ласка, захистіть принцесу Гарнет.”[ENDN][STRT=32,1]{UpperRightForce}Гаразд.[ENDN][STRT=63,1]{UpperLeftForce}Дядько Сід{Speed 2}...[ENDN][STRT=190,3]{LowerRightForce}Регент Сід
+“<Гвок!> Не хвилюйся за мене.
+ Я сильніший, ніж виглядаю!”[ENDN][STRT=63,2]Регент Сід
+“А тепер йди!”[ENDN][STRT=190,3]{LowerRightForce}Регент Сід
+“Вони вичавлять з мене оглопову олію,
+ якщо нас зловлять!”[ENDN][STRT=72,2]{Widths 0,72,18,-1}{Zidane}
+“Ходімо, {Dagger}.”[ENDN][STRT=188,2]{Zidane}
+“Повертатися назад занадто небезпечно.”[ENDN][STRT=71,2]Торговець
+“Що тепер?”[ENDN][STRT=179,3]Торговець
+“Що!? На Ліндблюм напали!?
+ О, Боже!”[ENDN][STRT=146,3]Торговець
+“Тепер у мене буде ще
+ менше клієнтів!”[ENDN][STRT=149,3]Торговець
+“Га?{Wait 10} Ви йдете на
+ місце розкопок?”[ENDN][STRT=227,3]Торговець
+“Воно розташоване прямо на північ звідси.
+ Ви побачите ставок у формі гарбуза.”[ENDN][STRT=257,3]Торговець
+“Ви можете зустріти дивних монстрів.
+ Гей, не бажаєте щось купити?”[ENDN][STRT=189,2]Торговець
+“Гей, хочете щось купити?”[ENDN][STRT=159,4]{UpperLeftForce}{PreChoose 2,1}{Instantly}{Zidane}
+“Так, можливо, дещо...”
+{Choice}Купити
+{Tab}Не купувати[ENDN][STRT=193,3]Торговець
+“Я побуду тут деякий час.
+ Повертайтеся, якщо щось знадобиться.”[ENDN][STRT=195,2]{UpperLeftForce}Солдат Олександрії
+“Ми почали завантажувати припаси.”[ENDN][STRT=180,2]{UpperLeftForce}Олександрійський офіцер
+“Це зайняло досить багато часу, чи не так?”[ENDN][STRT=151,3]{UpperRightForce}Солдат Олександрії
+“Так, солдати Ліндблюма не
+ підкоряються нашим наказам{Speed 2}...”[ENDN][STRT=179,3]{UpperLeftForce}Олександрійський офіцер
+“Ми повинні закінчити, поки
+ королева Бране не засмутилася.”[ENDN][STRT=165,4]{UpperLeftForce}Олександрійський офіцер
+“Відправте весь наявний персонал до
+ гавані та допоможіть у забезпеченні
+ флоту припасами.”[ENDN][STRT=205,3]{UpperLeftForce}Олександрійський офіцер
+“Залишатися тут безглуздо, тепер,
+ коли у нас є {Cyan}Кіготь сокола{White}.”[ENDN][STRT=65,1]{UpperLeftForce}{NoFocus}Так, мем!{Time -1}[ENDN][STRT=65,1]{UpperRightForce}Так, мем![ENDN][STRT=186,2]Олександрійський офіцер
+“Ти залишайся тут, з іншими.”[ENDN][STRT=132,3]Олександрійський офіцер
+“Зв'яжіться зі мною, якщо
+ трапиться щось незвичне.”[ENDN][STRT=234,3]Олександрійський офіцер
+“Боже, боже{Speed 2}...{Speed -1} У них є оглоп для
+ регента і блазні для солдатів.”[ENDN][STRT=149,3]Олександрійський офіцер
+“Чому вони завантажують
+ припаси так довго?”[ENDN][STRT=39,1]Гмм{Speed 2}...?[ENDN][STRT=169,3]Олександрійський офіцер
+“Ви двоє, я не давала вам
+ дозволу на відпочинок.”[ENDN][STRT=141,3]Олександрійський офіцер
+“Я розумію, що справи
+ просуваються повільно, але{Speed 2}...”[ENDN][STRT=153,3]Олександрійський офіцер
+“Пам'ятайте, що наступна
+ місія ось-ось почнеться.”[ENDN][STRT=206,3]Солдат Олександрії
+“{Speed 2}...{Speed -1}Машина там зупинилася,
+ і візок перестав ходити.”[ENDN][STRT=34,1]Вірно?[ENDN][STRT=147,3]Солдат Олександрії
+“Так, вона видавала такий
+ дивний звук ‘гвок-гвок’{Speed 2}...”[ENDN][STRT=184,3]Солдат Олександрії
+“Я хотіла пройтись по магазинах,
+ перш ніж ми залишимо гавань!”[ENDN][STRT=169,2]Олександрійський офіцер
+“Щось чути від вартового?”[ENDN][STRT=133,2]Солдат Олександрії
+“Ні, мем. Нічого{Speed 2}...”[ENDN][STRT=187,3]Олександрійський офіцер
+“Це, мабуть, справа рук регента Сіда.
+ Він щось приховує{Speed 2}...{Speed -1}”[ENDN][STRT=140,2]Олександрійський офіцер
+“Ходімо з нами, ви двоє.”[ENDN][STRT=92,1]Знайдіть регента![ENDN][STRT=65,1]{UpperRightForce}{NoFocus}Так, мем!{Time -1}[ENDN][STRT=65,1]{UpperLeftForce}Так, мем![ENDN]

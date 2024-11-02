@@ -1,0 +1,189 @@
+[STRT=148,13]{Table 61,122,128,147,158,170,181,197,203,214,225,236,247,258,269,290,295,306,317,337,346,353,370,390,401,416,439,448,465,478,492,507,518,537,548,560,572,598,624,634,651,663,673,684,693,706,719,734,745,763,773,785,804,810,816,824,832,853,874,895,916,937,}Dummy
+Олександрійська гавань
+Олександрія
+Злий Ліс
+Крижана печера
+Житло Куана
+Трено
+Південна брама
+Південна брама
+Південна брама
+Південна брама
+Південна брама
+Крижана печера
+Гірська Обсерваторія
+Далі
+Північна брама
+Північна брама
+Грот Гізамалука
+Бурмеція
+Клейра
+Ліс Чокобо
+Грот Гізамалука
+Болото Ку
+Гострі скелі
+Ліндблюм - Брама Дракона
+Ліндблюм
+Гавань Ліндблюма
+Святиня Землі
+Пустельний палац
+Центр МогМережі
+Болото Ку
+Селище чорних магів
+Викопне коріння
+Конде Піті
+Мадейн Сарі
+Гірська стежка Конде Піті
+Гірська стежка Конде Піті
+Дерево Життя
+Лагуна Чокобо
+Святиня Вітру
+Дагеррео
+Болото Ку
+Оілверт
+Посадковий майданчик
+Святиня Води
+Замок Іпсена
+Болото Ку
+Мерехтливий острів
+Есто Газа
+Святиня Вогню
+Рай Чокобо
+  ?  
+  ?  
+  ???  
+Меморія
+Повітряний сад Чокобо
+Повітряний сад Чокобо
+Повітряний сад Чокобо
+Повітряний сад Чокобо
+Повітряний сад Чокобо
+Грот Гізамалука[ENDN][STRT=22,1]{UpperCenter}{NoFocus}{Center 0}  ?  [ENDN][STRT=0,1]{UpperCenter}{Widths 0,0,6,0,-1}{NoFocus}{Text 0,0}[ENDN][STRT=0,1]{NoAnimation}{Position 40,9}{Widths 0,0,6,0,-1}{NoFocus}{Instantly}{Text 0,0}[ENDN][STRT=40,3]{NoAnimation}{PreChoose 2,1}{Widths 0,40,6,0,-1}{Instantly}{Center 40,6,0}Перейти до {Text 0,0}?
+{Choice}Так
+{Tab}Ні[ENDN][STRT=145,7]{NoAnimation}{PreChooseMask 6,5}{Widths 3,153,-1}{Instantly}{Center 145}Обрати спосіб навігації:
+{Choice}Звичайна навігація
+{Tab}Навігація Чокобо
+{Tab}Навігація Блакитного Нарцису
+{Tab}Навігація повітряного корабля
+{Tab}Навігація автопілоту
+{Tab}Скасувати[ENDN][STRT=145,4]{NoAnimation}{PreChoose 3,2}{Widths 1,160,-1,2,151,-1}{Instantly}{Center 145}Обрати спосіб навігації:
+{Choice}Навігація Чокобо на землі
+{Tab}Навігація Чокобо у повітрі
+{Tab}Скасувати[ENDN][STRT=145,4]{NoAnimation}{PreChoose 3,2}{Instantly}{Center 145}Обрати спосіб навігації:
+{Choice}Навігація повітряного корабля
+{Tab}Навігація автопілоту
+{Tab}Скасувати[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=74,1]{LowerLeft}{NoAnimation}{NoFocus}{Instantly}Увійти за допомогою {Cross+}{Mobile 260}[ENDN][STRT=74,1]{LowerLeft}{NoAnimation}{NoFocus}{Instantly}Увійти за допомогою {Circle+}{Mobile 260}[ENDN][STRT=133,5]{UpperCenter}{PreChoose 3,2}{Instantly}Могво
+“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}Скасувати{Time -1}[ENDN][STRT=83,4]{UpperCenter}{PreChoose 2,1}{Instantly}Могво
+“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=154,5]{UpperCenter}{PreChoose 2,1}{Widths 0,119,64,1,-1}{Instantly}Могво
+“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 1})
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=99,1]{UpperCenter}{Instantly}Давайте збережемось,  купо!{Time 20}[ENDN][STRT=181,1]{UpperCenter}{Instantly}У вас немає наметів, купо!{Time 30}[ENDN][STRT=172,1]{UpperCenter}{Instantly}Справді?  Ви пошкодуєте, купо!{Time 27}[ENDN][STRT=158,1]{UpperCenter}{Instantly}Кличте мене знову в будь-який час, купо!{Time 27}[ENDN][STRT=209,1]{UpperCenter}{Instantly}ПРИПИНИ, ПРИПИНИ, ПРИПИНИ!  КУ-ФЕ!{Time 30}[ENDN][STRT=229,1]{UpperCenter}{Instantly}Не клич мене, якщо я тобі не потрібен, купо!{Time 27}[ENDN][STRT=207,1]{UpperCenter}{Instantly}Ти починаєш мене дратувати, купо!{Time 27}[ENDN][STRT=168,1]{UpperCenter}{Instantly}Я гострю свій ніж, купо.{Time 27}[ENDN][STRT=203,1]{DialogPosition}{Instantly}Може, я піду у Ліс Чокобо{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=34,1]{DialogPosition}{Instantly}Кве?{Time 10}[ENDN][STRT=210,1]{DialogPosition}{Instantly}Мені потрібна підказка, перш ніж я почну шукати.{Time 20}[ENDN][STRT=187,1]{DialogPosition}{Instantly}Шукаймо наступний скарб.{Time 20}[ENDN][STRT=272,1]{DialogPosition}{Instantly}Тепер у мене є всі скарби Чокографа, але{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=139,1]{DialogPosition}{Instantly}Треба дати Чоко відпочити{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=193,1]{DialogPosition}{Instantly}Думаю, трохи пройдуся пішки.{Time 40}[ENDN][STRT=32,1]{DialogPosition}Кве.{Time 5}[ENDN][STRT=39,1]{DialogPosition}Кве!?{Time 6}[ENDN][STRT=72,1]{DialogPosition}К-КВЕЕЕЕ!!!{Time 30}[ENDN][STRT=138,1]{DialogPosition}Знайдено скриню зі скарбами![ENDN][STRT=0,3]{UpperCenter}{PreChooseMask 3,2}{Widths 1,147,-1,2,231,64,1,-1,3,58,-1}{Instantly}{Choice}Відкрити меню Чокографа
+{Tab}Нагодувати його Мертвим перчиком (Лишилося: {Variable 1})
+{Tab}Скасувати[ENDN][STRT=241,1]{DialogPosition}Тріщина розсипалася і відкрила діру![ENDN][STRT=165,1]{DialogPosition}Знайдено скарб у дірі![ENDN][STRT=260,1]{DialogPosition}Знайдено скарб на дні океану![ENDN][STRT=150,1]{UpperCenter}Це вище, ніж я думав{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=96,1]{UpperCenter}О... тепер я розумію.[ENDN][STRT=224,9]{Instantly}{y6}{Center 118}{Cyan}-{f2}Звичайна навігація{f2}-
+{White}{y10}{f6}{Cross+}{Mobile 260}{f22}{x50}:{f2} Входити в будівлі
+{y10}{f6}{x56} Їхати на транспортному засобі
+{y10}{f6}{Square+}{Mobile 282}{f22}{x50}:{f2} Покликати мугла
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Перемкнути навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 284}{f22}{x50}:{f2} Увімкнути/вимкнути обертання камери
+{y10}{f6}{R2+}{Mobile 285}{f22}{x50}:{f2} Змінити перспективу
+{x170}{Time -1}[ENDN][STRT=275,11]{Instantly}{y6}{Center 129}{Cyan}-{f2}Навігація Чокобо{f2}-{White}
+{y10}{f6}{Cross+}{Mobile 260}{f22}{x50}:{f2} Увійти у Ліс Чокобо
+{y10}{f6}{x56} Якщо ви відповідаєте певним вимогам...
+{y10}{f6}{Triangle+}{Mobile 289}{f22}{x50}:{f2} Відкрити меню
+{y10}{f6}{Square+}{Mobile 311}{f22}{x50}:{f2} Шукати скарби
+{y10}{f6}{Circle+}{Mobile 286}{f22}{x50}:{f2} Злізти
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Переключити навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 284}{f22}{x50}:{f2} Увімкнути/вимкнути обертання камери
+{y10}{f6}{R2+}{Mobile 285}{f22}{x50}:{f2} Змінити перспективу
+{x170}[ENDN][STRT=183,9]{Instantly}{y6}{Center 164}{Cyan}-{f2}Керування польотом Чокобо{f2}-{White}
+{y10}{f6}{Cross+}{Mobile 263}{f22}{x50}:{f2} Вперед
+{y10}{f6}{Triangle+}{Mobile 289}{f22}{x50}:{f2} Відкрити меню
+{y10}{f6}{Square+}{Mobile 264}{f22}{x50}:{f2} Назад
+{y10}{f6}{Circle+}{Mobile 260}{f22}{x50}:{f2} Приземлитися
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Переключити навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 287}{f22}{x50}:{f2} Вирівняти камеру
+{x170}[ENDN][STRT=183,10]{Instantly}{y6}{Center 138}{Cyan}-{f2}Керування Блакитним Нарцисом{f2}-{White}
+{y10}{f6}{Cross+}{Mobile 263}{f22}{x50}:{f2} Вперед
+{y10}{f6}{Triangle+}{Mobile 296}{f22}{x50}:{f2} Повернутися на палубу
+{y10}{f6}{Square+}{Mobile 264}{f22}{x50}:{f2} Назад
+{y10}{f6}{Circle+}{Mobile 286}{f22}{x50}:{f2} Висадитися
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Переключити навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 287}{f22}{x50}:{f2} Вирівняти камеру
+{y10}{f6}{R2+}{Mobile 285}{f22}{x50}:{f2} Змінити перспективу
+{x170}[ENDN][STRT=183,9]{Instantly}{y6}{Center 119}{Cyan}-{f2}Навігація повітряного корабля{f2}-{White}
+{y10}{f6}{Cross+}{Mobile 263}{f22}{x50}:{f2} Вперед
+{y10}{f6}{Triangle+}{Mobile 296}{f22}{x50}:{f2} На палубу
+{y10}{f6}{Square+}{Mobile 264}{f22}{x50}:{f2} Назад
+{y10}{f6}{Circle+}{Mobile 286}{f22}{x50}:{f2} Висадитися
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Переключити навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 287}{f22}{x50}:{f2} Вирівняти камеру
+{x170}[ENDN][STRT=283,10]{Instantly}{y6}{Center 131}{Cyan}-{f2}Навігація автопілоту{f2}-{White}
+{y10}{f6}{Left}{Mobile 265}{Right}{Mobile 266}{f22}{x50}:{f2} Скасовує автопілот
+{y10}{f6}{Cross+}{Mobile 263}{f22}{x50}:{f2} Вперед
+{y10}{f6}{Square+}{Mobile 264}{f22}{x50}:{f2} Скасовує автопілот
+{y10}{f6}{Triangle+}{Mobile 296}{f22}{x50}:{f2} Скасовує автопілот
+{y10}{f6}{Circle+}{Mobile 286}{f22}{x50}:{f2} Скасовує автопілот (коли ви висаджуєтеся)
+{y10}{f6}{Select}{Mobile 281}{x50}:{f2} Переключити навігаційну мапу
+{y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
+{y10}{f6}{L2+}{Mobile 287}{f22}{x50}:{f2} Вирівняти камеру
+{x228}[ENDN][STRT=46,1]{DialogPosition}{Widths 0,46,64,1,14,0,-1}Знайдено {Item 0} {Variable 1} шт.![ENDN][STRT=77,1]{DialogPosition}{Widths 0,77,64,1,14,0,-1}Знайдено {Yellow}Карта {White}{Item 0} {Variable 1} шт.![ENDN][STRT=142,1]{DialogPosition}Отриманих речей більше 99.[ENDN][STRT=154,1]{DialogPosition}Отриманих карт більше 100.[ENDN][STRT=147,1]{DialogPosition}З'явився дивний дим![ENDN][STRT=106,1]{DialogPosition}{Speed 4}Хочеться {Wait 3}спа{Wait 4}а{Wait 4}а{Wait 4}а{Wait 5}а{Wait 6}ти.[ENDN][STRT=147,1]{DialogPosition}{NoFocus}Скам'яніло.  Не можу увійти{Speed 2}...{Speed -1}[ENDN][STRT=161,1]{DialogPosition}{NoFocus}Піщана буря занадто сильна![ENDN][STRT=135,3]{DialogPosition}Зорн
+“Куди ти йдеш?
+ Тобі потрібно йти на південь!”[ENDN][STRT=230,3]{DialogPosition}Торн
+“Закінчи місію. Тоді зможеш піднятися на борт.
+ Все, що вам потрібно, я продам.”[ENDN][STRT=199,1]{DialogPosition}{NoAnimation}{NoFocus}Я можу дістатися туди тільки зверху{Speed 2}...{Speed -1}[ENDN][STRT=285,1]{DialogPosition}{Instantly}Спостерігав за хвилями по всьому світу і розслаблявся![ENDN][STRT=88,9]{PreChoose 8,7}{Widths 1,116,-1,2,121,-1,3,140,-1,4,127,-1,5,115,-1,6,156,-1,7,202,-1}{Instantly}Обрати чокобо
+{Choice}Земля + Усі графи
+{Tab}Річка + Усі графи
+{Tab}Гора + Усі графи
+{Tab}Океан + Усі графи
+{Tab}Небо + Усі графи
+{Tab}Знайдено всі скарби
+{Tab}Знайшли ще не всі скарби.
+{Tab}Скасувати[ENDN][STRT=104,3]{PreChoose 2,1}{Instantly}Перейти до меню відлагодження?
+{Choice}Так
+{Tab}Ні[ENDN]

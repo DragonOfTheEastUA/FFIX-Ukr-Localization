@@ -1,0 +1,506 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}Очі {Vivi}
+{Tab}Благословення чи прокляття?
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=95,3]{UpperRight}{Widths 0,0,6,0,-1,0,90,6,1,-1}{Text 0,0}
+“Лист від: {Text 0,1}?
+ Дякую!  Купо!”[ENDN][STRT=216,13]{Widths 0,55,6,1,6,0,-1,0,175,17,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+До Селища Чорних магів прийшов
+хлопчик на ім'я {Vivi}. Його очі були
+такими сумними... Ніби на його плечах
+лежав увесь світ, купо.
+
+Я хотів сказати йому “Щасти тобі!”,
+але не зміг... Купо.
+
+Я на твоєму боці, {Vivi}!
+[ENDN][STRT=188,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Сумні очі? Вага світу?
+ Це дуже важко? Купо?”[ENDN][STRT=237,3]{UpperRight}{Widths 0,0,6,0,-1,0,135,6,1,-1}{Text 0,0}
+“Цей лист від {Text 0,1}а,
+ але я не розумію, про що він говорить.”[ENDN][STRT=202,9]{Widths 0,55,6,1,6,0,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1}а для {Text 0,0}{White}
+
+
+    Імла зникла.
+
+            Це благословення?
+
+                    Чи це прокляття?              
+[ENDN][STRT=230,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо. Я не розумію... Хіба ми не можемо
+ бути щасливі тепер, коли Імла розвіялася?”[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=197,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Там щось стирчить{Speed 2}...{Speed -1}”
+{Choice}Штовхати
+{Tab}Нічого не робити[ENDN][STRT=197,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Там щось стирчить{Speed 2}...{Speed -1}”
+{Choice}Штовхати
+{Tab}Нічого не робити[ENDN][STRT=120,3]{Zidane}
+“Там все виглядало
+ засохлим.”[ENDN][STRT=139,3]{Zidane}
+“Це місце виглядає
+ зовсім по-іншому.”[ENDN][STRT=120,3]{Zidane}
+“Так яскраво, що
+ я не бачу дна{Speed 2}...{Speed -1}”[ENDN][STRT=171,3]{Zidane}
+“Гадаю, нам варто спробувати
+ докопатися до суті!”[ENDN][STRT=141,3]{Eiko}
+“Гей, {Zidane}е.
+ Я тут дещо знайшла.”[ENDN][STRT=208,3]{Zidane}
+“Гмм{Speed 2}...{Speed -1}
+ Може, він буде рухатися, як попередній{Speed 2}...{Speed -1}”[ENDN][STRT=114,3]{Eiko}
+“Він не рухався, коли
+ я стала на нього{Speed 2}...{Speed -1}”[ENDN][STRT=110,2]{Zidane}
+“Ти стояла на ньому!?”[ENDN][STRT=47,2]{Widths 0,0,16,-1}{Zidane}
+“Ну{Speed 2}...{Speed -1}”[ENDN][STRT=97,3]{Eiko}
+“Чому б нам усім не
+ спробувати піднятися?”[ENDN][STRT=104,3]{Zidane}
+“Коли я піднявся, я відчув,
+ що він відгукнувся.”[ENDN][STRT=134,2]{Zidane}
+“Здається, нам пощастило!”[ENDN][STRT=93,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Що скажете?”
+{Choice}Залізти
+{Tab}Не залазити[ENDN][STRT=40,1]Ого{Speed 2}...{Speed -1}[ENDN][STRT=199,3]{Zidane}
+“Спочатку це мене дуже налякало, але
+ тут немає вітру чи чогось такого{Speed 2}...{Speed -1}”[ENDN][STRT=177,3]{Zidane}
+“Гадаю, цей світлий порошок
+ якось зупиняє вітер.”[ENDN][STRT=80,2]{Widths 0,80,18,-1}{Zidane}
+“Ти в порядку, {Dagger}?”[ENDN][STRT=32,1]{UpperRight}Так{Speed 2}...{Speed -1}[ENDN][STRT=93,3]{Dagger}
+“Цікаво, куди
+ ми прямуємо.”[ENDN][STRT=84,1]Так{Speed 2}...{Speed -1} мені теж.[ENDN][STRT=201,2]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Може, Мог нам щось розповість!”[ENDN][STRT=135,3]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Що ти відчуваєш тут
+ всередині Дерева Життя?”[ENDN][STRT=53,2]Мог
+“Купо{Speed 2}...{Speed -1}”[ENDN][STRT=81,3]Мог
+“{Speed 2}...{Speed -1}Купо?
+ КУПО! ПОПО!”[ENDN][STRT=54,2]{Offset 50,-50,0}{UpperRightForce}{Widths 0,0,22,-1}{Eiko}
+“Справді?”[ENDN][STRT=32,1]Купо![ENDN][STRT=111,2]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Гаразд{Speed 2}...{Speed -1} Дякую!”[ENDN][STRT=60,2]Мог
+“Купопо!”[ENDN][STRT=107,3]{Zidane}
+“Ну?
+ Що каже?”[ENDN][STRT=144,3]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Ем, Мог відчуває багато
+ життя під нами.”[ENDN][STRT=208,4]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Мугли є феями, тому вони відчувають
+ життя скрізь, але Мог каже, що тут
+ його дуже багато!”[ENDN][STRT=139,3]{Dagger}
+“Цікаво, чи є там
+ агенти Куджі{Speed 2}...{Speed -1}”[ENDN][STRT=165,3]{Zidane}
+“Але який зв'язок
+ між Куджею та Імлою?”[ENDN][STRT=19,1]{UpperRightForce} !? [ENDN][STRT=65,2]{Offset 50,-50,0}{UpperRightForce}{Widths 0,0,22,-1}{Eiko}
+“Наближається!”[ENDN][STRT=160,4]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Тут, у Дереві життя,
+ так багато дивних
+ монстрів!”[ENDN][STRT=174,2]{Dagger}
+“Чи може причиною цього бути Імла?”[ENDN][STRT=183,4]{Zidane}
+“Гадки не маю{Speed 2}...{Speed -1}
+ Злий Ліс та Гарган Ру
+ також мали унікальних монстрів.”[ENDN][STRT=209,4]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Але якщо Імла походить від цього
+ дерева, то чому вона з'являється
+ лише на континенті {Zidane}а?”[ENDN][STRT=196,3]{Zidane}
+“Гадаю, має бути щось,
+ що спрямовує Імлу.”[ENDN][STRT=181,2]{Dagger}
+“Так, але питання в тому, навіщо?”[ENDN][STRT=28,1]{UpperLeftForce}{Speed 2}......{Speed -1} [ENDN][STRT=26,2]{Widths 0,0,18,-1,0,26,16,-1}{Dagger}
+“{Zidane}е{Speed 2}...{Speed -1}”[ENDN][STRT=116,3]{Zidane}
+“Гмм?
+ У чому справа?”[ENDN][STRT=18,1]{Widths 0,18,17,-1}{Speed 2}...{Speed -1}{Wait 6}{Vivi}?[ENDN][STRT=155,2]{Widths 0,155,17,-1}{Eiko}
+“Щось не так з {Vivi}?”[ENDN][STRT=207,2]{Widths 0,207,17,-1}{Dagger}
+“Цікаво, що трапилося з {Vivi}{Speed 2}...{Speed -1}”[ENDN][STRT=232,3]{Zidane}
+“У чому справа, {Vivi}?
+ Ти надовго занурився у роздуми.”[ENDN][STRT=198,3]{Vivi}
+“О, {Zidane}е{Speed 2}...{Speed -1}
+ Я думав про Імлу.”[ENDN][STRT=181,3]{Vivi}
+“Ти пам'ятаєш{Speed 2}...{Speed -1}фабрику.
+ яку ми бачили у Далі?”[ENDN][STRT=212,3]{Dagger}
+“Так, фабрика, де створювали
+ чорних магів?”[ENDN][STRT=122,2]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Га? Чорних магів?”[ENDN][STRT=131,2]{Widths 0,131,17,-1}{Dagger}
+“Вони виглядають зовсім як {Vivi}.”[ENDN][STRT=5,1]{Widths 0,5,18,-1}{Dagger}![ENDN][STRT=109,3]{Dagger}
+“Ох! Вибач!
+ Я не хотіла{Speed 2}...{Speed -1}”[ENDN][STRT=202,4]{Vivi}
+“Усе гаразд.
+ Я більше не засмучуюсь{Speed 2}...{Speed -1}
+ через те, що мене створили і все таке.”[ENDN][STRT=12,1]{Widths 0,12,17,-1}{Vivi}{Speed 2}...{Speed -1}[ENDN][STRT=182,3]{Vivi}
+“Так чи інакше, на тій фабриці
+ було багато Імли всередині, так?”[ENDN][STRT=245,3]{Zidane}
+“О, так{Speed 2}...{Speed -1}
+ Це була величезна машина, наповнена Імлою.”[ENDN][STRT=260,3]{Dagger}
+“Саме так.
+ І там ми бачили ті дивні яйця.”[ENDN][STRT=179,4]{Vivi}
+“Повинен бути зв'язок
+ між Імлою, Куджею, і{Speed 2}...{Speed -1}
+ чорними магами.”[ENDN][STRT=32,1] {Speed 2}......{Speed -1} [ENDN][STRT=104,2]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Я так заплуталася.”[ENDN][STRT=192,2]{Offset 50,-50,0}{UpperRightForce}{Eiko}
+“Ще один прямує сюди!”[ENDN][STRT=101,3]{Zidane}
+“Гей, я нарешті можу
+ побачити дно.”[ENDN][STRT=86,2]{Eiko}
+“Тут так глибоко!”[ENDN][STRT=194,3]{Zidane}
+“Я не знаю, що там внизу{Speed 2}...{Speed -1}
+ але ми скоро дізнаємося!”[ENDN][STRT=175,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Схоже, це поверне нас назад.”
+{Choice}Залізти
+{Tab}Не залазити[ENDN][STRT=158,3]{Zidane}
+“Гей!
+ Давайте поки що повернемося нагору!”[ENDN][STRT=91,2]{Eiko}
+“Ходімо зі мною!”[ENDN][STRT=210,3]{Eiko}
+“Ти збираєшся змусити мене, таку
+ безпорадну маленьку дівчинку, йти саму!?”[ENDN][STRT=157,3]{UpperLeftForce}{Zidane}
+“Зачекай! Там можуть ховатися
+ якісь монстри!”[ENDN][STRT=41,1]{LowerLeftForce}{Widths 0,41,16,-1}Скажи, {Zidane}е{Speed 2}...{Speed -1}[ENDN][STRT=204,3]{LowerLeftForce}{Dagger}
+“Мог сказала, що відчуває тут життя.
+ Ти що-небудь відчуваєш?”[ENDN][STRT=163,3]{UpperLeftForce}{Zidane}
+“Так, але ти теж це відчуваєш,
+ чи не так?”[ENDN][STRT=183,3]{UpperLeftForce}{Zidane}
+“Нам навіть не потрібна Мог,
+ щоб зрозуміти, що тут внизу є життя.”[ENDN][STRT=229,3]{LowerLeftForce}{Dagger}
+“Твоя правда.
+ Я можу сказати, що тут щось є.”[ENDN][STRT=188,4]{LowerLeftForce}{Dagger}
+“Що це може бути?
+ Це може бути рослина,
+ але також схоже на машину.”[ENDN][STRT=175,3]{LowerRightForce}{Zidane}
+“Машина?
+ Що ти маєш на увазі під, ‘машиною’?”[ENDN][STRT=147,3]{LowerLeftForce}{Dagger}
+“Ну, воно зовсім не схоже
+ на звичайне дерево.”[ENDN][STRT=207,3]{LowerLeftForce}{Zidane}
+“Так. Досить дивно, що дерево
+ зсередини виглядає саме так.”[ENDN][STRT=241,3]{LowerLeftForce}{Dagger}
+“Виглядає так, ніби воно стоїть тут вже дуже давно.
+ Сто, двісті років або більше{Speed 2}...{Speed -1}”[ENDN][STRT=271,3]{UpperRightForce}{Vivi}
+“Внизу видно, як виблискує вода.
+ Це справді гарно.”[ENDN][STRT=185,3]{UpperRightForce}{Vivi}
+“Може, Імла з'являється
+ з тієї води внизу?”[ENDN][STRT=147,3]{UpperRightForce}{Vivi}
+“Отже, якщо Дерево Життя
+ є джерелом Імли{Speed 2}...{Speed -1}”[ENDN][STRT=172,2]{UpperRightForce}{Vivi}
+“Що це може бути за блиск?”[ENDN][STRT=83,3]{Eiko}
+“Мог трохи
+ налякана.”[ENDN][STRT=145,4]{Eiko}
+“То ця блискуча вода,
+ це жива істота?
+ Вона така гарна.”[ENDN][STRT=136,5]{PreChoose 2,1}{Instantly}{Eiko}
+“Гей, {Zidane}е!
+ Ходімо подивимося її зі мною.”
+{Choice}Гаразд
+{Tab}Ні, дякую[ENDN][STRT=95,2]{Eiko}
+“Ой! Мені боляче.”[ENDN][STRT=110,3]{Eiko}
+“Справді!?
+ Гаразд, іди сюди!”[ENDN][STRT=162,3]{Zidane}
+“Але{Speed 2}...{Speed -1}
+ Мені звідси все добре видно.”[ENDN][STRT=133,3]{Eiko}
+“Ні!
+ Це має бути романтично!”[ENDN][STRT=52,1]Хехехе{Speed 2}...{Speed -1}[ENDN][STRT=134,3]{Widths 0,127,22,-1}{Zidane}
+“{Eiko}, ти ж не дивишся
+ на іскри, так?”[ENDN][STRT=157,3]{Widths 0,151,16,-1}{Eiko}
+“Я дивилася на віддзеркалення
+ іскор у твоїх очах, {Zidane}е.”[ENDN][STRT=124,3]{Widths 0,105,18,-1}{Zidane}
+{White}(Це те, через що я змушував
+ пройти {Dagger}?)[ENDN][STRT=151,3]{Zidane}
+{White}(Гмм{Speed 2}...{Speed -1} Відтепер мені краще бути
+ з нею поміркованішим.)[ENDN][STRT=194,4]{PreChoose 2,1}{Instantly}{Eiko}
+“Хочеш подивитися на воду зі мною?”
+{Choice}Гаразд
+{Tab}Ні, дякую[ENDN][STRT=94,2]{Zidane}
+“Воно рухається{Speed 2}...{Speed -1}?”[ENDN][STRT=124,2]{Zidane}
+“Схоже здалося.”[ENDN][STRT=221,3]{Zidane}
+“Занадто для Куджи.
+ Нікого з його поплічників теж немає.”[ENDN][STRT=175,3]{Zidane}
+“А може, нам треба
+ спуститися туди?”[ENDN][STRT=136,3]{Zidane}
+“Я точно відчуваю
+ щось там внизу.”[ENDN][STRT=5,1]{LowerRightForce}{Widths 0,5,16,-1}{Zidane}е![ENDN][STRT=59,1]У чому справа?[ENDN][STRT=113,2]{Eiko}
+“М-Мог каже{Speed 2}...{Speed -1}”[ENDN][STRT=193,2]{UpperRightForce}{Eiko}
+“Згори щось наближається!”{Time -1}[ENDN][STRT=91,2]{Zidane}
+“Згори!?”[ENDN][STRT=109,3]{UpperRightForce}{Zidane}
+“{Dagger},
+ сюди! Негайно!”[ENDN][STRT=33,1]Аааа![ENDN][STRT=15,1]{Widths 0,15,18,-1}{Dagger}!!![ENDN][STRT=96,1]З тобою усе гаразд?[ENDN][STRT=122,4]{Dagger}
+“Вибачте!
+ Я просто злякалася.
+ Щось не так?”[ENDN][STRT=67,1]Туди!{Time 30}[ENDN][STRT=52,1]Це вони![ENDN][STRT=124,3]{Zidane}
+“Нам теж треба йти!
+ Можеш встати?”[ENDN][STRT=89,2]{Dagger}
+“Так, ходімо.”[ENDN][STRT=5,1]{LowerRightForce}{Offset 0,-128,-128}{Widths 0,5,18,-1}{Dagger}![ENDN][STRT=88,1]{LowerLeftForce}{Offset 0,-128,-128}Що далі?[ENDN][STRT=115,3]{Eiko}
+“Дивіться!
+ Стіна рухається!”[ENDN][STRT=111,3]{Vivi}
+“Ти права{Speed 2}...{Speed -1}
+ Вона наче жива!”[ENDN][STRT=18,1]{UpperLeft}{Offset -256,0,0}{Widths 0,18,22,17,-1}{Eiko}! {Vivi}! [ENDN][STRT=121,3]{Widths 0,121,16,-1}{Eiko}
+“{Zidane}е! Стіна трясеться
+ швидше!”[ENDN][STRT=53,1]{UpperLeft}Це тут![ENDN][STRT=89,1]Що це було?[ENDN][STRT=103,1]Отже, це був не Куджа.[ENDN][STRT=204,3]{Vivi}
+“Га? Що відбувається?
+ Я чую голос у себе в голові!”[ENDN][STRT=114,3]{Zidane}
+“Ти щойно сказав Куджа!
+ Де він?!”[ENDN][STRT=79,1]Я не знаю.[ENDN][STRT=163,2]{Dagger}
+“Що ти тут робиш!?”[ENDN][STRT=160,3]{Zidane}
+“Ти той, хто створює
+ Імлу!?”[ENDN][STRT=255,3]Вона не виробляється{Speed 2}...{Speed -1}
+Імла є побічним продуктом процесу переробки.
+Вона виводиться через коріння.[ENDN][STRT=83,2]{UpperLeftForce}{Vivi}
+“Виводиться?”[ENDN][STRT=184,3]{Dagger}
+“Отже, вона поширюється на інші
+ континенти через коріння, так?”[ENDN][STRT=147,3]{Zidane}
+“Але навіщо!?
+ Навіщо ти це робиш!?”[ENDN][STRT=245,2]Я заражаю інші континенти Імлою,
+ щоб стимулювати бойовий інстинкт.[ENDN][STRT=192,3]Це, в свою чергу, призводить 
+до війни між лідерами націй,
+а потім і до занепаду цивілізації.[ENDN][STRT=186,2]Куджа просто використовує побічний
+продукт для інших цілей.[ENDN][STRT=162,3]{Vivi}
+“Інших цілей!?
+ Що Куджа намагається зробити!?”[ENDN][STRT=267,3]Я не вмію брехати.
+Куджа використовував відходи для виготовлення зброї.
+Зброї{Speed 2}...{Speed -1}такої як він сам.[ENDN][STRT=19,1]{UpperRightForce}{NoFocus} !? {Time 30}[ENDN][STRT=154,3]{Eiko}
+“Він мене дуже дратує!
+ Можна я його вб'ю?”[ENDN][STRT=220,3]{Zidane}
+“Стривай, {Eiko}!
+ Яку саме зброю робив Куджа?”[ENDN][STRT=169,2]Куджа називав їх чорними магами,
+темними породженнями Імли.[ENDN][STRT=19,1]{UpperLeftForce} !? {Time 30}[ENDN][STRT=128,3]{Dagger}
+“Отже, фабрика у Далі
+ справді{Speed 2}...{Speed -1}”[ENDN][STRT=210,1]Здолайте мене, і Імла більше не буде текти.[ENDN][STRT=239,2]І такої зброї, як ця маріонетка, більше не
+буде виготовлено.[ENDN][STRT=167,2]Дай відповідь, маріонетко.
+Ти заперечуєш саме своє народження?[ENDN][STRT=73,2]{Zidane}
+“Чому, ти...”[ENDN][STRT=32,1] {Speed 2}......{Speed -1} [ENDN][STRT=50,1]Годі![ENDN][STRT=20,2]{Widths 0,0,18,-1,0,20,17,-1}{Dagger}
+“{Vivi}?”[ENDN][STRT=174,3]{Vivi}
+“Я не дозволю тобі більше створювати
+ знаряддя вбивства!”[ENDN][STRT=221,4]{Eiko}
+“Так тримати, {Vivi}!
+ Я знаю, що тобі, мабуть, важко.
+ Тепер ми можемо вбити цього щура, так?”[ENDN][STRT=239,3]{Zidane}
+“Гаразд! Давайте зламаємо його!
+ Хто знає, може, це навіть заманить сюди Куджу!”[ENDN][STRT=205,2]Я бачив кінець свого тисячолітнього життя,
+ і він ще не настав.[ENDN][STRT=113,1]Ви не можете мене зупинити.[ENDN][STRT=127,1]Марно навіть намагатися.[ENDN][STRT=157,2]{Zidane}
+“Стули пельку! Тобі кінець!”[ENDN][STRT=136,3]{Zidane}
+“{Vivi},
+ Не думай, просто бийся!”[ENDN][STRT=131,3]{Zidane}
+“Ой, ой!
+ Забираймося звідси!”[ENDN][STRT=205,3]{UpperRight}{Eiko}
+“Нічого собі, повітря таке чисте!
+ Дерево Життя зараз виглядає так гарно.”[ENDN][STRT=129,3]{UpperRight}{Eiko}
+“Чи очистить це ваш
+ Континент Імли?”[ENDN][STRT=69,2]{UpperRight}{Offset 64,0,0}{Widths 0,0,16,-1}{Zidane}
+“Гадаю, що так.”[ENDN][STRT=192,2]{UpperRight}{Offset 64,0,0}{Zidane}
+“Подивимось, чи з'явиться Куджа.”[ENDN][STRT=18,1]{Widths 0,18,17,-1}{Speed 2}...{Speed -1}{Vivi}?[ENDN][STRT=143,3]{Vivi}
+“{Zidane}е{Speed 2}...{Speed -1}
+ Чи правильно я вчинив?”[ENDN][STRT=166,3]{Vivi}
+“Воно говорило, що чорні маги
+ робляться з Імли, так?”[ENDN][STRT=218,3]{Vivi}
+“Коли я подумав про те, як інших
+ чорних магів створюють для війни{Speed 2}...{Speed -1}”[ENDN][STRT=167,3]{Vivi}
+“Я не хотів, щоб це відбувалося, 
+ незважаючи ні на що.”[ENDN][STRT=144,3]{Vivi}
+“Тепер не буде більше
+ нових чорних магів.”[ENDN][STRT=155,2]{Vivi}
+“Думаю, вони всі мене зненавидять.”[ENDN][STRT=59,2]{Widths 0,0,22,-1}{Eiko}
+“У жодному разі!”[ENDN][STRT=71,1]Послухай мене.[ENDN][STRT=103,3]{Eiko}
+“Ти ніколи не повинен
+ брехати собі.”[ENDN][STRT=192,3]{Eiko}
+“Зрештою, твої брати не хотіли б,
+ щоб ти це робив.”[ENDN][STRT=200,3]{Vivi}
+“Ти справді так вважаєш?
+ Ти думаєш{Speed 2}...{Speed -1} вони зрозуміють?”[ENDN][STRT=207,3]{Eiko}
+“Звісно! Вони твої брати.
+ Все буде добре.”[ENDN][STRT=134,2]{Eiko}
+“Га? Що таке, Мог?”[ENDN][STRT=5,1]{UpperRightForce}{Widths 0,5,22,-1}{Eiko}![ENDN][STRT=40,1]Моко!?[ENDN][STRT=182,3]{Eiko}
+“У чому справа?
+ Навіщо ви пройшли весь цей шлях?”[ENDN][STRT=45,1]У жодному разі![ENDN][STRT=149,2]{Eiko}
+“Гаразд, я скоро повернуся!”[ENDN][STRT=138,3]Моко
+“Гаразд, я піду вперед
+ і розкажу іншим.”[ENDN][STRT=183,4]{Offset -80,0,0}{Eiko}
+“Хлопці, ви ж почекаєте тут
+ на Куджу, так?
+ Я маю повернутися до селища!”[ENDN][STRT=70,3]{Widths 0,0,16,-1,0,43,22,-1}{Zidane}
+“Стривай, {Eiko}!
+ У чому справа?”[ENDN][STRT=198,3]{Eiko}
+“Хтось вкрав дещо
+ цінне з селища!”[ENDN][STRT=5,1]{Widths 0,5,16,-1}{Zidane}е![ENDN][STRT=120,2]{Widths 0,120,22,-1}{Zidane}
+“Ми підемо з тобою, {Eiko}!”[ENDN][STRT=102,3]{Eiko}
+“Дякую, але
+ як же Куджа!?”[ENDN][STRT=160,2]{Zidane}
+“Мадейн Сарі не так вже й далеко.”[ENDN][STRT=83,2]{Zidane}
+“Він може зачекати.”[ENDN][STRT=98,2]{Zidane}
+“Не зрушиться з місця.”[ENDN][STRT=209,4]{Zidane}
+“Ще трохи Імли лишилося, але принаймні
+ вона більше не з'являється.
+ Це означає, що Куджа ще не прийшов.”[ENDN][STRT=168,2]{Amarant}
+“Що трапилося з Імлою?”[ENDN][STRT=208,3]{Eiko}
+“Ми перемогли звіра, який нею дихав.
+ От і весь Континент Імли!”[ENDN][STRT=103,2]{Amarant}
+“Більше жодної імли{Speed 2}...{Speed -1}?”[ENDN][STRT=214,3]{Amarant}
+{White}(Вони повинні мати неймовірну силу,
+ щоб здійснити такий подвиг.)[ENDN][STRT=159,2]{Widths 0,159,16,-1}{Dagger}
+“{Zidane}е, там срібний дракон!{Signal 1}”[ENDN][STRT=193,4]{Zidane}
+“Це він!
+ Він прилетів з руїн Бурмеції
+ верхи на срібному драконі!”[ENDN][STRT=170,3]{Zidane}
+“Це точно Куджа!
+ І він їде верхи на драконі!”{Signal 1}[ENDN][STRT=147,6]{PreChoose 3,2}{Instantly}{Instantly}{Zidane}
+“Кого я хочу взяти з собою на
+ бій з Куджею{Speed 2}...{Speed -1}?”
+{Choice}Змінити членів загону
+{Tab}Перейти до меню
+{Tab}Залишити поточних членів[ENDN]

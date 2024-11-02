@@ -1,0 +1,336 @@
+[STRT=58,9]{Table 41,82,88,93,98,104,110,116,121,126,132,139,145,152,158,163,169,175,183,190,196,202,209,217,223,229,236,244,251,258,265,272,279,285,292,300,307,315,323,329,339,350,} Рубі
+Купо
+Мош
+Моско
+Монті
+Могpi
+Моіс
+Гумо
+Кумоп
+Мудон
+Могкі
+Мінті
+Могмі
+Атла
+Грімо
+Назна
+Могріч
+Мочос
+Моне
+Моплі
+Серіно
+Могроді
+Мозме
+Куппо
+Могріо
+Могмет
+Сузуна
+Моччі
+Мохіто
+Могсам
+Мімоза
+Муель
+Мулан
+Могтака
+Кумол
+Могріка
+Мурок
+Ноггі
+Штільцкін
+Артемицій
+Могрібс[ENDN][STRT=47,3]{Table 3,6,15,23,} table10
+table11
+table12[ENDN][STRT=47,3]{Table 3,6,15,23,} table20
+table21
+table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5,146,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Я можу тобі допомогти, купо?”
+{Choice}Зберегти
+{Tab}Намет
+{Tab}МогМережа
+{Tab}МогКрамниця
+{Tab}Змінити членів загону
+{Tab}{Pink}Debug{White}
+{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Зберегти, купо?”
+{Choice}Зберегти
+{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Відпочити у наметі, купо?”
+{f4}(Наметів залишилося: {Variable 7}){f4}
+{Choice}Відпочити
+{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Що ви хочете робити? Купо?”
+{Choice}Дати {Text 0,0} листа
+{Tab}Читати пошту
+{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Артемицій знову доставляє
+ пошту, купо.”[ENDN][STRT=159,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякуємо за допомогу
+ з поштою, купо!”[ENDN][STRT=60,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, ні{Speed 2}...{Speed -1}”[ENDN][STRT=155,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“О, я обожнюю МогМережу! Купо!”[ENDN][STRT=100,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа?”[ENDN][STRT=93,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дякую, купо!”[ENDN][STRT=167,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я дам тобі це в обмін
+ за доставку!”[ENDN][STRT=181,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Я хочу попросити про послугу, купо!”[ENDN][STRT=204,4]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,204,6,1,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив листа до {Text 0,1}!”
+{Choice}Гаразд
+{Tab}У жодному разі[ENDN][STRT=205,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я хочу, щоб ти доставив мого листа, але
+ ти не можеш прийняти більше, купо.”[ENDN][STRT=121,5]{PreChoose 4,3}{Widths 1,187,6,2,6,3,-1,2,188,6,4,6,5,-1,3,189,6,6,6,7,-1}{Instantly}Викинути листа?
+{Choice}Викинути лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}
+{Tab}Викинути лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}
+{Tab}Не викидати[ENDN][STRT=144,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Дуже шкода, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+“Мені так сумно, купо{Speed 2}...{Speed -1}”[ENDN][STRT=198,2]{Widths 0,0,6,0,-1}{Text 0,0}
+“Купо! Я розповім тобі про МогМережу!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=153,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“МогМережа — це система доставки
+ пошти між муглами!”[ENDN][STRT=191,4]{Widths 0,0,6,0,-1}{Text 0,0}
+“Ми можемо надсилати та
+ отримувати листи від муглів
+ з інших місць! Купо!”[ENDN][STRT=133,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Але останнім часом доставка
+ була дуже нерегулярною!”[ENDN][STRT=163,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Тож я хочу, щоб ти допоміг
+ нам доставити пошту! Купо!”[ENDN][STRT=104,5]{PreChoose 3,2}{Widths 0,0,6,0,-1,3,170,-1}{Instantly}{Text 0,0}
+“Ти допоможеш нам?”
+{Choice}Звісно
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=238,5]{PreChoose 3,2}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“Я тебе благаю! Будь ласка, допоможи нам! Купо!”
+{Choice}Гаразд
+{Tab}У жодному разі
+{Tab}Розповісти про МогМережу знову[ENDN][STRT=159,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Що таке МогМережа? Я ніколи
+ навіть не чув про неї, купо.”[ENDN][STRT=188,3]{Widths 0,0,6,0,-1}{Text 0,0}
+“Звучить цікаво, купо!
+ Я хочу, щоб ти доставив мого листа!”[ENDN][STRT=210,2]{Position 30,26}{PreChooseMask 16,15}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{f4}“Якого листа ви хочете прочитати?”
+{Choice}Лист 00
+{Tab}Лист 01
+{Tab}Лист 02
+{Tab}Лист 03
+{Tab}Лист 04
+{Tab}Лист 05
+{Tab}Лист 06
+{Tab}Лист 07
+{Tab}Лист 08
+{Tab}Лист 09
+{Tab}Лист 10
+{Tab}Лист 11
+{Tab}Лист 12
+{Tab}Лист 13
+{Tab}Лист 14
+{Tab}Скасувати{Time -1}[ENDN][STRT=136,3]{UpperRight}{Widths 0,0,6,0,-1,0,136,6,1,-1}{Instantly}{Text 0,0}
+“Цей лист від {Text 0,1}!
+ Давай його прочитаємо! Купо!”[ENDN][STRT=163,10]{Widths 0,55,6,1,6,0,-1,0,123,64,7,-1,0,109,6,0,64,7,-1,0,142,64,6,-1}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
+
+
+Сьогодні була дитина, яка стрибнула
+{Variable 7} разів поспіль!
+Це було дивовижно! Купо!
+Як він це зробив?
+Чи може {Text 0,0} стрибнути {Variable 7} разів?
+Мій кращий рекорд {Variable 6}!
+[ENDN][STRT=25,1]Test[ENDN][STRT=19,1]Null[ENDN][STRT=167,5]{DialogPosition}{Widths 0,61,64,0,64,1,-1}{Instantly}{Brown}Помилка {Yellow}Встановити лічильник сценаріїв()
+{Cyan}Старе={Variable 0}, нове={Variable 1}
+Виберіть послідовність={Variable 2}{White}
+{Start}: Перезаписати
+{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
+ Отримано {Item 0}! 
+[ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
+ Отримано {Yellow}Карту {Item 0}{White}! 
+[ENDN][STRT=86,3]{DialogPosition}{Widths 0,86,64,0,-1}{Instantly}
+ Отримано {Yellow}{Variable 0} Гіл{White}! 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Неможливо тримати більше Гіл. 
+[ENDN][STRT=139,3]{DialogPosition}{Widths 0,139,14,0,-1}{Instantly}
+ Не можна мати ще один {Item 0}. 
+[ENDN][STRT=145,3]{DialogPosition}{Instantly}
+ Не можна мати більше {Yellow}карт{White}. 
+[ENDN][STRT=120,3]{DialogPosition}{Instantly}
+ Всередині більше нічого немає. 
+[ENDN][STRT=125,3]{DialogPosition}{Instantly}
+ Більше нічого не знайдено. 
+[ENDN][STRT=50,1]{LowerRight}{Center 50}{Pink}Skip FMV[ENDN][STRT=82,3]{Instantly}{Cyan}
+ ОЗ відновлено! 
+[ENDN][STRT=83,3]{Instantly}{Cyan}
+ ОМ відновлено! 
+[ENDN][STRT=125,3]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено! 
+[ENDN][STRT=147,4]{Instantly}{Cyan}
+ ОЗ та ОМ відновлено!   
+ Усунено відхилення стану! 
+[ENDN][STRT=211,6]{Instantly}{Brown}
+Party Del Error
+You don’t have anyone in your party.
+Switch all members, or use
+Party Set or Party Macro.
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=76,2]{UpperRightForce}{Zidane}
+“Що це!?”[ENDN][STRT=150,3]{LowerLeftForce}{Dagger}
+“Ти бачив велику бочку
+ біля сараю?”[ENDN][STRT=212,3]{LowerLeftForce}{Dagger}
+“Я бачила такий самий візерунок
+ на деяких бочках у замку.”[ENDN][STRT=205,3]{LowerLeftForce}{Dagger}
+“Це місце повинно мати якийсь
+ зв'язок з Олександрійським замком.”[ENDN][STRT=137,2]{LowerLeftForce}{Dagger}
+“Я маю знати, що це таке!”[ENDN][STRT=170,4]{LowerLeftForce}{Dagger}
+“Тож, будь ласка{Speed 2}...{Speed -1}
+ Благаю тебе, не створюй поки
+ що ніяких проблем.”[ENDN][STRT=53,1]{UpperRightForce}{Speed 2}...{Speed -1}Гаразд.[ENDN][STRT=143,3]{UpperRightForce}{Widths 0,85,17,-1}{Zidane}
+Але якщо {Vivi} буде загрожувати небезпека,
+ я почну створювати проблеми.”[ENDN][STRT=61,2]{UpperRightForce}{Widths 0,0,16,-1}{Zidane}
+“Згодна?”[ENDN][STRT=30,1]{LowerLeftForce}Звісно.[ENDN][STRT=153,3]{UpperRightForce}{Zidane}
+“Гаразд, ходімо.
+ Вони пішли далі всередину.”[ENDN][STRT=5,1]{Center 5}![ENDN][STRT=76,2]{Zidane}
+“Це не{Speed 2}...{Speed -1}”[ENDN][STRT=179,3]{Zidane}
+“{Speed 2}...{Speed -1}просто звичайне
+ підземне сховище.”[ENDN][STRT=93,1]Що відбувається?{Time -1}[ENDN][STRT=54,1]{White}“(Тссс!)”[ENDN][STRT=119,2]{UpperLeftForce}Чоловік
+“Чому воно рухається{Speed 2}...{Speed -1}?”[ENDN][STRT=153,3]{UpperLeftForce}Чоловік
+“Чи правда, що його
+ знайшов брат мера?”[ENDN][STRT=170,3]{LowerRightForce}Юнак
+“Мабуть, вони помирилися.
+ Його брат тепер один із нас.”[ENDN][STRT=181,3]{UpperLeftForce}Чоловік
+“{Speed 2}...{Speed -1}Хіба він
+ не був на боці старої?”[ENDN][STRT=205,4]{LowerRightForce}Юнак
+“О, ти про те, що він залишить ферму?
+ Він, напевно, сказав це тільки тому, 
+ що посварився з мером.”[ENDN][STRT=182,4]{LowerRightForce}Юнак
+“Кого це хвилює?
+ Нам все одно потрібно більше робітників.
+ Давай покладемо це у ящик.”[ENDN][STRT=160,3]{UpperLeftForce}Чоловік
+“Думаю, хлопці у замку
+ подбають про це.”[ENDN][STRT=136,3]{LowerRightForce}Юнак
+“Так. Ми відповідаємо
+ лише за виробництво.”[ENDN][STRT=43,1]{UpperLeftForce}Зрозуміло.[ENDN][STRT=95,1]Ходімо, давай.[ENDN][STRT=54,1]Швидше!{Time -1}[ENDN][STRT=29,1]{Widths 0,29,17,-1}{White}“({Vivi}!)”[ENDN][STRT=24,1]{Speed 2}......{Speed -1}{Time -1}[ENDN][STRT=79,1]От сволота![ENDN][STRT=65,1]{Widths 0,65,16,-1}{White}“({Zidane}е!  Зачекай!)”[ENDN][STRT=91,1]{White}{Flash}“(Боже!{Wait 10}  Гей!)”{Time -1}[ENDN][STRT=92,1](Замок{Speed 2}...{Speed -1}!?){Time -1}[ENDN][STRT=5,1]{Center 5}!{Time -1}[ENDN][STRT=170,1](Візерунок на цій бочці{Speed 2}...{Speed -1}){Time -1}[ENDN][STRT=194,3]{Zidane}
+“Ось чому я почув чокобо
+ там нагорі{Speed 2}...{Speed -1}”[ENDN][STRT=127,3]{LowerRightForce}{Zidane}
+“Для чого вони використовують
+ цю бочку?”[ENDN][STRT=157,3]{LowerRightForce}{Zidane}
+“Тепер, коли я подумав про це,
+ це трохи дивно{Speed 2}...{Speed -1}”[ENDN][STRT=149,3]{Zidane}
+“Що це?
+ Воно має форму труни.”[ENDN][STRT=187,4]{LowerRightForce}{PreChoose 2,1}{Instantly}{Zidane}
+“Колесо виглядає іржавим{Speed 2}...{Speed -1}”
+{Choice}Штовхнути його
+{Tab}Не чіпати[ENDN][STRT=139,2]{Zidane}
+“Що це в біса таке?”[ENDN][STRT=5,1]{Widths 0,5,16,-1}{Zidane}е!{Time 45}[ENDN][STRT=71,2]{Widths 0,0,16,-1}{Zidane}
+“Що це таке?”[ENDN][STRT=124,2]{Dagger}
+“Хтось плаче{Speed 2}...{Speed -1}”[ENDN][STRT=96,1]<Хнюп{Speed 2}...{Speed -1} Хнюп{Speed 2}...{Speed -1}>{Time 45}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=18,1]{Widths 0,18,17,-1}{Speed 2}...{Speed -1}{Vivi}?[ENDN][STRT=11,1]{Widths 0,11,16,-1}{Zidane}е!?[ENDN][STRT=51,1]Це ТИ![ENDN][STRT=87,1]Я тебе витягну![ENDN][STRT=209,2]{Zidane}
+“Навіщо вони запхали тебе у ящик?”[ENDN][STRT=117,2]{Dagger}
+“Як вони могли{Speed 2}...{Speed -1}?”[ENDN][STRT=54,2]{Widths 0,0,17,-1}{Vivi}
+“Ем-м{Speed 2}...{Speed -1}”[ENDN][STRT=145,3]{Zidane}
+“Поговоримо пізніше!
+ Тримайся!  {Speed 2}...{Speed -1}{Signal 1}Відкрито!”[ENDN][STRT=104,2]{LowerRightForce}{Zidane}
+“Що трапилося?”[ENDN][STRT=159,4]{Vivi}
+“Після того, як ви пішли,
+ якісь чоловіки викрали мене
+ і принесли сюди.”[ENDN][STRT=150,4]{Vivi}
+“Вони сказали мені залишатися на місці.
+ Я був такий наляканий{Speed 2}...{Speed -1}
+ Я не знав, що робити.”[ENDN][STRT=252,4]{Vivi}
+“Вони спитали мене,
+ ‘Чому ти був зовні?’ а потім вони сказали,
+ ‘Вантажний корабель ще навіть не прийшов.’”[ENDN][STRT=211,5]{Vivi}
+“Я не знав, про що вони говорять,
+ тому нічого не відповів, а потім
+ вони сказали: ‘Давайте покладемо
+ його в сьогоднішню партію.’”[ENDN][STRT=115,3]{Dagger}
+“І вони поклали тебе
+ у цей ящик?”[ENDN][STRT=43,1]{Speed 2}...{Speed -1}Так.[ENDN][STRT=159,2]{Zidane}
+“Що ж, я радий, що ти у безпеці.”[ENDN][STRT=201,3]{Zidane}
+“Слухай, {Vivi}.
+ Наступного разу ти маєш щось зробити.”[ENDN][STRT=177,3]{Zidane}
+“Спробуй... кричати
+ у відповідь чи ще щось.”[ENDN][STRT=75,1]Кричати{Speed 2}...{Speed -1}?[ENDN][STRT=67,1]Так, типу{Speed 2}...{Speed -1}[ENDN][STRT=164,2]{Zidane}
+“‘Відчепися від мене, виродку!’”[ENDN][STRT=64,1]{NoFocus}(Виродок?){Time 45}[ENDN][STRT=154,4]{Zidane}
+“Ось так!{Wait 10}
+ Це здивує нападника
+ і додасть тобі сили!”[ENDN][STRT=66,1]Га{Speed 2}...{Speed -1} Ясно.[ENDN][STRT=162,3]{Zidane}
+“{Vivi}, я хочу попросити
+ тебе про послугу.”[ENDN][STRT=128,3]{Zidane}
+“Ми хочемо перевірити,
+ що там попереду.”[ENDN][STRT=182,3]{Zidane}
+“Я знаю, що ти можеш бути не в захваті
+ від цієї ідеї, але{Speed 2}...{Speed -1}”[ENDN][STRT=101,3]{Widths 0,68,16,-1}{Vivi}
+“{Speed 2}...{Speed -1}{Zidane}е, я теж хочу
+ дізнатися більше.”[ENDN][STRT=114,3]{Vivi}
+“Дивіться{Speed 2}...{Speed -1}
+ Що це за штука?”[ENDN][STRT=178,2]{Zidane}
+“Гаразд, підемо всі разом!”[ENDN][STRT=85,2]{Zidane}
+“{Speed 2}...{Speed -1}Порожньо.”[ENDN][STRT=99,2]{LowerRightForce}{Zidane}
+“Це що{Speed 2}...{Speed -1}дим?”[ENDN][STRT=115,3]{LowerRightForce}{Zidane}
+“Ні{Speed 2}...{Speed -1}
+ Це{Speed 2}...{Speed -1} Це Імла!”[ENDN][STRT=78,4]{PreChoose 2,1}{Instantly}{Zidane}
+“Подивимось{Speed 2}...{Speed -1}”
+{Choice}Відкрити
+{Tab}Не відкривати[ENDN][STRT=55,3]{LowerLeftForce}{Widths 0,0,16,-1}{Zidane}
+“Це що{Speed 2}...{Speed -1}
+ яйце?”[ENDN][STRT=99,3]{Zidane}
+“Ця машина{Speed 2}...{Speed -1}
+ робить яйця?”[ENDN][STRT=181,3]{Zidane}
+“Це не двигун на Імлі, але
+ з нього виходить Імла{Speed 2}...{Speed -1}”[ENDN][STRT=134,2]{Zidane}
+“{Speed 2}...{Speed -1}Монстри імли, так?”[ENDN][STRT=194,2]{LowerRightForce}{Zidane}
+“Чокобо та{Speed 2}...{Speed -1} гісальська зелень?”[ENDN][STRT=147,3]{LowerRightForce}{Zidane}
+“Чокобо приводить у рух
+ конвеєрну стрічку{Speed 2}...{Speed -1}”[ENDN][STRT=150,3]{LowerRightForce}{Zidane}
+“Чому б їм просто не використовувати
+ для цього машину{Speed 2}...{Speed -1}?”[ENDN][STRT=206,2]{LowerRightForce}{Zidane}
+“Тут ще одна дивна машина{Speed 2}...{Speed -1}”[ENDN][STRT=163,3]{LowerRightForce}{Zidane}
+“Це схоже на двигун Імли
+ на театральному кораблі.”[ENDN][STRT=152,2]{Zidane}
+“Я майже можу зазирнути всередину{Speed 2}...{Speed -1}”[ENDN][STRT=156,3]{Zidane}
+“{Speed 2}...{Speed -1}але я нічого не бачу.
+ Я лише чую якийсь шум.”[ENDN][STRT=92,3]{Zidane}
+“Яйця{Speed 2}...{Speed -1}
+ висиджуються?”[ENDN][STRT=126,2]{Vivi}
+“Аааа!  Що це таке!?”[ENDN][STRT=70,2]{Widths 0,0,16,-1}{Zidane}
+“Вони{Speed 2}...{Speed -1}”[ENDN][STRT=194,2]{Zidane}
+“Деякі деталі відрізняються, але{Speed 2}...{Speed -1}”[ENDN][STRT=109,2]{Widths 0,109,17,-1}{Zidane}
+({Speed 2}...{Speed -1}Вони виглядають як {Vivi}.)[ENDN][STRT=116,2]{Flash}{Vivi}
+“Щ-Що{Wait 30} це{Wait 10} за{Speed 2}...{Speed -1}?”[ENDN][STRT=107,2]{Flash}{Vivi}
+“Вони що{Speed 2}...{Speed -1}{Wait 10}ляльки?”[ENDN][STRT=5,1]{Center 5}![ENDN][STRT=114,1]{White}(Хтось іде!)[ENDN][STRT=16,3]{UpperLeftForce}{Widths 0,0,16,-1,0,12,17,-1,0,16,18,-1}{Zidane}
+“{Vivi}!
+ {Dagger}!”[ENDN][STRT=162,3]{UpperRightForce}{Flash}{Dagger}
+“Чому{Speed 2}...{Speed -1}?
+ За цим стоїть моя мати{Speed 2}...{Speed -1}?”{Time -1}[ENDN][STRT=159,2]{UpperLeftForce}{Offset 0,96,0}{Zidane}
+“Дідько, я не можу битися тут!”[ENDN][STRT=129,2]{Zidane}
+“Це єдиний вихід!”[ENDN][STRT=138,3]{Widths 0,138,16,-1}{Dagger}
+“Ааа!
+ Що ти робиш, {Zidane}е!?”{Time 30}[ENDN][STRT=68,2]{Widths 0,0,17,-1}{Vivi}
+“О-Ого!”{Time 30}[ENDN][STRT=99,3]{Dagger}
+“Аааа!  {Speed 2}...{Speed -1}Ха{Speed 2}...{Speed -1}!
+ !!!  {Speed 2}...{Speed -1}!!!”[ENDN][STRT=95,3]{Zidane}
+“Вибач!
+ Але сиди тихо!”[ENDN][STRT=140,3]Юнак
+“Гей!
+ Ти щось казав?”[ENDN][STRT=95,2]Робітник
+“Ні. Це не я.”[ENDN][STRT=119,2]Юнак
+“Гаразд. Не зважай.”[ENDN][STRT=121,3]Юнак
+“Вже майже час.
+ Поквапся, гаразд?”[ENDN][STRT=70,2]Робітник
+“Зрозумів!”[ENDN][STRT=47,2]{LowerRightForce}{Widths 0,0,16,-1}{Zidane}
+“Ого!”[ENDN][STRT=25,2]{UpperLeftForce}{Widths 0,0,18,-1,0,25,16,-1}{Dagger}
+“{Zidane}е!?”[ENDN][STRT=62,2]{LowerRightForce}{Widths 0,0,17,-1}{Vivi}
+“Ааааа!”[ENDN][STRT=19,2]{UpperLeftForce}{Widths 0,0,18,-1,0,19,17,-1}{Dagger}
+“{Vivi}!”[ENDN][STRT=160,3]{Zidane}
+“Так багато машин{Speed 2}...{Speed -1}
+ Що вони тут роблять?”[ENDN][STRT=193,4]{Zidane}
+“Схоже, воно посилає Імлу
+ на машину ззовні{Speed 2}...{Speed -1}
+ З чого зроблені ці яйця{Speed 2}...{Speed -1}?”·0C[ENDN]
