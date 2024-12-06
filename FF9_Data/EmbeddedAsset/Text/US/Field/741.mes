@@ -50,26 +50,26 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}МогКрамниця
 {Tab}Змінити членів загону
 {Tab}{Pink}Debug{White}
-{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не зберігати[TIME=-1][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 7}){f4}
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
-“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не відпочивати[TIME=-1][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо![TIME=20][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Що ви хочете робити? Купо?”
 {Choice}Дати {Text 0,0} листа
 {Tab}Читати пошту
-{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
-Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{Tab}Скасувати[TIME=-1][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Артемицій знову доставляє
@@ -134,7 +134,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=182,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=182,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Цей лист від Штільцкіна!
  Давай його прочитаємо разом! Купо!”[ENDN][STRT=235,12]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1}а для {Text 0,0}{White}
 
@@ -176,7 +176,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -227,7 +227,7 @@ Party Set or Party Macro.
  перш ніж ми зможемо зіграти.”[ENDN][STRT=195,3]{PreChoose 2,1}{Instantly}У воді лежить монета у 10 гіл.
 {Choice}Кинути 10 Гіл
 {Tab}Нічого не робити[ENDN][STRT=83,1]{DialogPosition}{Instantly}Недостатньо Гіл.[ENDN][STRT=185,2]Коли ви кинули свою монету,
- з'явилася ще одна монета{Speed 2}...{Speed -1}[ENDN][STRT=105,1]Ви відчуваєте себе щасливішим{Speed 2}...{Speed -1}[ENDN][STRT=32,1]{UpperRightForce}{Offset 0,-400,0}{NoFocus}Купо!{Time 30}[ENDN][STRT=91,3]{Widths 0,0,6,0,-1}{Text 0,0}
+ з'явилася ще одна монета{Speed 2}...{Speed -1}[ENDN][STRT=105,1]Ви відчуваєте себе щасливішим{Speed 2}...{Speed -1}[ENDN][STRT=32,1]{UpperRightForce}{Offset 0,-400,0}{NoFocus}Купо![TIME=30][STRT=91,3]{Widths 0,0,6,0,-1}{Text 0,0}
 “М-{Wait 3}Ми справді
  хороші{Wait 3} друзі!”[ENDN][STRT=247,4]{PreChoose 2,1}{Instantly}Старий чоловік
 “О, хочеш зіграти зі мною у карти?”
@@ -452,22 +452,22 @@ Party Set or Party Macro.
 “О, хочеш зіграти у карти?”
 {Choice}Так
 {Tab}Ні[ENDN][STRT=224,2]Столяр
-“Тобі не вистачає карт, друже.”[ENDN][STRT=22,1]{Widths 0,22,64,1,-1}{NoFocus}{Speed 64}{Variable 1} Гіл!{Time 20}[ENDN][STRT=33,1]{NoFocus}{Speed 64}Гмм{Speed 2}...{Speed -1}{Time 15}[ENDN][STRT=92,1]{Widths 0,92,64,1,-1}{NoFocus}{Speed 64}Я щойно почув {Variable 1} Гіл!{Time 20}[ENDN][STRT=57,2]{Widths 0,22,64,1,-1}{NoFocus}{Speed 64}{Variable 1} Гіл!
-Хтось запропонує більше?{Time 20}[ENDN][STRT=72,1]{Widths 0,72,64,1,-1}{NoFocus}{Speed 64}Продано за {Variable 1} Гіл!{Time 20}[ENDN][STRT=99,1]{NoFocus}{Speed 64}Наш наступний лот{Speed 2}...{Speed -1}{Time 20}[ENDN][STRT=153,1]{NoFocus}{Speed 64}Ми зробимо невеличку перерву.{Time 20}[ENDN][STRT=88,1]{Widths 0,88,14,0,-1}{NoFocus}{Speed 64}Уславлене {Item 0}!{Time 30}[ENDN][STRT=76,1]{Widths 0,76,14,0,-1}{NoFocus}{Speed 64}Дуже рідкісна річ, {Item 0}!{Time 30}[ENDN][STRT=88,2]{Widths 0,88,14,0,-1,0,88,64,1,-1}{NoFocus}{Speed 64}Відомий {Item 0}!
-Початкова ціна {Variable 1} Гіл!{Time 30}[ENDN][STRT=88,2]{Widths 0,76,14,0,-1,0,88,64,1,-1}{NoFocus}{Speed 64}Дуже рідкісна річ, {Item 0}!
-Початкова ціна {Variable 1} Гіл!{Time 25}[ENDN][STRT=57,4]{Position 8,8}{NoAnimation}{Widths 0,57,64,4,-1,0,34,14,0,-1,0,55,64,1,-1}{NoFocus}{Instantly}Стан ставки
+“Тобі не вистачає карт, друже.”[ENDN][STRT=22,1]{Widths 0,22,64,1,-1}{NoFocus}{Speed 64}{Variable 1} Гіл![TIME=20][STRT=33,1]{NoFocus}{Speed 64}Гмм{Speed 2}...{Speed -1}[TIME=15][STRT=92,1]{Widths 0,92,64,1,-1}{NoFocus}{Speed 64}Я щойно почув {Variable 1} Гіл![TIME=20][STRT=57,2]{Widths 0,22,64,1,-1}{NoFocus}{Speed 64}{Variable 1} Гіл!
+Хтось запропонує більше?[TIME=20][STRT=72,1]{Widths 0,72,64,1,-1}{NoFocus}{Speed 64}Продано за {Variable 1} Гіл![TIME=20][STRT=99,1]{NoFocus}{Speed 64}Наш наступний лот{Speed 2}...{Speed -1}[TIME=20][STRT=153,1]{NoFocus}{Speed 64}Ми зробимо невеличку перерву.[TIME=20][STRT=88,1]{Widths 0,88,14,0,-1}{NoFocus}{Speed 64}Уславлене {Item 0}![TIME=30][STRT=76,1]{Widths 0,76,14,0,-1}{NoFocus}{Speed 64}Дуже рідкісна річ, {Item 0}![TIME=30][STRT=88,2]{Widths 0,88,14,0,-1,0,88,64,1,-1}{NoFocus}{Speed 64}Відомий {Item 0}!
+Початкова ціна {Variable 1} Гіл![TIME=30][STRT=88,2]{Widths 0,76,14,0,-1,0,88,64,1,-1}{NoFocus}{Speed 64}Дуже рідкісна річ, {Item 0}!
+Початкова ціна {Variable 1} Гіл![TIME=25][STRT=57,4]{Position 8,8}{NoAnimation}{Widths 0,57,64,4,-1,0,34,14,0,-1,0,55,64,1,-1}{NoFocus}{Instantly}Стан ставки
   Кошти: {Variable 4} Гіл
 Предмет: {Item 0}
-   Ціна: {Variable 1} Гіл{Time -1}[ENDN][STRT=57,4]{Position 8,8}{NoAnimation}{Widths 0,57,64,4,-1,0,34,14,0,-1,0,55,64,1,-1}{NoFocus}{Instantly}Стан ставки
+   Ціна: {Variable 1} Гіл[TIME=-1][STRT=57,4]{Position 8,8}{NoAnimation}{Widths 0,57,64,4,-1,0,34,14,0,-1,0,55,64,1,-1}{NoFocus}{Instantly}Стан ставки
   Кошти: {Variable 4} Гіл
 Предмет: {Item 0}
-   Ціна: {Variable 1} Гіл{Time -1}[ENDN][STRT=113,5]{Position 8,80}{NoAnimation}{Widths 0,56,64,5,64,6,64,7,-1}{NoFocus}{Instantly}Ставка: {f1}{Variable 5}{Variable 6}{Variable 7}00 Гіл
+   Ціна: {Variable 1} Гіл[TIME=-1][STRT=113,5]{Position 8,80}{NoAnimation}{Widths 0,56,64,5,64,6,64,7,-1}{NoFocus}{Instantly}Ставка: {f1}{Variable 5}{Variable 6}{Variable 7}00 Гіл
 {Up}{Mobile 276}{Down}{Mobile 275}: Змінити число
 {Left}{Mobile 267}{Right}{Mobile 269}: Обрати розряд
 {Cross+}{Mobile 260}: Підтвердити
-{Circle+}{Mobile 261}: Скасувати{Time -1}[ENDN][STRT=0,1]{Position 33,80}{Widths 0,0,64,5,-1}{NoFocus}{Pink}{Instantly}{Variable 5}{Time -1}[ENDN][STRT=0,1]{Position 40,80}{Widths 0,0,64,6,-1}{NoFocus}{Pink}{Instantly}{Variable 6}{Time -1}[ENDN][STRT=0,1]{Position 47,80}{Widths 0,0,64,7,-1}{NoFocus}{Pink}{Instantly}{Variable 7}{Time -1}[ENDN][STRT=198,2]{Instantly}Ви повинні зробити ставку щонайменше на 100 гіл вище
+{Circle+}{Mobile 261}: Скасувати[TIME=-1][STRT=0,1]{Position 33,80}{Widths 0,0,64,5,-1}{NoFocus}{Pink}{Instantly}{Variable 5}[TIME=-1][STRT=0,1]{Position 40,80}{Widths 0,0,64,6,-1}{NoFocus}{Pink}{Instantly}{Variable 6}[TIME=-1][STRT=0,1]{Position 47,80}{Widths 0,0,64,7,-1}{NoFocus}{Pink}{Instantly}{Variable 7}[TIME=-1][STRT=198,2]{Instantly}Ви повинні зробити ставку щонайменше на 100 гіл вище
 за поточну ставку.[ENDN][STRT=100,1]{Instantly}Недостатньо коштів.[ENDN][STRT=137,2]{Instantly}Ви не можете вийти, поки
- лот не буде проданий.{Time 30}[ENDN][STRT=113,1]{NoFocus}{Speed 64}Сьогоднішні позиції - це{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=39,1]{NoFocus}{Speed 64}Перше{Speed 2}...{Speed -1}{Time 20}[ENDN][STRT=185,3]{Widths 0,144,14,0,-1}Дворянин
+ лот не буде проданий.[TIME=30][STRT=113,1]{NoFocus}{Speed 64}Сьогоднішні позиції - це{Speed 2}...{Speed -1}[TIME=30][STRT=39,1]{NoFocus}{Speed 64}Перше{Speed 2}...{Speed -1}[TIME=20][STRT=185,3]{Widths 0,144,14,0,-1}Дворянин
 “Головним лотом сьогоднішнього
  аукціону вважається {Item 0}.”[ENDN][STRT=88,2]Молодий дворянин
 “Цікаво{Speed 2}...{Speed -1}”[ENDN][STRT=246,3]Дворянка
@@ -545,7 +545,7 @@ Party Set or Party Macro.
 {Choice}Так
 {Tab}Ні[ENDN][STRT=173,3]Дівчина
 “Ти не можеш грати, якщо у тебе
- немає достатньої кількості карт!”[ENDN][STRT=57,1]{LowerLeft}{Widths 0,57,64,5,-1}{NoFocus}{Instantly}Кошти: {Variable 5} Гіл{Time -1}[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 30}[ENDN][STRT=11,1]{NoFocus}{Center 11}!?{Time 30}[ENDN][STRT=5,1]{Center 5}![ENDN][STRT=6,1]{Center 6}?[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}{Time 50}[ENDN][STRT=72,1]{PreChooseMask 16,15}{Widths 1,94,-1,2,79,22,-1,3,148,-1,4,120,-1,5,153,-1,6,104,-1,7,110,-1,8,90,-1,9,97,-1,10,92,-1}{Instantly}Обрати подію
+ немає достатньої кількості карт!”[ENDN][STRT=57,1]{LowerLeft}{Widths 0,57,64,5,-1}{NoFocus}{Instantly}Кошти: {Variable 5} Гіл[TIME=-1][STRT=5,1]{NoFocus}{Center 5}![TIME=30][STRT=11,1]{NoFocus}{Center 11}!?[TIME=30][STRT=5,1]{Center 5}![ENDN][STRT=6,1]{Center 6}?[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}[TIME=50][STRT=72,1]{PreChooseMask 16,15}{Widths 1,94,-1,2,79,22,-1,3,148,-1,4,120,-1,5,153,-1,6,104,-1,7,110,-1,8,90,-1,9,97,-1,10,92,-1}{Instantly}Обрати подію
 {Choice}Приз Гіппо
 {Tab}{Eiko} розповідає про життя
 {Tab}Як він тут опинився
@@ -576,7 +576,7 @@ Party Set or Party Macro.
  усі лоти на аукціоні{Speed 2}...{Speed -1}”[ENDN][STRT=245,4]Drunk
 “Знаменитий аукціон Трено!
  Занадто багато ставок, і ціна зростає!
- Але я не маю грошей, щоб щось купити!”[ENDN][STRT=96,1]{Speed 2}...{Speed -1}Таке життя![ENDN][STRT=58,1]{UpperLeft}{NoFocus}<Гик!>{Time 30}[ENDN][STRT=47,1]{UpperLeft}{NoFocus}<Відрижка!>{Time 30}[ENDN][STRT=195,3]Батько
+ Але я не маю грошей, щоб щось купити!”[ENDN][STRT=96,1]{Speed 2}...{Speed -1}Таке життя![ENDN][STRT=58,1]{UpperLeft}{NoFocus}<Гик!>[TIME=30][STRT=47,1]{UpperLeft}{NoFocus}<Відрижка!>[TIME=30][STRT=195,3]Батько
 “Сьогодні велика гра!
  Чоловік повинен виграти свою велику гру, синку!”[ENDN][STRT=189,2]Син
 “Тату, ти щодня це кажеш{Speed 2}...{Speed -1}”[ENDN][STRT=222,4]Дівчина
@@ -837,7 +837,7 @@ Party Set or Party Macro.
 “Га?
  Я тебе десь бачив раніше{Speed 2}...{Speed -1}”[ENDN][STRT=92,3]{Widths 0,82,23,-1}Чотирирука людина
 “Т-{Wait 3}Ти{Speed 2}...{Speed -1}
- Полум'яний {Amarant}!”[ENDN][STRT=75,1]{UpperRightForce}П-{Wait 3}перепрошую!!!{Time 50}[ENDN][STRT=194,3]{Offset 0,-100,0}{UpperLeftForce}{Eiko}
+ Полум'яний {Amarant}!”[ENDN][STRT=75,1]{UpperRightForce}П-{Wait 3}перепрошую!!![TIME=50][STRT=194,3]{Offset 0,-100,0}{UpperLeftForce}{Eiko}
 “Що трапилося, {Amarant}е?
  Той хлопець був геть переляканий!”[ENDN][STRT=173,3]{Offset 0,-100,0}{UpperLeftForce}{Eiko}
 “О, я знаю! Ти був хуліганом,
@@ -863,7 +863,7 @@ Party Set or Party Macro.
 “О боже{Speed 2}...{Speed -1}”[ENDN][STRT=162,2]Дворянин
 “Все так дорого коштує!”[ENDN][STRT=209,3]Молодий дворянин
 “Я також думаю про те, щоб купити
- статую бегемота для нашого особняка.”[ENDN][STRT=60,1]{Offset 0,-100,0}Ха ха ха{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=81,1]{UpperLeftForce}Хі хі хі{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=60,1]Ха ха ха{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=154,3]{Eiko}
+ статую бегемота для нашого особняка.”[ENDN][STRT=60,1]{Offset 0,-100,0}Ха ха ха{Speed 2}...{Speed -1}[TIME=30][STRT=81,1]{UpperLeftForce}Хі хі хі{Speed 2}...{Speed -1}[TIME=30][STRT=60,1]Ха ха ха{Speed 2}...{Speed -1}[TIME=30][STRT=154,3]{Eiko}
 “Гмм{Speed 2}{Speed -1}... Думаю, у міських жителів
  теж є свої проблеми.”[ENDN][STRT=138,3]{Eiko}
 “Я думала, вони будуть
@@ -907,7 +907,7 @@ Party Set or Party Macro.
 “Ти з загону
  {Amarant}а?”[ENDN][STRT=144,3]{Widths 0,112,23,-1}Чотирирука людина
 {White}(Можливо, {Amarant} найняв{Speed 2}...{Speed -1}його?
- {Speed 2}...{Speed -1}щоб захищати дівчину{Speed 2}...{Speed -1}?)[ENDN][STRT=103,1]{NoFocus}Аааа! Мені шкода!!!{Time 40}[ENDN][STRT=146,1]{NoFocus}Ти пригощаєш смачною їжею!!!{Time 40}[ENDN][STRT=79,2]{Eiko}
+ {Speed 2}...{Speed -1}щоб захищати дівчину{Speed 2}...{Speed -1}?)[ENDN][STRT=103,1]{NoFocus}Аааа! Мені шкода!!![TIME=40][STRT=146,1]{NoFocus}Ти пригощаєш смачною їжею!!![TIME=40][STRT=79,2]{Eiko}
 “{Speed 2}...{Speed -1}ЯК дивно.”[ENDN][STRT=170,2]{Eiko}
 “Гей, він щось впустив.”[ENDN][STRT=51,1]{LowerRightForce}Я повернулася![ENDN][STRT=145,3]{UpperLeftForce}Тот
 “З поверненням!
@@ -982,7 +982,7 @@ Party Set or Party Macro.
  Я стрибаю!”[ENDN][STRT=112,3]{Quina}
 “Ні{Speed 2}...{Speed -1}
  Я потону, якщо стрибну{Speed 2}...{Speed -1}”[ENDN][STRT=101,2]{Quina}
-“Але{Speed 2}... Я голодний{Speed 2}...{Speed -1}”[ENDN][STRT=71,1]ГОЛОООДНИЙ!!!{Time 40}[ENDN][STRT=81,2]Старий чоловік
+“Але{Speed 2}... Я голодний{Speed 2}...{Speed -1}”[ENDN][STRT=71,1]ГОЛОООДНИЙ!!![TIME=40][STRT=81,2]Старий чоловік
 “Самогубство, так?”[ENDN][STRT=214,3]Старий чоловік
 “Я бачив, як багато людей покінчили життя
  самогубством через ігрові борги{Speed 2}...{Speed -1}”[ENDN][STRT=100,2]Старий чоловік
@@ -1035,7 +1035,7 @@ Party Set or Party Macro.
 {Choice}Звісно, мені цікаво
 {Tab}Я не буду вибивати це з тебе силою[ENDN][STRT=150,2]{Fraya}
 “Звісно, мені цікаво”[ENDN][STRT=187,2]{Fraya}
-“Ні, Я не буду вибивати це з тебе силою.”[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}{Time 35}[ENDN][STRT=185,3]{Amarant}
+“Ні, Я не буду вибивати це з тебе силою.”[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}[TIME=35][STRT=185,3]{Amarant}
 “Саме тут ми з ним зустрілися
  вперше{Speed 2}...{Speed -1}”[ENDN][STRT=79,2]{UpperLeftForce}{Offset 0,-100,0}{Fraya}
 “Ким це ‘ним’?”[ENDN][STRT=30,2]{Widths 0,0,23,-1,0,30,16,-1}{Amarant}
@@ -1163,7 +1163,7 @@ Party Set or Party Macro.
  Але пам'ятай про мій стан{Speed 2}...{Speed -1}”[ENDN][STRT=198,3]Ерін
 “Будь ласка, Регенте!
  Ви повинні поводитися як чемпіон!”[ENDN][STRT=98,2]Ерін
-“Давайте зареєструємося!”[ENDN][STRT=99,1]{UpperLeftForce}{NoFocus}Це чемпіон!{Time 45}[ENDN][STRT=134,1]{LowerRightForce}{NoFocus}Так, ось і вона{Speed 2}...{Speed -1}{Time 45}[ENDN][STRT=238,3]Ерін
+“Давайте зареєструємося!”[ENDN][STRT=99,1]{UpperLeftForce}{NoFocus}Це чемпіон![TIME=45][STRT=134,1]{LowerRightForce}{NoFocus}Так, ось і вона{Speed 2}...{Speed -1}[TIME=45][STRT=238,3]Ерін
 “Я чемпіон, Ерін!
  Я хочу взяти участь у турнірі!”[ENDN][STRT=186,3]Продавець карт
 “А, ми на вас зачекалися!
@@ -1191,7 +1191,7 @@ Party Set or Party Macro.
  карт оглопа{Speed 2}...{Speed -1}”[ENDN][STRT=153,3]Батько
 “Її звати{Speed 2}...{Speed -1}
  ‘Ерін Майстер Оглоп’{Speed 2}...{Speed -1}”[ENDN][STRT=214,2]{NoFocus}{Speed 64}Розпорядник карткових ігор
-“Вітаємо, ви - переможець!”{Time 60}[ENDN][STRT=133,3]{Zidane}
+“Вітаємо, ви - переможець!”[TIME=60][STRT=133,3]{Zidane}
 “Ого, я не знав, що ти
  була чемпіонкою, Ерін.”[ENDN][STRT=181,3]{Zidane}
 “Тож чемпіоном став пілот

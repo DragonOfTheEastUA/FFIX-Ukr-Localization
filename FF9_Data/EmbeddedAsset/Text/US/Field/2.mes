@@ -2,7 +2,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -35,8 +35,8 @@ Switch all members, or use
 Party Set or Party Macro.
 [ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=82,1]Як тут темно{Speed 2}...{Speed -1}[ENDN][STRT=152,1]Гадаю, ще нікого немає...[ENDN][STRT=0,2]{PreChoose 2,1}{Widths 1,109,-1,2,57,-1}{Instantly}{Choice}Запалити свічки
 {Tab}Не запалювати[ENDN][STRT=237,2]{UpperCenter}
-Запаліть свічки у центрі кімнати!{Time -1}[ENDN][STRT=229,2]{UpperCenter}
-Натисніть {Cross+}{Mobile 305} коли з'явиться '?'{Time -1}[ENDN][STRT=77,1]{UpperLeft}Хто там!?{Time 20}[ENDN][STRT=191,10]{Instantly}
+Запаліть свічки у центрі кімнати![TIME=-1][STRT=229,2]{UpperCenter}
+Натисніть {Cross+}{Mobile 305} коли з'явиться '?'[TIME=-1][STRT=77,1]{UpperLeft}Хто там!?[TIME=20][STRT=191,10]{Instantly}
 {Center 191}= Пріма Віста, Театральне судно =
 
 {Center 177}Клас: Розкішний лайнер з театром
@@ -51,7 +51,7 @@ Party Set or Party Macro.
  Ти запізнився!”[ENDN][STRT=135,3]{Zidane}
 “Вибачте.
  Отже, де бос?”[ENDN][STRT=96,2]Сіна
-“Ще не з'явився.”[ENDN][STRT=61,1]{Widths 0,61,14,0,-1}Отримано {Item 0}![ENDN][STRT=41,1]Фух...{Time 10}[ENDN][STRT=76,2]Баку
+“Ще не з'явився.”[ENDN][STRT=61,1]{Widths 0,61,14,0,-1}Отримано {Item 0}![ENDN][STRT=41,1]Фух...[TIME=10][STRT=76,2]Баку
 “Гей, нездари!”[ENDN][STRT=168,2]Баку
 “У тебе виходить вже набагато краще!”[ENDN][STRT=80,2]Баку
 “Гвахахаха!”[ENDN][STRT=195,3]Баку
@@ -103,38 +103,38 @@ Party Set or Party Macro.
 Ваша Високосте, Принцесо Гарнет.{Speed 2}...{Speed -1}[ENDN][STRT=235,3]{Speed 2}...{Speed -1}вельможні пані та панове, а також наші глядачі на дахах, 
 Танталус з гордістю представляє
 ‘Я хочу бути твоєю канаркою’![ENDN][STRT=220,2]{UpperRightForce}{Instantly}Бланк
-“Позбавлений батька!  Позбавлений матері!”{Time -1}[ENDN][STRT=176,3]{UpperRightForce}{Instantly}Бланк
+“Позбавлений батька!  Позбавлений матері!”[TIME=-1][STRT=176,3]{UpperRightForce}{Instantly}Бланк
 “Маркусе!
- Ти втратив навіть свою любов!”{Time -1}[ENDN][STRT=169,2]{UpperLeftForce}{Instantly}Сіна
-“Фортуна покинула тебе!”{Time -1}[ENDN][STRT=177,2]{UpperLeftForce}{Instantly}Сіна
-“Заради чого ти будеш жити?”{Time -1}[ENDN][STRT=176,2]{UpperLeftForce}{Instantly}{Zidane}
-“Заради нашої дружби...”{Time -1}[ENDN][STRT=196,3]{UpperLeftForce}{Instantly}{Zidane}
+ Ти втратив навіть свою любов!”[TIME=-1][STRT=169,2]{UpperLeftForce}{Instantly}Сіна
+“Фортуна покинула тебе!”[TIME=-1][STRT=177,2]{UpperLeftForce}{Instantly}Сіна
+“Заради чого ти будеш жити?”[TIME=-1][STRT=176,2]{UpperLeftForce}{Instantly}{Zidane}
+“Заради нашої дружби...”[TIME=-1][STRT=196,3]{UpperLeftForce}{Instantly}{Zidane}
 “Давайте поховаємо нашу сталь у серці
-жалюгідного Короля Лео!”{Time -1}[ENDN][STRT=26,1]{UpperRightForce}{Instantly}Так!{Time -1}[ENDN][STRT=26,1]{UpperLeftForce}{Instantly}Так!{Time -1}[ENDN][STRT=174,2]{UpperRightForce}{Instantly}Бланк
-“Ми підтримаємо тебе, брате!”{Time -1}[ENDN][STRT=157,3]{UpperRightForce}{Instantly}Маркус
+жалюгідного Короля Лео!”[TIME=-1][STRT=26,1]{UpperRightForce}{Instantly}Так![TIME=-1][STRT=26,1]{UpperLeftForce}{Instantly}Так![TIME=-1][STRT=174,2]{UpperRightForce}{Instantly}Бланк
+“Ми підтримаємо тебе, брате!”[TIME=-1][STRT=157,3]{UpperRightForce}{Instantly}Маркус
 “Молю, сховайте мечі!
-Цей лиходій лише мій!”{Time -1}[ENDN][STRT=90,2]{UpperRightForce}{Instantly}Сіна
-“Ні, брате!”{Time -1}[ENDN][STRT=132,3]{UpperRightForce}{Instantly}Сіна
+Цей лиходій лише мій!”[TIME=-1][STRT=90,2]{UpperRightForce}{Instantly}Сіна
+“Ні, брате!”[TIME=-1][STRT=132,3]{UpperRightForce}{Instantly}Сіна
 “Бо я теж втратив брата
- через цього негідника!”{Time -1}[ENDN][STRT=120,3]{UpperLeftForce}{Instantly}Король Лео
+ через цього негідника!”[TIME=-1][STRT=120,3]{UpperLeftForce}{Instantly}Король Лео
 “Що за?
- Геть, паразити!  Забирайтеся!”{Time -1}[ENDN][STRT=148,3]{UpperLeftForce}{Instantly}Король Лео
+ Геть, паразити!  Забирайтеся!”[TIME=-1][STRT=148,3]{UpperLeftForce}{Instantly}Король Лео
 “Ти насмілився оголити свій
- меч перед королем!?”{Time -1}[ENDN][STRT=137,3]{UpperLeftForce}{Instantly}Король Лео
+ меч перед королем!?”[TIME=-1][STRT=137,3]{UpperLeftForce}{Instantly}Король Лео
 “Всі, хто стануть на моєму шляху,
- будуть знищені!”{Time -1}[ENDN][STRT=181,3]{UpperRightForce}{Instantly}{Zidane}
+ будуть знищені!”[TIME=-1][STRT=181,3]{UpperRightForce}{Instantly}{Zidane}
 “Підступний Лео, страждання мого 
- родича не будуть даремними!”{Time -1}[ENDN][STRT=153,3]{UpperRightForce}{Instantly}{Zidane}
+ родича не будуть даремними!”[TIME=-1][STRT=153,3]{UpperRightForce}{Instantly}{Zidane}
 “Бо я змушу тебе відчути його
- незрівнянний біль!”{Time -1}[ENDN][STRT=87,2]Король Лео
-“Аррр...{Wait 5} Грр...”{Time 15}[ENDN][STRT=65,1]{Instantly}Повернися!{Time 15}[ENDN][STRT=254,2]Король Лео
+ незрівнянний біль!”[TIME=-1][STRT=87,2]Король Лео
+“Аррр...{Wait 5} Грр...”[TIME=15][STRT=65,1]{Instantly}Повернися![TIME=15][STRT=254,2]Король Лео
 “Це не остання наша зустріч, Маркусе!”[ENDN][STRT=139,2]{Zidane}
-“Геть з дороги, Бланк!”{Time 20}[ENDN][STRT=264,4]{LowerRightForce}{Offset 0,100,0}Бланк
+“Геть з дороги, Бланк!”[TIME=20][STRT=264,4]{LowerRightForce}{Offset 0,100,0}Бланк
 “Подумай про це, {Zidane}е!  Якби принц
  Шнайдер одружився з Принцесою Корнелією,
  в обох їхніх королівствах запанував би мир!”[ENDN][STRT=221,3]{Zidane}
 “Це дурість!  Якби все було так просто,
- ніхто б у цьому світі не страждав!”[ENDN][STRT=78,1]{Instantly}Ось тобі!{Time 10}[ENDN][STRT=25,1]{Instantly}Аха!{Time 10}[ENDN][STRT=26,1]{Instantly}Пф!{Time 10}[ENDN][STRT=70,2]{LowerRightForce}Бланк
+ ніхто б у цьому світі не страждав!”[ENDN][STRT=78,1]{Instantly}Ось тобі![TIME=10][STRT=25,1]{Instantly}Аха![TIME=10][STRT=26,1]{Instantly}Пф![TIME=10][STRT=70,2]{LowerRightForce}Бланк
 “До бою!”{IncreaseSignal}[ENDN][STRT=171,2]{UpperLeftForce}{Zidane}
 “Не чекай пощади від мене!”{IncreaseSignal}[ENDN][STRT=152,2]{LowerRightForce}Бланк
 “Ми закінчимо це пізніше!”{IncreaseSignal}[ENDN][STRT=109,2]{UpperLeftForce}{Zidane}
@@ -144,7 +144,7 @@ Party Set or Party Macro.
 {Center 209}команди з наведених нижче варіантів:
 {x88}{y6}{Up}{Mobile 268}{x132}{Triangle}{Mobile 272}
 {Center 77}{Left}{Mobile 267}{f6}{Right}{Mobile 269}{f13}{Square}{Mobile 271}{f6}{Circle}{Mobile 273}
-{x88}{y-6}{Down}{Mobile 270}{x132}{Cross}{Mobile 274}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Left}{Mobile 267} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Right}{Mobile 269} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Triangle}{Mobile 272} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Down}{Mobile 270} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Cross}{Mobile 274} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Up}{Mobile 268} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Circle}{Mobile 273} !{Time -1}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Square}{Mobile 271} !{Time -1}[ENDN][STRT=156,2]{DialogPosition}{Widths 0,96,64,0,-1}{Instantly}Зі 100 присутніх дворян,
+{x88}{y-6}{Down}{Mobile 270}{x132}{Cross}{Mobile 274}[ENDN][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Left}{Mobile 267} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Right}{Mobile 269} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Triangle}{Mobile 272} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Down}{Mobile 270} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Cross}{Mobile 274} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Up}{Mobile 268} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Circle}{Mobile 273} ![TIME=-1][STRT=54,1]{UpperRightForce}{Instantly}Натисніть {Square}{Mobile 271} ![TIME=-1][STRT=156,2]{DialogPosition}{Widths 0,96,64,0,-1}{Instantly}Зі 100 присутніх дворян,
 {Variable 0} були вражені.[ENDN][STRT=102,2]{DialogPosition}{Instantly}Королева Бране 
 не була вражена.[ENDN][STRT=134,2]{DialogPosition}{Widths 0,96,64,0,-1}{Instantly}Зі 100 присутніх дворян,
 {Variable 0} були вражені.[ENDN][STRT=102,2]{DialogPosition}{Instantly}Королева Бране була
@@ -162,7 +162,7 @@ Party Set or Party Macro.
 {Choice}Так
 {Tab}Ні[ENDN][STRT=147,1]{DialogPosition}{Widths 0,147,64,1,-1}{Instantly}Вони обсипають вас дощем з {Yellow}{Variable 1} Гіл{White}![ENDN][STRT=154,3]{Zidane}
 “Га?
- Куди поділася принцеса?”[ENDN][STRT=27,1]{UpperLeftForce}{NoFocus}Ой!{Time 10}[ENDN][STRT=43,1]{LowerRightForce}{Offset 0,400,150}Овва!{Speed 2}...{Speed -1}{Time 10}[ENDN][STRT=155,3]Диригент
+ Куди поділася принцеса?”[ENDN][STRT=27,1]{UpperLeftForce}{NoFocus}Ой![TIME=10][STRT=43,1]{LowerRightForce}{Offset 0,400,150}Овва!{Speed 2}...{Speed -1}[TIME=10][STRT=155,3]Диригент
 “Гей, {Zidane}е,
  що ти тут робиш?”[ENDN][STRT=151,3]Трубач
 “Ну що ж!
@@ -172,7 +172,7 @@ Party Set or Party Macro.
  нутром, чи не так?”[ENDN][STRT=141,3]Скрипаль
 “У тебе є якісь побажання?
  Вальс, полька, ще щось?”[ENDN][STRT=160,2]Рубі
-“Овва! Якого біса!?”{Time 20}[ENDN][STRT=148,2]{UpperLeftForce}Рубі
+“Овва! Якого біса!?”[TIME=20][STRT=148,2]{UpperLeftForce}Рубі
 “Агов, притримай коней!”[ENDN][STRT=128,3]{UpperLeftForce}Рубі
 “За ким ти так женешся,
  дорогенька?”[ENDN][STRT=114,3]{UpperLeftForce}Рубі
@@ -189,7 +189,7 @@ Party Set or Party Macro.
 “Просто дозволь мені поговорити з нею, Рубі!”[ENDN][STRT=141,2]Рубі
 “Повтори ще раз, партнере!?”[ENDN][STRT=117,3]Рубі
 “Ти чув
- що я казала!?”[ENDN][STRT=26,1]{UpperLeftForce}{Instantly}Агов!{Time 15}[ENDN][STRT=99,3]{Zidane}
+ що я казала!?”[ENDN][STRT=26,1]{UpperLeftForce}{Instantly}Агов![TIME=15][STRT=99,3]{Zidane}
 “Рубі!
  Ми поговоримо пізніше!”[ENDN][STRT=163,2]Рубі
 “Так хто ж ця дівчина, га?”[ENDN][STRT=190,3]Рубі
@@ -215,7 +215,7 @@ Party Set or Party Macro.
 “Я хочу, щоб мене викрали{Speed 2}...{Speed -1}
  негайно.”{IncreaseSignal}[ENDN][STRT=109,3]{LowerLeftForce}{Offset -40,40,0}{Zidane}
 “Га!?
- Я не... я маю на увазі{Speed 2}...{Speed -1}”{IncreaseSignal}[ENDN][STRT=154,1]{Offset 440,500,0}{UpperLeftForce}Принцесо!  Де ви!?{Time 30}[ENDN][STRT=189,2]{UpperRight}Гарнет
+ Я не... я маю на увазі{Speed 2}...{Speed -1}”{IncreaseSignal}[ENDN][STRT=154,1]{Offset 440,500,0}{UpperLeftForce}Принцесо!  Де ви!?[TIME=30][STRT=189,2]{UpperRight}Гарнет
 “Будь ласка{Speed 2}...{Speed -1}Вони прийшли за мною!”[ENDN][STRT=165,3]{UpperLeftForce}{Offset 10,0,0}{Zidane}
 “Ага...
  То от що відбувається...”[ENDN][STRT=113,3]{UpperLeftForce}{Offset 10,0,0}{Zidane}
@@ -226,7 +226,7 @@ Party Set or Party Macro.
 “Я зроблю все можливе,
  щоб викрасти вас!”[ENDN][STRT=135,3]Сіна
 “Що ви двоє тут робите?
- Швидше, сюди!”[ENDN][STRT=32,1]{NoFocus}{Instantly}Ааа!{Time 15}[ENDN][STRT=134,3]{UpperLeftForce}{Zidane}
+ Швидше, сюди!”[ENDN][STRT=32,1]{NoFocus}{Instantly}Ааа![TIME=15][STRT=134,3]{UpperLeftForce}{Zidane}
 “Не хвилюйся, принцесо.
  Це мій друг Сіна!”[ENDN][STRT=74,2]{UpperLeftForce}Гарнет
 “О, справді?”[ENDN][STRT=103,3]{UpperLeftForce}Гарнет
@@ -235,18 +235,18 @@ Party Set or Party Macro.
 “Ну, таким обличчям, як у нього,
  можна налякати кого завгодно!”[ENDN][STRT=156,3]Сіна
 “Чоловіче, це ранить!  Я вмиваюся
- щоранку, ти ж знаєш!”[ENDN][STRT=59,1]{UpperLeftForce}{NoFocus}{Instantly}Принцесо!?{Time 30}[ENDN][STRT=67,2]Сіна
+ щоранку, ти ж знаєш!”[ENDN][STRT=59,1]{UpperLeftForce}{NoFocus}{Instantly}Принцесо!?[TIME=30][STRT=67,2]Сіна
 “Сюди!”[ENDN][STRT=102,3]{Zidane}
 “Добре,
- ми підемо за тобою!”[ENDN][STRT=54,1]Принцесо?[ENDN][STRT=60,1]Принцесо...[ENDN][STRT=53,1]Принцесо![ENDN][STRT=66,1]Принцесо...?[ENDN][STRT=73,1]ПРИНЦЕСО!!!?[ENDN][STRT=54,1]Принцесо?[ENDN][STRT=131,1]Де ви були!?[ENDN][STRT=107,1]Сер! Вибачте, сер![ENDN][STRT=53,1]{UpperCenter}Принцесо!{Time 30}[ENDN][STRT=118,3]{Zidane}
+ ми підемо за тобою!”[ENDN][STRT=54,1]Принцесо?[ENDN][STRT=60,1]Принцесо...[ENDN][STRT=53,1]Принцесо![ENDN][STRT=66,1]Принцесо...?[ENDN][STRT=73,1]ПРИНЦЕСО!!!?[ENDN][STRT=54,1]Принцесо?[ENDN][STRT=131,1]Де ви були!?[ENDN][STRT=107,1]Сер! Вибачте, сер![ENDN][STRT=53,1]{UpperCenter}Принцесо![TIME=30][STRT=118,3]{Zidane}
 “Гей, Сіна!
  Це глухий кут!”[ENDN][STRT=172,3]Сіна
 “Ха-ха.
- Я думав, що таке може статися{Speed 2}...{Speed -1}”[ENDN][STRT=32,1]{Instantly}Відчинись!{Time 15}[ENDN][STRT=46,1]{Instantly}Сезаме!{Time 15}[ENDN][STRT=92,3]Сіна
+ Я думав, що таке може статися{Speed 2}...{Speed -1}”[ENDN][STRT=32,1]{Instantly}Відчинись![TIME=15][STRT=46,1]{Instantly}Сезаме![TIME=15][STRT=92,3]Сіна
 “Тому я встановив цей
  аварійний люк!”[ENDN][STRT=53,1]Принцесо![ENDN][STRT=78,3]Сіна
 “Мерщій!
- Стрибайте всередину!”{Time 25}[ENDN][STRT=204,2]{Steiner}
+ Стрибайте всередину!”[TIME=25][STRT=204,2]{Steiner}
 “Принцеса має бути там внизу!”[ENDN][STRT=112,2]Лицар Плутона
 “Я-я піду першим, сер!”[ENDN][STRT=239,2]{Steiner}
 “Агов!!! Що ти по твоєму робиш!?”[ENDN][STRT=88,3]{Offset 500,300,0}Лицар Плутона
@@ -284,7 +284,7 @@ Party Set or Party Macro.
 “Просто розслабтеся, принцесо.
  Ми виведемо вас звідси!”[ENDN][STRT=64,2]{Widths 0,0,19,-1}{Steiner}
 “ЩО!!!?”[ENDN][STRT=180,2]{Steiner}
-“Ти не один з моїх лицарів!”[ENDN][STRT=82,1]{UpperRightForce}{Instantly}Ти можеш лише...[ENDN][STRT=129,1]{UpperRightForce}{Instantly}...залишити принцесу...[ENDN][STRT=45,1]{UpperLeftForce}{Instantly}...нам!{Time 30}[ENDN][STRT=45,1]{LowerLeftForce}{Instantly}...нам!{Time 30}[ENDN][STRT=45,1]{UpperRightForce}{Instantly}...нам!{Time 30}[ENDN][STRT=105,1]{Instantly}Ні! Ненавиджу оглопів!{Time 20}[ENDN][STRT=42,1]{Instantly}Оглопи!{Time 20}[ENDN][STRT=146,1]{Instantly}Зніміть з мене цих оглопів!{Time 20}[ENDN][STRT=124,1]{Instantly}Оглопи найгірші!{Time 20}[ENDN][STRT=176,2]{UpperLeftForce}{Zidane}
+“Ти не один з моїх лицарів!”[ENDN][STRT=82,1]{UpperRightForce}{Instantly}Ти можеш лише...[ENDN][STRT=129,1]{UpperRightForce}{Instantly}...залишити принцесу...[ENDN][STRT=45,1]{UpperLeftForce}{Instantly}...нам![TIME=30][STRT=45,1]{LowerLeftForce}{Instantly}...нам![TIME=30][STRT=45,1]{UpperRightForce}{Instantly}...нам![TIME=30][STRT=105,1]{Instantly}Ні! Ненавиджу оглопів![TIME=20][STRT=42,1]{Instantly}Оглопи![TIME=20][STRT=146,1]{Instantly}Зніміть з мене цих оглопів![TIME=20][STRT=124,1]{Instantly}Оглопи найгірші![TIME=20][STRT=176,2]{UpperLeftForce}{Zidane}
 “Це наш шанс! Ну ж бо!”[ENDN][STRT=181,3]Гарнет
 “Чому всі так бояться цих цих
  милих маленьких жучків{Speed 2}...{Speed -1}?[ENDN][STRT=236,3]{Offset 0,-55,0}{UpperLeftForce}Король Лео
@@ -309,9 +309,9 @@ Party Set or Party Macro.
 “Гмммм{Speed 2}...{Speed -1}”[ENDN][STRT=138,2]{Widths 0,138,16,-1}Сіна
 “{Zidane}е! Давай на другу платформу!”[ENDN][STRT=160,3]{UpperLeftForce}{Zidane}
 “Добре!
- Принцесо Гарнет, сюди!”[ENDN][STRT=31,1]{UpperLeftForce}{Instantly}Стояти!{Time 30}[ENDN][STRT=27,1]{NoFocus}{Instantly}Ой!{Time 15}[ENDN][STRT=89,2]Король Лео
+ Принцесо Гарнет, сюди!”[ENDN][STRT=31,1]{UpperLeftForce}{Instantly}Стояти![TIME=30][STRT=27,1]{NoFocus}{Instantly}Ой![TIME=15][STRT=89,2]Король Лео
 “Навіть більше!”[ENDN][STRT=125,2]Баку
-{White}(П-Принцеса Гарнет!?){Time 20}[ENDN][STRT=148,2]{Zidane}
+{White}(П-Принцеса Гарнет!?)[TIME=20][STRT=148,2]{Zidane}
 {White}“(Хлопці! Просто імпровізуйте!)”[ENDN][STRT=63,1]“(Ясно!)”[ENDN][STRT=121,2]{UpperRightForce}{Steiner}
 “Що?{Wait 20} Що це все таке?”[ENDN][STRT=51,1]{UpperRightForce}Корнеліє![ENDN][STRT=36,1]{UpperRightForce}(Ем{Speed 2}...{Speed -1})[ENDN][STRT=176,2]{Zidane}
 {White}“(Маркус - коханий Корнелії!)”[ENDN][STRT=66,1]{UpperLeftForce}О, Маркусе![ENDN][STRT=171,2]{Zidane}
@@ -332,9 +332,9 @@ Party Set or Party Macro.
 “Хіба це не так, Принце Шнайдер?”[ENDN][STRT=177,2]{Steiner}
 “Одружитися з принцесою? Я!?”[ENDN][STRT=150,3]{UpperRightForce}Король Лео
 “Так! А цю зрадницьку
- команду я страчу!”[ENDN][STRT=31,1]{UpperRightForce}{Instantly}Уф!{Time 20}[ENDN][STRT=28,1]{UpperLeftForce}{Instantly}Ой!{Time 20}[ENDN][STRT=116,2]{UpperRightForce}{Instantly}Бенеро
-“Їх занадто багато!”{Time 20}[ENDN][STRT=71,2]{UpperLeftForce}{Instantly}Зенеро
-“Тікайте!”{Time 20}[ENDN][STRT=195,3]{LowerRightForce}{Offset 50,100,0}{Signal 0}Король Лео
+ команду я страчу!”[ENDN][STRT=31,1]{UpperRightForce}{Instantly}Уф![TIME=20][STRT=28,1]{UpperLeftForce}{Instantly}Ой![TIME=20][STRT=116,2]{UpperRightForce}{Instantly}Бенеро
+“Їх занадто багато!”[TIME=20][STRT=71,2]{UpperLeftForce}{Instantly}Зенеро
+“Тікайте!”[TIME=20][STRT=195,3]{LowerRightForce}{Offset 50,100,0}{Signal 0}Король Лео
 “Молю тебе, доню, повернися
  зі мною до замку.”[ENDN][STRT=97,3]Гарнет
 “Ні, Батьку!
@@ -346,10 +346,10 @@ Party Set or Party Macro.
 “Ні, якщо я зможу допомогти!!!”[ENDN][STRT=259,3]{LowerRightForce}Маркус
 “Настав час моєї помсти!
  За моїх батьків і за моє кохання, Корнеліє{Speed 2}...”{Speed -1}[ENDN][STRT=134,2]{LowerRightForce}Маркус
-“Я порубаю тебе на шматки!”[ENDN][STRT=25,1]{UpperLeftForce}{Instantly}Ах!{Time 20}[ENDN][STRT=105,2]{UpperRightForce}Маркус
+“Я порубаю тебе на шматки!”[ENDN][STRT=25,1]{UpperLeftForce}{Instantly}Ах![TIME=20][STRT=105,2]{UpperRightForce}Маркус
 “Ні{Speed 2}...{Speed -1} Корнеліє!!!”[ENDN][STRT=136,3]{UpperLeftForce}{Offset 220,250,0}Гарнет
 “Мар{Speed 2}...{Speed -1}кусе, {Wait 10}пробач мені.{Wait 10}
- Я все ще люблю {Wait 10}свого батька{Speed 2}...”{Speed -1}[ENDN][STRT=51,1]{UpperLeftForce}{Instantly}Корнеліє!{Time 20}[ENDN][STRT=53,1]{UpperRightForce}{Instantly}Принцесо!{Time 20}[ENDN][STRT=231,3]{UpperLeftForce}{Offset 220,250,0}Гарнет
+ Я все ще люблю {Wait 10}свого батька{Speed 2}...”{Speed -1}[ENDN][STRT=51,1]{UpperLeftForce}{Instantly}Корнеліє![TIME=20][STRT=53,1]{UpperRightForce}{Instantly}Принцесо![TIME=20][STRT=231,3]{UpperLeftForce}{Offset 220,250,0}Гарнет
 “Благаю, пробач мій егоїзм, батьку,
  і пощади мого коханого Маркуса{Speed 2}...”{Speed -1}[ENDN][STRT=255,3]{UpperRight}Маркус
 “Що я наробив!?
@@ -357,7 +357,7 @@ Party Set or Party Macro.
 “Невже я приречений ніколи більше не відчути
  її м'якого дотику?”[ENDN][STRT=227,3]{UpperRightForce}Маркус
 “О, жорстока доля!
- Ти відібрала у мене все, що я мав!”[ENDN][STRT=32,1]{UpperRightForce}{Instantly}Нгх!{Time 20}[ENDN][STRT=45,1]{UpperLeftForce}{Instantly}Маркусе!{Time 20}[ENDN][STRT=77,2]{Offset 0,-110,0}Королева Бране
+ Ти відібрала у мене все, що я мав!”[ENDN][STRT=32,1]{UpperRightForce}{Instantly}Нгх![TIME=20][STRT=45,1]{UpperLeftForce}{Instantly}Маркусе![TIME=20][STRT=77,2]{Offset 0,-110,0}Королева Бране
 “О, боже!”[ENDN][STRT=176,2]{Offset 0,-110,0}Королева Бране
 “Цьогорічна виставка просто чудова!”[ENDN][STRT=77,2]{Offset 0,-110,0}Королева Бране
 “Уаааааа!”[ENDN][STRT=198,2]{Offset 0,-110,0}Королева Бране
@@ -368,16 +368,16 @@ Party Set or Party Macro.
 “Так, дуже сумно...”[ENDN][STRT=191,3]{UpperRightForce}Пак
 “Я радий, що ми забралися сюди.
  А як щодо тебе, га?”[ENDN][STRT=114,2]{UpperRightForce}{Instantly}Пак
-“Ой-ой!  Стережися!”{Time 10}[ENDN][STRT=135,2]{Instantly}Хааген, Лицар Плутона VIII
-“Ану стояти!”{Time 18}[ENDN][STRT=156,2]{Instantly}Веймар, Лицар Плутона VII
-“Поверніться, порушники!”{Time 18}[ENDN][STRT=134,2]{UpperLeftForce}{Instantly}Пак
+“Ой-ой!  Стережися!”[TIME=10][STRT=135,2]{Instantly}Хааген, Лицар Плутона VIII
+“Ану стояти!”[TIME=18][STRT=156,2]{Instantly}Веймар, Лицар Плутона VII
+“Поверніться, порушники!”[TIME=18][STRT=134,2]{UpperLeftForce}{Instantly}Пак
 “Дурень! Я забираюся звідси!”[ENDN][STRT=135,2]{Instantly}Хааген, Лицар Плутона VIII
-“Лють!!!”{Time 30}[ENDN][STRT=129,2]{Instantly}Веймар, Лицар Плутона VII
-“Поверніться!”{Time 30}[ENDN][STRT=77,2]{Offset -100,100,0}{Steiner}
+“Лють!!!”[TIME=30][STRT=129,2]{Instantly}Веймар, Лицар Плутона VII
+“Поверніться!”[TIME=30][STRT=77,2]{Offset -100,100,0}{Steiner}
 “Принцесо!!!”[ENDN][STRT=91,2]{Offset 0,100,0}Король Лео
 “Пробач мені!!!”[ENDN][STRT=105,2]{Vivi}
-“Дайте мені спокій!”[ENDN][STRT=31,1]{Instantly}Стояти!{Time 18}[ENDN][STRT=95,1]{Instantly}Повернися!{Time 18}[ENDN][STRT=144,2]{Vivi}
-“Не підходьте ближче!”[ENDN][STRT=90,1]Ой! Гаряче!{Time 10}[ENDN][STRT=60,3]{Widths 0,12,16,-1}Баку
+“Дайте мені спокій!”[ENDN][STRT=31,1]{Instantly}Стояти![TIME=18][STRT=95,1]{Instantly}Повернися![TIME=18][STRT=144,2]{Vivi}
+“Не підходьте ближче!”[ENDN][STRT=90,1]Ой! Гаряче![TIME=10][STRT=60,3]{Widths 0,12,16,-1}Баку
 “{Zidane}е!
  Зараз!”[ENDN][STRT=131,3]{Zidane}
 “Принцесо Гарнет!
@@ -406,7 +406,7 @@ Party Set or Party Macro.
  Негайно схопити їх!”[ENDN][STRT=144,2]Сіна
 “Стабілізатори налаштовані!”[ENDN][STRT=33,1]Добре![ENDN][STRT=165,2]Бланк
 “Моторний відсік готовий до роботи!”{IncreaseSignal}[ENDN][STRT=42,1]Гаразд!{IncreaseSignal}[ENDN][STRT=111,2]Баку
-“Ми вирушаємо!”{Time 20}[ENDN][STRT=66,1]{NoFocus}Вас зрозумів!{Time 20}[ENDN][STRT=92,1]{NoFocus}Якраз вчасно!”{Time 20}[ENDN][STRT=134,2]Сіна
+“Ми вирушаємо!”[TIME=20][STRT=66,1]{NoFocus}Вас зрозумів![TIME=20][STRT=92,1]{NoFocus}Якраз вчасно!”[TIME=20][STRT=134,2]Сіна
 “Ми зараз розіб'ємося!!!”[ENDN][STRT=77,2]Королева Бране
 “Гарнет{Speed 2}...{Speed -1}”[ENDN][STRT=212,4]Королева Бране
 “Я ніколи не думала, що ти здатна
@@ -436,4 +436,4 @@ Party Set or Party Macro.
 {Center 160}Вона також не була схожа на людину,
 яка б радилася з іншими.[ENDN][STRT=24,2]{UpperCenter}
 {Center 24}{Speed 2}......{Speed -1}[ENDN][STRT=214,2]{UpperCenter}
-{Center 214}Можливо, у нас є щось спільне{Speed 2}...{Speed -1}[ENDN][STRT=34,1]debug{Time 20}[ENDN][STRT=34,1]debug{Time 20}[ENDN][STRT=34,1]debug{Time 20}[ENDN][STRT=34,1]debug{Time 20}[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug{Time 30}[ENDN][STRT=34,1]{UpperCenter}debug{Time 30}[ENDN][STRT=34,1]{UpperCenter}debug{Time 30}[ENDN][STRT=34,1]debug{Time 30}[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug{Time 60}[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]{UpperRight}debug{Time 30}[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN]
+{Center 214}Можливо, у нас є щось спільне{Speed 2}...{Speed -1}[ENDN][STRT=34,1]debug[TIME=20][STRT=34,1]debug[TIME=20][STRT=34,1]debug[TIME=20][STRT=34,1]debug[TIME=20][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[TIME=30][STRT=34,1]{UpperCenter}debug[TIME=30][STRT=34,1]{UpperCenter}debug[TIME=30][STRT=34,1]debug[TIME=30][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[TIME=60][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]{UpperRight}debug[TIME=30][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN]

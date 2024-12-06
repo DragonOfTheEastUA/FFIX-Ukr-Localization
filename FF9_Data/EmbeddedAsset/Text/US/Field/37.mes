@@ -50,26 +50,26 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}МогКрамниця
 {Tab}Змінити членів загону
 {Tab}{Pink}Debug{White}
-{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не зберігати[TIME=-1][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 7}){f4}
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
-“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не відпочивати[TIME=-1][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо![TIME=20][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Що ви хочете робити? Купо?”
 {Choice}Дати {Text 0,0} листа
 {Tab}Читати пошту
-{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
-Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{Tab}Скасувати[TIME=-1][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Артемицій знову доставляє
@@ -134,7 +134,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=181,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Це лист від Штільцкіна!
  Давай прочитаємо його разом! Купо!”[ENDN][STRT=243,13]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
 
@@ -169,7 +169,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -236,7 +236,7 @@ Party Set or Party Macro.
 “Для гри потрібні
  щонайменше 5 карт.”[ENDN][STRT=201,3]Чорний маг №. {Variable 0}
 “Мені дуже шкода.
- Я зараз не в настрої грати.”[ENDN][STRT=22,1]Моя провина[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 30}[ENDN][STRT=5,1]{Center 5}![ENDN][STRT=5,1]{LowerRightForce}{Center 5}!{Time 30}[ENDN][STRT=6,1]{UpperRightForce}{Center 6}?[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=233,3]{Zidane}
+ Я зараз не в настрої грати.”[ENDN][STRT=22,1]Моя провина[ENDN][STRT=5,1]{NoFocus}{Center 5}![TIME=30][STRT=5,1]{Center 5}![ENDN][STRT=5,1]{LowerRightForce}{Center 5}![TIME=30][STRT=6,1]{UpperRightForce}{Center 6}?[ENDN][STRT=11,1]{Center 11}!?[ENDN][STRT=233,3]{Zidane}
 “Гадаю, вони живуть 'так глибоко в лісі,
  що там навіть сови не водяться'.”[ENDN][STRT=119,4]{DialogPosition}  
     Ця дорога веде    
@@ -247,7 +247,7 @@ Party Set or Party Macro.
   [ENDN][STRT=156,4]{DialogPosition}  
   ←Там, де немає сов
     Там, де є сови→  
-  [ENDN][STRT=80,1]{UpperRightForce}Що трапилося?[ENDN][STRT=24,1]Ааа!{Time 30}[ENDN][STRT=79,1]{UpperLeftForce}{NoFocus}Л-{Wait 30}Л-{Wait 30}Люди{Speed 2}...{Speed -1}{Time 30}[ENDN][STRT=86,1]{LowerLeftForce}Люди! Тікаймо!!!{Time 50}[ENDN][STRT=50,1]{UpperRightForce}З-Заждіть{Speed 2}...{Speed -1}[ENDN][STRT=119,2]{UpperRightForce}{Vivi}
+  [ENDN][STRT=80,1]{UpperRightForce}Що трапилося?[ENDN][STRT=24,1]Ааа![TIME=30][STRT=79,1]{UpperLeftForce}{NoFocus}Л-{Wait 30}Л-{Wait 30}Люди{Speed 2}...{Speed -1}[TIME=30][STRT=86,1]{LowerLeftForce}Люди! Тікаймо!!![TIME=50][STRT=50,1]{UpperRightForce}З-Заждіть{Speed 2}...{Speed -1}[ENDN][STRT=119,2]{UpperRightForce}{Vivi}
 “Ти їх бачив!?”[ENDN][STRT=53,1]Т-{Wait 3}Так{Speed 2}...{Speed -1}[ENDN][STRT=157,3]{Vivi}
 “Вони розмовляли!
  Є й ІНШІ такі, як я!”[ENDN][STRT=202,3]{Dagger}
@@ -268,8 +268,8 @@ Party Set or Party Macro.
 “Е-{Wait 3}Ем{Speed 2}...{Speed -1}
  Ч-{Wait 3}Чим я можу вам допомогти?”[ENDN][STRT=224,3]Чорний маг №. 78
 “Це має бути магазин зброї.
- А що таке взагалі зброя?”[ENDN][STRT=121,1]Тут люди!{Time 30}[ENDN][STRT=5,1]{Widths 0,5,17,-1}{Vivi}!{Time 30}[ENDN][STRT=119,2]{LowerLeftForce}{Dagger}
-“Що відбувається{Speed 2}...{Speed -1}?”[ENDN][STRT=11,1]{LowerLeftForce}{Center 11}!?[ENDN][STRT=30,1]{LowerLeftForce}{Center 30}{Speed 2}......{Speed -1}?{Time 60}[ENDN][STRT=48,2]{Widths 0,0,16,-1,0,48,17,-1}{Zidane}
+ А що таке взагалі зброя?”[ENDN][STRT=121,1]Тут люди![TIME=30][STRT=5,1]{Widths 0,5,17,-1}{Vivi}![TIME=30][STRT=119,2]{LowerLeftForce}{Dagger}
+“Що відбувається{Speed 2}...{Speed -1}?”[ENDN][STRT=11,1]{LowerLeftForce}{Center 11}!?[ENDN][STRT=30,1]{LowerLeftForce}{Center 30}{Speed 2}......{Speed -1}?[TIME=60][STRT=48,2]{Widths 0,0,16,-1,0,48,17,-1}{Zidane}
 “Гей, {Vivi}!”[ENDN][STRT=131,2]{Zidane}
 “Що це з ним{Speed 2}...{Speed -1}?”[ENDN][STRT=190,3]Чорний маг №. 44
 “Останнім часом я набираю вагу{Speed 2}...{Speed -1}
@@ -307,7 +307,7 @@ Party Set or Party Macro.
 “Замовкни!
  Ми можемо це зробити!”[ENDN][STRT=174,3]{UpperLeftForce}{Offset -100,-200,0}{Quina}
 “Я вам не вірю.
- Ви з'їсте яйце у мене за спиною!”{Time 45}[ENDN][STRT=45,1]У жодному разі!{Time 30}[ENDN][STRT=203,3]Чорний маг №. 111
+ Ви з'їсте яйце у мене за спиною!”[TIME=45][STRT=45,1]У жодному разі![TIME=30][STRT=203,3]Чорний маг №. 111
 “Він/вона з вами?
  Можете забрати його кудись?”[ENDN][STRT=172,3]{Widths 0,126,16,-1}{Quina}
 “{Zidane}е!  Ти теж хочеш їсти?
@@ -336,7 +336,7 @@ Party Set or Party Macro.
  {Vivi}, які вміють розмовляти, тож{Speed 2}...{Speed -1}”[ENDN][STRT=230,3]{Dagger}
 “Крім того, я тут щоб зупинити людину,
  яка відправляє вас воювати!”[ENDN][STRT=170,2]Чорний маг №. 32
-“Т-{Wait 3}Ти кажеш правду?”{Time 30}[ENDN][STRT=111,2]Чорний маг №. 192
+“Т-{Wait 3}Ти кажеш правду?”[TIME=30][STRT=111,2]Чорний маг №. 192
 “Брехня!”[ENDN][STRT=120,3]Чорний маг №. 192
 “Всі люди брехуни!
  Ти брешеш!”[ENDN][STRT=87,2]{Dagger}
@@ -433,7 +433,7 @@ Party Set or Party Macro.
 “Так, наші друзі
  поховані тут{Speed 2}...{Speed -1}”[ENDN][STRT=71,2]{Widths 0,0,17,-1}{Vivi}
 “Але{Speed 2}... {Speed -1}чому?”[ENDN][STRT=112,2]{UpperRightForce}Чорний маг №. 288
-“Це тому, що{Speed 2}...{Speed -1}”{Time 40}[ENDN][STRT=157,3]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
+“Це тому, що{Speed 2}...{Speed -1}”[TIME=40][STRT=157,3]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
 “Я{Speed 2}...{Speed -1}Я прийшов сюди з паном 36.{Wait 3}
  Ми втекли разом.”[ENDN][STRT=184,4]{Offset -10,100,0}{LowerLeftForce}Чорний маг №. 56
 “Нам потрібно було багато чому навчитися.
@@ -512,7 +512,7 @@ Party Set or Party Macro.
 “Сталося щось погане?
  Всі чорні маги здаються
  досить милими.”[ENDN][STRT=125,2]{NoFocus}{Vivi}
-“Нічого не сталося{Speed 2}...{Speed -1}”{Time 30}[ENDN][STRT=99,2]{UpperRightForce}{Quina}
+“Нічого не сталося{Speed 2}...{Speed -1}”[TIME=30][STRT=99,2]{UpperRightForce}{Quina}
 “Грр{Speed 2}...{Speed -1} Я голодний!”[ENDN][STRT=112,3]{Quina}
 “Люди у цьому селищі
  їдять жахливу їжу.”[ENDN][STRT=84,3]{Widths 0,32,17,-1}{Dagger}
@@ -574,7 +574,7 @@ Party Set or Party Macro.
 Його єдиною підказкою було кольорове світло.[ENDN][STRT=162,2]{Position 80,140}{Flash}{Speed -1}Тож він повернувся до будинку
 свого прийомного батька{Speed 2}...{Speed -1}{Wait 3}[ENDN][STRT=174,2]{Position 70,120}{Flash}{Speed -1}Як ти думаєш, що зробив його батько,
  коли він повернувся додому?[ENDN][STRT=122,1]{Position 120,30}{Flash}{Speed -1}{Speed 2}...{Speed -1}Привітав його вдома?[ENDN][STRT=191,3]{Position 80,140}{Flash}{Speed -1}У жодному разі!{NewPage}Батько підняв кулак і побив
- сина, якого так важко виховував{Speed 2}...{Speed -1}[ENDN][STRT=49,1]{UpperRight}{NoFocus}<Бац!>{Time 30}[ENDN][STRT=43,1]{Offset 50,100,0}{LowerLeft}{NoFocus}<Тиць!>{Time 30}[ENDN][STRT=56,1]{Offset -100,-200,0}{UpperLeftForce}{NoFocus}<Бабах!>{Time 30}[ENDN][STRT=42,1]{Offset 50,100,0}{LowerRight}{NoFocus}<Бам!>{Time 30}[ENDN][STRT=27,1]{Position 120,30}{Flash}{Speed -1}Чому?[ENDN][STRT=80,1]{Position 110,160}{Flash}{Speed -1}Я не знаю{Speed 2}...{Speed -1}[ENDN][STRT=162,2]{Position 120,160}{Flash}{Speed -1}Але знаєш, що здивувало
+ сина, якого так важко виховував{Speed 2}...{Speed -1}[ENDN][STRT=49,1]{UpperRight}{NoFocus}<Бац!>[TIME=30][STRT=43,1]{Offset 50,100,0}{LowerLeft}{NoFocus}<Тиць!>[TIME=30][STRT=56,1]{Offset -100,-200,0}{UpperLeftForce}{NoFocus}<Бабах!>[TIME=30][STRT=42,1]{Offset 50,100,0}{LowerRight}{NoFocus}<Бам!>[TIME=30][STRT=27,1]{Position 120,30}{Flash}{Speed -1}Чому?[ENDN][STRT=80,1]{Position 110,160}{Flash}{Speed -1}Я не знаю{Speed 2}...{Speed -1}[ENDN][STRT=162,2]{Position 120,160}{Flash}{Speed -1}Але знаєш, що здивувало
  його ще більше?[ENDN][STRT=177,2]{Position 120,160}{Flash}{Speed -1}Батько посміхався,
  побивши сина!{NewPage}Ти можеш у це повірити?
 Він щойно побив свого сина.{NewPage}{Wait 3}Але ось що подумав хлопець,

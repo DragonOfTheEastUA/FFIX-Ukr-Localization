@@ -2,7 +2,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -89,7 +89,7 @@ Party Set or Party Macro.
  Тому я завжди переживаю за тебе!”[ENDN][STRT=193,2]{LowerRightForce}{Dagger}
 “Щ-{Wait 3}Що ти маєш на увазі?”[ENDN][STRT=186,3]{Eiko}
 “О, нічого. Просто у мене багато
- чого на думці{Speed 2}...{Speed -1}”[ENDN][STRT=54,1]{Instantly}Обережно!{Time 30}[ENDN][STRT=43,1]Айаа![ENDN][STRT=88,3]{UpperRightForce}{Quina}
+ чого на думці{Speed 2}...{Speed -1}”[ENDN][STRT=54,1]{Instantly}Обережно![TIME=30][STRT=43,1]Айаа![ENDN][STRT=88,3]{UpperRightForce}{Quina}
 “Ми майже розплющилися,
  як млинець!”[ENDN][STRT=169,3]{Zidane}
 “Сподіваюся, їх буде не так
@@ -139,7 +139,7 @@ Party Set or Party Macro.
 “Про{Speed 2}...{Speed -1} що ти говориш?”[ENDN][STRT=183,2]{UpperLeftForce}{Offset 0,-40,0}{Fraya}
 “Ми покажемо вам, що він має на увазі!”[ENDN][STRT=134,3]{UpperLeftForce}{Offset 40,-170,0}Вартовий Вогню
 “Цікаво{Speed 2}...{Speed -1}
- але ви про це пошкодуєте!”[ENDN][STRT=53,1]{NoFocus}{Speed 32}Грааа!!!{Time 30}[ENDN][STRT=40,1]{NoFocus}{Speed 32}Аааа!!!{Time 30}[ENDN][STRT=106,3]{Offset 0,-500,0}{UpperLeftForce}Вартовий Вітру
+ але ви про це пошкодуєте!”[ENDN][STRT=53,1]{NoFocus}{Speed 32}Грааа!!![TIME=30][STRT=40,1]{NoFocus}{Speed 32}Аааа!!![TIME=30][STRT=106,3]{Offset 0,-500,0}{UpperLeftForce}Вартовий Вітру
 “Вже закінчили?
  Такі слабаки.”[ENDN][STRT=51,2]{Widths 0,0,19,-1}{Steiner}
 “Ти{Speed 2}...{Speed -1}!”[ENDN][STRT=191,3]{Vivi}
@@ -163,7 +163,7 @@ Party Set or Party Macro.
 “Але{Speed 2}...{Speed -1} що, якщо я не
  влучу у ціль{Speed 2}...{Speed -1}?”[ENDN][STRT=85,2]{Widths 0,85,17,-1}{Steiner}
 “Я довіряю тобі, {Vivi}.”[ENDN][STRT=58,2]{Widths 0,0,17,-1}{Vivi}
-“{Speed 2}...{Speed -1}{Wait 15}Гаразд.”[ENDN][STRT=99,1]{NoFocus}{Speed 32}AAAAAAAAАРГХ!!!{Time 25}[ENDN][STRT=217,2]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
+“{Speed 2}...{Speed -1}{Wait 15}Гаразд.”[ENDN][STRT=99,1]{NoFocus}{Speed 32}AAAAAAAAАРГХ!!![TIME=25][STRT=217,2]{LowerLeftForce}{Offset -20,-255,0}Вартовий Землі
 “Куджа сказав нам, що буде вісім щурів{Speed 2}...{Speed -1}”[ENDN][STRT=192,3]{UpperLeftForce}{Zidane}
 “Вибач, нас тут тільки двоє.
  Ви приготували бенкет?”[ENDN][STRT=118,3]{UpperRightForce}{Quina}
@@ -211,4 +211,4 @@ Party Set or Party Macro.
 “Ти щось сказала, {Dagger}?”[ENDN][STRT=73,2]{UpperLeftForce}{Widths 0,73,22,-1}{Dagger}
 “Ходімо, {Eiko}!”[ENDN][STRT=98,3]{UpperLeftForce}{Eiko}
 “Г-Гей, зажди!
- Це нечесно!”[ENDN][STRT=0,1]{Time -1}[ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN]
+ Це нечесно!”[ENDN][STRT=0,1][TIME=-1][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN]

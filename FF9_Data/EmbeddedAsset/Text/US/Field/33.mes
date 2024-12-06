@@ -50,26 +50,26 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}МогКрамниця
 {Tab}Змінити членів загону
 {Tab}{Pink}Debug{White}
-{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не зберігати[TIME=-1][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 7}){f4}
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
-“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не відпочивати[TIME=-1][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо![TIME=20][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Що ви хочете робити? Купо?”
 {Choice}Дати {Text 0,0} листа
 {Tab}Читати пошту
-{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
-Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{Tab}Скасувати[TIME=-1][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Артемицій знову доставляє
@@ -134,7 +134,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=240,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=240,3]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
 “Мій старший брат надіслав мені листа! Купо!
  Де він зараз!? Я хвилююсь!”[ENDN][STRT=225,10]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} до {Text 0,0}{White}
 
@@ -212,7 +212,7 @@ table22[ENDN][STRT=137,9]{Position 20,16}{PreChooseMask 7,6}{Widths 0,2,6,0,-1,5
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -377,8 +377,8 @@ Party Set or Party Macro.
 {Center 171}9-ма солдатами під її командуванням.
 
 {Center 218}Вона передчасно померла у 1401 році.
-[ENDN][STRT=34,1]{Instantly}debug[ENDN][STRT=34,1]debug[ENDN][STRT=76,1]Ой-ой-ой!{Time 20}[ENDN][STRT=96,1]З тобою усе гаразд?[ENDN][STRT=186,1]Ось! Ти впустив свій квиток.[ENDN][STRT=54,1]Бувай!{Time 20}[ENDN][STRT=211,2]Дівчинка
-“Краще тримай квиток міцніше!”[ENDN][STRT=26,1]Ура![ENDN][STRT=96,2]Дворяни на площі![ENDN][STRT=78,1]Ого! Дворяни![ENDN][STRT=130,1]Теодоре, чекай на мене![ENDN][STRT=28,1]Ой!{Time 10}[ENDN][STRT=181,2]Малюк щур
+[ENDN][STRT=34,1]{Instantly}debug[ENDN][STRT=34,1]debug[ENDN][STRT=76,1]Ой-ой-ой![TIME=20][STRT=96,1]З тобою усе гаразд?[ENDN][STRT=186,1]Ось! Ти впустив свій квиток.[ENDN][STRT=54,1]Бувай![TIME=20][STRT=211,2]Дівчинка
+“Краще тримай квиток міцніше!”[ENDN][STRT=26,1]Ура![ENDN][STRT=96,2]Дворяни на площі![ENDN][STRT=78,1]Ого! Дворяни![ENDN][STRT=130,1]Теодоре, чекай на мене![ENDN][STRT=28,1]Ой![TIME=10][STRT=181,2]Малюк щур
 “Ах ти... забирайся з моєї дороги!!!”[ENDN][STRT=206,3]Чоловік
 “Що ж, це все на сьогодні.
  Час готуватися до вистави.”[ENDN][STRT=241,4]{PreChoose 2,1}{Instantly}Чоловік
@@ -527,7 +527,7 @@ Party Set or Party Macro.
  5 карт, якщо хочеш зіграти у гру.”[ENDN][STRT=196,4]Хлопчик
 “Лише дворянам дозволено заходити
  до замку, тож нам, простолюдинам,
- доводиться спостерігати з дахів.”[ENDN][STRT=86,1]Хочеш спробувати?[ENDN][STRT=51,1]{UpperLeft}{Instantly}  0 разів {Time -1}[ENDN][STRT=48,1]{UpperLeft}{Widths 0,48,64,2,-1}{Instantly}  {Variable 2} разів  {Time -1}[ENDN][STRT=175,1]{LowerLeftForce}{Instantly}Швидкість зросте після 20!{Time -1}[ENDN][STRT=85,1]{LowerLeftForce}{Instantly}Прискорюємось!{Time -1}[ENDN][STRT=206,1]{LowerLeftForce}{Instantly}Швидкість зросте ще більше після 50!{Time -1}[ENDN][STRT=79,1]{LowerLeftForce}{Instantly}Ти зможеш!!{Time -1}[ENDN][STRT=65,1]{LowerLeftForce}{Instantly}Майже 100!{Time -1}[ENDN][STRT=165,1]{LowerLeftForce}{Instantly}Так! Ти стрибнув 100 разів!{Time -1}[ENDN][STRT=159,1]{LowerLeftForce}{Instantly}Стане складніше після 200!{Time -1}[ENDN][STRT=46,1]{LowerLeftForce}{Instantly}Давай!  Давай!{Time -1}[ENDN][STRT=163,1]{LowerLeftForce}{Instantly}Високошвидкісні стрибки після 300!{Time -1}[ENDN][STRT=70,1]{LowerLeftForce}{Instantly}Стрибок! Стрибок!{Time -1}[ENDN][STRT=137,1]Приходь пограти з нами ще![ENDN][STRT=122,1]{LowerRight}{Widths 0,122,14,3,-1}{Instantly} Отримано {Yellow}Карту {Item 3} {White}! {Time 120}[ENDN][STRT=86,1]{LowerRight}{Widths 0,86,64,3,-1}{Instantly} Отримано {Yellow}{Variable 3} Гіл{White}! {Time 120}[ENDN][STRT=254,12]{Instantly}
+ доводиться спостерігати з дахів.”[ENDN][STRT=86,1]Хочеш спробувати?[ENDN][STRT=51,1]{UpperLeft}{Instantly}  0 разів [TIME=-1][STRT=48,1]{UpperLeft}{Widths 0,48,64,2,-1}{Instantly}  {Variable 2} разів  [TIME=-1][STRT=175,1]{LowerLeftForce}{Instantly}Швидкість зросте після 20![TIME=-1][STRT=85,1]{LowerLeftForce}{Instantly}Прискорюємось![TIME=-1][STRT=206,1]{LowerLeftForce}{Instantly}Швидкість зросте ще більше після 50![TIME=-1][STRT=79,1]{LowerLeftForce}{Instantly}Ти зможеш!![TIME=-1][STRT=65,1]{LowerLeftForce}{Instantly}Майже 100![TIME=-1][STRT=165,1]{LowerLeftForce}{Instantly}Так! Ти стрибнув 100 разів![TIME=-1][STRT=159,1]{LowerLeftForce}{Instantly}Стане складніше після 200![TIME=-1][STRT=46,1]{LowerLeftForce}{Instantly}Давай!  Давай![TIME=-1][STRT=163,1]{LowerLeftForce}{Instantly}Високошвидкісні стрибки після 300![TIME=-1][STRT=70,1]{LowerLeftForce}{Instantly}Стрибок! Стрибок![TIME=-1][STRT=137,1]Приходь пограти з нами ще![ENDN][STRT=122,1]{LowerRight}{Widths 0,122,14,3,-1}{Instantly} Отримано {Yellow}Карту {Item 3} {White}! [TIME=120][STRT=86,1]{LowerRight}{Widths 0,86,64,3,-1}{Instantly} Отримано {Yellow}{Variable 3} Гіл{White}! [TIME=120][STRT=254,12]{Instantly}
 {Center 60}- {Cyan}ПОВІДОМЛЕННЯ{White} -
 
 {Center 245}Хітовий епос, який підкорив усіх у Ліндблюмі,
@@ -582,7 +582,7 @@ Party Set or Party Macro.
  і усі в Олександрії люблять її!”[ENDN][STRT=221,3]{UpperLeftForce}Майстер квитків
 “Вона найкрасивіша принцеса
  в історії Олександрії!”[ENDN][STRT=131,2]{Instantly}Вибачте, пане.
-Відійдіть, будь ласка.{Time 40}[ENDN][STRT=119,4]{PreChoose 2,1}{Instantly}Гіпополеді
+Відійдіть, будь ласка.[TIME=40][STRT=119,4]{PreChoose 2,1}{Instantly}Гіпополеді
 “Хочеш зіграти у карти?”
 {Choice}Так
 {Tab}Ні[ENDN][STRT=238,3]Гіпополеді
@@ -595,7 +595,7 @@ Party Set or Party Macro.
  вільних місць!!!?[ENDN][STRT=106,2]Так,{Wait 5} розумієте{Speed 2}...{Speed -1}
 {Signal 1}Мені справді дуже шкода.[ENDN][STRT=120,2]Що!?
 Я не можу у це повірити!!![ENDN][STRT=120,2]У мене заброньовано,
-трясця!!![ENDN][STRT=45,1]{Instantly}Боже!!{Time 20}[ENDN][STRT=45,1](Ой!)[ENDN][STRT=156,1](Міські жителі такі страшні.)[ENDN][STRT=170,2]Людина-риба
+трясця!!![ENDN][STRT=45,1]{Instantly}Боже!![TIME=20][STRT=45,1](Ой!)[ENDN][STRT=156,1](Міські жителі такі страшні.)[ENDN][STRT=170,2]Людина-риба
 “На жаль, сьогодні вільних місць немає.”[ENDN][STRT=146,4]{PreChoose 2,1}{Instantly}Людина-риба
 “Ти готовий до гри?”
 {Choice}Так
@@ -681,7 +681,7 @@ Party Set or Party Macro.
  У мене ще багато роботи.”[ENDN][STRT=160,3]Джек з провулку
 “Ну{Speed 2}...{Speed -1} Чому б ні?
  Я вже закінчив роботу.”[ENDN][STRT=97,2]Джек з провулку
-“За мною, малий!”[ENDN][STRT=62,1]{Instantly}Сюди!{Time 45}[ENDN][STRT=96,1]{Instantly}Не відставай!{Time 45}[ENDN][STRT=94,1]{Instantly}На дзвіницю!{Time 45}[ENDN][STRT=111,3]{UpperRightForce}Том
+“За мною, малий!”[ENDN][STRT=62,1]{Instantly}Сюди![TIME=45][STRT=96,1]{Instantly}Не відставай![TIME=45][STRT=94,1]{Instantly}На дзвіницю![TIME=45][STRT=111,3]{UpperRightForce}Том
 “Моє кошеня, Рукавичка,
  втекло{Speed 2}...”{Speed -1}[ENDN][STRT=174,4]{UpperRightForce}{PreChoose 2,1}{Instantly}Том
 “Скажи мені якщо побачиш його, добре?”
@@ -744,7 +744,7 @@ Party Set or Party Macro.
  на цю вежу!”[ENDN][STRT=123,3]Малюк щур
 “Це дуже небезпечно.
  Ти йди першим.”[ENDN][STRT=98,2]Малюк щур
-“Ворушися, раб!”[ENDN][STRT=52,1]{UpperLeftForce}{Instantly}Ку-Купо![ENDN][STRT=28,1]{LowerRightForce}{Instantly}Ой-ой!{Time 10}[ENDN][STRT=153,3]{UpperLeftForce}Малюк щур
+“Ворушися, раб!”[ENDN][STRT=52,1]{UpperLeftForce}{Instantly}Ку-Купо![ENDN][STRT=28,1]{LowerRightForce}{Instantly}Ой-ой![TIME=10][STRT=153,3]{UpperLeftForce}Малюк щур
 “Ахахаха!
  Що це в біса було!?”[ENDN][STRT=133,1]{UpperRightForce}Вибач за це, купо![ENDN][STRT=92,3]{UpperLeftForce}Малюк щур
 “Це Купо.
@@ -833,7 +833,7 @@ Party Set or Party Macro.
 “У мене є інша робота.
  Залиш це на потім, дитино!”[ENDN][STRT=158,3]{UpperLeft}{Offset -150,-400,0}Данте, Виробник вивісок
 “Не бачиш, що я працюю!?
- Не заважай!”[ENDN][STRT=45,1]{UpperLeft}{Offset -150,-400,0}Чорт забирай!{Time 30}[ENDN][STRT=141,3]Данте, Виробник вивісок
+ Не заважай!”[ENDN][STRT=45,1]{UpperLeft}{Offset -150,-400,0}Чорт забирай![TIME=30][STRT=141,3]Данте, Виробник вивісок
 “Гей! Я через тебе промахнувся,
  ти, малий недотепа!”[ENDN][STRT=149,2]{UpperLeft}{Offset -150,-400,0}Данте, Виробник вивісок
 “Фух. Ось і все.”[ENDN][STRT=159,2]{UpperLeft}Данте, Виробник вивісок

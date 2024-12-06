@@ -4,7 +4,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -59,7 +59,7 @@ Party Set or Party Macro.
 “Селище призивачів{Speed 2}...{Speed -1}?”[ENDN][STRT=130,3]{Zidane}
 “Ти живеш тут?
 {White}(Це ж купа руїн).”[ENDN][STRT=6,1]{Widths 0,6,18,-1}{Dagger}?[ENDN][STRT=132,2]Що тут сталося{Speed 2}...{Speed -1}?
-Це місце в руїнах.[ENDN][STRT=32,1]{NoFocus}Купо!{Time 45}[ENDN][STRT=153,2]{Eiko}
+Це місце в руїнах.[ENDN][STRT=32,1]{NoFocus}Купо![TIME=45][STRT=153,2]{Eiko}
 “Мока!  Моко!  Чімомо!”[ENDN][STRT=135,2]{Eiko}
 “Моматос!  Морісон!”[ENDN][STRT=90,2]{Eiko}
 “Де Мог?”[ENDN][STRT=103,3]{Eiko}
@@ -143,7 +143,7 @@ Party Set or Party Macro.
 “{Vivi}, ти вже розібрався
  зі своєю проблемою?”[ENDN][STRT=60,1]Не зовсім.[ENDN][STRT=112,2]{Vivi}
 “Але я рухаюся далі.”[ENDN][STRT=33,1]Добре![ENDN][STRT=144,2]{UpperRightForce}{Eiko}
-“До роботи, хлопці!”[ENDN][STRT=104,1]{NoFocus}Купо!  Так, мем.{Time 30}[ENDN][STRT=171,2]{Eiko}
+“До роботи, хлопці!”[ENDN][STRT=104,1]{NoFocus}Купо!  Так, мем.[TIME=30][STRT=171,2]{Eiko}
 “Мог, ти залишаєшся тут, зі мною.”[ENDN][STRT=32,1]Купо![ENDN][STRT=61,3]{Widths 0,0,22,-1}{Eiko}
 “Гаразд,
  вперед!”[ENDN][STRT=32,1]Купо![ENDN][STRT=115,3]{Zidane}
@@ -165,7 +165,7 @@ Party Set or Party Macro.
 “Яку їжу ти любиш?
  Які ейдолони тобі подобаються?
  Які тобі подобаються мугли?
- Який тип дівчат тобі подобається?”{Signal 1}{Time -1}[ENDN][STRT=132,3]{Eiko}
+ Який тип дівчат тобі подобається?”{Signal 1}[TIME=-1][STRT=132,3]{Eiko}
 “Я ніколи не зустрічала нікого
  схожого на тебе{Speed 2}...{Speed -1}”[ENDN][STRT=6,1]{Widths 0,6,18,-1}{Dagger}?[ENDN][STRT=102,3]{Zidane}
 “Що з тобою?
@@ -173,7 +173,7 @@ Party Set or Party Macro.
 “О, 
  Нічого особливого.”[ENDN][STRT=76,3]{Zidane}
 “У тебе підвищена
- температура?”[ENDN][STRT=30,1]{Offset 0,96,0}{LowerLeftForce}{NoFocus}Аааа!{Time 20}[ENDN][STRT=135,3]{Zidane}
+ температура?”[ENDN][STRT=30,1]{Offset 0,96,0}{LowerLeftForce}{NoFocus}Аааа![TIME=20][STRT=135,3]{Zidane}
 “З тобою все гаразд.{Wait 10}
  Гей, ти ревнуєш?”[ENDN][STRT=146,2]{Offset 0,90,0}{LowerLeftForce}{Dagger}
 “З чого б мені ревнувати?”[ENDN][STRT=120,3]{UpperRightForce}{Widths 0,79,18,-1}{Eiko}
@@ -303,7 +303,7 @@ Party Set or Party Macro.
 “Гей, не сприймай це так близько до серця.
  Він/вона - особливий випадок.”[ENDN][STRT=123,3]Моко
 “Заборонена{Speed 2}...{Speed -1} зона,
- купо.”[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 12}[ENDN][STRT=169,2]Морісон
+ купо.”[ENDN][STRT=5,1]{NoFocus}{Center 5}![TIME=12][STRT=169,2]Морісон
 “Цього мугла звуть Моко.”[ENDN][STRT=183,3]Морісон
 “Моко дуже пишається своєю
  роллю охоронця Стіни Ейдолона.”[ENDN][STRT=138,4]{Widths 0,83,22,-1}Морісон
@@ -465,7 +465,7 @@ Party Set or Party Macro.
 “{Speed 2}...{Speed -1}Ця велика!”[ENDN][STRT=121,3]{Eiko}
 “Давай разом на рахунок
  3, гаразд?”[ENDN][STRT=66,2]{Widths 0,0,22,-1}{Flash}{Eiko}
-“1!  {Wait 10}2!  {Wait 10}3!”{Time 10}[ENDN][STRT=78,1]ААААААА!!![ENDN][STRT=119,2]{LowerRightForce}{Quina}
+“1!  {Wait 10}2!  {Wait 10}3!”[TIME=10][STRT=78,1]ААААААА!!![ENDN][STRT=119,2]{LowerRightForce}{Quina}
 “Ти використовуєш хорошу наживку.”[ENDN][STRT=141,2]{LowerRightForce}{Quina}
 “Твоя наживка не така вже й хороша.”[ENDN][STRT=113,4]{Eiko}
 “Блідий{Speed 2}...{Speed -1}
@@ -613,7 +613,7 @@ Party Set or Party Macro.
  помер мій дідусь, я живу
  з муглами.”[ENDN][STRT=62,1]{Offset -64,64,0}Вибач{Speed 2}...{Speed -1}[ENDN][STRT=153,3]{Eiko}
 “О, не хвилюйся за мене.
- Мені тут дуже добре.”[ENDN][STRT=32,1]{NoFocus}Купо!{Time 30}[ENDN][STRT=168,3]{Eiko}
+ Мені тут дуже добре.”[ENDN][STRT=32,1]{NoFocus}Купо![TIME=30][STRT=168,3]{Eiko}
 “Десять років тому, тобто за чотири
  роки до мого народження{Speed 2}...{Speed -1}”[ENDN][STRT=197,4]{Eiko}
 “На селище обрушилося стихійне
@@ -651,13 +651,13 @@ Party Set or Party Macro.
  вам так не здається?”[ENDN][STRT=25,1]{Offset 64,64,0}Га?[ENDN][STRT=216,4]{Eiko}
 “Знаєш, чому я тут, у цьому селищі?
  Щоб зустрітися з тобою, {Zidane}е,
- моя прекрасна падаюча зірка{Speed 2}...{Speed -1}”[ENDN][STRT=91,1]{NoFocus}Ого!!! Аааа!!!{Time 30}[ENDN][STRT=118,3]{UpperLeftForce}{Eiko}
+ моя прекрасна падаюча зірка{Speed 2}...{Speed -1}”[ENDN][STRT=91,1]{NoFocus}Ого!!! Аааа!!![TIME=30][STRT=118,3]{UpperLeftForce}{Eiko}
 “Що таке?
  Не перебивай мене!”[ENDN][STRT=151,3]{Vivi}
 “Тут є щось
  з вусами{Speed 2}...{Speed -1}”[ENDN][STRT=66,1]{Offset 64,64,0}{Speed 2}...{Speed -1}{Wait 20}Оглоп?[ENDN][STRT=171,3]{Eiko}
 “Хіба ти не знаєш, що оглопи - це
- делікатес Конде Піті?”[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}{Time 45}[ENDN][STRT=129,3]{Offset 64,64,0}{Zidane}
+ делікатес Конде Піті?”[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}[TIME=45][STRT=129,3]{Offset 64,64,0}{Zidane}
 “Д-давай їсти рибу.
  Все має бути гаразд.”[ENDN][STRT=204,3]{Offset -64,64,0}{Dagger}
 “Це рядок з п'єси Лорда Ейвона
@@ -758,7 +758,7 @@ Party Set or Party Macro.
 “Моко розповів мені новини.
  З тобою усе гаразд?”[ENDN][STRT=107,3]{UpperLeft}{Offset -64,0,0}Морісон
 “Ну ж бо!
- Пізніше поговоримо, купо!”[ENDN][STRT=32,1]{NoFocus}Купо!{Time -1}[ENDN][STRT=63,2]{UpperLeft}{Widths 0,0,16,-1,0,63,22,-1}{Zidane}
+ Пізніше поговоримо, купо!”[ENDN][STRT=32,1]{NoFocus}Купо![TIME=-1][STRT=63,2]{UpperLeft}{Widths 0,0,16,-1,0,63,22,-1}{Zidane}
 “Г-гей, {Eiko}?”[ENDN][STRT=146,2]{UpperLeft}{Zidane}
 “Нам краще піти за нею!”[ENDN][STRT=157,4]Морісон
 “О{Speed 2}...{Speed -1} це так жахливо{Speed 2}...{Speed -1}
@@ -815,7 +815,7 @@ Party Set or Party Macro.
  хочеш поплакати?”[ENDN][STRT=118,3]{UpperRightForce}{Zidane}
 “О, я стаю дуже приставучим,
  коли мені сумно!”[ENDN][STRT=57,1]{UpperLeftForce}Припини![ENDN][STRT=120,2]{UpperRightForce}{Zidane}
-“Гей, я серйозно.”[ENDN][STRT=23,1]{NoFocus} !!! {Time -1}[ENDN][STRT=23,1] !!! [ENDN][STRT=106,3]{LowerLeftForce}{Offset 0,100,0}{Widths 0,102,22,-1}{Dagger}
+“Гей, я серйозно.”[ENDN][STRT=23,1]{NoFocus} !!! [TIME=-1][STRT=23,1] !!! [ENDN][STRT=106,3]{LowerLeftForce}{Offset 0,100,0}{Widths 0,102,22,-1}{Dagger}
 “Я почула крик.
  Це було схоже на крик {Eiko}!”[ENDN][STRT=145,3]{LowerLeftForce}{Offset -40,100,0}{Zidane}
 “Прокляття!
@@ -932,7 +932,7 @@ Party Set or Party Macro.
 “Зроби це, {Vivi}.”[ENDN][STRT=68,2]{Widths 0,0,17,-1}{Vivi}
 “Г-Гаразд{Speed 2}...{Speed -1}”[ENDN][STRT=66,2]{UpperLeftForce}{Offset -640,0,0}Лані
 “Хахаха{Speed 2}...{Speed -1}”[ENDN][STRT=41,1]{UpperCenter}Почекайте![ENDN][STRT=122,2]{UpperLeftForce}{Offset -640,0,0}Лані
-“Досить байдикувати!{Signal 1}”[ENDN][STRT=36,1]{NoFocus}Aaa!!!{Time 30}[ENDN][STRT=123,3]{Zidane}
+“Досить байдикувати!{Signal 1}”[ENDN][STRT=36,1]{NoFocus}Aaa!!![TIME=30][STRT=123,3]{Zidane}
 “Я не знаю, хто ти,
  але дякую!”[ENDN][STRT=32,1] {Speed 2}......{Speed -1} [ENDN][STRT=48,1]<Позіхання.>[ENDN][STRT=85,2]Агов!
 Можеш встати?[ENDN][STRT=104,3]{Eiko}
@@ -1136,16 +1136,16 @@ Party Set or Party Macro.
  але він реально існуючий шукач пригод.
  Гадаю, п'єса заснована на його пригодах.”[ENDN][STRT=156,2]{Zidane}
 “Це виглядає приблизно так{Speed 2}...{Speed -1}”[ENDN][STRT=172,2]{Instantly}{Center 172}Іпсен і його добрий друг Колін
-{Center 165}працювали у таверні в Трено.{Time -1}[ENDN][STRT=205,3]{Instantly}{Center 157}Одного дня Іпсен отримав листа.
+{Center 165}працювали у таверні в Трено.[TIME=-1][STRT=205,3]{Instantly}{Center 157}Одного дня Іпсен отримав листа.
 {Center 205}Лист був настільки мокрим від дощу,
-{Center 181}що більша частина написаного була нерозбірливою.{Time -1}[ENDN][STRT=298,4]{Instantly}{Center 298}Єдина частина, яку він зміг прочитати, говорила “Повертайся додому”.
+{Center 181}що більша частина написаного була нерозбірливою.[TIME=-1][STRT=298,4]{Instantly}{Center 298}Єдина частина, яку він зміг прочитати, говорила “Повертайся додому”.
 {Center 0}
 {Center 217}Зараз у нас є повітряні кораблі і таке інше,
-{Center 245}але тоді подорожувати було дуже важко.{Time -1}[ENDN][STRT=256,3]{Instantly}{Center 218}Він не знав, чому мав повертатися,
+{Center 245}але тоді подорожувати було дуже важко.[TIME=-1][STRT=256,3]{Instantly}{Center 218}Він не знав, чому мав повертатися,
 {Center 256}але він взяв відпустку, зібрав свої речі,
-{Center 183}і вирушив у подорож додому.{Time -1}[ENDN][STRT=314,3]{Instantly}{Center 268}Він пройшов тисячу ліг крізь Імлу.
+{Center 183}і вирушив у подорож додому.[TIME=-1][STRT=314,3]{Instantly}{Center 268}Він пройшов тисячу ліг крізь Імлу.
 {Center 273}Іноді на нього нападали злісні монстри,
-{Center 314}але він виживав, бо поруч був його друг  Колін.{Time -1}[ENDN][STRT=224,1]{Instantly}А потім, після тривалої подорожі{Speed 2}...{Speed -1}{Time -1}[ENDN][STRT=170,1]{Instantly}Він хотів щось запитати у Коліна.{Time -1}[ENDN][STRT=162,1]{Instantly}“Чому ти пішов зі мною?”{Time -1}[ENDN][STRT=189,2]{Dagger}
+{Center 314}але він виживав, бо поруч був його друг  Колін.[TIME=-1][STRT=224,1]{Instantly}А потім, після тривалої подорожі{Speed 2}...{Speed -1}[TIME=-1][STRT=170,1]{Instantly}Він хотів щось запитати у Коліна.[TIME=-1][STRT=162,1]{Instantly}“Чому ти пішов зі мною?”[TIME=-1][STRT=189,2]{Dagger}
 “І що?  Що відповів Колін?”[ENDN][STRT=235,2]{Zidane}
 “‘Тільки тому, що я хотів піти з тобою.’”[ENDN][STRT=26,2]{Widths 0,0,18,-1,0,26,16,-1}{Dagger}
 “{Zidane}е{Speed 2}...{Speed -1}”[ENDN][STRT=29,2]{Widths 0,0,18,-1}{Dagger}
@@ -1270,7 +1270,7 @@ Party Set or Party Macro.
  що я залишив тебе в живих?”[ENDN][STRT=158,3]{UpperRightForce}Рудоволосий чоловік
 “Я краще помру воїном.
  ніж жити жебраком.”[ENDN][STRT=120,2]{Zidane}
-“Тоді ходімо зі мною.”[ENDN][STRT=11,1]{Widths 0,11,16,-1}{NoFocus}{Zidane}е!?{Time 30}[ENDN][STRT=37,1]{Offset 0,96,0}{NoFocus}Що!?{Time 30}[ENDN][STRT=128,2]{UpperRightForce}Рудоволосий чоловік
+“Тоді ходімо зі мною.”[ENDN][STRT=11,1]{Widths 0,11,16,-1}{NoFocus}{Zidane}е!?[TIME=30][STRT=37,1]{Offset 0,96,0}{NoFocus}Що!?[TIME=30][STRT=128,2]{UpperRightForce}Рудоволосий чоловік
 “Чого ти хочеш?”[ENDN][STRT=123,3]{Zidane}
 “Іди за мною і, можливо,
  ти зрозумієш.”[ENDN][STRT=136,3]{Zidane}
@@ -1318,6 +1318,6 @@ Party Set or Party Macro.
 {Tab}{Variable 6}{Variable 7} людей
 {Up}{Mobile 276}{Down}{Mobile 275}: Обрати цифру
 {Left}{Mobile 267}{Right}{Mobile 269}: Обрати розряд
-{Cross+}{Mobile 260}: Підтвердити  {Circle+}{Mobile 261}: Спитати знову{Signal 1}{Time -1}[ENDN][STRT=0,1]{Position 108,58}{NoAnimation}{Widths 0,0,64,6,-1}{Instantly}{Pink}{Variable 6}{Time -1}[ENDN][STRT=0,1]{Position 115,58}{NoAnimation}{Widths 0,0,64,7,-1}{Instantly}{Pink}{Variable 7}{Time -1}[ENDN][STRT=234,3]Чімомо
+{Cross+}{Mobile 260}: Підтвердити  {Circle+}{Mobile 261}: Спитати знову{Signal 1}[TIME=-1][STRT=0,1]{Position 108,58}{NoAnimation}{Widths 0,0,64,6,-1}{Instantly}{Pink}{Variable 6}[TIME=-1][STRT=0,1]{Position 115,58}{NoAnimation}{Widths 0,0,64,7,-1}{Instantly}{Pink}{Variable 7}[TIME=-1][STRT=234,3]Чімомо
 “Ми врятували Лані, бо вона помирала
  на вулиці. Тепер вона з нами, Купо.”[ENDN]

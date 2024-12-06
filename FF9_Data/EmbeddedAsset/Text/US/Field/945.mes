@@ -2,7 +2,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -61,7 +61,7 @@ Party Set or Party Macro.
 {y10}{f6}просто копайте, копайте, копайте, купо!
 {y10}{Center 259}-------------------------------------
 {y10}{f38}{Select}{Mobile 260}{f2}:{f2} Старт  {Cross+}{Mobile 269}{f2}:{f2} Наступна сторінка
-{x255}{f25}{Time -1}[ENDN][STRT=280,11]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}{y6}{Center 95}-{f2}Чоко кричить{f2}-
+{x255}{f25}[TIME=-1][STRT=280,11]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}{y6}{Center 95}-{f2}Чоко кричить{f2}-
 {y10}{f6}‘{f4}Кве{f4}’{f2} означає, що нічого немає.
 {y10}{f6}‘{f4}Кве!?{f4}’{f2} означає, що ви далеко.
 {y10}{f6}‘{f4}Квеее!?{f4}’{f2} означає, що ви вже близько.
@@ -71,7 +71,7 @@ Party Set or Party Macro.
 {y10}{f6}поки {Cyan}глибина{White}{f2} не досягне 0.
 {y10}{Center 259}-------------------------------------
 {y10}{f38}{Select}{Mobile 260}{f2}:{f2} Старт {Cross+}{Mobile 269}{f2}:{f2} Попередня сторінка
-{x255}{f25}{Time -1}[ENDN][STRT=248,4]Товстий чокобо
+{x255}{f25}[TIME=-1][STRT=248,4]Товстий чокобо
 “Тепер, коли Мерехтливий острів зник,
  чому б тобі не піти і не оглянутись навколо.
  щоб завершити всі незавершені справи?”[ENDN][STRT=147,4]{PreChoose 2,1}{Instantly}Товстий чокобо
@@ -237,7 +237,7 @@ Party Set or Party Macro.
 “Купо{Speed 2}...{Speed -1} Я розумію.”[ENDN][STRT=140,2]{UpperLeftForce}{Offset 0,-333,0}Мене
 “Я йду додому, Купо{Speed 2}...{Speed -1}”[ENDN][STRT=119,2]{UpperLeftForce}{Offset 0,-333,0}Мене
 “Бережи себе, Чоко.”[ENDN][STRT=32,1]Кве.[ENDN][STRT=103,2]{UpperLeftForce}{Offset 0,-333,0}Мене
-“До побачення, купо!”[ENDN][STRT=39,1]{Offset 0,-333,0}Купо{Speed 2}...{Speed -1}{Time 90}[ENDN][STRT=124,2]{Zidane}
+“До побачення, купо!”[ENDN][STRT=39,1]{Offset 0,-333,0}Купо{Speed 2}...{Speed -1}[TIME=90][STRT=124,2]{Zidane}
 “Як я потраплю додому?”[ENDN][STRT=132,3]{Widths 0,132,16,-1}Мене
 “Хіба ми не летимо{Speed 2}...{Speed -1}?
  {Wait 25}Зачекай! Ти не можеш літати, {Zidane}е!”[ENDN][STRT=151,3]{Zidane}
@@ -246,15 +246,15 @@ Party Set or Party Macro.
 “Гммм.
  Я ніколи не очікував, що
  зіткнуся з такою проблемою, купо!”[ENDN][STRT=81,2]{Offset 0,-333,0}Мене
-“Гаразд, купо.”{Time 60}[ENDN][STRT=194,2]{Offset 0,-333,0}Мене
-“Спробуй зачепитися за мої ноги, купо.”[ENDN][STRT=99,1]{Offset 0,-313,0}КУПОКУПОКУПО!!!{Time 60}[ENDN][STRT=25,1]{LowerLeft}Га?{Time 45}[ENDN][STRT=57,1]{Offset 0,-313,0}К-КУПО!!!{Time 60}[ENDN][STRT=33,1]{LowerLeft}Ого!{Time 45}[ENDN][STRT=57,1]{Offset 0,-313,0}КУПОПО!!!{Time 60}[ENDN][STRT=26,1]{LowerLeft}Гей!{Time 45}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}{Time -1}[ENDN][STRT=107,2]{Zidane}
-“Це погано.”[ENDN][STRT=47,1]Квеее!{Time 45}[ENDN][STRT=84,3]{Zidane}
+“Гаразд, купо.”[TIME=60][STRT=194,2]{Offset 0,-333,0}Мене
+“Спробуй зачепитися за мої ноги, купо.”[ENDN][STRT=99,1]{Offset 0,-313,0}КУПОКУПОКУПО!!![TIME=60][STRT=25,1]{LowerLeft}Га?[TIME=45][STRT=57,1]{Offset 0,-313,0}К-КУПО!!![TIME=60][STRT=33,1]{LowerLeft}Ого![TIME=45][STRT=57,1]{Offset 0,-313,0}КУПОПО!!![TIME=60][STRT=26,1]{LowerLeft}Гей![TIME=45][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=24,1]{NoFocus}{Speed 2}......{Speed -1}[TIME=-1][STRT=107,2]{Zidane}
+“Це погано.”[ENDN][STRT=47,1]Квеее![TIME=45][STRT=84,3]{Zidane}
 “Гей{Speed 2}...{Speed -1}
  Слухай, Мене.”[ENDN][STRT=123,3]{Zidane}
 “Ти це чув{Speed 2}...{Speed -1}?
- Це Чоко.”[ENDN][STRT=47,1]Квеее!{Time 55}[ENDN][STRT=206,3]Мене
+ Це Чоко.”[ENDN][STRT=47,1]Квеее![TIME=55][STRT=206,3]Мене
 “Це Рай Чокобо, купо.
- Це, мабуть, якийсь інший чокобо.”[ENDN][STRT=57,1]K-Кве!!!{Time 90}[ENDN][STRT=39,1]Чоко![ENDN][STRT=39,1]{NoFocus}Чоко!{Time -1}[ENDN][STRT=33,1]Кве![ENDN][STRT=193,2]Мене
+ Це, мабуть, якийсь інший чокобо.”[ENDN][STRT=57,1]K-Кве!!![TIME=90][STRT=39,1]Чоко![ENDN][STRT=39,1]{NoFocus}Чоко![TIME=-1][STRT=33,1]Кве![ENDN][STRT=193,2]Мене
 “Купо! Я знав, що ти повернешся!”[ENDN][STRT=177,2]Мене
 “Бачиш? Я потрібен Чоко, купо.”[ENDN][STRT=152,3]{Zidane}
 “Це тобі потрібен
@@ -262,7 +262,7 @@ Party Set or Party Macro.
 “Давай повернемося до лісу, купо!”[ENDN][STRT=32,1]Кве.[ENDN][STRT=195,2]{Zidane}
 “Ти у цьому впевнений, Чоко?”[ENDN][STRT=68,1]Кве, кве.[ENDN][STRT=101,3]{Zidane}
 “Ну, Я нарешті можу
- піти додому.”[ENDN][STRT=0,1][ENDN][STRT=33,1]Кве![ENDN][STRT=32,1]{NoFocus}Купо!{Time -1}[ENDN][STRT=95,3]Товстий чокобо
+ піти додому.”[ENDN][STRT=0,1][ENDN][STRT=33,1]Кве![ENDN][STRT=32,1]{NoFocus}Купо![TIME=-1][STRT=95,3]Товстий чокобо
 “Візьми їх.
  Вони твої.”[ENDN][STRT=162,3]Товстий чокобо
 “Я ніколи не думав, що він відмовиться
@@ -492,7 +492,7 @@ Party Set or Party Macro.
 {Tab}Руда{x132} 250
 {Tab}Перо фенікса{x132}  150
 {Tab}Гісальська зелень{x136}   10
-{Tab}Скасувати{Time -1}[ENDN][STRT=171,3]{Widths 0,147,64,0,-1}Мене
+{Tab}Скасувати[TIME=-1][STRT=171,3]{Widths 0,147,64,0,-1}Мене
 “Давай поміняємося на Гіл, купо.
  Я дам тобі один за {Yellow}{Variable 0} Гіл{White}.”[ENDN][STRT=142,3]{Zidane}
 “Ой{Speed 2}...{Speed -1}
@@ -502,7 +502,7 @@ Party Set or Party Macro.
  {Variable 6}{Variable 7}
 {Up}{Mobile 276}{Down}{Mobile 275}: Обрати цифру
 {Left}{Mobile 267}{Right}{Mobile 269}: Обрати розряд
-{Cross+}{Mobile 260}: Підтвердити {Circle+}{Mobile 261}: Скасувати{Signal 1}{Time -1}[ENDN][STRT=0,1]{Position 96,44}{NoAnimation}{Widths 0,0,64,6,-1}{Instantly}{Pink}{Variable 6}{Time -1}[ENDN][STRT=0,1]{Position 103,44}{NoAnimation}{Widths 0,0,64,7,-1}{Instantly}{Pink}{Variable 7}{Time -1}[ENDN][STRT=67,1]{Position 114,44}{NoAnimation}{Widths 0,67,64,3,-1}{NoFocus}{Instantly}({Variable 3} Гіл)          {Time -1}[ENDN][STRT=85,1]{Position 84,109}{Widths 0,85,64,4,-1}{NoFocus}{Instantly}Поточні кошти: {Variable 4}{Time -1}[ENDN][STRT=252,4]{Widths 0,145,14,0,-1}Мене
+{Cross+}{Mobile 260}: Підтвердити {Circle+}{Mobile 261}: Скасувати{Signal 1}[TIME=-1][STRT=0,1]{Position 96,44}{NoAnimation}{Widths 0,0,64,6,-1}{Instantly}{Pink}{Variable 6}[TIME=-1][STRT=0,1]{Position 103,44}{NoAnimation}{Widths 0,0,64,7,-1}{Instantly}{Pink}{Variable 7}[TIME=-1][STRT=67,1]{Position 114,44}{NoAnimation}{Widths 0,67,64,3,-1}{NoFocus}{Instantly}({Variable 3} Гіл)          [TIME=-1][STRT=85,1]{Position 84,109}{Widths 0,85,64,4,-1}{NoFocus}{Instantly}Поточні кошти: {Variable 4}[TIME=-1][STRT=252,4]{Widths 0,145,14,0,-1}Мене
 “Тобі потрібен Чоко, купо.
  Вийди на зовні і використай {Item 0},
  стоячи на слідах чокобо, щоб покликати його.”[ENDN][STRT=155,3]Мене
@@ -541,12 +541,12 @@ Party Set or Party Macro.
 “Це послуга, яку я пропоную, купо!”[ENDN][STRT=207,4]Мене
 “Я дам тобі очко за кожну річ.
  що ти знайдеш. Обміняй очки на
- предмети коли накопичиш достатньо!”[ENDN][STRT=41,1]{NoAnimation}{Position 5,30}{Widths 0,50,64,7,-1}{NoFocus}{Instantly}{Green}Знайдено: {Variable 7}{Time -1}[ENDN][STRT=56,1]{NoAnimation}{Position 4,54}{NoFocus}{Instantly}Глибина:     {Time -1}[ENDN][STRT=0,1]{NoAnimation}{Position 41,54}{Widths 0,0,64,6,-1}{NoFocus}{Instantly}{Variable 6}{Time -1}[ENDN][STRT=55,1]{Center 0}Час вийшов[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.{Time 15}[ENDN][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?{Time 15}[ENDN][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?{Time 15}[ENDN][STRT=72,1]{UpperLeftForce}{NoAnimation}{Instantly}К-КВЕЕЕЕ!!!{Time 30}[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.{Time 10}[ENDN][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?{Time 10}[ENDN][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?{Time 10}[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.{Time 7}[ENDN][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?{Time 7}[ENDN][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?{Time 7}[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.{Time 4}[ENDN][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?{Time 4}[ENDN][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?{Time 4}[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.{Time 3}[ENDN][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?{Time 3}[ENDN][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?{Time 3}[ENDN][STRT=42,1]{NoAnimation}{Widths 0,42,14,0,-1}{Instantly}Знайдено {Item 0}!{Time -1}[ENDN][STRT=59,1]{NoAnimation}{Widths 0,59,64,0,-1}{Instantly}Знайдено {Yellow}{Variable 0} Гіл{White}!{Time -1}[ENDN][STRT=153,1]{NoAnimation}{Instantly}Знайдено {Yellow}Камінь з візерунками{White}!{Time -1}[ENDN][STRT=109,1]{NoAnimation}{Instantly}Знайдено {Yellow}Чокограф{White}!{Time -1}[ENDN][STRT=144,1]{NoAnimation}{Instantly}Знайдено {Yellow}Частину Чокографа{White}!{Time -1}[ENDN][STRT=171,2]{NoAnimation}{Widths 0,41,14,0,-1}{Instantly}Знайдено {Item 0} 
-але ви не можете мати більше.{Time -1}[ENDN][STRT=171,2]{NoAnimation}{Instantly}Знайдено {Yellow}Карту{White}
-але ви не можете мати більше.{Time -1}[ENDN][STRT=135,1]{Widths 0,135,64,4,-1}{Green}Ти отримуєш {Green}{Variable 4} очок{White}, купо!{Time -1}[ENDN][STRT=194,2]{Widths 0,194,64,4,-1}Ти в межах {Variable 5} секунд!
-Ти отримуєш {Green}{Variable 4} додаткових очок{White}, купо!{Time -1}[ENDN][STRT=184,2]{Widths 0,184,64,4,-1}Спеціальний бонус!
-Ти отримуєш {Green}{Variable 4} додаткових очок{White}, купо!{Time -1}[ENDN][STRT=176,2]{Widths 0,176,64,3,-1,0,159,64,4,-1}Бонус від {Variable 3} знахідок!
-Ти отримуєш {Green}{Variable 4} додаткових очок{White}!{Time -1}[ENDN][STRT=142,2]Мене
+ предмети коли накопичиш достатньо!”[ENDN][STRT=41,1]{NoAnimation}{Position 5,30}{Widths 0,50,64,7,-1}{NoFocus}{Instantly}{Green}Знайдено: {Variable 7}[TIME=-1][STRT=56,1]{NoAnimation}{Position 4,54}{NoFocus}{Instantly}Глибина:     [TIME=-1][STRT=0,1]{NoAnimation}{Position 41,54}{Widths 0,0,64,6,-1}{NoFocus}{Instantly}{Variable 6}[TIME=-1][STRT=55,1]{Center 0}Час вийшов[ENDN][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.[TIME=15][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?[TIME=15][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?[TIME=15][STRT=72,1]{UpperLeftForce}{NoAnimation}{Instantly}К-КВЕЕЕЕ!!![TIME=30][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.[TIME=10][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?[TIME=10][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?[TIME=10][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.[TIME=7][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?[TIME=7][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?[TIME=7][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.[TIME=4][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?[TIME=4][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?[TIME=4][STRT=32,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве.[TIME=3][STRT=39,1]{UpperLeftForce}{NoAnimation}{Instantly}Кве!?[TIME=3][STRT=51,1]{UpperLeftForce}{NoAnimation}{Instantly}Квеее!?[TIME=3][STRT=42,1]{NoAnimation}{Widths 0,42,14,0,-1}{Instantly}Знайдено {Item 0}![TIME=-1][STRT=59,1]{NoAnimation}{Widths 0,59,64,0,-1}{Instantly}Знайдено {Yellow}{Variable 0} Гіл{White}![TIME=-1][STRT=153,1]{NoAnimation}{Instantly}Знайдено {Yellow}Камінь з візерунками{White}![TIME=-1][STRT=109,1]{NoAnimation}{Instantly}Знайдено {Yellow}Чокограф{White}![TIME=-1][STRT=144,1]{NoAnimation}{Instantly}Знайдено {Yellow}Частину Чокографа{White}![TIME=-1][STRT=171,2]{NoAnimation}{Widths 0,41,14,0,-1}{Instantly}Знайдено {Item 0} 
+але ви не можете мати більше.[TIME=-1][STRT=171,2]{NoAnimation}{Instantly}Знайдено {Yellow}Карту{White}
+але ви не можете мати більше.[TIME=-1][STRT=135,1]{Widths 0,135,64,4,-1}{Green}Ти отримуєш {Green}{Variable 4} очок{White}, купо![TIME=-1][STRT=194,2]{Widths 0,194,64,4,-1}Ти в межах {Variable 5} секунд!
+Ти отримуєш {Green}{Variable 4} додаткових очок{White}, купо![TIME=-1][STRT=184,2]{Widths 0,184,64,4,-1}Спеціальний бонус!
+Ти отримуєш {Green}{Variable 4} додаткових очок{White}, купо![TIME=-1][STRT=176,2]{Widths 0,176,64,3,-1,0,159,64,4,-1}Бонус від {Variable 3} знахідок!
+Ти отримуєш {Green}{Variable 4} додаткових очок{White}![TIME=-1][STRT=142,2]Мене
 “Купо! Це неймовірно!”[ENDN][STRT=134,3]{Offset 0,-384,0}{Widths 0,120,64,7,-1}Мене
 “Я дам тобі бонусний час
  після {Variable 7} знахідок!”[ENDN][STRT=121,3]{Offset 0,-384,0}Мене
@@ -570,7 +570,7 @@ Party Set or Party Macro.
 {Green}Всього очок: {Variable 2}[ENDN][STRT=85,3]{Widths 0,72,64,7,-1,0,85,64,2,-1,0,61,64,4,-1}{Instantly}Всього знайдено: {Variable 7}
 {Green}Всього очок: {Variable 2}
 {Yellow}РІВ дзьоба +{Variable 4}![ENDN][STRT=181,2]Дзьоб Чоко став міцнішим!
-{Yellow}РІВ дзьоба: {Variable 4}[ENDN][STRT=0,1]{NoAnimation}{Widths 0,0,64,5,-1}{NoFocus}{Instantly}{Center 0}{Variable 5}{Time 15}[ENDN][STRT=195,2]{Zidane}
+{Yellow}РІВ дзьоба: {Variable 4}[ENDN][STRT=0,1]{NoAnimation}{Widths 0,0,64,5,-1}{NoFocus}{Instantly}{Center 0}{Variable 5}[TIME=15][STRT=195,2]{Zidane}
 “Це що {Yellow}Камінь з візерунками{White}?”[ENDN][STRT=112,2]Мене
 “Можна глянути, Купо?”[ENDN][STRT=169,3]Мене
 “{Speed 2}...{Speed -1}На камені є зображення
@@ -771,7 +771,7 @@ Party Set or Party Macro.
 літати безмежним небом![ENDN][STRT=159,2]{Offset 0,-320,0}{UpperLeftForce}Ти можеш злітати і приземлятися
 у будь-якому {Cyan}лісі{White}.[ENDN][STRT=226,2]{Offset 0,-320,0}{UpperLeftForce}Тепер у тебе є всі здібності, необхідні для того,
 щоб дістатися до батьківщини{Speed 2}...{Speed -1}![ENDN][STRT=95,2]{LowerRight}{NoAnimation}{NoFocus}{Instantly}{Pad}{Mobile 262}: Рухати камеру
-{Cross+}{Mobile 261}: Кінець{Time -1}[ENDN][STRT=166,2]Мене
+{Cross+}{Mobile 261}: Кінець[TIME=-1][STRT=166,2]Мене
 “То це і є рай, купо{Speed 2}...{Speed -1}”[ENDN][STRT=192,2]{Zidane}
 “Мене!? Коли ти сюди прийшов?”[ENDN][STRT=213,3]Мене
 “Купо! Я пішов за тобою, бо думав,

@@ -2,7 +2,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -55,142 +55,142 @@ Party Set or Party Macro.
 
 створені з неправильної причини...{Wait 60}
 
-{Wait 10}що наше життя має сенс.{IncreaseSignal}[ENDN][STRT=98,1]{NoFocus}{Speed 4}{Center 98}Деякий час потому{Speed 2}...{Speed -1}{IncreaseSignal}[ENDN][STRT=131,1]{LowerCenter}{Instantly}Отже, це Олександрія...{Time 70}[ENDN][STRT=149,1]{LowerCenter}{Instantly}Поквапся, гаразд?{Time 70}[ENDN][STRT=26,1]{LowerCenter}{Instantly}Гей!{Time 60}[ENDN][STRT=111,1]{LowerCenter}{Widths 0,111,17,-1}{Instantly}Я не можу у це повірити!  {Vivi}!{Time 60}[ENDN][STRT=6,1]{LowerCenter}{Widths 0,6,17,-1}{Instantly}{Vivi}?{Time 50}[ENDN][STRT=165,1]{LowerCenter}{Instantly}Звідки ти знаєш це ім'я!?{Time 60}[ENDN][STRT=158,1]{LowerCenter}{Instantly}Що ти маєш на увазі?{Time 50}[ENDN][STRT=234,1]{LowerCenter}{Instantly}Це я, Пак! Як ти міг мене забути!?{Time 70}[ENDN][STRT=45,1]{LowerCenter}{Instantly}Пак...?{Time 50}[ENDN][STRT=92,1]{LowerCenter}{Instantly}Ну, знаєш, Пак!{Time 70}[ENDN][STRT=161,1]{LowerCenter}{Instantly}П-принц Бурмеції!?{Time 70}[ENDN][STRT=209,1]{LowerCenter}{Instantly}Ой, та ну! Що з тобою не так?{Time 70}[ENDN][STRT=191,1]{LowerCenter}{Widths 0,191,17,-1}{Instantly}Якщо ти не {Vivi}, тоді хто ти?{Time 80}[ENDN][STRT=26,1]{LowerCenter}{Instantly}Я...{Time 60}[ENDN][STRT=38,1]{LowerCenter}{Widths 0,38,17,-1}{Instantly}Син {Vivi}!{Time 70}[ENDN][STRT=55,1]{LowerCenter}{Instantly}{Instantly}Еееее!{Time 50}[ENDN][STRT=97,1]{LowerCenter}{Widths 0,97,17,-1}{Instantly}{Instantly}Подивіться на всіх цих {Vivi}!{Time 50}[ENDN][STRT=265,5]{NoFocus}{Speed 4}{Center 157,16}Я завжди розповідав про тебе, {Zidane}е.
+{Wait 10}що наше життя має сенс.{IncreaseSignal}[ENDN][STRT=98,1]{NoFocus}{Speed 4}{Center 98}Деякий час потому{Speed 2}...{Speed -1}{IncreaseSignal}[ENDN][STRT=131,1]{LowerCenter}{Instantly}Отже, це Олександрія...[TIME=70][STRT=149,1]{LowerCenter}{Instantly}Поквапся, гаразд?[TIME=70][STRT=26,1]{LowerCenter}{Instantly}Гей![TIME=60][STRT=111,1]{LowerCenter}{Widths 0,111,17,-1}{Instantly}Я не можу у це повірити!  {Vivi}![TIME=60][STRT=6,1]{LowerCenter}{Widths 0,6,17,-1}{Instantly}{Vivi}?[TIME=50][STRT=165,1]{LowerCenter}{Instantly}Звідки ти знаєш це ім'я!?[TIME=60][STRT=158,1]{LowerCenter}{Instantly}Що ти маєш на увазі?[TIME=50][STRT=234,1]{LowerCenter}{Instantly}Це я, Пак! Як ти міг мене забути!?[TIME=70][STRT=45,1]{LowerCenter}{Instantly}Пак...?[TIME=50][STRT=92,1]{LowerCenter}{Instantly}Ну, знаєш, Пак![TIME=70][STRT=161,1]{LowerCenter}{Instantly}П-принц Бурмеції!?[TIME=70][STRT=209,1]{LowerCenter}{Instantly}Ой, та ну! Що з тобою не так?[TIME=70][STRT=191,1]{LowerCenter}{Widths 0,191,17,-1}{Instantly}Якщо ти не {Vivi}, тоді хто ти?[TIME=80][STRT=26,1]{LowerCenter}{Instantly}Я...[TIME=60][STRT=38,1]{LowerCenter}{Widths 0,38,17,-1}{Instantly}Син {Vivi}![TIME=70][STRT=55,1]{LowerCenter}{Instantly}{Instantly}Еееее![TIME=50][STRT=97,1]{LowerCenter}{Widths 0,97,17,-1}{Instantly}{Instantly}Подивіться на всіх цих {Vivi}![TIME=50][STRT=265,5]{NoFocus}{Speed 4}{Center 157,16}Я завжди розповідав про тебе, {Zidane}е.
 {Wait 20}
 {Center 243}Як ти був для нас особливою людиною,
 {Wait 40}
-{Center 265}бо ти навчив нас усіх, наскільки важливим є життя.{IncreaseSignal}[ENDN][STRT=199,1]{LowerCenter}{Widths 0,199,20,-1}{Instantly}{Fraya}, ти скоро їдеш, чи не так?{Time 100}[ENDN][STRT=228,1]{LowerCenter}{Instantly}Так. Я не можу дочекатися, коли побачу усіх.{Time 120}[ENDN][STRT=241,1]{LowerCenter}{Instantly}Олександрія... Я був там багато років тому.{Time 100}[ENDN][STRT=243,1]{LowerCenter}{Instantly}Скільки часу знадобиться для відновлення Бурмеції...?{Time 120}[ENDN][STRT=211,1]{LowerCenter}{Instantly}Мені байдуже, поки я з тобою.{Time 100}[ENDN][STRT=79,1]{LowerCenter}{Widths 0,79,20,-1}{Instantly}...Я кохаю тебе, {Fraya}.{Time 60}[ENDN][STRT=242,1]{LowerCenter}{Instantly}(...Але він досі не пам'ятає нашого минулого.){Time 150}[ENDN][STRT=229,1]{LowerCenter}{Instantly}Я просто хочу цінувати наш час зараз.{Time 150}[ENDN][STRT=219,5]{NoFocus}{Speed 4}{Center 127}Ти навчив мене, що життя
+{Center 265}бо ти навчив нас усіх, наскільки важливим є життя.{IncreaseSignal}[ENDN][STRT=199,1]{LowerCenter}{Widths 0,199,20,-1}{Instantly}{Fraya}, ти скоро їдеш, чи не так?[TIME=100][STRT=228,1]{LowerCenter}{Instantly}Так. Я не можу дочекатися, коли побачу усіх.[TIME=120][STRT=241,1]{LowerCenter}{Instantly}Олександрія... Я був там багато років тому.[TIME=100][STRT=243,1]{LowerCenter}{Instantly}Скільки часу знадобиться для відновлення Бурмеції...?[TIME=120][STRT=211,1]{LowerCenter}{Instantly}Мені байдуже, поки я з тобою.[TIME=100][STRT=79,1]{LowerCenter}{Widths 0,79,20,-1}{Instantly}...Я кохаю тебе, {Fraya}.[TIME=60][STRT=242,1]{LowerCenter}{Instantly}(...Але він досі не пам'ятає нашого минулого.)[TIME=150][STRT=229,1]{LowerCenter}{Instantly}Я просто хочу цінувати наш час зараз.[TIME=150][STRT=219,5]{NoFocus}{Speed 4}{Center 127}Ти навчив мене, що життя
 {Center 120}не триває вічно.
 {Wait 40}
 {Center 219}Ось чому ми повинні допомагати один одному{Wait 20}
-{Center 147}і{Wait 20} жити повним життям.{IncreaseSignal}[ENDN][STRT=220,1]{LowerCenter}{Instantly}Настав час попрощатися з цією кімнатою...{Time 90}[ENDN][STRT=246,1]{LowerCenter}{Instantly}Бережи Королеву, ти добре мені служив...{Time 120}[ENDN][STRT=138,1]{LowerCenter}{Instantly}На цьому моя служба закінчена.{Time 110}[ENDN][STRT=128,1]{LowerCenter}{Instantly}Прощавай, Олександрія...{Time 90}[ENDN][STRT=204,5]{NoFocus}{Speed 4}{Center 144}Навіть якщо ти прощаєшся,
+{Center 147}і{Wait 20} жити повним життям.{IncreaseSignal}[ENDN][STRT=220,1]{LowerCenter}{Instantly}Настав час попрощатися з цією кімнатою...[TIME=90][STRT=246,1]{LowerCenter}{Instantly}Бережи Королеву, ти добре мені служив...[TIME=120][STRT=138,1]{LowerCenter}{Instantly}На цьому моя служба закінчена.[TIME=110][STRT=128,1]{LowerCenter}{Instantly}Прощавай, Олександрія...[TIME=90][STRT=204,5]{NoFocus}{Speed 4}{Center 144}Навіть якщо ти прощаєшся,
 {Wait 30}
 {Center 171}ти завжди залишишся у наших серцях.
 {Wait 40}
-{Center 204}Тож я знаю, що ми більше не самотні.{IncreaseSignal}[ENDN][STRT=37,1]{LowerCenter}{Instantly}...Гей.{Time 60}[ENDN][STRT=189,1]{LowerCenter}{Instantly}Навіщо ти йдеш до Олександрії?{Time 100}[ENDN][STRT=99,1]{LowerCenter}{Instantly}Ти не йдеш?{Time 90}[ENDN][STRT=109,1]{LowerCenter}{Instantly}Я-я ніколи такого не казав!{Time 50}[ENDN][STRT=71,1]{LowerCenter}{Instantly}Г-Гей, зажди!{Time 60}[ENDN][STRT=193,5]{NoFocus}{Speed 4}{Center 95}Навіщо я народився...
+{Center 204}Тож я знаю, що ми більше не самотні.{IncreaseSignal}[ENDN][STRT=37,1]{LowerCenter}{Instantly}...Гей.[TIME=60][STRT=189,1]{LowerCenter}{Instantly}Навіщо ти йдеш до Олександрії?[TIME=100][STRT=99,1]{LowerCenter}{Instantly}Ти не йдеш?[TIME=90][STRT=109,1]{LowerCenter}{Instantly}Я-я ніколи такого не казав![TIME=50][STRT=71,1]{LowerCenter}{Instantly}Г-Гей, зажди![TIME=60][STRT=193,5]{NoFocus}{Speed 4}{Center 95}Навіщо я народився...
 {Wait 20}
 {Center 125}Як мені хотілося жити...
 {Wait 40}
-{Center 193}Дякую, що дав мені час подумати.{IncreaseSignal}[ENDN][STRT=165,1]{LowerCenter}{Instantly}Хороша їжа не лише смачна!{Time 100}[ENDN][STRT=156,1]{LowerCenter}{Instantly}Хороша їжа, зроблена з душею!{Time 100}[ENDN][STRT=260,1]{LowerCenter}{Instantly}Це дуже важливо, коли готуєш для друзів!{Time 100}[ENDN][STRT=250,5]{NoFocus}{Speed 2}{Center 250}Щоб продовжувати робити те, до чого ти прагнеш...
+{Center 193}Дякую, що дав мені час подумати.{IncreaseSignal}[ENDN][STRT=165,1]{LowerCenter}{Instantly}Хороша їжа не лише смачна![TIME=100][STRT=156,1]{LowerCenter}{Instantly}Хороша їжа, зроблена з душею![TIME=100][STRT=260,1]{LowerCenter}{Instantly}Це дуже важливо, коли готуєш для друзів![TIME=100][STRT=250,5]{NoFocus}{Speed 2}{Center 250}Щоб продовжувати робити те, до чого ти прагнеш...
 {Wait 10}
 {Center 159}Це дуже важко зробити.
 {Wait 40}
-{Center 163}Ми всі були такі мужні...{IncreaseSignal}[ENDN][STRT=82,1]{LowerCenter}{Instantly}Швидше! Швидше!{Time 50}[ENDN][STRT=246,1]{LowerCenter}{Instantly}Ми повинні встигнути до початку вистави!{Time 130}[ENDN][STRT=193,1]{LowerCenter}{Instantly}Ха-ха... Не треба поспішати.{Time 100}[ENDN][STRT=254,1]{LowerCenter}{Instantly}Театральний корабель не зрівняється з моїм новим кораблем.{Time 100}[ENDN][STRT=251,1]{LowerCenter}{Instantly}Мій новий Хільда Гарде найшвидший корабель у світі!{Time 100}[ENDN][STRT=138,1]{LowerCenter}{Instantly}Чи потрібно нагадувати?{Time 60}[ENDN][STRT=267,1]{LowerCenter}{Instantly}Ти казав те ж саме про театральний корабель!{Time 130}[ENDN][STRT=44,1]{LowerCenter}{Instantly}...Кхм!{Time 30}[ENDN][STRT=167,1]{LowerCenter}{Instantly}Це ти так сказав, батьку!{Time 90}[ENDN][STRT=161,1]{LowerCenter}{Widths 0,161,22,-1}{Instantly}{Eiko}... Як ти мене щойно назвала?{Time 80}[ENDN][STRT=190,1]{LowerCenter}{Instantly}Любий, вона назвала тебе ‘Батько’...{Time 120}[ENDN][STRT=140,1]{LowerCenter}{Instantly}Батько! Мамо!  Швидше!{Time 60}[ENDN][STRT=94,1]{LowerCenter}{Widths 0,94,22,-1}{Instantly}С-Скажи це ще раз, {Eiko}!{Time 90}[ENDN][STRT=261,7]{NoFocus}{Speed 4}{Center 171}Що робити, коли я відчуваю себе самотнім...
+{Center 163}Ми всі були такі мужні...{IncreaseSignal}[ENDN][STRT=82,1]{LowerCenter}{Instantly}Швидше! Швидше![TIME=50][STRT=246,1]{LowerCenter}{Instantly}Ми повинні встигнути до початку вистави![TIME=130][STRT=193,1]{LowerCenter}{Instantly}Ха-ха... Не треба поспішати.[TIME=100][STRT=254,1]{LowerCenter}{Instantly}Театральний корабель не зрівняється з моїм новим кораблем.[TIME=100][STRT=251,1]{LowerCenter}{Instantly}Мій новий Хільда Гарде найшвидший корабель у світі![TIME=100][STRT=138,1]{LowerCenter}{Instantly}Чи потрібно нагадувати?[TIME=60][STRT=267,1]{LowerCenter}{Instantly}Ти казав те ж саме про театральний корабель![TIME=130][STRT=44,1]{LowerCenter}{Instantly}...Кхм![TIME=30][STRT=167,1]{LowerCenter}{Instantly}Це ти так сказав, батьку![TIME=90][STRT=161,1]{LowerCenter}{Widths 0,161,22,-1}{Instantly}{Eiko}... Як ти мене щойно назвала?[TIME=80][STRT=190,1]{LowerCenter}{Instantly}Любий, вона назвала тебе ‘Батько’...[TIME=120][STRT=140,1]{LowerCenter}{Instantly}Батько! Мамо!  Швидше![TIME=60][STRT=94,1]{LowerCenter}{Widths 0,94,22,-1}{Instantly}С-Скажи це ще раз, {Eiko}![TIME=90][STRT=261,7]{NoFocus}{Speed 4}{Center 171}Що робити, коли я відчуваю себе самотнім...
 {Wait 20}
 {Center 261}Це єдине, чому ти не міг мене навчити.
 {Wait 50}
 {Center 144}Але відповідь на це питання
 {Wait 20}
-{Center 155}ми повинні з'ясувати для себе самі...{IncreaseSignal}[ENDN][STRT=47,1]{LowerCenter}{Instantly}Беатрікс!{Time 60}[ENDN][STRT=122,1]{LowerCenter}{Instantly}Куди ти йдеш?{Time 60}[ENDN][STRT=235,1]{LowerCenter}{Instantly}Будь ласка, не проси.  Я вже все вирішила.{Time 80}[ENDN][STRT=108,1]{LowerCenter}{Instantly}Зачекай! Послухай мене!{Time 80}[ENDN][STRT=186,1]{LowerCenter}{Instantly}<Туп-туп...Туп-туп...>{Time 60}[ENDN][STRT=35,1]{LowerCenter}{Instantly}Я, ем...{Time 60}[ENDN][STRT=193,1]{LowerCenter}{Instantly}Я-я ніколи не хочу втратити тебе знову!!!{Time 80}[ENDN][STRT=12,1]{LowerCenter}{Widths 0,12,19,-1}{Instantly}{Steiner}...{Time 60}[ENDN][STRT=200,1]{LowerCenter}{Instantly}Захистимо королеву разом!{Time 120}[ENDN][STRT=169,7]{NoFocus}{Speed 4}{Center 169}Я такий щасливий, що познайомився з усіма...{Wait 40}
+{Center 155}ми повинні з'ясувати для себе самі...{IncreaseSignal}[ENDN][STRT=47,1]{LowerCenter}{Instantly}Беатрікс![TIME=60][STRT=122,1]{LowerCenter}{Instantly}Куди ти йдеш?[TIME=60][STRT=235,1]{LowerCenter}{Instantly}Будь ласка, не проси.  Я вже все вирішила.[TIME=80][STRT=108,1]{LowerCenter}{Instantly}Зачекай! Послухай мене![TIME=80][STRT=186,1]{LowerCenter}{Instantly}<Туп-туп...Туп-туп...>[TIME=60][STRT=35,1]{LowerCenter}{Instantly}Я, ем...[TIME=60][STRT=193,1]{LowerCenter}{Instantly}Я-я ніколи не хочу втратити тебе знову!!![TIME=80][STRT=12,1]{LowerCenter}{Widths 0,12,19,-1}{Instantly}{Steiner}...[TIME=60][STRT=200,1]{LowerCenter}{Instantly}Захистимо королеву разом![TIME=120][STRT=169,7]{NoFocus}{Speed 4}{Center 169}Я такий щасливий, що познайомився з усіма...{Wait 40}
 
 {Center 149}Хотілося б, щоб у нас
 {Center 99}було більше пригод.{Wait 60}
 
 {Center 168}Але {Wait 40}Думаю, нам усім колись
-{Center 105}доводиться прощатися.{IncreaseSignal}[ENDN][STRT=246,1]{LowerCenter}{Instantly}Гаразд, негідники! Ми майже на місці!{Time 70}[ENDN][STRT=236,1]{LowerCenter}{Instantly}Давно ми не бачили Олександрію.{Time 70}[ENDN][STRT=229,1]{LowerCenter}{Instantly}Давайте влаштуємо їм шоу, яке вони не забудуть!{Time 70}[ENDN][STRT=47,1]{LowerCenter}{Instantly}Їха!{Time 50}[ENDN][STRT=117,1]{LowerCenter}{Instantly}Щасти вам, народ!{Time 50}[ENDN][STRT=88,5]{NoFocus}{Speed 4}Усі...
+{Center 105}доводиться прощатися.{IncreaseSignal}[ENDN][STRT=246,1]{LowerCenter}{Instantly}Гаразд, негідники! Ми майже на місці![TIME=70][STRT=236,1]{LowerCenter}{Instantly}Давно ми не бачили Олександрію.[TIME=70][STRT=229,1]{LowerCenter}{Instantly}Давайте влаштуємо їм шоу, яке вони не забудуть![TIME=70][STRT=47,1]{LowerCenter}{Instantly}Їха![TIME=50][STRT=117,1]{LowerCenter}{Instantly}Щасти вам, народ![TIME=50][STRT=88,5]{NoFocus}{Speed 4}Усі...
 {Wait 40}
 {Tab}Дякую.
 {Wait 40}
-{Tab}{Tab}Проща{Wait 12}вайте.{Wait 20}{IncreaseSignal}[ENDN][STRT=211,1]{NoFocus}{Speed 4}{Center 211}{Speed 2}Мої спогади стануть{Wait 60} частиною неба...{IncreaseSignal}[ENDN][STRT=220,1]{LowerCenter}{Instantly}Театральний корабель прибуде з хвилини на хвилину.{Time 90}[ENDN][STRT=105,1]{LowerCenter}{Instantly}Це було так давно...{Time 90}[ENDN][STRT=165,1]{LowerCenter}{Instantly}Не можу дочекатися, щоб побачити усіх.{Time 120}[ENDN][STRT=30,1]{LowerCenter}{Instantly}Але...{Time 90}[ENDN][STRT=138,1]{LowerCenter}{Instantly}Це вже ніколи не буде так, як раніше...{Time 140}[ENDN][STRT=166,1]{LowerCenter}{Instantly}Я мушу відпустити минуле...{Time 140}[ENDN][STRT=232,1]{LowerCenter}{Instantly}Я маю рухатися далі, як він мене і вчив.{Time 140}[ENDN][STRT=124,1]{UpperRightForce}{Instantly}Пані та панове!{Time 70}[ENDN][STRT=213,2]{UpperRightForce}{Instantly}Сьогоднішня вистава - це історія.
-яка сталася багато, багато років тому.{Time 120}[ENDN][STRT=188,2]{UpperRightForce}{Instantly}Наша героїня, Принцеса Корнелія, була
-розлучена зі своїм коханим, Маркусом.{Time 120}[ENDN][STRT=226,2]{UpperRightForce}{Instantly}Вона намагається втекти з замку, але
-була схоплена її батьком, Королем Лео.{Time 120}[ENDN][STRT=225,2]{UpperRightForce}{Instantly}Сьогоднішня історія починається, коли Маркус і
-Корнелія вирішують втекти разом{Time 120}[ENDN][STRT=251,2]{UpperRightForce}{Instantly}А тепер, Ваша Королівська Величносте, Королева Гарнет,
-Лорде {Steiner}, Леді Беатрікс...{Time 120}[ENDN][STRT=235,3]{UpperRightForce}{Instantly}...вельможні пані та панове, а також наші глядачі на дахах, 
+{Tab}{Tab}Проща{Wait 12}вайте.{Wait 20}{IncreaseSignal}[ENDN][STRT=211,1]{NoFocus}{Speed 4}{Center 211}{Speed 2}Мої спогади стануть{Wait 60} частиною неба...{IncreaseSignal}[ENDN][STRT=220,1]{LowerCenter}{Instantly}Театральний корабель прибуде з хвилини на хвилину.[TIME=90][STRT=105,1]{LowerCenter}{Instantly}Це було так давно...[TIME=90][STRT=165,1]{LowerCenter}{Instantly}Не можу дочекатися, щоб побачити усіх.[TIME=120][STRT=30,1]{LowerCenter}{Instantly}Але...[TIME=90][STRT=138,1]{LowerCenter}{Instantly}Це вже ніколи не буде так, як раніше...[TIME=140][STRT=166,1]{LowerCenter}{Instantly}Я мушу відпустити минуле...[TIME=140][STRT=232,1]{LowerCenter}{Instantly}Я маю рухатися далі, як він мене і вчив.[TIME=140][STRT=124,1]{UpperRightForce}{Instantly}Пані та панове![TIME=70][STRT=213,2]{UpperRightForce}{Instantly}Сьогоднішня вистава - це історія.
+яка сталася багато, багато років тому.[TIME=120][STRT=188,2]{UpperRightForce}{Instantly}Наша героїня, Принцеса Корнелія, була
+розлучена зі своїм коханим, Маркусом.[TIME=120][STRT=226,2]{UpperRightForce}{Instantly}Вона намагається втекти з замку, але
+була схоплена її батьком, Королем Лео.[TIME=120][STRT=225,2]{UpperRightForce}{Instantly}Сьогоднішня історія починається, коли Маркус і
+Корнелія вирішують втекти разом[TIME=120][STRT=251,2]{UpperRightForce}{Instantly}А тепер, Ваша Королівська Величносте, Королева Гарнет,
+Лорде {Steiner}, Леді Беатрікс...[TIME=120][STRT=235,3]{UpperRightForce}{Instantly}...вельможні пані та панове, а також наші глядачі на дахах, 
 Танталус з гордістю представляє
-‘Я хочу бути твоєю канаркою’!{Time 120}[ENDN][STRT=46,1]{UpperRightForce}{Instantly}Маркусе?{Time 40}[ENDN][STRT=160,3]{UpperRightForce}{Instantly}Корнелія
+‘Я хочу бути твоєю канаркою’![TIME=120][STRT=46,1]{UpperRightForce}{Instantly}Маркусе?[TIME=40][STRT=160,3]{UpperRightForce}{Instantly}Корнелія
 “Милий Маркусе, боюся, я кохаю
- тебе більше, ніж повинна!”{Time 100}[ENDN][STRT=241,3]{UpperLeftForce}{Instantly}Маркус
+ тебе більше, ніж повинна!”[TIME=100][STRT=241,3]{UpperLeftForce}{Instantly}Маркус
 “Принцесо... Чи будете ви щасливі, одружившись
- з таким простим селюком, як я?”{Time 100}[ENDN][STRT=214,2]{UpperRightForce}{Instantly}Корнелія
-“Прошу, не називай мене більше ‘принцесою’!”{Time 100}[ENDN][STRT=200,3]{UpperRightForce}{Instantly}Корнелія
+ з таким простим селюком, як я?”[TIME=100][STRT=214,2]{UpperRightForce}{Instantly}Корнелія
+“Прошу, не називай мене більше ‘принцесою’!”[TIME=100][STRT=200,3]{UpperRightForce}{Instantly}Корнелія
 “Маркусе, чи будеш ти справді любити мене,
- єдину доньку короля?”{Time 115}[ENDN][STRT=136,3]{UpperRightForce}{Instantly}Корнелія
+ єдину доньку короля?”[TIME=115][STRT=136,3]{UpperRightForce}{Instantly}Корнелія
 “Чи таке бажання занадто
- велике, щоб про це мріяти!?”{Time 85}[ENDN][STRT=225,3]{UpperRightForce}{Instantly}Корнелія
+ велике, щоб про це мріяти!?”[TIME=85][STRT=225,3]{UpperRightForce}{Instantly}Корнелія
 “Після нашого весілля я стану
- не більше, ніж маріонеткою?”{Time 110}[ENDN][STRT=180,3]{UpperRightForce}{Instantly}Корнелія
+ не більше, ніж маріонеткою?”[TIME=110][STRT=180,3]{UpperRightForce}{Instantly}Корнелія
 “Бездумною маріонеткою,
- яка ніколи не сміється, ніколи не плаче?”{Time 110}[ENDN][STRT=239,3]{UpperRightForce}{Instantly}Корнелія
+ яка ніколи не сміється, ніколи не плаче?”[TIME=110][STRT=239,3]{UpperRightForce}{Instantly}Корнелія
 “Я хочу прожити своє життя під небом.
- Інколи сміятися, інколи плакати.”{Time 120}[ENDN][STRT=196,3]{UpperRightForce}{Instantly}Корнелія
+ Інколи сміятися, інколи плакати.”[TIME=120][STRT=196,3]{UpperRightForce}{Instantly}Корнелія
 “Бо немає життя більш нещирого,
- ніж життя, прожите як маскарад.”{Time 90}[ENDN][STRT=177,3]{UpperLeftForce}{Instantly}Маркус
+ ніж життя, прожите як маскарад.”[TIME=90][STRT=177,3]{UpperLeftForce}{Instantly}Маркус
 “Ти так багато уваги цьому
- приділила! Але не хвилюйся!”{Time 110}[ENDN][STRT=256,3]{UpperLeftForce}{Instantly}Маркус
+ приділила! Але не хвилюйся!”[TIME=110][STRT=256,3]{UpperLeftForce}{Instantly}Маркус
 “Відкинь атрибути царської влади,
- і Я сповию тебе у шати чистого кохання!”{Time 120}[ENDN][STRT=202,2]{UpperLeftForce}{Instantly}Маркус
-“Ніколи більше не розлучуся з тобою!”{Time 110}[ENDN][STRT=252,3]{UpperLeftForce}{Instantly}Маркус
+ і Я сповию тебе у шати чистого кохання!”[TIME=120][STRT=202,2]{UpperLeftForce}{Instantly}Маркус
+“Ніколи більше не розлучуся з тобою!”[TIME=110][STRT=252,3]{UpperLeftForce}{Instantly}Маркус
 “Благаю, кохана, зроби мене своєю канаркою,
- щоб я назавжди залишився у клітці твоїх грудей!”{Time 110}[ENDN][STRT=241,3]{UpperLeftForce}{Instantly}Маркус
+ щоб я назавжди залишився у клітці твоїх грудей!”[TIME=110][STRT=241,3]{UpperLeftForce}{Instantly}Маркус
 “Сядемо на перший корабель завтра, до того,
- як світанок розкаже про нашу втечу!”{Time 80}[ENDN][STRT=236,3]{UpperRightForce}{Instantly}Корнелія
+ як світанок розкаже про нашу втечу!”[TIME=80][STRT=236,3]{UpperRightForce}{Instantly}Корнелія
 “Все моє багатство до ніг твоїх кладу я,
- і піду за тобою хоч на світу край!”{Time 80}[ENDN][STRT=208,2]{UpperLeftForce}{Instantly}Маркус
-“Ні хмари, ні шторми нам не завадять!”{Time 80}[ENDN][STRT=159,3]{UpperRightForce}{Instantly}Корнелія
+ і піду за тобою хоч на світу край!”[TIME=80][STRT=208,2]{UpperLeftForce}{Instantly}Маркус
+“Ні хмари, ні шторми нам не завадять!”[TIME=80][STRT=159,3]{UpperRightForce}{Instantly}Корнелія
 “О, любов - це найсолодша радість
- і найбільша печаль.”{Time 100}[ENDN][STRT=147,3]{UpperRightForce}{Instantly}Корнелія
+ і найбільша печаль.”[TIME=100][STRT=147,3]{UpperRightForce}{Instantly}Корнелія
 “Все, чого я хочу, це бути поруч
- з моїм милим Маркусом.”{Time 120}[ENDN][STRT=190,3]{UpperLeftForce}{Instantly}Бланк
+ з моїм милим Маркусом.”[TIME=120][STRT=190,3]{UpperLeftForce}{Instantly}Бланк
 “Ох! Війна почнеться знову,
- якщо цей шлюб не зупинити.”{Time 80}[ENDN][STRT=131,3]{UpperLeftForce}{Instantly}Бланк
+ якщо цей шлюб не зупинити.”[TIME=80][STRT=131,3]{UpperLeftForce}{Instantly}Бланк
 “Ніколи не дозволю я здійснити
- їм цей план.”{Time 80}[ENDN][STRT=224,3]{UpperLeftForce}{Instantly}Бланк
+ їм цей план.”[TIME=80][STRT=224,3]{UpperLeftForce}{Instantly}Бланк
 “Пробач мені, Маркусе, бо твоя кохана
- не побачить тебе в доках.”{Time 139}[ENDN][STRT=161,2]{UpperLeftForce}{Instantly}Бланк
-“Доброго дня, Високосте.”{Time 79}[ENDN][STRT=79,2]{UpperLeftForce}{Instantly}Корнелія
-“Гарного дня.”{Time 70}[ENDN][STRT=131,2]{UpperLeftForce}{Instantly}Бланк
-“Сумуєте за Маркусом?”{Time 79}[ENDN][STRT=226,2]{UpperLeftForce}{Instantly}Корнелія
-“Маркус!? Яку приніс ти звістку?”{Time 79}[ENDN][STRT=27,1]{UpperLeftForce}{Instantly}Цю!{Time 30}[ENDN][STRT=25,1]{UpperLeftForce}{Instantly}Ой!{Time 30}[ENDN][STRT=219,3]{UpperLeftForce}{Instantly}Король Лео
+ не побачить тебе в доках.”[TIME=139][STRT=161,2]{UpperLeftForce}{Instantly}Бланк
+“Доброго дня, Високосте.”[TIME=79][STRT=79,2]{UpperLeftForce}{Instantly}Корнелія
+“Гарного дня.”[TIME=70][STRT=131,2]{UpperLeftForce}{Instantly}Бланк
+“Сумуєте за Маркусом?”[TIME=79][STRT=226,2]{UpperLeftForce}{Instantly}Корнелія
+“Маркус!? Яку приніс ти звістку?”[TIME=79][STRT=27,1]{UpperLeftForce}{Instantly}Цю![TIME=30][STRT=25,1]{UpperLeftForce}{Instantly}Ой![TIME=30][STRT=219,3]{UpperLeftForce}{Instantly}Король Лео
 “Де вона!?
- Куди поділася моя донька єдина!?”{Time 80}[ENDN][STRT=150,3]{UpperLeftForce}{Instantly}Король Лео
+ Куди поділася моя донька єдина!?”[TIME=80][STRT=150,3]{UpperLeftForce}{Instantly}Король Лео
 “Бланк, добра людина!
- Ти не бачив Корнелію?”{Time 70}[ENDN][STRT=127,2]{UpperRightForce}{Instantly}Бланк
-“Не хвилюйтеся, Ваша Величносте.”{Time 60}[ENDN][STRT=212,3]{UpperRightForce}{Instantly}Бланк
+ Ти не бачив Корнелію?”[TIME=70][STRT=127,2]{UpperRightForce}{Instantly}Бланк
+“Не хвилюйтеся, Ваша Величносте.”[TIME=60][STRT=212,3]{UpperRightForce}{Instantly}Бланк
 “Я подбаю про те, щоб Корнелія вийшла заміж
- за Принца Шнайдера. Будьте спокійні.”{Time 85}[ENDN][STRT=223,3]{UpperLeftForce}{Instantly}Король Лео
+ за Принца Шнайдера. Будьте спокійні.”[TIME=85][STRT=223,3]{UpperLeftForce}{Instantly}Король Лео
 “Спокійний, кажеш?  Як я можу відпочивати,
- не знаючи, що вона у безпеці?”{Time 85}[ENDN][STRT=144,3]{UpperLeftForce}{Instantly}Король Лео
+ не знаючи, що вона у безпеці?”[TIME=85][STRT=144,3]{UpperLeftForce}{Instantly}Король Лео
 “Чи може бути{Speed 2}...{Speed -1}
- що ти зрадив мене?”{Time 70}[ENDN][STRT=180,3]{UpperRightForce}{Instantly}Бланк
+ що ти зрадив мене?”[TIME=70][STRT=180,3]{UpperRightForce}{Instantly}Бланк
 “Присягаюся, сер, я не зраджував нікого,
- крім бідолашного Маркуса!”{Time 70}[ENDN][STRT=162,3]{UpperLeftForce}{Instantly}Король Лео
+ крім бідолашного Маркуса!”[TIME=70][STRT=162,3]{UpperLeftForce}{Instantly}Король Лео
 “Ти мав нахабство зрадити
- свого найкращого друга.”{Time 70}[ENDN][STRT=142,3]{UpperLeftForce}{Instantly}Король Лео
+ свого найкращого друга.”[TIME=70][STRT=142,3]{UpperLeftForce}{Instantly}Король Лео
 “Чи не зрадиш ти мене
- так само швидко?”{Time 60}[ENDN][STRT=156,2]{UpperRightForce}{Instantly}Бланк
-“Залиш свою руку, я лише{Speed 2}...{Speed -1}”{Time 60}[ENDN][STRT=183,3]{UpperRightForce}{Instantly}Бланк
+ так само швидко?”[TIME=60][STRT=156,2]{UpperRightForce}{Instantly}Бланк
+“Залиш свою руку, я лише{Speed 2}...{Speed -1}”[TIME=60][STRT=183,3]{UpperRightForce}{Instantly}Бланк
 “Я лише прагнув міцного миру
- між двома королівствами!”{Time 90}[ENDN][STRT=127,2]{UpperRightForce}{Instantly}Зенеро
-“Зрадник мертвий!”{Time 60}[ENDN][STRT=91,2]{UpperLeftForce}{Instantly}Бенеро
-“О, жорстока доля!”{Time 60}[ENDN][STRT=203,3]{UpperLeftForce}{Instantly}Король Лео
+ між двома королівствами!”[TIME=90][STRT=127,2]{UpperRightForce}{Instantly}Зенеро
+“Зрадник мертвий!”[TIME=60][STRT=91,2]{UpperLeftForce}{Instantly}Бенеро
+“О, жорстока доля!”[TIME=60][STRT=203,3]{UpperLeftForce}{Instantly}Король Лео
 “Ви двоє{Speed 2}...{Speed -1} Швидко, знайдіть
- Корнелію і приведіть її до мене!”{Time 90}[ENDN][STRT=253,3]{UpperLeftForce}{Instantly}Король Лео
+ Корнелію і приведіть її до мене!”[TIME=90][STRT=253,3]{UpperLeftForce}{Instantly}Король Лео
 “Нещасна дочка!
- Як вона посміла не послухатися батька!”{Time 90}[ENDN][STRT=121,2]{LowerRightForce}{Instantly}Зенеро
-“Так, Ваша Величносте.”{Time 49}[ENDN][STRT=121,2]{UpperLeftForce}{NoFocus}{Instantly}Бенеро
-“Так, Ваша Величносте.”{Time 49}[ENDN][STRT=240,2]{UpperLeftForce}{Instantly}Маркус
-“Час нашого від'їзду вже давно минув.”{Time 109}[ENDN][STRT=117,2]{UpperLeftForce}{Instantly}Маркус
-“Де ж Корнелія?”{Time 79}[ENDN][STRT=114,2]{UpperLeftForce}{Instantly}Маркус
-“Світанок настає несподівано.”{Time 65}[ENDN][STRT=34,1]debug[ENDN][STRT=192,2]{UpperRightForce}{Instantly}Сіна
-“Маркусе, корабель скоро відпливає!”{Time 60}[ENDN][STRT=248,3]{UpperRightForce}{Instantly}Сіна
+ Як вона посміла не послухатися батька!”[TIME=90][STRT=121,2]{LowerRightForce}{Instantly}Зенеро
+“Так, Ваша Величносте.”[TIME=49][STRT=121,2]{UpperLeftForce}{NoFocus}{Instantly}Бенеро
+“Так, Ваша Величносте.”[TIME=49][STRT=240,2]{UpperLeftForce}{Instantly}Маркус
+“Час нашого від'їзду вже давно минув.”[TIME=109][STRT=117,2]{UpperLeftForce}{Instantly}Маркус
+“Де ж Корнелія?”[TIME=79][STRT=114,2]{UpperLeftForce}{Instantly}Маркус
+“Світанок настає несподівано.”[TIME=65][STRT=34,1]debug[ENDN][STRT=192,2]{UpperRightForce}{Instantly}Сіна
+“Маркусе, корабель скоро відпливає!”[TIME=60][STRT=248,3]{UpperRightForce}{Instantly}Сіна
 “Сідай на цей човен один, і для обох родів
- настане мир, як і сказав Бланк.”{Time 120}[ENDN][STRT=102,2]{UpperRightForce}{Instantly}Сіна
-“Кажи, Маркусе!”{Time 69}[ENDN][STRT=155,3]{UpperLeftForce}{Instantly}Маркус
+ настане мир, як і сказав Бланк.”[TIME=120][STRT=102,2]{UpperRightForce}{Instantly}Сіна
+“Кажи, Маркусе!”[TIME=69][STRT=155,3]{UpperLeftForce}{Instantly}Маркус
 “Вона сказала мені, що не може
- жити без мене.”{Time 130}[ENDN][STRT=34,1]debug[ENDN][STRT=183,3]{UpperLeftForce}{Instantly}Маркус
+ жити без мене.”[TIME=130][STRT=34,1]debug[ENDN][STRT=183,3]{UpperLeftForce}{Instantly}Маркус
 “Отже, сонце - теж наш ворог.
- Східне небо світлішає.”{Time 120}[ENDN][STRT=195,3]{UpperLeftForce}{Instantly}Маркус
+ Східне небо світлішає.”[TIME=120][STRT=195,3]{UpperLeftForce}{Instantly}Маркус
 “Хіба ми не розправимо крила,
- як ті птахи у радісному польоті?”{Time 120}[ENDN][STRT=176,3]{UpperRightForce}{Instantly}Сіна
+ як ті птахи у радісному польоті?”[TIME=120][STRT=176,3]{UpperRightForce}{Instantly}Сіна
 “Слухай, Маркусе!
- Вони не можуть більше чекати!”{Time 77}[ENDN][STRT=100,1]{UpperRightForce}{Instantly}Корабель відпливає!{Time 50}[ENDN][STRT=179,2]{UpperLeftForce}{Instantly}Маркус
-“Чи могла вона зрадити мене?”{Time 90}[ENDN][STRT=228,2]{UpperLeftForce}{Instantly}Маркус
-“Ні, ніколи моя любов не скаже неправди.”{Time 90}[ENDN][STRT=111,2]{UpperLeftForce}{Instantly}Маркус
-“Я повинен мати віру!”{Time 69}[ENDN][STRT=204,2]{UpperLeftForce}{Instantly}Маркус
-“Вона з'явиться, якщо я тільки буду вірити!”{Time 109}[ENDN][STRT=196,3]{UpperLeftForce}{Instantly}Маркус
+ Вони не можуть більше чекати!”[TIME=77][STRT=100,1]{UpperRightForce}{Instantly}Корабель відпливає![TIME=50][STRT=179,2]{UpperLeftForce}{Instantly}Маркус
+“Чи могла вона зрадити мене?”[TIME=90][STRT=228,2]{UpperLeftForce}{Instantly}Маркус
+“Ні, ніколи моя любов не скаже неправди.”[TIME=90][STRT=111,2]{UpperLeftForce}{Instantly}Маркус
+“Я повинен мати віру!”[TIME=69][STRT=204,2]{UpperLeftForce}{Instantly}Маркус
+“Вона з'явиться, якщо я тільки буду вірити!”[TIME=109][STRT=196,3]{UpperLeftForce}{Instantly}Маркус
 “Оскільки сонце не чує мене, я молюся
- натомість місяцям-близнюкам!”{Time 90}[ENDN][STRT=210,3]{UpperLeftForce}{Instantly}Маркус
+ натомість місяцям-близнюкам!”[TIME=90][STRT=210,3]{UpperLeftForce}{Instantly}Маркус
 “Благаю тебе, дивовижне місячне світло,
- виконай єдине моє бажання!”{Time -1}[ENDN][STRT=153,2]{UpperLeftForce}{Widths 0,153,18,-1}{Instantly}{Zidane}
-“Приведи до мене мою кохану {Dagger}!”{Time 60}[ENDN][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=18,2]{LowerRight}{Widths 0,18,64,6,-1,0,18,64,7,-1}[ENDN]
+ виконай єдине моє бажання!”[TIME=-1][STRT=153,2]{UpperLeftForce}{Widths 0,153,18,-1}{Instantly}{Zidane}
+“Приведи до мене мою кохану {Dagger}!”[TIME=60][STRT=34,1]debug[ENDN][STRT=34,1]debug[ENDN][STRT=18,2]{LowerRight}{Widths 0,18,64,6,-1,0,18,64,7,-1}[ENDN]

@@ -76,7 +76,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -111,16 +111,16 @@ Party Set or Party Macro.
 “Я можу тобі допомогти, купо?”
 {Choice}Зберегти
 {Tab}Намет
-{Tab}Скасувати{Time -1}[ENDN][STRT=83,4]{UpperCenter}{PreChoose 2,1}{Instantly}Могво
+{Tab}Скасувати[TIME=-1][STRT=83,4]{UpperCenter}{PreChoose 2,1}{Instantly}Могво
 “Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=154,5]{UpperCenter}{PreChoose 2,1}{Widths 0,119,64,1,-1}{Instantly}Могво
+{Tab}Не зберігати[TIME=-1][STRT=154,5]{UpperCenter}{PreChoose 2,1}{Widths 0,119,64,1,-1}{Instantly}Могво
 “Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 1})
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=99,1]{UpperCenter}{Instantly}Давайте збережемось,  купо!{Time 20}[ENDN][STRT=181,1]{UpperCenter}{Instantly}У вас немає наметів, купо!{Time 30}[ENDN][STRT=172,1]{UpperCenter}{Instantly}Справді?  Ви пошкодуєте, купо!{Time 27}[ENDN][STRT=158,1]{UpperCenter}{Instantly}Кличте мене знову в будь-який час, купо!{Time 27}[ENDN][STRT=209,1]{UpperCenter}{Instantly}ПРИПИНИ, ПРИПИНИ, ПРИПИНИ!  КУ-ФЕ!{Time 30}[ENDN][STRT=229,1]{UpperCenter}{Instantly}Не клич мене, якщо я тобі не потрібен, купо!{Time 27}[ENDN][STRT=207,1]{UpperCenter}{Instantly}Ти починаєш мене дратувати, купо!{Time 27}[ENDN][STRT=168,1]{UpperCenter}{Instantly}Я гострю свій ніж, купо.{Time 27}[ENDN][STRT=203,1]{DialogPosition}{Instantly}Може, я піду у Ліс Чокобо{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=34,1]{DialogPosition}{Instantly}Кве?{Time 10}[ENDN][STRT=210,1]{DialogPosition}{Instantly}Мені потрібна підказка, перш ніж я почну шукати.{Time 20}[ENDN][STRT=187,1]{DialogPosition}{Instantly}Шукаймо наступний скарб.{Time 20}[ENDN][STRT=272,1]{DialogPosition}{Instantly}Тепер у мене є всі скарби Чокографа, але{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=139,1]{DialogPosition}{Instantly}Треба дати Чоко відпочити{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=193,1]{DialogPosition}{Instantly}Думаю, трохи пройдуся пішки.{Time 40}[ENDN][STRT=32,1]{DialogPosition}Кве.{Time 5}[ENDN][STRT=39,1]{DialogPosition}Кве!?{Time 6}[ENDN][STRT=72,1]{DialogPosition}К-КВЕЕЕЕ!!!{Time 30}[ENDN][STRT=138,1]{DialogPosition}Знайдено скриню зі скарбами![ENDN][STRT=0,3]{UpperCenter}{PreChooseMask 3,2}{Widths 1,147,-1,2,231,64,1,-1,3,58,-1}{Instantly}{Choice}Відкрити меню Чокографа
+{Tab}Не відпочивати[TIME=-1][STRT=99,1]{UpperCenter}{Instantly}Давайте збережемось,  купо![TIME=20][STRT=181,1]{UpperCenter}{Instantly}У вас немає наметів, купо![TIME=30][STRT=172,1]{UpperCenter}{Instantly}Справді?  Ви пошкодуєте, купо![TIME=27][STRT=158,1]{UpperCenter}{Instantly}Кличте мене знову в будь-який час, купо![TIME=27][STRT=209,1]{UpperCenter}{Instantly}ПРИПИНИ, ПРИПИНИ, ПРИПИНИ!  КУ-ФЕ![TIME=30][STRT=229,1]{UpperCenter}{Instantly}Не клич мене, якщо я тобі не потрібен, купо![TIME=27][STRT=207,1]{UpperCenter}{Instantly}Ти починаєш мене дратувати, купо![TIME=27][STRT=168,1]{UpperCenter}{Instantly}Я гострю свій ніж, купо.[TIME=27][STRT=203,1]{DialogPosition}{Instantly}Може, я піду у Ліс Чокобо{Speed 2}...{Speed -1}[TIME=40][STRT=34,1]{DialogPosition}{Instantly}Кве?[TIME=10][STRT=210,1]{DialogPosition}{Instantly}Мені потрібна підказка, перш ніж я почну шукати.[TIME=20][STRT=187,1]{DialogPosition}{Instantly}Шукаймо наступний скарб.[TIME=20][STRT=272,1]{DialogPosition}{Instantly}Тепер у мене є всі скарби Чокографа, але{Speed 2}...{Speed -1}[TIME=40][STRT=139,1]{DialogPosition}{Instantly}Треба дати Чоко відпочити{Speed 2}...{Speed -1}[TIME=40][STRT=193,1]{DialogPosition}{Instantly}Думаю, трохи пройдуся пішки.[TIME=40][STRT=32,1]{DialogPosition}Кве.[TIME=5][STRT=39,1]{DialogPosition}Кве!?[TIME=6][STRT=72,1]{DialogPosition}К-КВЕЕЕЕ!!![TIME=30][STRT=138,1]{DialogPosition}Знайдено скриню зі скарбами![ENDN][STRT=0,3]{UpperCenter}{PreChooseMask 3,2}{Widths 1,147,-1,2,231,64,1,-1,3,58,-1}{Instantly}{Choice}Відкрити меню Чокографа
 {Tab}Нагодувати його Мертвим перчиком (Лишилося: {Variable 1})
-{Tab}Скасувати[ENDN][STRT=241,1]{DialogPosition}Тріщина розсипалася і відкрила діру![ENDN][STRT=165,1]{DialogPosition}Знайдено скарб у дірі![ENDN][STRT=260,1]{DialogPosition}Знайдено скарб на дні океану![ENDN][STRT=150,1]{UpperCenter}Це вище, ніж я думав{Speed 2}...{Speed -1}{Time 40}[ENDN][STRT=96,1]{UpperCenter}О... тепер я розумію.[ENDN][STRT=224,9]{Instantly}{y6}{Center 118}{Cyan}-{f2}Звичайна навігація{f2}-
+{Tab}Скасувати[ENDN][STRT=241,1]{DialogPosition}Тріщина розсипалася і відкрила діру![ENDN][STRT=165,1]{DialogPosition}Знайдено скарб у дірі![ENDN][STRT=260,1]{DialogPosition}Знайдено скарб на дні океану![ENDN][STRT=150,1]{UpperCenter}Це вище, ніж я думав{Speed 2}...{Speed -1}[TIME=40][STRT=96,1]{UpperCenter}О... тепер я розумію.[ENDN][STRT=224,9]{Instantly}{y6}{Center 118}{Cyan}-{f2}Звичайна навігація{f2}-
 {White}{y10}{f6}{Cross+}{Mobile 260}{f22}{x50}:{f2} Входити в будівлі
 {y10}{f6}{x56} Їхати на транспортному засобі
 {y10}{f6}{Square+}{Mobile 282}{f22}{x50}:{f2} Покликати мугла
@@ -128,7 +128,7 @@ Party Set or Party Macro.
 {y10}{f6}{L1+}{R1+}{Mobile 280}{x50}:{f2} Керування камерою
 {y10}{f6}{L2+}{Mobile 284}{f22}{x50}:{f2} Увімкнути/вимкнути обертання камери
 {y10}{f6}{R2+}{Mobile 285}{f22}{x50}:{f2} Змінити перспективу
-{x170}{Time -1}[ENDN][STRT=275,11]{Instantly}{y6}{Center 129}{Cyan}-{f2}Навігація Чокобо{f2}-{White}
+{x170}[TIME=-1][STRT=275,11]{Instantly}{y6}{Center 129}{Cyan}-{f2}Навігація Чокобо{f2}-{White}
 {y10}{f6}{Cross+}{Mobile 260}{f22}{x50}:{f2} Увійти у Ліс Чокобо
 {y10}{f6}{x56} Якщо ви відповідаєте певним вимогам...
 {y10}{f6}{Triangle+}{Mobile 289}{f22}{x50}:{f2} Відкрити меню

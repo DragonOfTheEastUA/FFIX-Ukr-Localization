@@ -2,7 +2,7 @@
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -33,7 +33,7 @@ Party Del Error
 You don’t have anyone in your party.
 Switch all members, or use
 Party Set or Party Macro.
-[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=5,1]{NoFocus}{Center 5}!{Time 30}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=96,2]{Position 5,50}{Flash}{Speed 8}Що я взагалі
+[ENDN][STRT=37,1]Зідан[ENDN][STRT=36,1]??????[ENDN][STRT=38,1]Гарнет[ENDN][STRT=41,1]Даггер[ENDN][STRT=20,1]Віві[ENDN][STRT=41,1]Штайнер[ENDN][STRT=34,1]Фрея[ENDN][STRT=30,1]Куіна[ENDN][STRT=24,1]Ейко[ENDN][STRT=45,1]Амарант[ENDN][STRT=29,1]Сіна[ENDN][STRT=40,1]Маркус[ENDN][STRT=30,1]Бланк[ENDN][STRT=42,1]Беатрікс[ENDN][STRT=5,1]{NoFocus}{Center 5}![TIME=30][STRT=24,1]{Speed 2}......{Speed -1}[ENDN][STRT=96,2]{Position 5,50}{Flash}{Speed 8}Що я взагалі
  роблю{Speed 2}...{Speed -1}?[ENDN][STRT=127,2]{Position 5,50}{Flash}{Speed 8}Я допомагаю злодіям
 у скоєнні злочину{Speed 2}...{Speed -1}[ENDN][STRT=97,2]{Position 5,50}{Flash}{Speed 8}Ні{Speed 2}... {Speed 8}
 Я маю бути терплячим.[ENDN][STRT=174,3]{Position 5,50}{Flash}{Speed 8}Захистити принцесу.
@@ -46,7 +46,7 @@ Party Set or Party Macro.
  щоб відвести принцесу додому.[ENDN][STRT=105,2]{Position 5,50}{Flash}{Speed 8}Я, мабуть, ніколи його
  більше не побачу{Speed 2}...{Speed -1}[ENDN][STRT=167,3]{Position 5,20}{Flash}{Speed 8}Він був винуватцем{Speed 2}...
 {Speed 8}Він втягнув принцесу і мене
-у свої інтриги.{Time 60}[ENDN][STRT=137,3]{Position 112,95}{Widths 0,105,16,-1}{Flash}{Speed 8}Це була твоя провина, {Zidane}е.
+у свої інтриги.[TIME=60][STRT=137,3]{Position 112,95}{Widths 0,105,16,-1}{Flash}{Speed 8}Це була твоя провина, {Zidane}е.
 {Wait 3}Якби ти не поводився зі мною
 як з дитиною{Speed 2}...[ENDN][STRT=180,3]{Position 112,95}{Flash}{Speed 2}...{Speed 8}Я б не полювала за Суперм'якістю,
  щоб врятувати одного з
@@ -91,7 +91,7 @@ Party Set or Party Macro.
  за авторством Лорда Ейвона?”[ENDN][STRT=140,4]Гарнет
 “О так, це вона!
  Отже, все ж є книга, 
- яка мені подобається.”[ENDN][STRT=49,1]{NoFocus}Боже, боже{Speed 2}...{Speed -1}{Time 35}[ENDN][STRT=150,2]{UpperLeftForce}Гарнет
+ яка мені подобається.”[ENDN][STRT=49,1]{NoFocus}Боже, боже{Speed 2}...{Speed -1}[TIME=35][STRT=150,2]{UpperLeftForce}Гарнет
 “Що це, Доктор Тот?”[ENDN][STRT=157,3]{UpperRightForce}Тот
 “Це глобус Гайї.
  Це модель нашої планети.”[ENDN][STRT=163,4]{UpperLeftForce}Гарнет
@@ -113,8 +113,8 @@ Party Set or Party Macro.
 “О, ваша кімната надто мала,
  щоб помітити її на цьому глобусі{Speed 2}...{Speed -1}”[ENDN][STRT=143,2]Гарнет
 “А як щодо замку?”[ENDN][STRT=104,2]{LowerLeftForce}Тот
-“Це я можу зробити{Speed 2}...{Speed -1}”{Time 30}[ENDN][STRT=165,2]Гарнет
-“О, і замок дядька Сіда?”{Time 60}[ENDN][STRT=128,3]{Dagger}
+“Це я можу зробити{Speed 2}...{Speed -1}”[TIME=30][STRT=165,2]Гарнет
+“О, і замок дядька Сіда?”[TIME=60][STRT=128,3]{Dagger}
 “Скільки часу минуло?
  Вісім років?”[ENDN][STRT=129,2]{UpperLeftForce}Тот
 “Швидко час минає.”[ENDN][STRT=141,4]{UpperLeftForce}Тот

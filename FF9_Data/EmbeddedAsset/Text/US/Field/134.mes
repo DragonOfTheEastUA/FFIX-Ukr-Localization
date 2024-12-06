@@ -54,26 +54,26 @@ table22[ENDN][STRT=76,5]{Table 5,10,20,33,41,47,}Початок
 {Tab}МогКрамниця
 {Tab}Змінити членів загону
 {Tab}{Pink}Debug{White}
-{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не зберігати[TIME=-1][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 7}){f4}
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
-“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не відпочивати[TIME=-1][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо![TIME=20][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Що ви хочете робити? Купо?”
 {Choice}Дати {Text 0,0} листа
 {Tab}Читати пошту
-{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
-Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{Tab}Скасувати[TIME=-1][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Артемицій знову доставляє
@@ -138,7 +138,7 @@ table22[ENDN][STRT=76,5]{Table 5,10,20,33,41,47,}Початок
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=136,2]{UpperRight}{Widths 0,0,6,0,-1,0,136,16,-1}{Instantly}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=136,2]{UpperRight}{Widths 0,0,6,0,-1,0,136,16,-1}{Instantly}{Text 0,0}
 “Тут лист для {Zidane}а!”[ENDN][STRT=162,11]{Widths 0,55,6,1,16,-1,0,104,16,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Zidane}а{White}
 
 
@@ -174,7 +174,7 @@ p. s.
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=190,3]{UpperRight}{Widths 0,0,6,0,-1,0,90,6,1,-1}{Instantly}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=190,3]{UpperRight}{Widths 0,0,6,0,-1,0,90,6,1,-1}{Instantly}{Text 0,0}
 “Лист від: {Text 0,1}?
  Дякую за доставку! Купо!”[ENDN][STRT=234,12]{Widths 0,55,6,1,6,0,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
 
@@ -226,7 +226,7 @@ p. s.
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=150,3]{UpperRight}{Widths 0,0,6,0,-1,0,122,6,1,-1}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=150,3]{UpperRight}{Widths 0,0,6,0,-1,0,122,6,1,-1}{Text 0,0}
 “Дякую за доставку
  листа від {Text 0,1}!  Купо!”[ENDN][STRT=221,12]{Widths 0,55,6,1,6,0,-1,0,184,6,7,-1,0,146,6,7,-1}{Speed 255}{y14}{Icon 27}{f18}{Speed 3}{Cyan}Від {Text 0,1} для {Text 0,0}{White}
 
@@ -272,7 +272,7 @@ p. s.
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -328,22 +328,22 @@ Party Set or Party Macro.
 зі своєю донькою. Маючи борг перед військом,
 він з радістю відгукнувся на їхнє прохання про
 допомогу. Вони попрямували до печери у 
-засніженому полі.{Time -1}[ENDN][STRT=254,4]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}З допомогою Джозефа загін переміг
+засніженому полі.[TIME=-1][STRT=254,4]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}З допомогою Джозефа загін переміг
 адамантову черепаху в печері у засніженому
 полі і отримали Дзвін Богині, необхідний для 
-того, щоб потрапити до замку імперії.{Time -1}[ENDN][STRT=230,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Дорогою додому вони потрапили у пастку, 
+того, щоб потрапити до замку імперії.[TIME=-1][STRT=230,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Дорогою додому вони потрапили у пастку, 
 розставлену зрадником. Джозеф віддав своє
 життя, щоб врятувати загін. Солдати пішли,
 не сказавши дочці Джозефа, Неллі, про трагедію,
-що сталася.{Time -1}[ENDN][STRT=235,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Пояснення історика:
+що сталася.[TIME=-1][STRT=235,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Пояснення історика:
 Той факт, що вони не повідомили доньці
 про смерть Джозефа, свідчить про їхню
 провину за те, що вони не змогли його
-захистити. Зрештою, герої теж люди.{Time -1}[ENDN][STRT=211,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Пояснення історика:
+захистити. Зрештою, герої теж люди.[TIME=-1][STRT=211,5]{UpperCenter}{NoAnimation}{NoFocus}{Instantly}Пояснення історика:
 Хоча про смерть Джозефа не повідомили
 його доньці, спосіб, у який він помер,
 говорить сам за себе. Це історія
-справжнього героя.{Time -1}[ENDN][STRT=93,2]{Widths 0,51,6,48,-1,0,93,64,1,-1}Це ‘{Text 3,0}’.
+справжнього героя.[TIME=-1][STRT=93,2]{Widths 0,51,6,48,-1,0,93,64,1,-1}Це ‘{Text 3,0}’.
 У вас є  {Variable 1} , щоб піти.[ENDN][STRT=82,2]{Widths 0,51,6,48,-1}Це ‘{Text 3,0}’,
 остання частина.[ENDN][STRT=109,1]{Widths 0,109,64,1,-1}Від мене залишилося {Variable 1}.[ENDN][STRT=159,4]{PreChoose 2,1}{Instantly}Рама
 “Ви збираєтеся здатися?”
@@ -445,7 +445,7 @@ Party Set or Party Macro.
  в рідні води! Будь ласка, приготуйтеся до
  відправлення Червоної троянди.”[ENDN][STRT=133,3]Королева Бране
 “О, нарешті!
- Вирушаємо негайно!”[ENDN][STRT=76,1]Ахахахаха!!!{Time -1}[ENDN][STRT=76,1]{NoAnimation}{Instantly}Ахахахаха!!!{Time -1}[ENDN][STRT=51,1]{Flash}{Speed 1}Мамо...[ENDN][STRT=61,1]{UpperLeftForce}{Offset -64,200,0}Тьху{Speed 2}...{Speed -1} Ух{Speed 2}...{Speed -1}[ENDN][STRT=29,2]{UpperLeftForce}{Offset -64,128,0}{Widths 0,0,18,-1}{Dagger}
+ Вирушаємо негайно!”[ENDN][STRT=76,1]Ахахахаха!!![TIME=-1][STRT=76,1]{NoAnimation}{Instantly}Ахахахаха!!![TIME=-1][STRT=51,1]{Flash}{Speed 1}Мамо...[ENDN][STRT=61,1]{UpperLeftForce}{Offset -64,200,0}Тьху{Speed 2}...{Speed -1} Ух{Speed 2}...{Speed -1}[ENDN][STRT=29,2]{UpperLeftForce}{Offset -64,128,0}{Widths 0,0,18,-1}{Dagger}
 “Я{Speed 2}...{Speed -1}”[ENDN][STRT=76,3]{UpperLeftForce}{Offset -64,128,0}{Widths 0,19,17,-1}{Dagger}
 “{Vivi}{Speed 2}...{Speed -1}
  У нас вийшло?”[ENDN][STRT=109,2]{UpperLeftForce}{Offset -64,128,0}{Dagger}
@@ -590,7 +590,7 @@ Party Set or Party Macro.
 але їй є куди рости{Speed 2}...{Speed -1}
 Тож я обрав її своїм господарем.[ENDN][STRT=169,2]Магія призову може бути використана
 для добра чи зла.[ENDN][STRT=205,2]Я буду наглядати за нею{Speed 2}...{Speed -1}
-{Wait 15}Сподіваюся, ви двоє також захистите її.[ENDN][STRT=60,1]Звісно![ENDN][STRT=46,1]{NoFocus}Т-так!{Time -1}[ENDN][STRT=139,4]{PreChoose 2,1}{Instantly}Рама
+{Wait 15}Сподіваюся, ви двоє також захистите її.[ENDN][STRT=60,1]Звісно![ENDN][STRT=46,1]{NoFocus}Т-так![TIME=-1][STRT=139,4]{PreChoose 2,1}{Instantly}Рама
 “Ви збираєтеся піти?”
 {Choice}Так
 {Tab}Ні[ENDN][STRT=248,3]Рама
@@ -625,13 +625,13 @@ Party Set or Party Macro.
  використовувати магію призову{Speed 2}...{Speed -1}”[ENDN][STRT=124,3]{Zidane}
 “Я знаю, що ти зможеш,
  {Dagger}!”[ENDN][STRT=5,1]{LowerRightForce}{Widths 0,5,16,-1}{Zidane}е![ENDN][STRT=44,1]{LowerRightForce}Дивіться{Speed 2}...{Speed -1}![ENDN][STRT=151,2]{NoFocus}{Zidane}
-“{Speed 2}...{Speed -1}Це що, Червона троянда!?”{Time -1}[ENDN][STRT=216,4]{Zidane}
+“{Speed 2}...{Speed -1}Це що, Червона троянда!?”[TIME=-1][STRT=216,4]{Zidane}
 “Ці вогні, мабуть, телеподи!
  Вони посилають чорних магів
  прямо до замку!”[ENDN][STRT=165,3]{Zidane}
 “У Клейрі після цього вони
  використали магію призову{Speed 2}...{Speed -1}”[ENDN][STRT=104,2]{Dagger}
-“Ні{Speed 2}...{Speed -1}! Мамо{Speed 2}...{Speed -1}”[ENDN][STRT=44,1]{NoFocus}Мамо!{Time -1}[ENDN][STRT=5,1]{Widths 0,5,18,-1}{NoFocus}{Dagger}!{Time -1}[ENDN][STRT=210,13]{Instantly}
+“Ні{Speed 2}...{Speed -1}! Мамо{Speed 2}...{Speed -1}”[ENDN][STRT=44,1]{NoFocus}Мамо![TIME=-1][STRT=5,1]{Widths 0,5,18,-1}{NoFocus}{Dagger}![TIME=-1][STRT=210,13]{Instantly}
 {Center 82}{Yellow}!!  УВАГА  !!{White}
 
 {Center 138}Повідомляють, що тут, на

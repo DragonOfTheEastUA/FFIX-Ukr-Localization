@@ -53,26 +53,26 @@ table22[ENDN][STRT=109,4]{Table 4,8,18,36,56,}Дитинча жаби
 {Tab}МогКрамниця
 {Tab}Змінити членів загону
 {Tab}{Pink}Debug{White}
-{Tab}Скасувати{Time -1}[ENDN][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=87,4]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Зберегти, купо?”
 {Choice}Зберегти
-{Tab}Не зберігати{Time -1}[ENDN][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не зберігати[TIME=-1][STRT=158,5]{Position 30,26}{PreChoose 2,1}{Widths 0,2,6,0,-1,0,123,64,7,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Відпочити у наметі, купо?”
 {f4}(Наметів залишилося: {Variable 7}){f4}
 {Choice}Відпочити
-{Tab}Не відпочивати{Time -1}[ENDN][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
-“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо!{Time 20}[ENDN][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
+{Tab}Не відпочивати[TIME=-1][STRT=195,2]{UpperRight}{Widths 0,0,6,0,-1}{Instantly}{Text 0,0}
+“У вас немає наметів, купо!”[ENDN][STRT=99,1]{UpperRight}{Instantly}Давайте збережемось, купо![TIME=20][STRT=197,5]{Position 30,26}{PreChooseMask 3,2}{Widths 0,2,6,0,-1,1,95,6,0,-1}{Instantly}{f2}{Text 0,0}
 {f4}“Що ви хочете робити? Купо?”
 {Choice}Дати {Text 0,0} листа
 {Tab}Читати пошту
-{Tab}Скасувати{Time -1}[ENDN][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
-Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{Tab}Скасувати[TIME=-1][STRT=110,1]{Instantly}{Pink}Помилка:Мог команда[ENDN][STRT=88,2]{Instantly}{Pink}Старі дані листів.
+Стирання...[ENDN][STRT=100,1]{LowerLeft}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{LowerLeft}{Widths 0,160,6,2,6,3,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}{Time -1}[ENDN][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}{Time -1}[ENDN][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}{Time -1}[ENDN][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=100,1]{UpperRight}{Instantly}{f4}У вас немає пошти{f4}[TIME=-1][STRT=160,1]{Widths 0,160,6,2,6,3,-1}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}[TIME=-1][STRT=160,2]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
+{f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}[TIME=-1][STRT=160,3]{LowerLeft}{Widths 0,160,6,2,6,3,-1,0,160,6,4,6,5,-1,0,160,6,6,6,7,-1}{Instantly}{f4}Ви маєте лист від {Cyan}{Text 0,2}{White} для {Cyan}{Text 0,3}{White}{f4}
 {f4}Ви маєте лист від {Cyan}{Text 0,4}{White} для {Cyan}{Text 0,5}{White}{f4}
-{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}{Time -1}[ENDN][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
+{f4}Ви маєте лист від {Cyan}{Text 0,6}{White} для {Cyan}{Text 0,7}{White}{f4}[TIME=-1][STRT=116,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Мені потрібна пошта! Купо!”[ENDN][STRT=241,2]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Останнім часом я не отримував жодної пошти, купо.”[ENDN][STRT=138,3]{UpperRight}{Widths 0,0,6,0,-1}{Text 0,0}
 “Артемицій знову доставляє
@@ -137,7 +137,7 @@ table22[ENDN][STRT=109,4]{Table 4,8,18,36,56,}Дитинча жаби
 {Tab}Лист 12
 {Tab}Лист 13
 {Tab}Лист 14
-{Tab}Скасувати{Time -1}[ENDN][STRT=183,5]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,112,6,1,-1}{Instantly}{Text 0,0}
+{Tab}Скасувати[TIME=-1][STRT=183,5]{UpperRight}{PreChoose 2,1}{Widths 0,0,6,0,-1,0,112,6,1,-1}{Instantly}{Text 0,0}
 “Гей, ти маєш доставити листа
  до {Text 0,1} для мене! Купо!”
 {Choice}Звісно
@@ -171,7 +171,7 @@ table22[ENDN][STRT=109,4]{Table 4,8,18,36,56,}Дитинча жаби
 {Cyan}Старе={Variable 0}, нове={Variable 1}
 Виберіть послідовність={Variable 2}{White}
 {Start}: Перезаписати
-{Select}: Пропустити{Time -1}[ENDN][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
+{Select}: Пропустити[TIME=-1][STRT=94,2]{DialogPosition}{Instantly}{Brown}Error {Yellow}Env Play()
 {Cyan}Слот={Variable 2}[ENDN][STRT=69,3]{DialogPosition}{Widths 0,69,14,0,-1}{Instantly}
  Отримано {Item 0}! 
 [ENDN][STRT=100,3]{DialogPosition}{Widths 0,100,14,0,-1}{Instantly}
@@ -583,7 +583,7 @@ Party Set or Party Macro.
 “Ти теж хочеш вчитися у мене?”
 {Choice}Так, навчи мене чомусь
 {Tab}Мені потрібен лише напрямок
-{Tab}Ні, я вже все знаю[ENDN][STRT=110,1]{NoAnimation}{UpperRight}{NoFocus}{Instantly}Натисніть {Circle+}{Mobile 261} щоб скасувати.{Time -1}[ENDN][STRT=214,2]Ви не станете великим шукачем пригод,
+{Tab}Ні, я вже все знаю[ENDN][STRT=110,1]{NoAnimation}{UpperRight}{NoFocus}{Instantly}Натисніть {Circle+}{Mobile 261} щоб скасувати.[TIME=-1][STRT=214,2]Ви не станете великим шукачем пригод,
  якщо надто покладатиметеся на інших.[ENDN][STRT=200,3]Коли ви загубилися у світі,
 натисніть {Select}{Mobile 283}{f2}, і ви побачите
 велику навігаційну мапу.[ENDN][STRT=202,3]На мапі будуть показані місця, які ви
@@ -710,7 +710,7 @@ Party Set or Party Macro.
  які смачніші за жаб.”[ENDN][STRT=96,2]{UpperLeft}{Quina}
 “Справді, справді!?”[ENDN][STRT=87,3]{UpperLeft}{Quina}
 “Гаразд,
- Я піду з тобою!”[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}{Time -1}[ENDN][STRT=24,1]{Speed 2}......{Speed -1}{Time -1}[ENDN][STRT=139,3]{Quina}
+ Я піду з тобою!”[ENDN][STRT=24,1]{UpperLeftForce}{Speed 2}......{Speed -1}[TIME=-1][STRT=24,1]{Speed 2}......{Speed -1}[TIME=-1][STRT=139,3]{Quina}
 “Все гаразд, Майстре.
  Я залишуся їсти жаб тут.”[ENDN][STRT=79,2]Куале
 “Ледачий дурень...”[ENDN][STRT=175,3]Куале
@@ -730,7 +730,7 @@ Party Set or Party Macro.
 “Що не так?
  У мене щось з обличчям?”[ENDN][STRT=191,3]{LowerRightForce}{Vivi}
 “Ем{Speed 2}...{Speed -1}
- Ви знаєте чоловіка на ім'я Куан?”[ENDN][STRT=5,1]{UpperRightForce}{NoAnimation}{Instantly}{Center 5}!{Time -1}[ENDN][STRT=148,2]Куале
+ Ви знаєте чоловіка на ім'я Куан?”[ENDN][STRT=5,1]{UpperRightForce}{NoAnimation}{Instantly}{Center 5}![TIME=-1][STRT=148,2]Куале
 “{Speed 2}...{Speed -1}Я не знаю цього фанатика!”[ENDN][STRT=226,3]{LowerRightForce}{Vivi}
 “Дідусь Куан був трохи дивним, але{Speed 2}...{Speed -1}
  Звідки ви його знаєте?”[ENDN][STRT=116,2]Куале
@@ -775,7 +775,7 @@ Party Set or Party Macro.
  Я відчуваю запах жаб!”[ENDN][STRT=196,3]{Zidane}
 “Ні, ми повинні шукати
  вхід на Зовнішній континент!”[ENDN][STRT=131,2]{Quina}
-“Я відчуваю запах жаби звідси!”{Time -1}[ENDN][STRT=57,3]{Widths 0,0,16,-1,0,41,21,-1}{Zidane}
+“Я відчуваю запах жаби звідси!”[TIME=-1][STRT=57,3]{Widths 0,0,16,-1,0,41,21,-1}{Zidane}
 “Гей, {Quina}!
  Зачекай!”[ENDN][STRT=65,2]{Widths 0,0,16,-1}{Zidane}
 “Трясця{Speed 2}...{Speed -1}”[ENDN][STRT=199,3]{Zidane}
@@ -842,8 +842,8 @@ Party Set or Party Macro.
 “Перш ніж ти підеш{Speed 2}...{Speed -1}
  Ти пройдеш фінальний тест!”[ENDN][STRT=169,3]Куале
 “Мені більше нема чого тебе вчити.
- Я даю тобі це.”[ENDN][STRT=51,1]Голодний{Speed 2}...{Speed -1}[ENDN][STRT=45,1]Жаби{Speed 2}...{Speed -1}[ENDN][STRT=0,1]{Time -1}[ENDN][STRT=103,2]{Quina}
-“А-ХА!  Жаби!!!”{Time -1}[ENDN][STRT=29,1]Стій!{Time -1}[ENDN][STRT=142,2]{UpperRightForce}{Quina}
+ Я даю тобі це.”[ENDN][STRT=51,1]Голодний{Speed 2}...{Speed -1}[ENDN][STRT=45,1]Жаби{Speed 2}...{Speed -1}[ENDN][STRT=0,1][TIME=-1][STRT=103,2]{Quina}
+“А-ХА!  Жаби!!!”[TIME=-1][STRT=29,1]Стій![TIME=-1][STRT=142,2]{UpperRightForce}{Quina}
 “Вони знову тікають{Speed 2}...{Speed -1}”[ENDN][STRT=91,3]{UpperLeftForce}{Widths 0,91,21,-1}{Zidane}
 “Зачекай хвилинку, {Quina}.
  Поглянь на це.”[ENDN][STRT=187,4]{UpperLeftForce}{Zidane}
@@ -855,6 +855,6 @@ Party Set or Party Macro.
 “Звісно, що так.”[ENDN][STRT=113,4]{UpperLeftForce}{Zidane}
 “Це може привести на
  Зовнішній континент.
- Ходімо!”[ENDN][STRT=87,1]{Position 3,3}{NoAnimation}{Instantly}Дитинча жаби:      {Time -1}[ENDN][STRT=92,1]{Position 3,3}{NoAnimation}{Instantly}Доросла жаба: Самець{Time -1}[ENDN][STRT=105,1]{Position 3,3}{NoAnimation}{Instantly}Доросла жаба: Самиця{Time -1}[ENDN][STRT=96,1]{Position 3,3}{NoAnimation}{Instantly}Золота жаба:      {Time -1}[ENDN][STRT=38,3]{DialogPosition}{PreChoose 2,1}{Widths 0,38,6,50,-1,1,59,-1,2,68,-1}{Instantly}Залишити {Text 3,2}?
+ Ходімо!”[ENDN][STRT=87,1]{Position 3,3}{NoAnimation}{Instantly}Дитинча жаби:      [TIME=-1][STRT=92,1]{Position 3,3}{NoAnimation}{Instantly}Доросла жаба: Самець[TIME=-1][STRT=105,1]{Position 3,3}{NoAnimation}{Instantly}Доросла жаба: Самиця[TIME=-1][STRT=96,1]{Position 3,3}{NoAnimation}{Instantly}Золота жаба:      [TIME=-1][STRT=38,3]{DialogPosition}{PreChoose 2,1}{Widths 0,38,6,50,-1,1,59,-1,2,68,-1}{Instantly}Залишити {Text 3,2}?
 {Choice}Залишити
-{Tab}Відпустити[ENDN][STRT=97,1]{NoAnimation}{UpperCenter}{Widths 0,97,64,1,-1}{NoFocus}{Instantly}Жаб спіймано: {Variable 1}{Time -1}[ENDN][STRT=86,1]{DialogPosition}{Widths 0,86,16,-1}{Zidane} зловив жабу.[ENDN][STRT=99,1]{DialogPosition}{Widths 0,99,21,-1}{Quina} отримав жабу.[ENDN]
+{Tab}Відпустити[ENDN][STRT=97,1]{NoAnimation}{UpperCenter}{Widths 0,97,64,1,-1}{NoFocus}{Instantly}Жаб спіймано: {Variable 1}[TIME=-1][STRT=86,1]{DialogPosition}{Widths 0,86,16,-1}{Zidane} зловив жабу.[ENDN][STRT=99,1]{DialogPosition}{Widths 0,99,21,-1}{Quina} отримав жабу.[ENDN]
